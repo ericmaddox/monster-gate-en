@@ -1,0 +1,17 @@
+# Binaries & ROMs
+*.gba
+*.sav
+*.bps
+*.ips
+rom/
+!rom/.gitkeep
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE & OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
