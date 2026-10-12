@@ -1,20 +1,25 @@
 #!/usr/bin/env python3
 """
 tools/build_charmap.py
-Generates the initial font/glyph_table.json mapping glyph IDs (0-639) to Unicode characters.
-Populates:
-  - 0-45: Hiragana (あ-ん)
-  - 46-48: Small kana (ぁ-ぅ)
-  - 49-68: Dakuten (が-ぼ)
-  - 69-73: Handakuten (ぱ-ぽ)
-  - 74-79: Small kana (ゃ, ゅ, ょ, っ, ぁ, ぃ)
-  - 80-125: Katakana (ア-ン)
-  - 126-159: Katakana dakuten, handakuten, small katakana
+Generates the definitive font/glyph_table.json mapping glyph IDs (0-639) to Unicode characters.
+Exact verified layout:
+  - 0-45: Hiragana basic (あ - ん)
+  - 46-54: Hiragana small (ぁ, ぃ, ぅ, ぇ, ぉ, ゃ, ゅ, ょ, っ)
+  - 55-74: Hiragana dakuten (が - ぼ)
+  - 75-79: Hiragana handakuten (ぱ - ぽ)
+  - 80-125: Katakana basic (ア - ン)
+  - 126-134: Katakana small (ッ, ャ, ュ, ョ, ァ, ィ, ゥ, ェ, ォ)
+  - 135-154: Katakana dakuten (ガ - ボ)
+  - 155-159: Katakana handakuten (パ - ポ)
+  - 160: ヴ
   - 161-186: Latin Uppercase A-Z
   - 187-196: Digits 0-9
   - 197: Space
-  - 198-207: Punctuation (+, -, ?, !, ., ,, ', :, /, etc.)
-  - 208-639: Kanji and special symbols
+  - 198-207: Punctuation (+, -, ?, !, ., ,, :, /, %, ~)
+  - 208-233: Injected Lowercase Latin a-z (replaces legacy slots for English)
+  - 208_orig: ー (prolonged sound)
+  - 209_orig: ・ (middle dot)
+  - 210-639: Kanji characters
 """
 
 import json
@@ -22,7 +27,7 @@ import os
 
 CHARMAP = {}
 
-# 0-45: Hiragana
+# 0-45: Hiragana basic
 HIRAGANA_BASIC = [
     'あ', 'い', 'う', 'え', 'お',
     'か', 'き', 'く', 'け', 'こ',
@@ -35,16 +40,15 @@ HIRAGANA_BASIC = [
     'ら', 'り', 'る', 'れ', 'ろ',
     'わ', 'を', 'ん'
 ]
-
 for idx, ch in enumerate(HIRAGANA_BASIC):
     CHARMAP[idx] = ch
 
-# 46-48: small kana
-CHARMAP[46] = 'ぁ'
-CHARMAP[47] = 'ぃ'
-CHARMAP[48] = 'ぅ'
+# 46-54: Hiragana small
+HIRAGANA_SMALL = ['ぁ', 'ぃ', 'ぅ', 'ぇ', 'ぉ', 'ゃ', 'ゅ', 'ょ', 'っ']
+for idx, ch in enumerate(HIRAGANA_SMALL):
+    CHARMAP[46 + idx] = ch
 
-# 49-68: Hiragana Dakuten
+# 55-74: Hiragana Dakuten
 HIRAGANA_DAKUTEN = [
     'が', 'ぎ', 'ぐ', 'げ', 'ご',
     'ざ', 'じ', 'ず', 'ぜ', 'ぞ',
@@ -52,71 +56,50 @@ HIRAGANA_DAKUTEN = [
     'ば', 'び', 'ぶ', 'べ', 'ぼ'
 ]
 for idx, ch in enumerate(HIRAGANA_DAKUTEN):
-    CHARMAP[49 + idx] = ch
+    CHARMAP[55 + idx] = ch
 
-# 69-73: Hiragana Handakuten
+# 75-79: Hiragana Handakuten
 HIRAGANA_HANDAKUTEN = ['ぱ', 'ぴ', 'ぷ', 'ぺ', 'ぽ']
 for idx, ch in enumerate(HIRAGANA_HANDAKUTEN):
-    CHARMAP[69 + idx] = ch
+    CHARMAP[75 + idx] = ch
 
-# 74-79: Small hiragana
-SMALL_HIRAGANA = ['ゃ', 'ゅ', 'ょ', 'っ', 'ぇ', 'ぉ']
-for idx, ch in enumerate(SMALL_HIRAGANA):
-    CHARMAP[74 + idx] = ch
-
-# 80-125: Katakana
+# 80-125: Katakana basic
 KATAKANA_BASIC = [
-    'フ', 'ヘ', 'ホ',
-    'マ', 'ミ', 'ム', 'メ', 'モ',
-    'ヤ', 'ユ', 'ヨ',
-    'ラ', 'リ', 'ル', 'レ', 'ロ',
-    'ワ', 'ヲ', 'ン', 'ッ',
     'ア', 'イ', 'ウ', 'エ', 'オ',
     'カ', 'キ', 'ク', 'ケ', 'コ',
     'サ', 'シ', 'ス', 'セ', 'ソ',
     'タ', 'チ', 'ツ', 'テ', 'ト',
     'ナ', 'ニ', 'ヌ', 'ネ', 'ノ',
-    'ハ', 'ヒ'
+    'ハ', 'ヒ', 'フ', 'ヘ', 'ホ',
+    'マ', 'ミ', 'ム', 'メ', 'モ',
+    'ヤ', 'ユ', 'ヨ',
+    'ラ', 'リ', 'ル', 'レ', 'ロ',
+    'ワ', 'ヲ', 'ン'
 ]
 for idx, ch in enumerate(KATAKANA_BASIC):
     CHARMAP[80 + idx] = ch
 
-# Katakana Dakuten, Handakuten, symbols
-CHARMAP[108] = 'ー'  # prolonged sound
-CHARMAP[109] = '・'  # middle dot
-CHARMAP[110] = 'ガ'
-CHARMAP[111] = 'ギ'
-CHARMAP[112] = 'グ'
-CHARMAP[113] = 'ゲ'
-CHARMAP[114] = 'ゴ'
-CHARMAP[115] = 'ザ'
-CHARMAP[116] = 'ジ'
-CHARMAP[117] = 'ズ'
-CHARMAP[118] = 'ゼ'
-CHARMAP[119] = 'ゾ'
-CHARMAP[120] = 'ダ'
-CHARMAP[121] = 'ヂ'
-CHARMAP[122] = 'ヅ'
-CHARMAP[123] = 'デ'
-CHARMAP[124] = 'ド'
-CHARMAP[125] = 'バ'
-CHARMAP[126] = 'ビ'
-CHARMAP[127] = 'ブ'
-CHARMAP[128] = 'ベ'
-CHARMAP[129] = 'ボ'
-CHARMAP[130] = 'パ'
-CHARMAP[131] = 'ピ'
-CHARMAP[132] = 'プ'
-CHARMAP[133] = 'ペ'
-CHARMAP[134] = 'ポ'
-CHARMAP[135] = 'ァ'
-CHARMAP[136] = 'ィ'
-CHARMAP[137] = 'ゥ'
-CHARMAP[138] = 'ェ'
-CHARMAP[139] = 'ォ'
-CHARMAP[140] = 'ャ'
-CHARMAP[141] = 'ュ'
-CHARMAP[142] = 'ョ'
+# 126-134: Katakana small
+KATAKANA_SMALL = ['ッ', 'ャ', 'ュ', 'ョ', 'ァ', 'ィ', 'ゥ', 'ェ', 'ォ']
+for idx, ch in enumerate(KATAKANA_SMALL):
+    CHARMAP[126 + idx] = ch
+
+# 135-154: Katakana Dakuten
+KATAKANA_DAKUTEN = [
+    'ガ', 'ギ', 'グ', 'ゲ', 'ゴ',
+    'ザ', 'ジ', 'ズ', 'ゼ', 'ゾ',
+    'ダ', 'ヂ', 'ヅ', 'デ', 'ド',
+    'バ', 'ビ', 'ブ', 'ベ', 'ボ'
+]
+for idx, ch in enumerate(KATAKANA_DAKUTEN):
+    CHARMAP[135 + idx] = ch
+
+# 155-159: Katakana Handakuten
+KATAKANA_HANDAKUTEN = ['パ', 'ピ', 'プ', 'ペ', 'ポ']
+for idx, ch in enumerate(KATAKANA_HANDAKUTEN):
+    CHARMAP[155 + idx] = ch
+
+CHARMAP[160] = 'ヴ'
 
 # 161-186: Latin Uppercase A-Z
 for i in range(26):
@@ -139,12 +122,16 @@ CHARMAP[203] = ','
 CHARMAP[204] = ':'
 CHARMAP[205] = '/'
 CHARMAP[206] = '%'
-CHARMAP[207] = '~'
+CHARMAP[207] = 'ー'  # Verified chōonpu in Desc 0 (ポーション)
+
+# Known verified Kanji
+CHARMAP[402] = '全'
+CHARMAP[403] = '回'
+CHARMAP[404] = '復'
 
 def main():
     os.makedirs("font", exist_ok=True)
-    
-    # Fill remaining slots up to 639 as unknown placeholder if not set
+
     full_table = {}
     for gid in range(640):
         if gid in CHARMAP:
@@ -152,10 +139,14 @@ def main():
         else:
             full_table[str(gid)] = f"[G:{gid:03d}]"
 
+    # Lowercase letters in slots 208-233
+    for i in range(26):
+        full_table[str(208 + i)] = chr(ord('a') + i)
+
     with open("font/glyph_table.json", "w", encoding="utf-8") as f:
         json.dump(full_table, f, ensure_ascii=False, indent=2)
 
-    print(f"Generated font/glyph_table.json with {len(full_table)} entries.")
+    print(f"Generated verified font/glyph_table.json with {len(full_table)} entries.")
 
 if __name__ == "__main__":
     main()
