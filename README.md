@@ -9,7 +9,13 @@ A complete, 100% English translation of Konami's tactical roguelike deck-buildin
 *Monster Gate* is a dungeon crawler and deck-building RPG developed by Konami / KCE Studios based on the popular arcade medal game franchise. Prior to this project, the game was exclusive to Japan with no English release or fan translation patch.
 
 This project delivers:
-- **100% Script Translation:** All 2,752 game strings across all 554 script descriptors translated into natural English.
+- **100% Script Translation:** All 2,752 game strings across all 554 script descriptors translated into natural English:
+  - Complete story cutscenes for all 12 playable character campaigns (Warrior, Rogue, Gambler, Sorceress, Male & Female Cursed Knights, Boy & Girl Apprentices, Werewolf Boy, Were-tiger Girl, Prince & Princess of Rodrigue).
+  - All 499 items, weapons, shields, magic spells, and monster summon cards.
+  - All 334 monster lore entries, class attributes, and casino minigames.
+  - All 38 dungeons, fortress campaigns, slot machine rules, and town facilities.
+  - Complete 45-step beginner tutorial guide and card blending recipes.
+- **Engine-Compliant Text Window Formatting:** All dialogue boxes strictly formatted to $\le 13$ characters per line with native control codes (`{CTRL:F9}` speaker labels, `{CTRL:F3}` page breaks) to eliminate text cutoff or box clipping.
 - **Font & Glyph Engine Adaptation:** Injected full lowercase `a`–`z` alphabet into the game's font table while preserving native Latin uppercase (`A`–`Z`), digits, and punctuation.
 - **Clean 16 MB ROM Expansion:** Expanded the original 8 MB ROM to 16 MB (`0x08800000`–`0x08FFFFFF`) to store relocated descriptors, pointer tables, and extended English text strings with zero overwrite risk.
 - **Automated Toolchain & Distributable Patches:** Complete Python-based extraction, compilation, verification, and IPS/BPS patch generation pipeline.
