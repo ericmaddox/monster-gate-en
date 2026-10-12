@@ -43,24 +43,28 @@ HIRAGANA_BASIC = [
 for idx, ch in enumerate(HIRAGANA_BASIC):
     CHARMAP[idx] = ch
 
-# 46-54: Hiragana small
-HIRAGANA_SMALL = ['ぁ', 'ぃ', 'ぅ', 'ぇ', 'ぉ', 'ゃ', 'ゅ', 'ょ', 'っ']
-for idx, ch in enumerate(HIRAGANA_SMALL):
-    CHARMAP[46 + idx] = ch
+# 46-48: Hiragana small ya, yu, yo
+CHARMAP[46] = 'ゃ'
+CHARMAP[47] = 'ゅ'
+CHARMAP[48] = 'ょ'
 
-# 55-74: Hiragana Dakuten
-HIRAGANA_DAKUTEN = [
+# 49-73: Hiragana Dakuten and Handakuten
+HIRAGANA_DAKUTEN_ALL = [
     'が', 'ぎ', 'ぐ', 'げ', 'ご',
     'ざ', 'じ', 'ず', 'ぜ', 'ぞ',
     'だ', 'ぢ', 'づ', 'で', 'ど',
-    'ば', 'び', 'ぶ', 'べ', 'ぼ'
+    'ば', 'び', 'ぶ', 'べ', 'ぼ',
+    'ぱ', 'ぴ', 'ぷ', 'ぺ', 'ぽ'
 ]
-for idx, ch in enumerate(HIRAGANA_DAKUTEN):
-    CHARMAP[55 + idx] = ch
+for idx, ch in enumerate(HIRAGANA_DAKUTEN_ALL):
+    CHARMAP[49 + idx] = ch
 
-# 75-79: Hiragana Handakuten
-HIRAGANA_HANDAKUTEN = ['ぱ', 'ぴ', 'ぷ', 'ぺ', 'ぽ']
-for idx, ch in enumerate(HIRAGANA_HANDAKUTEN):
+# 74: Hiragana small tsu
+CHARMAP[74] = 'っ'
+
+# 75-79: Hiragana small vowels
+HIRAGANA_SMALL_VOWELS = ['ぁ', 'ぃ', 'ぅ', 'ぇ', 'ぉ']
+for idx, ch in enumerate(HIRAGANA_SMALL_VOWELS):
     CHARMAP[75 + idx] = ch
 
 # 80-125: Katakana basic
@@ -79,24 +83,28 @@ KATAKANA_BASIC = [
 for idx, ch in enumerate(KATAKANA_BASIC):
     CHARMAP[80 + idx] = ch
 
-# 126-134: Katakana small
-KATAKANA_SMALL = ['ッ', 'ャ', 'ュ', 'ョ', 'ァ', 'ィ', 'ゥ', 'ェ', 'ォ']
-for idx, ch in enumerate(KATAKANA_SMALL):
-    CHARMAP[126 + idx] = ch
+# 126-128: Katakana small ya, yu, yo
+CHARMAP[126] = 'ャ'
+CHARMAP[127] = 'ュ'
+CHARMAP[128] = 'ョ'
 
-# 135-154: Katakana Dakuten
-KATAKANA_DAKUTEN = [
+# 129-153: Katakana Dakuten and Handakuten
+KATAKANA_DAKUTEN_ALL = [
     'ガ', 'ギ', 'グ', 'ゲ', 'ゴ',
     'ザ', 'ジ', 'ズ', 'ゼ', 'ゾ',
     'ダ', 'ヂ', 'ヅ', 'デ', 'ド',
-    'バ', 'ビ', 'ブ', 'ベ', 'ボ'
+    'バ', 'ビ', 'ブ', 'ベ', 'ボ',
+    'パ', 'ピ', 'プ', 'ペ', 'ポ'
 ]
-for idx, ch in enumerate(KATAKANA_DAKUTEN):
-    CHARMAP[135 + idx] = ch
+for idx, ch in enumerate(KATAKANA_DAKUTEN_ALL):
+    CHARMAP[129 + idx] = ch
 
-# 155-159: Katakana Handakuten
-KATAKANA_HANDAKUTEN = ['パ', 'ピ', 'プ', 'ペ', 'ポ']
-for idx, ch in enumerate(KATAKANA_HANDAKUTEN):
+# 154: Katakana small tsu
+CHARMAP[154] = 'ッ'
+
+# 155-159: Katakana small vowels
+KATAKANA_SMALL_VOWELS = ['ァ', 'ィ', 'ゥ', 'ェ', 'ォ']
+for idx, ch in enumerate(KATAKANA_SMALL_VOWELS):
     CHARMAP[155 + idx] = ch
 
 CHARMAP[160] = 'ヴ'
@@ -122,12 +130,21 @@ CHARMAP[203] = ','
 CHARMAP[204] = ':'
 CHARMAP[205] = '/'
 CHARMAP[206] = '%'
-CHARMAP[207] = 'ー'  # Verified chōonpu in Desc 0 (ポーション)
+CHARMAP[207] = 'ー'  # Verified chōonpu
 
 # Known verified Kanji
+CHARMAP[208] = '門'
+CHARMAP[209] = '扉'
+CHARMAP[210] = '鍵'
+CHARMAP[211] = '宝'
+CHARMAP[212] = '箱'
 CHARMAP[402] = '全'
 CHARMAP[403] = '回'
 CHARMAP[404] = '復'
+CHARMAP[409] = '番'
+CHARMAP[410] = '門'
+CHARMAP[414] = '封'
+CHARMAP[415] = '印'
 
 def main():
     os.makedirs("font", exist_ok=True)

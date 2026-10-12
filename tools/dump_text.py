@@ -115,14 +115,20 @@ def main():
             s_ptr = struct.unpack_from("<I", rom_data, rom_p1 + s_idx * 4)[0]
             s_rom_off = s_ptr - 0x08000000
 
-            # Read until 0xF0 or max 256 bytes
+            if s_idx + 1 < num_strings:
+                next_s_ptr = struct.unpack_from("<I", rom_data, rom_p1 + (s_idx + 1) * 4)[0]
+                limit_off = next_s_ptr - 0x08000000
+            else:
+                limit_off = s_rom_off + 300
+
+            # Read until limit_off or terminator (0xF0 / 0xF3)
             s_bytes = bytearray()
             curr = s_rom_off
-            while curr < len(rom_data):
+            while curr < len(rom_data) and curr < limit_off:
                 b = rom_data[curr]
                 s_bytes.append(b)
                 curr += 1
-                if b == 0xF0 or len(s_bytes) >= 256:
+                if b == 0xF0 or (b == 0xF3 and (s_idx + 1 == num_strings or curr == limit_off)):
                     break
 
             decoded_text = decode_string_bytes(s_bytes, local_glyphs, charmap)

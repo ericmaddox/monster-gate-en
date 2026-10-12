@@ -5,7 +5,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4734",
     "japanese": "  {CTRL:F4}[G:414][G:415]のなげ{CTRL:F4}をもとめて{NEWLINE}ゴンガュンをこうりぁくしよう{BREAK}",
-    "english": "Seek the Orbs of Sealing and conquer the dungeons!",
+    "english": "Seek the ancient Seal mysteries{NEWLINE}and conquer the dungeons!{BREAK}",
     "raw_hex": "0000f40102030405f4060708090af10b0c0d0e0c060f10111213141510f0"
   },
   {
@@ -14,7 +14,7 @@
     "string_index": 0,
     "rom_offset": "0x4D478C",
     "japanese": "   {CTRL:F4}[G:262][G:314]のカーゼ{CTRL:F4}をさぇし{NEWLINE} ゴンガュンをこうりぁくしよう{BREAK}",
-    "english": "Equip your cards and conquer the dungeon!",
+    "english": "Seek out the finest cards{NEWLINE}and conquer the dungeons!{BREAK}",
     "raw_hex": "000000f4010203040506f40708090af1000b0c0d0e0c070f101112130a1410f0"
   },
   {
@@ -23,7 +23,7 @@
     "string_index": 0,
     "rom_offset": "0x4D47E4",
     "japanese": "  {CTRL:F4}オーヂのかけら{CTRL:F4}を[G:292]めて{NEWLINE} モンスターゥートにいぜめ!{BREAK}",
-    "english": "Collect Orb Fragments and enter the Monster Gate!",
+    "english": "Collect the Orb Fragments{NEWLINE}and challenge the Monster Gate!{BREAK}",
     "raw_hex": "0000f401020304050607f408090a0bf1000c0d0e0f021002111213140a15f0"
   },
   {
@@ -32,7 +32,7 @@
     "string_index": 0,
     "rom_offset": "0x4D483C",
     "japanese": "いつずもゴンガュンにちぅうせん{NEWLINE} ヅストタイムにもチッレンガ!{BREAK}",
-    "english": "Challenge dungeons anytime and beat the best time!",
+    "english": "Challenge dungeons anytime!{NEWLINE}Aim for the best clear time!{BREAK}",
     "raw_hex": "00010203040506070508090a0b0c0df10e0f10111213140803151617050618f0"
   },
   {
@@ -41,7 +41,7 @@
     "string_index": 0,
     "rom_offset": "0x4D489C",
     "japanese": "   スロポトゥームぇ{NEWLINE}    ビレイずきるよ{BREAK}",
-    "english": "Play games at the Slot Machine!",
+    "english": "Play games at the Slot Machine{NEWLINE}and win powerful cards!{BREAK}",
     "raw_hex": "0000000102030405060708f100000000090a0b0c0d0e0ff0"
   },
   {
@@ -50,7 +50,7 @@
     "string_index": 0,
     "rom_offset": "0x4D48E0",
     "japanese": " もぽているマガポクカーゼを{NEWLINE}   かくにんずきるよ{BREAK}",
-    "english": "Check and manage cards in your Card Holder.",
+    "english": "Review and manage all Magic Cards{NEWLINE}in your Card Holder!{BREAK}",
     "raw_hex": "000102030405060708090a0b0c0df10000000e0f101112130514f0"
   },
   {
@@ -59,7 +59,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4934",
     "japanese": "キッラクターのしぅくぉぅうを{NEWLINE}   へんこうずきるよ{BREAK}",
-    "english": "Change character class and job rank.",
+    "english": "Change your character's class{NEWLINE}and battle abilities!{BREAK}",
     "raw_hex": "000102030405060708090a080b0cf10d0d0d0e0f100b11121314f0"
   },
   {
@@ -68,7 +68,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4988",
     "japanese": "   ワールゼゾトルの{NEWLINE} マポビぇめんにもぜります{BREAK}",
-    "english": "Return to the World Gate map.",
+    "english": "Return to the World Battle{NEWLINE}Gate map screen.{BREAK}",
     "raw_hex": "0000000102030405060307f10008090a0b0c0d0e0f10111213f0"
   },
   {
@@ -77,7 +77,7 @@
     "string_index": 0,
     "rom_offset": "0x4D49D8",
     "japanese": "コインぇたりません{BREAK}",
-    "english": "Not enough coins!",
+    "english": "Not enough coins!{BREAK}",
     "raw_hex": "000102030405060708f0"
   },
   {
@@ -86,7 +86,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4A00",
     "japanese": "カガノを[G:316][G:321]してメニャーに[G:309]ります,{NEWLINE}よろしいずすか?{BREAK}",
-    "english": "Quit Casino and return to menu. Is this OK?",
+    "english": "Quit Casino and return to menu?{NEWLINE}Is this OK?{BREAK}",
     "raw_hex": "000102030405060708090a0b0c0d0e0f1011f11213061415101617f0"
   },
   {
@@ -95,7 +95,7 @@
     "string_index": 1,
     "rom_offset": "0x4D4A1C",
     "japanese": "カガノを[G:316][G:321]して[G:319][G:320]に[G:309]ります,{NEWLINE}よろしいずすか?{BREAK}",
-    "english": "Quit Casino and return to title. Is this OK?",
+    "english": "Quit Casino and return to title?{NEWLINE}Is this OK?{BREAK}",
     "raw_hex": "000102030405060718190c0d0e0f1011f11213061415101617f0"
   },
   {
@@ -104,7 +104,7 @@
     "string_index": 2,
     "rom_offset": "0x4D4A36",
     "japanese": "    [G:277]はい     いいえ{BREAK}",
-    "english": "  Yes    No",
+    "english": "   Yes     No{BREAK}",
     "raw_hex": "1a1a1a1a1b1c141a1a1a1a1a14141df0"
   },
   {
@@ -113,7 +113,7 @@
     "string_index": 3,
     "rom_offset": "0x4D4A46",
     "japanese": "     はい    [G:277]いいえ{BREAK}",
-    "english": "Acquired a card!",
+    "english": "    Yes    No{BREAK}",
     "raw_hex": "1a1a1a1a1a1c141a1a1a1a1b14141df0"
   },
   {
@@ -122,7 +122,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4AA0",
     "japanese": "カーゼをかくとくしました!{BREAK}",
-    "english": "Cards you cannot carry are sent to the Holder.",
+    "english": "Acquired a card!{BREAK}",
     "raw_hex": "0001020304050605070807090af0"
   },
   {
@@ -131,7 +131,7 @@
     "string_index": 1,
     "rom_offset": "0x4D4AAE",
     "japanese": "[G:237]ちきれないカーゼはホルゴーにおくります,{BREAK}",
-    "english": "Obtained cards have been sent to the Holder.",
+    "english": "Cards you cannot carry are sent{NEWLINE}to your Card Holder.{BREAK}",
     "raw_hex": "0b0c0d0e0f10000102111213140115160517081819f0"
   },
   {
@@ -140,7 +140,7 @@
     "string_index": 2,
     "rom_offset": "0x4D4AC4",
     "japanese": "かくとくしたカーゼはホルゴーにおくります,{BREAK}",
-    "english": "Line Bet: Change bet",
+    "english": "Acquired cards are sent{NEWLINE}to your Card Holder.{BREAK}",
     "raw_hex": "040506050709000102111213140115160517081819f0"
   },
   {
@@ -149,7 +149,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4B1C",
     "japanese": ": ラインcを[G:441][G:381]{BREAK}",
-    "english": "Start Slot",
+    "english": "Bet: Change bet lines{BREAK}",
     "raw_hex": "000102030405060708f0"
   },
   {
@@ -158,7 +158,7 @@
     "string_index": 1,
     "rom_offset": "0x4D4B26",
     "japanese": ": スタート{BREAK}",
-    "english": "Quit Casino",
+    "english": "Start: Spin slots{BREAK}",
     "raw_hex": "0001090a0b0cf0"
   },
   {
@@ -167,7 +167,7 @@
     "string_index": 2,
     "rom_offset": "0x4D4B2D",
     "japanese": ": カガノを[G:246]る{BREAK}",
-    "english": "Line up matching symbols on pay lines.",
+    "english": "Quit Casino{BREAK}",
     "raw_hex": "00010d0e0f061011f0"
   },
   {
@@ -176,7 +176,7 @@
     "string_index": 3,
     "rom_offset": "0x4D4B36",
     "japanese": "ライン[G:280]に[G:358]が[G:581]ぇ[G:578]ぢと.{BREAK}",
-    "english": "Win payout based on odds table.",
+    "english": "Line up matching symbols{NEWLINE}along any active payline.{BREAK}",
     "raw_hex": "02030412131415161718191a1bf0"
   },
   {
@@ -185,7 +185,7 @@
     "string_index": 4,
     "rom_offset": "0x4D4B44",
     "japanese": "ODDSに[G:582]されたWINぇもらえます,{BREAK}",
-    "english": "WILD symbols substitute for any symbol.",
+    "english": "Payouts are awarded based on{NEWLINE}the official Odds Table.{BREAK}",
     "raw_hex": "1c1d1d1e131f20212223242517262728292a2bf0"
   },
   {
@@ -194,7 +194,7 @@
     "string_index": 5,
     "rom_offset": "0x4D4B58",
     "japanese": "   は全ての[G:581]にvきかわるWILDシンデルずす,{BREAK}",
-    "english": "Winning lines award Magic Cards!",
+    "english": "WILD substitutes for all symbols{NEWLINE}to complete winning lines.{BREAK}",
     "raw_hex": "0101012c2d2e2f161330313233112324341d35043637382a2bf0"
   },
   {
@@ -203,7 +203,7 @@
     "string_index": 6,
     "rom_offset": "0x4D4B72",
     "japanese": "      ぇそろうとマガポクカーゼぇもらえます,{BREAK}",
-    "english": "If your hand is full, new cards go to Holder.",
+    "english": "Winning lines award Magic Cards{NEWLINE}directly to your hand!{BREAK}",
     "raw_hex": "01010101010117393a3b1a3c0e3d3e0d0b3f17262728292a2bf0"
   },
   {
@@ -212,7 +212,7 @@
     "string_index": 7,
     "rom_offset": "0x4D4B8C",
     "japanese": "カーゼぇ[G:237]ちきれなくなると.[G:328]たにかく[G:384]した{BREAK}",
-    "english": "Cards are safely stored in your Card Holder.",
+    "english": "When your hand becomes full,{NEWLINE}newly won cards are sent{BREAK}",
     "raw_hex": "0d0b3f1740413121424342111a1b4422133243454622f0"
   },
   {
@@ -221,7 +221,7 @@
     "string_index": 8,
     "rom_offset": "0x4D4BA3",
     "japanese": "マガポクカーゼはカーゼホルゴーに[G:579][G:580]されます,{BREAK}",
-    "english": "Bet medals and challenge World Mode!",
+    "english": "directly into your Card Holder{NEWLINE}for safe keeping.{BREAK}",
     "raw_hex": "3c0e3d3e0d0b3f2c0d0b3f4737480b13494a2021292a2bf0"
   },
   {
@@ -230,7 +230,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4C60",
     "japanese": "ワールゼモーゼのお[G:411]をかけてお[G:343][G:344]と[G:327]おう!{NEWLINE}いちぞんベイントの[G:307]かぽた[G:273]の[G:357]ち!{BREAK}",
-    "english": "Dungeons and cards are different each play!",
+    "english": "Challenge World Battle Mode{NEWLINE}by placing medal bets!{BREAK}",
     "raw_hex": "0001020304010305060708090a0b060c0d0e0f061011f11213141516171819051a091b1c1d051e1311f0"
   },
   {
@@ -239,7 +239,7 @@
     "string_index": 1,
     "rom_offset": "0x4D4C8A",
     "japanese": "ゴンガュンもカーゼもみんな[G:358]ががぅうけん,{NEWLINE}ごれぇ[G:262][G:483]にクリアするかきぅうそうご!{BREAK}",
-    "english": "Challenge for the fastest completion time!",
+    "english": "Dungeons and floor cards change{NEWLINE}on every expedition!{BREAK}",
     "raw_hex": "1f18202118222301032224152526272728100a1529f12a2b2c2d2e2f30313233340935281036102a11f0"
   },
   {
@@ -248,7 +248,7 @@
     "string_index": 2,
     "rom_offset": "0x4D4CB4",
     "japanese": "[G:273]c[G:251]の[G:349]モンスターゥート[G:350]カートリポガぇ[G:330][G:331],{NEWLINE}いろんな[G:346][G:381]ず[G:342][G:327]ずきるよ!{BREAK}",
-    "english": "Battle together in Multiplayer Link Mode!",
+    "english": "Compete with friends to achieve{NEWLINE}the fastest clear record!{BREAK}",
     "raw_hex": "1d3738053904183a3b013c01193d230119313e202c3f4029f112411525424344450f4435344611f0"
   },
   {
@@ -257,7 +257,7 @@
     "string_index": 3,
     "rom_offset": "0x4D4CDC",
     "japanese": "[G:349]モンスターゥート[G:350]カートリポガ1つず{NEWLINE}4[G:273]まず[G:342][G:327]ずきるよ!{BREAK}",
-    "english": "Up to 4 players can play with one cartridge!",
+    "english": "Battle together with up to 4 players{NEWLINE}using the GBA Link Cable!{BREAK}",
     "raw_hex": "3904183a3b013c01193d230119313e20474844f1491d4a44450f4435344611f0"
   },
   {
@@ -266,7 +266,7 @@
     "string_index": 4,
     "rom_offset": "0x4D4CFC",
     "japanese": "全[G:267]のエントリーぇ[G:316][G:321]したら[G:290]デタンを[G:294]してくごさい{BREAK}",
-    "english": "When everyone has entered, press START button.",
+    "english": "Up to 4 players can play{NEWLINE}with a single game pak!{BREAK}",
     "raw_hex": "4b4c054d181931012c4e4f501c5152533b180854500b552a5612f0"
   },
   {
@@ -275,7 +275,7 @@
     "string_index": 5,
     "rom_offset": "0x4D4D17",
     "japanese": "あなたは2Pずす しぞらくおまちくごさい{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "When all players have entered,{NEWLINE}press the START button.{BREAK}",
     "raw_hex": "57251c58595a44335b50145155064a13552a5612f0"
   },
   {
@@ -284,7 +284,7 @@
     "string_index": 6,
     "rom_offset": "0x4D4D2C",
     "japanese": "あなたは3Pずす しぞらくおまちくごさい{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "You are Player 2.{NEWLINE}Please wait a moment.{BREAK}",
     "raw_hex": "57251c585c5a44335b50145155064a13552a5612f0"
   },
   {
@@ -293,7 +293,7 @@
     "string_index": 7,
     "rom_offset": "0x4D4D41",
     "japanese": "あなたは4Pずす しぞらくおまちくごさい{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "You are Player 3.{NEWLINE}Please wait a moment.{BREAK}",
     "raw_hex": "57251c58495a44335b50145155064a13552a5612f0"
   },
   {
@@ -302,7 +302,7 @@
     "string_index": 8,
     "rom_offset": "0x4D4D56",
     "japanese": "しぞらくおまちくごさい{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "You are Player 4.{NEWLINE}Please wait a moment.{BREAK}",
     "raw_hex": "50145155064a13552a5612f0"
   },
   {
@@ -311,7 +311,7 @@
     "string_index": 9,
     "rom_offset": "0x4D4D62",
     "japanese": "STARTデタンとSELECTデタンを[G:294]しなぇら{NEWLINE}[G:359][G:360]を[G:289]れなおしてくごさい,{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Please wait a moment...{BREAK}",
     "raw_hex": "5d5e5f605e533b180e5d616261635e533b18085450252c51f1646508662b2506500b552a561229f0"
   },
   {
@@ -320,7 +320,7 @@
     "string_index": 10,
     "rom_offset": "0x4D4D8A",
     "japanese": "[G:341][G:380]の[G:359][G:360].q[G:361]ケーヂルの[G:363][G:364]をかくにんしてくごさい{NEWLINE}タイトルへ[G:309]ります{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Hold START and SELECT buttons{NEWLINE}to restart communications.{BREAK}",
     "raw_hex": "6768056465696a6b6c016d02056e6f0809552f15500b552a5612f13b1719027071724a33f0"
   },
   {
@@ -329,7 +329,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4EA4",
     "japanese": "ケーヂルをぬいたり{NEWLINE}[G:359][G:360]を[G:362]ぽたりしないずくごさい{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Check Link Cable connection.{NEWLINE}Returning to Title screen.{BREAK}",
     "raw_hex": "000102030405060708f1090a040b0c07080d0e060f10111206f0"
   },
   {
@@ -338,7 +338,7 @@
     "string_index": 1,
     "rom_offset": "0x4D4EBE",
     "japanese": "!ズータを[G:346][G:381][G:345]!{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Do not disconnect cable{NEWLINE}or turn off power switch!{BREAK}",
     "raw_hex": "131401150416171813f0"
   },
   {
@@ -347,7 +347,7 @@
     "string_index": 2,
     "rom_offset": "0x4D4EC8",
     "japanese": "!ズータをてんそう[G:345]!{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "! Transferring data...!{BREAK}",
     "raw_hex": "1314011504191a1b1c1813f0"
   },
   {
@@ -356,7 +356,7 @@
     "string_index": 3,
     "rom_offset": "0x4D4ED4",
     "japanese": "ゴンガュンのむぎかしさを[G:346][G:381]します,{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "! Data sent successfully!{BREAK}",
     "raw_hex": "1d1e1f201e212223240d120416170d252627f0"
   },
   {
@@ -365,7 +365,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4F44",
     "japanese": "[G:342][G:327]ゥームのあそだかたを[G:346][G:381]してくごさい,{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Adjusting dungeon difficulty...{BREAK}",
     "raw_hex": "000102030405060708090a0b0c0d0e0f1011121314f0"
   },
   {
@@ -374,7 +374,7 @@
     "string_index": 1,
     "rom_offset": "0x4D4F5A",
     "japanese": "[G:342][G:327][G:270]aを[G:346][G:381]します,{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Only 1 card permitted! Use extreme caution!{BREAK}",
     "raw_hex": "000115160b0c0d0e171814f0"
   },
   {
@@ -383,7 +383,7 @@
     "string_index": 2,
     "rom_offset": "0x4D4F66",
     "japanese": "[G:342][G:327][G:247][G:248]を[G:346][G:381]します,{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Skyscraper dungeon: 20 grueling floors await!{BREAK}",
     "raw_hex": "0001191a0b0c0d0e171814f0"
   },
   {
@@ -392,7 +392,7 @@
     "string_index": 3,
     "rom_offset": "0x4D4F72",
     "japanese": "[G:392]のビレイヤーの[G:365][G:366]ほうこくを[G:346][G:381]します,{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "A fierce trial testing true master hunters!{BREAK}",
     "raw_hex": "1b051c1d1e1f03052021222324100b0c0d0e171814f0"
   },
   {
@@ -401,7 +401,7 @@
     "string_index": 4,
     "rom_offset": "0x4D4F88",
     "japanese": "[G:342][G:327][G:346][G:381]を[G:316][G:321]します,{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Learn 8-way movement and card attacks.{BREAK}",
     "raw_hex": "00010c0d0b25260e171814f0"
   },
   {
@@ -410,7 +410,7 @@
     "string_index": 5,
     "rom_offset": "0x4D4F94",
     "japanese": "あなたぇ.rめこめる[G:411]ぇなくなりました,{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Use Fire cards to eliminate distant enemies.{BREAK}",
     "raw_hex": "06270a28292a2b242b2c2d282710272e170e0a14f0"
   },
   {
@@ -419,7 +419,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5014",
     "japanese": "[G:342][G:327]ゥームのあそだかたを[G:346][G:381]してくごさい,{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Collect Magic Cards scattered on the floor.{BREAK}",
     "raw_hex": "000102030405060708090a0b0c0d0e0f1011121314f0"
   },
   {
@@ -428,7 +428,7 @@
     "string_index": 1,
     "rom_offset": "0x4D502A",
     "japanese": "ゴンガュンず[G:246][G:264]するマガポクカーゼしぃるいを[G:346][G:381]します,{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Slippery ice floors! Move carefully!{BREAK}",
     "raw_hex": "1516171816191a1b1c1d1e171f202103220e231d130b0c0d0e241c14f0"
   },
   {
@@ -437,7 +437,7 @@
     "string_index": 2,
     "rom_offset": "0x4D5047",
     "japanese": "[G:264][G:540]いるフロアーのマポビひぅうがを[G:346][G:381]します,{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Floor map is obscured! Keep your guard up!{BREAK}",
     "raw_hex": "1b25131d26272803051e1f292a2b2c2d0b0c0d0e241c14f0"
   },
   {
@@ -446,7 +446,7 @@
     "string_index": 3,
     "rom_offset": "0x4D505F",
     "japanese": "[G:392]のビレイヤーの[G:365][G:366]ほうこくを[G:346][G:381]します,{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Multi-target spell cards are very effective!{BREAK}",
     "raw_hex": "2e05292f303103053233342c35100b0c0d0e241c14f0"
   },
   {
@@ -455,7 +455,7 @@
     "string_index": 4,
     "rom_offset": "0x4D5075",
     "japanese": "[G:342][G:327][G:346][G:381]を[G:316][G:321]します,{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Defeat floor guardians to unlock the stairs!{BREAK}",
     "raw_hex": "00010c0d0b36370e241c14f0"
   },
   {
@@ -464,7 +464,7 @@
     "string_index": 5,
     "rom_offset": "0x4D5081",
     "japanese": "しぞらくおまちくごさい,{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Beware of hidden trapdoors in room corners.{BREAK}",
     "raw_hex": "0e3839103a243b1011121314f0"
   },
   {
@@ -473,7 +473,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5114",
     "japanese": " EASY{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " EASY{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -482,7 +482,7 @@
     "string_index": 1,
     "rom_offset": "0x4D511A",
     "japanese": "EASYab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "EASY GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -491,7 +491,7 @@
     "string_index": 0,
     "rom_offset": "0x4D513C",
     "japanese": "MAGIC{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " MAGIC{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -500,7 +500,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5142",
     "japanese": "MAGICab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "MAGIC GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -509,7 +509,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5164",
     "japanese": "SMALL{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " SMALL{BREAK}",
     "raw_hex": "0001020303f0"
   },
   {
@@ -518,7 +518,7 @@
     "string_index": 1,
     "rom_offset": "0x4D516A",
     "japanese": "SMALLab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "SMALL GATE{BREAK}",
     "raw_hex": "00010203030405f0"
   },
   {
@@ -527,7 +527,7 @@
     "string_index": 0,
     "rom_offset": "0x4D518C",
     "japanese": "HAPPY{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " HAPPY{BREAK}",
     "raw_hex": "0001020203f0"
   },
   {
@@ -536,7 +536,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5192",
     "japanese": "HAPPYab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "HAPPY GATE{BREAK}",
     "raw_hex": "00010202030405f0"
   },
   {
@@ -545,7 +545,7 @@
     "string_index": 0,
     "rom_offset": "0x4D51B4",
     "japanese": " KIND{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " KIND{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -554,7 +554,7 @@
     "string_index": 1,
     "rom_offset": "0x4D51BA",
     "japanese": "KINDab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "KIND GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -563,7 +563,7 @@
     "string_index": 0,
     "rom_offset": "0x4D51DC",
     "japanese": "QUIET{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " QUIET{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -572,7 +572,7 @@
     "string_index": 1,
     "rom_offset": "0x4D51E2",
     "japanese": "QUIETab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "QUIET GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -581,7 +581,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5204",
     "japanese": " COLD{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " COLD{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -590,7 +590,7 @@
     "string_index": 1,
     "rom_offset": "0x4D520A",
     "japanese": "COLDab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "COLD GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -599,7 +599,7 @@
     "string_index": 0,
     "rom_offset": "0x4D522C",
     "japanese": "LUCKY{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " LUCKY{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -608,7 +608,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5232",
     "japanese": "LUCKYab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "LUCKY GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -617,7 +617,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5254",
     "japanese": " FLAT{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " FLAT{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -626,7 +626,7 @@
     "string_index": 1,
     "rom_offset": "0x4D525A",
     "japanese": "FLATab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "FLAT GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -635,7 +635,7 @@
     "string_index": 0,
     "rom_offset": "0x4D527C",
     "japanese": "SMOKY{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " SMOKY{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -644,7 +644,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5282",
     "japanese": "SMOKYab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "SMOKY GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -653,7 +653,7 @@
     "string_index": 0,
     "rom_offset": "0x4D52A4",
     "japanese": " MILD{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " MILD{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -662,7 +662,7 @@
     "string_index": 1,
     "rom_offset": "0x4D52AA",
     "japanese": "MILDab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "MILD GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -671,7 +671,7 @@
     "string_index": 0,
     "rom_offset": "0x4D52CC",
     "japanese": "TIGHT{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Equip swords and shields to boost stats!{BREAK}",
     "raw_hex": "0001020300f0"
   },
   {
@@ -680,7 +680,7 @@
     "string_index": 1,
     "rom_offset": "0x4D52D2",
     "japanese": "TIGHTab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Stock up on Potions before descending deeper.{BREAK}",
     "raw_hex": "00010203000405f0"
   },
   {
@@ -689,7 +689,7 @@
     "string_index": 0,
     "rom_offset": "0x4D52F4",
     "japanese": " RARE{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Fast enemies roam here. Attack from range!{BREAK}",
     "raw_hex": "0001020103f0"
   },
   {
@@ -698,7 +698,7 @@
     "string_index": 1,
     "rom_offset": "0x4D52FA",
     "japanese": "RAREab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Poison traps fill these corridors. Bring heals!{BREAK}",
     "raw_hex": "010201030405f0"
   },
   {
@@ -707,7 +707,7 @@
     "string_index": 0,
     "rom_offset": "0x4D531C",
     "japanese": " WILD{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Monsters travel in packs! Use room spells!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -716,7 +716,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5322",
     "japanese": "WILDab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Conserve your MP for tough elite encounters.{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -725,7 +725,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5344",
     "japanese": "HEAVY{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " HEAVY{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -734,7 +734,7 @@
     "string_index": 1,
     "rom_offset": "0x4D534A",
     "japanese": "HEAVYab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "HEAVY GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -743,7 +743,7 @@
     "string_index": 0,
     "rom_offset": "0x4D536C",
     "japanese": "ROYAL{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " ROYAL{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -752,7 +752,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5372",
     "japanese": "ROYALab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "ROYAL GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -761,7 +761,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5394",
     "japanese": "BRAVE{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " BRAVE{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -770,7 +770,7 @@
     "string_index": 1,
     "rom_offset": "0x4D539A",
     "japanese": "BRAVEab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "BRAVE GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -779,7 +779,7 @@
     "string_index": 0,
     "rom_offset": "0x4D53BC",
     "japanese": " DEAR{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Skyscraper dungeon: 20 grueling floors await!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -788,7 +788,7 @@
     "string_index": 1,
     "rom_offset": "0x4D53C2",
     "japanese": "DEARab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "A fierce trial testing true master hunters!{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -797,7 +797,7 @@
     "string_index": 0,
     "rom_offset": "0x4D53E4",
     "japanese": "PLAIN{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Learn 8-way movement and card attacks.{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -806,7 +806,7 @@
     "string_index": 1,
     "rom_offset": "0x4D53EA",
     "japanese": "PLAINab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Use Fire cards to eliminate distant enemies.{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -815,7 +815,7 @@
     "string_index": 0,
     "rom_offset": "0x4D540C",
     "japanese": " SICK{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Collect Magic Cards scattered on the floor.{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -824,7 +824,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5412",
     "japanese": "SICKab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Slippery ice floors! Move carefully!{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -833,7 +833,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5434",
     "japanese": "QUICK{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " QUICK{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -842,7 +842,7 @@
     "string_index": 1,
     "rom_offset": "0x4D543A",
     "japanese": "QUICKab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "QUICK GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -851,7 +851,7 @@
     "string_index": 0,
     "rom_offset": "0x4D545C",
     "japanese": "CLOSE{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Defeat floor guardians to unlock the stairs!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -860,7 +860,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5462",
     "japanese": "CLOSEab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Beware of hidden trapdoors in room corners.{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -869,7 +869,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5484",
     "japanese": "  DRY{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Equip swords and shields to boost stats!{BREAK}",
     "raw_hex": "0000010203f0"
   },
   {
@@ -878,7 +878,7 @@
     "string_index": 1,
     "rom_offset": "0x4D548A",
     "japanese": "DRYab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Stock up on Potions before descending deeper.{BREAK}",
     "raw_hex": "0102030405f0"
   },
   {
@@ -887,7 +887,7 @@
     "string_index": 0,
     "rom_offset": "0x4D54A8",
     "japanese": " BUSY{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Fast enemies roam here. Attack from range!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -896,7 +896,7 @@
     "string_index": 1,
     "rom_offset": "0x4D54AE",
     "japanese": "BUSYab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Poison traps fill these corridors. Bring heals!{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -905,7 +905,7 @@
     "string_index": 0,
     "rom_offset": "0x4D54D0",
     "japanese": " TALL{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Monsters travel in packs! Use room spells!{BREAK}",
     "raw_hex": "0001020303f0"
   },
   {
@@ -914,7 +914,7 @@
     "string_index": 1,
     "rom_offset": "0x4D54D6",
     "japanese": "TALLab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Conserve your MP for tough elite encounters.{BREAK}",
     "raw_hex": "010203030405f0"
   },
   {
@@ -923,7 +923,7 @@
     "string_index": 0,
     "rom_offset": "0x4D54F8",
     "japanese": " SOFT{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Search every room for hidden treasure chests!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -932,7 +932,7 @@
     "string_index": 1,
     "rom_offset": "0x4D54FE",
     "japanese": "SOFTab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Defeat the dungeon guardian to claim the Orb!{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -941,7 +941,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5520",
     "japanese": " DARK{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " DARK{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -950,7 +950,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5526",
     "japanese": "DARKab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "DARK GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -959,7 +959,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5548",
     "japanese": "SWEET{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Only 6 cards permitted in this dungeon trial!{BREAK}",
     "raw_hex": "0001020203f0"
   },
   {
@@ -968,7 +968,7 @@
     "string_index": 1,
     "rom_offset": "0x4D554E",
     "japanese": "SWEETab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Only 1 card permitted! Use extreme caution!{BREAK}",
     "raw_hex": "00010202030405f0"
   },
   {
@@ -977,7 +977,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5570",
     "japanese": "PANIC{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Skyscraper dungeon: 20 grueling floors await!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -986,7 +986,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5576",
     "japanese": "PANICab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "A fierce trial testing true master hunters!{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -995,7 +995,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5598",
     "japanese": " COOL{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " COOL{BREAK}",
     "raw_hex": "0001020203f0"
   },
   {
@@ -1004,7 +1004,7 @@
     "string_index": 1,
     "rom_offset": "0x4D559E",
     "japanese": "COOLab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "COOL GATE{BREAK}",
     "raw_hex": "010202030405f0"
   },
   {
@@ -1013,7 +1013,7 @@
     "string_index": 0,
     "rom_offset": "0x4D55C0",
     "japanese": "SHARP{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " SHARP{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1022,7 +1022,7 @@
     "string_index": 1,
     "rom_offset": "0x4D55C6",
     "japanese": "SHARPab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "SHARP GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1031,7 +1031,7 @@
     "string_index": 0,
     "rom_offset": "0x4D55E8",
     "japanese": "GREAT{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Floor map is obscured! Keep your guard up!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1040,7 +1040,7 @@
     "string_index": 1,
     "rom_offset": "0x4D55EE",
     "japanese": "GREATab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Multi-target spell cards are very effective!{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1049,7 +1049,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5610",
     "japanese": " PURE{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Defeat floor guardians to unlock the stairs!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1058,7 +1058,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5616",
     "japanese": "PUREab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Beware of hidden trapdoors in room corners.{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -1067,7 +1067,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5638",
     "japanese": " HARD{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Equip swords and shields to boost stats!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1076,7 +1076,7 @@
     "string_index": 1,
     "rom_offset": "0x4D563E",
     "japanese": "HARDab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Stock up on Potions before descending deeper.{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -1085,7 +1085,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5660",
     "japanese": "LIGHT{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " LIGHT{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1094,7 +1094,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5666",
     "japanese": "LIGHTab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "LIGHT GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1103,7 +1103,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5688",
     "japanese": " WIDE{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " WIDE{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1112,7 +1112,7 @@
     "string_index": 1,
     "rom_offset": "0x4D568E",
     "japanese": "WIDEab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "WIDE GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -1121,7 +1121,7 @@
     "string_index": 0,
     "rom_offset": "0x4D56B0",
     "japanese": "CLEAR{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " CLEAR{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1130,7 +1130,7 @@
     "string_index": 1,
     "rom_offset": "0x4D56B6",
     "japanese": "CLEARab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "CLEAR GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1139,7 +1139,7 @@
     "string_index": 0,
     "rom_offset": "0x4D56D8",
     "japanese": " RICH{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Floor tiles freeze your steps! Plan movement!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1148,7 +1148,7 @@
     "string_index": 1,
     "rom_offset": "0x4D56DE",
     "japanese": "RICHab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Powerful demons lurk on the deepest floors.{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -1157,7 +1157,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5700",
     "japanese": "CHEAP{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Only 6 cards permitted in this dungeon trial!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1166,7 +1166,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5706",
     "japanese": "CHEAPab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Only 1 card permitted! Use extreme caution!{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1175,7 +1175,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5728",
     "japanese": "FRESH{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Skyscraper dungeon: 20 grueling floors await!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1184,7 +1184,7 @@
     "string_index": 1,
     "rom_offset": "0x4D572E",
     "japanese": "FRESHab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "A fierce trial testing true master hunters!{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1193,7 +1193,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5750",
     "japanese": "  HOT{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " HOT{BREAK}",
     "raw_hex": "0000010203f0"
   },
   {
@@ -1202,7 +1202,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5756",
     "japanese": "HOTab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "HOT GATE{BREAK}",
     "raw_hex": "0102030405f0"
   },
   {
@@ -1211,7 +1211,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5774",
     "japanese": " REAL{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Collect Magic Cards scattered on the floor.{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1220,7 +1220,7 @@
     "string_index": 1,
     "rom_offset": "0x4D577A",
     "japanese": "REALab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Slippery ice floors! Move carefully!{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -1229,7 +1229,7 @@
     "string_index": 0,
     "rom_offset": "0x4D579C",
     "japanese": "MISTY{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Floor map is obscured! Keep your guard up!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1238,7 +1238,7 @@
     "string_index": 1,
     "rom_offset": "0x4D57A2",
     "japanese": "MISTYab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Multi-target spell cards are very effective!{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1247,7 +1247,7 @@
     "string_index": 0,
     "rom_offset": "0x4D57C4",
     "japanese": "CRAZY{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Defeat floor guardians to unlock the stairs!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1256,7 +1256,7 @@
     "string_index": 1,
     "rom_offset": "0x4D57CA",
     "japanese": "CRAZYab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Beware of hidden trapdoors in room corners.{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1265,7 +1265,7 @@
     "string_index": 0,
     "rom_offset": "0x4D57EC",
     "japanese": " LAZY{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " LAZY{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1274,7 +1274,7 @@
     "string_index": 1,
     "rom_offset": "0x4D57F2",
     "japanese": "LAZYab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "LAZY GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -1283,7 +1283,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5814",
     "japanese": "TIRED{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " TIRED{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1292,7 +1292,7 @@
     "string_index": 1,
     "rom_offset": "0x4D581A",
     "japanese": "TIREDab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "TIRED GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1301,7 +1301,7 @@
     "string_index": 0,
     "rom_offset": "0x4D583C",
     "japanese": " WISE{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " WISE{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1310,7 +1310,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5842",
     "japanese": "WISEab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "WISE GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -1319,7 +1319,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5864",
     "japanese": " FINE{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Search every room for hidden treasure chests!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1328,7 +1328,7 @@
     "string_index": 1,
     "rom_offset": "0x4D586A",
     "japanese": "FINEab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Defeat the dungeon guardian to claim the Orb!{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -1337,7 +1337,7 @@
     "string_index": 0,
     "rom_offset": "0x4D588C",
     "japanese": "  WET{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Floor tiles freeze your steps! Plan movement!{BREAK}",
     "raw_hex": "0000010203f0"
   },
   {
@@ -1346,7 +1346,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5892",
     "japanese": "WETab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Powerful demons lurk on the deepest floors.{BREAK}",
     "raw_hex": "0102030405f0"
   },
   {
@@ -1355,7 +1355,7 @@
     "string_index": 0,
     "rom_offset": "0x4D58B0",
     "japanese": " WEAK{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " WEAK{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1364,7 +1364,7 @@
     "string_index": 1,
     "rom_offset": "0x4D58B6",
     "japanese": "WEAKab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "WEAK GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -1373,7 +1373,7 @@
     "string_index": 0,
     "rom_offset": "0x4D58D8",
     "japanese": " OPEN{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " OPEN{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1382,7 +1382,7 @@
     "string_index": 1,
     "rom_offset": "0x4D58DE",
     "japanese": "OPENab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "OPEN GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -1391,7 +1391,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5900",
     "japanese": "PRIME{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Learn 8-way movement and card attacks.{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1400,7 +1400,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5906",
     "japanese": "PRIMEab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Use Fire cards to eliminate distant enemies.{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1409,7 +1409,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5928",
     "japanese": " DEAD{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Collect Magic Cards scattered on the floor.{BREAK}",
     "raw_hex": "0001020301f0"
   },
   {
@@ -1418,7 +1418,7 @@
     "string_index": 1,
     "rom_offset": "0x4D592E",
     "japanese": "DEADab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Slippery ice floors! Move carefully!{BREAK}",
     "raw_hex": "010203010405f0"
   },
   {
@@ -1427,7 +1427,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5950",
     "japanese": "FINAL{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Floor map is obscured! Keep your guard up!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1436,7 +1436,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5956",
     "japanese": "FINALab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Multi-target spell cards are very effective!{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1445,7 +1445,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5978",
     "japanese": "BLIND{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Defeat floor guardians to unlock the stairs!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1454,7 +1454,7 @@
     "string_index": 1,
     "rom_offset": "0x4D597E",
     "japanese": "BLINDab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Beware of hidden trapdoors in room corners.{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1463,7 +1463,7 @@
     "string_index": 0,
     "rom_offset": "0x4D59A0",
     "japanese": "MERRY{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Equip swords and shields to boost stats!{BREAK}",
     "raw_hex": "0001020203f0"
   },
   {
@@ -1472,7 +1472,7 @@
     "string_index": 1,
     "rom_offset": "0x4D59A6",
     "japanese": "MERRYab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Stock up on Potions before descending deeper.{BREAK}",
     "raw_hex": "00010202030405f0"
   },
   {
@@ -1481,7 +1481,7 @@
     "string_index": 0,
     "rom_offset": "0x4D59C8",
     "japanese": " DEEP{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " DEEP{BREAK}",
     "raw_hex": "0001020203f0"
   },
   {
@@ -1490,7 +1490,7 @@
     "string_index": 1,
     "rom_offset": "0x4D59CE",
     "japanese": "DEEPab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "DEEP GATE{BREAK}",
     "raw_hex": "010202030405f0"
   },
   {
@@ -1499,7 +1499,7 @@
     "string_index": 0,
     "rom_offset": "0x4D59F0",
     "japanese": "LARGE{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Monsters travel in packs! Use room spells!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1508,7 +1508,7 @@
     "string_index": 1,
     "rom_offset": "0x4D59F6",
     "japanese": "LARGEab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Conserve your MP for tough elite encounters.{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1517,7 +1517,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5A18",
     "japanese": "hijkl{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Search every room for hidden treasure chests!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1526,7 +1526,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5A1E",
     "japanese": "hijklab{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Defeat the dungeon guardian to claim the Orb!{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1535,7 +1535,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5A40",
     "japanese": " ニシのトリズ{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "West Fortress{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1544,7 +1544,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5A48",
     "japanese": "ニシのトリズ{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "West Fortress: Slay the demonic sentinels!{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -1553,7 +1553,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5A6C",
     "japanese": " キタのトリズ{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "North Fortress{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1562,7 +1562,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5A74",
     "japanese": "キタのトリズ{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "North Fortress: Breach the Demon vanguard!{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -1571,7 +1571,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5A98",
     "japanese": " ミナミのトリズ{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "South Fortress{BREAK}",
     "raw_hex": "0001020103040506f0"
   },
   {
@@ -1580,7 +1580,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5AA1",
     "japanese": "ミナミのトリズ{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "South Fortress: Defeat the beast commander!{BREAK}",
     "raw_hex": "01020103040506f0"
   },
   {
@@ -1589,7 +1589,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5AC4",
     "japanese": " ヒョシのトリズ{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Learn 8-way movement and card attacks.{BREAK}",
     "raw_hex": "0001020304050607f0"
   },
   {
@@ -1598,7 +1598,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5ACD",
     "japanese": "ヒョシのトリズ{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Use Fire cards to eliminate distant enemies.{BREAK}",
     "raw_hex": "01020304050607f0"
   },
   {
@@ -1607,7 +1607,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5AF4",
     "japanese": "クエストモーゼ{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Collect Magic Cards scattered on the floor.{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1616,7 +1616,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5AFC",
     "japanese": "ワールゼモーゼ{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Slippery ice floors! Move carefully!{BREAK}",
     "raw_hex": "07050806040506f0"
   },
   {
@@ -1625,7 +1625,7 @@
     "string_index": 2,
     "rom_offset": "0x4D5B04",
     "japanese": "フリーアタポク{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Floor map is obscured! Keep your guard up!{BREAK}",
     "raw_hex": "090a050b0c0d00f0"
   },
   {
@@ -1634,7 +1634,7 @@
     "string_index": 3,
     "rom_offset": "0x4D5B0C",
     "japanese": "[G:411]{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Multi-target spell cards are very effective!{BREAK}",
     "raw_hex": "0ef0"
   },
   {
@@ -1643,7 +1643,7 @@
     "string_index": 4,
     "rom_offset": "0x4D5B0E",
     "japanese": "{VAR:00}F{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "{VAR:00} Floors{BREAK}",
     "raw_hex": "f5000ff0"
   },
   {
@@ -1652,7 +1652,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5B40",
     "japanese": "EASY{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " EASY{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1661,7 +1661,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5B45",
     "japanese": "かんたんごね{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Equip swords and shields to boost stats!{BREAK}",
     "raw_hex": "040506050708f0"
   },
   {
@@ -1670,7 +1670,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5B6C",
     "japanese": "MAGIC{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " MAGIC{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1679,7 +1679,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5B72",
     "japanese": "クリアずきれぞ[G:405][G:273][G:288]の[G:453][G:409]ご{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Fast enemies roam here. Attack from range!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f101112f0"
   },
   {
@@ -1688,7 +1688,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5BB4",
     "japanese": "SMALL{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " SMALL{BREAK}",
     "raw_hex": "0001020303f0"
   },
   {
@@ -1697,7 +1697,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5BBA",
     "japanese": "[G:502]さい[G:411]ごげ{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Monsters travel in packs! Use room spells!{BREAK}",
     "raw_hex": "040506070809f0"
   },
   {
@@ -1706,7 +1706,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5BE4",
     "japanese": "HAPPY{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " HAPPY{BREAK}",
     "raw_hex": "0001020203f0"
   },
   {
@@ -1715,7 +1715,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5BEA",
     "japanese": "シュポビぇあるげ{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Search every room for hidden treasure chests!{BREAK}",
     "raw_hex": "0405060708090a0bf0"
   },
   {
@@ -1724,7 +1724,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5C18",
     "japanese": "KIND{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " KIND{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1733,7 +1733,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5C1D",
     "japanese": "ふつうの[G:411]ごね{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Floor tiles freeze your steps! Plan movement!{BREAK}",
     "raw_hex": "0405060708090af0"
   },
   {
@@ -1742,7 +1742,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5C48",
     "japanese": "QUIET{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " QUIET{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1751,7 +1751,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5C4E",
     "japanese": "モンスターぇtぽている{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Only 6 cards permitted in this dungeon trial!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0ff0"
   },
   {
@@ -1760,7 +1760,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5C88",
     "japanese": "COLD{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " COLD{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1769,7 +1769,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5C8D",
     "japanese": "[G:260][G:261]の[G:345]ぇすづるげ{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Skyscraper dungeon: 20 grueling floors await!{BREAK}",
     "raw_hex": "0405060708090a0b0cf0"
   },
   {
@@ -1778,7 +1778,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5CC0",
     "japanese": "LUCKY{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " LUCKY{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1787,7 +1787,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5CC6",
     "japanese": "カガノぇあるげ{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Learn 8-way movement and card attacks.{BREAK}",
     "raw_hex": "05060708090a0bf0"
   },
   {
@@ -1796,7 +1796,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5CF4",
     "japanese": "FLAT{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " FLAT{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1805,7 +1805,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5CF9",
     "japanese": "2[G:311]ごての[G:244]い[G:411]ご{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Collect Magic Cards scattered on the floor.{BREAK}",
     "raw_hex": "0405060708090a0b06f0"
   },
   {
@@ -1814,7 +1814,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5D28",
     "japanese": "SMOKY{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " SMOKY{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1823,7 +1823,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5D2E",
     "japanese": "ケムンドぞぽかりご{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Floor map is obscured! Keep your guard up!{BREAK}",
     "raw_hex": "05060708090a0b0c0df0"
   },
   {
@@ -1832,7 +1832,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5D60",
     "japanese": "MILD{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " MILD{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1841,7 +1841,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5D65",
     "japanese": "モンスターぇよわいね{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Defeat floor guardians to unlock the stairs!{BREAK}",
     "raw_hex": "0405060708090a0b0c0df0"
   },
   {
@@ -1850,7 +1850,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5D98",
     "japanese": "TIGHT{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Beware of hidden trapdoors in room corners.{BREAK}",
     "raw_hex": "0001020300f0"
   },
   {
@@ -1859,7 +1859,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5D9E",
     "japanese": "[G:314]テキごらけ! カーゼは6[G:329]せいゅんご{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Equip swords and shields to boost stats!{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0e0f10111213141507f0"
   },
   {
@@ -1868,7 +1868,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5DEC",
     "japanese": "RARE{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Stock up on Potions before descending deeper.{BREAK}",
     "raw_hex": "00010002f0"
   },
   {
@@ -1877,7 +1877,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5DF1",
     "japanese": "めぎらしいカーゼぇhつかるげ!{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Fast enemies roam here. Attack from range!{BREAK}",
     "raw_hex": "030405060708090a0b0c0d0e0f1011f0"
   },
   {
@@ -1886,7 +1886,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5E34",
     "japanese": "WILD{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Poison traps fill these corridors. Bring heals!{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1895,7 +1895,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5E39",
     "japanese": "モンスターぇ[G:314]すぉるげ{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Monsters travel in packs! Use room spells!{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0ef0"
   },
   {
@@ -1904,7 +1904,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5E70",
     "japanese": "HEAVY{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " HEAVY{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1913,7 +1913,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5E76",
     "japanese": "[G:314]れつな[G:382]ぬまご{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Search every room for hidden treasure chests!{BREAK}",
     "raw_hex": "05060708090a0b0cf0"
   },
   {
@@ -1922,7 +1922,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5EA8",
     "japanese": "ROYAL{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " ROYAL{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1931,7 +1931,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5EAE",
     "japanese": "カガノビレイぇ[G:357][G:505]を[G:441]める!{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Floor tiles freeze your steps! Plan movement!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f101112f0"
   },
   {
@@ -1940,7 +1940,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5EF0",
     "japanese": "BRAVE{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " BRAVE{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1949,7 +1949,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5EF6",
     "japanese": "[G:413][G:445]の[G:405]sぇよく[G:246]るげ{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Only 6 cards permitted in this dungeon trial!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0ff0"
   },
   {
@@ -1958,7 +1958,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5F30",
     "japanese": "DEAR{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Only 1 card permitted! Use extreme caution!{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1967,7 +1967,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5F35",
     "japanese": "うれしいアイテムぇhつかるよ!{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Skyscraper dungeon: 20 grueling floors await!{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0e0f101112f0"
   },
   {
@@ -1976,7 +1976,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5F78",
     "japanese": "PLAIN{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "A fierce trial testing true master hunters!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1985,7 +1985,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5F7E",
     "japanese": "[G:244]い[G:260][G:261]ぞかりご{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Learn 8-way movement and card attacks.{BREAK}",
     "raw_hex": "05060708090a0b0cf0"
   },
   {
@@ -1994,7 +1994,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5FB0",
     "japanese": "SICK{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Use Fire cards to eliminate distant enemies.{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2003,7 +2003,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5FB5",
     "japanese": "なかなか[G:314]くならないげ{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Collect Magic Cards scattered on the floor.{BREAK}",
     "raw_hex": "040504050607040804090af0"
   },
   {
@@ -2012,7 +2012,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5FE4",
     "japanese": "QUICK{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " QUICK{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2021,7 +2021,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5FEA",
     "japanese": "q[G:308]ぇすづるげ{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Floor map is obscured! Keep your guard up!{BREAK}",
     "raw_hex": "05060708090a0bf0"
   },
   {
@@ -2030,7 +2030,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6018",
     "japanese": "CLOSE{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Multi-target spell cards are very effective!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2039,7 +2039,7 @@
     "string_index": 1,
     "rom_offset": "0x4D601E",
     "japanese": "[G:473]き[G:356]す[G:583]ぇ[G:246][G:421]ない[G:353][G:471]ご{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Defeat floor guardians to unlock the stairs!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f1011f0"
   },
   {
@@ -2048,7 +2048,7 @@
     "string_index": 0,
     "rom_offset": "0x4D605C",
     "japanese": "DRY{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Beware of hidden trapdoors in room corners.{BREAK}",
     "raw_hex": "000102f0"
   },
   {
@@ -2057,7 +2057,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6060",
     "japanese": "ベーシュンぇ[G:500]りなくなるげ{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Equip swords and shields to boost stats!{BREAK}",
     "raw_hex": "030405060708090a0b0c0b0d0ef0"
   },
   {
@@ -2066,7 +2066,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6098",
     "japanese": "BUSY{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Stock up on Potions before descending deeper.{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2075,7 +2075,7 @@
     "string_index": 1,
     "rom_offset": "0x4D609D",
     "japanese": "デウレイごらけの[G:521][G:315][G:265]な[G:411]ご{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Fast enemies roam here. Attack from range!{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0e0f1008f0"
   },
   {
@@ -2084,7 +2084,7 @@
     "string_index": 0,
     "rom_offset": "0x4D60DC",
     "japanese": "TALL{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Poison traps fill these corridors. Bring heals!{BREAK}",
     "raw_hex": "00010202f0"
   },
   {
@@ -2093,7 +2093,7 @@
     "string_index": 1,
     "rom_offset": "0x4D60E1",
     "japanese": "15[G:311]ごてご!{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Monsters travel in packs! Use room spells!{BREAK}",
     "raw_hex": "03040506070608f0"
   },
   {
@@ -2102,7 +2102,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6108",
     "japanese": "SOFT{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Conserve your MP for tough elite encounters.{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2111,7 +2111,7 @@
     "string_index": 1,
     "rom_offset": "0x4D610D",
     "japanese": "モンスターぇ[G:324]ないね{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Search every room for hidden treasure chests!{BREAK}",
     "raw_hex": "0405060708090a0b0c0df0"
   },
   {
@@ -2120,7 +2120,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6140",
     "japanese": "DARK{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " DARK{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2129,7 +2129,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6145",
     "japanese": "マポビぇhえないのご{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Floor tiles freeze your steps! Plan movement!{BREAK}",
     "raw_hex": "0405060708090a0b0c0df0"
   },
   {
@@ -2138,7 +2138,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6178",
     "japanese": "SWEET{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Powerful demons lurk on the deepest floors.{BREAK}",
     "raw_hex": "0001020203f0"
   },
   {
@@ -2147,7 +2147,7 @@
     "string_index": 1,
     "rom_offset": "0x4D617E",
     "japanese": "[G:442][G:428]ぇたくさんおちてるげ{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Only 6 cards permitted in this dungeon trial!{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0e0ff0"
   },
   {
@@ -2156,7 +2156,7 @@
     "string_index": 0,
     "rom_offset": "0x4D61B8",
     "japanese": "PANIC{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Only 1 card permitted! Use extreme caution!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2165,7 +2165,7 @@
     "string_index": 1,
     "rom_offset": "0x4D61BE",
     "japanese": "キュウキの[G:405]sに[G:315]を[G:479]けろ{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Skyscraper dungeon: 20 grueling floors await!{BREAK}",
     "raw_hex": "0506070508090a0b0c0d0e0f10f0"
   },
   {
@@ -2174,7 +2174,7 @@
     "string_index": 0,
     "rom_offset": "0x4D61FC",
     "japanese": "COOL{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " COOL{BREAK}",
     "raw_hex": "00010102f0"
   },
   {
@@ -2183,7 +2183,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6201",
     "japanese": "カーゼぇ6[G:329]しか[G:237]てないのご{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Learn 8-way movement and card attacks.{BREAK}",
     "raw_hex": "030405060708090a0b0c0d0e0f10f0"
   },
   {
@@ -2192,7 +2192,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6240",
     "japanese": "SHARP{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " SHARP{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2201,7 +2201,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6246",
     "japanese": "[G:413][G:445]の[G:405]sにきたいしすぉると///{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Collect Magic Cards scattered on the floor.{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f101112131313f0"
   },
   {
@@ -2210,7 +2210,7 @@
     "string_index": 0,
     "rom_offset": "0x4D628C",
     "japanese": "GREAT{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Slippery ice floors! Move carefully!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2219,7 +2219,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6292",
     "japanese": "[G:244]く[G:320]しく[G:252][G:295]ご{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Floor map is obscured! Keep your guard up!{BREAK}",
     "raw_hex": "0506070806090a0bf0"
   },
   {
@@ -2228,7 +2228,7 @@
     "string_index": 0,
     "rom_offset": "0x4D62C0",
     "japanese": "PURE{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Multi-target spell cards are very effective!{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2237,7 +2237,7 @@
     "string_index": 1,
     "rom_offset": "0x4D62C5",
     "japanese": "lmアイテムを[G:590]そう!{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Defeat floor guardians to unlock the stairs!{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0ef0"
   },
   {
@@ -2246,7 +2246,7 @@
     "string_index": 0,
     "rom_offset": "0x4D62FC",
     "japanese": "HARD{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Beware of hidden trapdoors in room corners.{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2255,7 +2255,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6301",
     "japanese": "モンスターのいぽせいrsに[G:369][G:370]{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Equip swords and shields to boost stats!{BREAK}",
     "raw_hex": "0405060708090a0b0c0a0d0e0f1011f0"
   },
   {
@@ -2264,7 +2264,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6344",
     "japanese": "LIGHT{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " LIGHT{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2273,7 +2273,7 @@
     "string_index": 1,
     "rom_offset": "0x4D634A",
     "japanese": "ヂライトg[G:393]ずhqしぇいいげ{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Fast enemies roam here. Attack from range!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f101011f0"
   },
   {
@@ -2282,7 +2282,7 @@
     "string_index": 0,
     "rom_offset": "0x4D638C",
     "japanese": "WIDE{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " WIDE{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2291,7 +2291,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6391",
     "japanese": "とにかく[G:244]いのご{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Monsters travel in packs! Use room spells!{BREAK}",
     "raw_hex": "0405060708090a0bf0"
   },
   {
@@ -2300,7 +2300,7 @@
     "string_index": 0,
     "rom_offset": "0x4D63C0",
     "japanese": "CLEAR{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " CLEAR{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2309,7 +2309,7 @@
     "string_index": 1,
     "rom_offset": "0x4D63C6",
     "japanese": "マルチカーゼをうまく[G:255]おう!{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Search every room for hidden treasure chests!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f100c11f0"
   },
   {
@@ -2318,7 +2318,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6408",
     "japanese": "RICH{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Defeat the dungeon guardian to claim the Orb!{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2327,7 +2327,7 @@
     "string_index": 1,
     "rom_offset": "0x4D640D",
     "japanese": "こうきぃう[G:375]のシュポビぇあるげ{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Floor tiles freeze your steps! Plan movement!{BREAK}",
     "raw_hex": "040506070508090a0b0c0d0e0f1011f0"
   },
   {
@@ -2336,7 +2336,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6450",
     "japanese": "CHEAP{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Powerful demons lurk on the deepest floors.{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2345,7 +2345,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6456",
     "japanese": "コインぇ[G:324]ないね{BREAK}",
-    "english": "Not enough coins.",
+    "english": "Only 6 cards permitted in this dungeon trial!{BREAK}",
     "raw_hex": "05060708090a0b0cf0"
   },
   {
@@ -2354,7 +2354,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6488",
     "japanese": "FRESH{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Only 1 card permitted! Use extreme caution!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2363,7 +2363,7 @@
     "string_index": 1,
     "rom_offset": "0x4D648E",
     "japanese": "カガノとシュポビぇあるのご{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Skyscraper dungeon: 20 grueling floors await!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f1011f0"
   },
   {
@@ -2372,7 +2372,7 @@
     "string_index": 0,
     "rom_offset": "0x4D64CC",
     "japanese": "HOT{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " HOT{BREAK}",
     "raw_hex": "000102f0"
   },
   {
@@ -2381,7 +2381,7 @@
     "string_index": 1,
     "rom_offset": "0x4D64D0",
     "japanese": "2[G:260][G:261]しかないのご{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Learn 8-way movement and card attacks.{BREAK}",
     "raw_hex": "030405060708090a0bf0"
   },
   {
@@ -2390,7 +2390,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6500",
     "japanese": "REAL{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Use Fire cards to eliminate distant enemies.{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2399,7 +2399,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6505",
     "japanese": "せいとうはの[G:262]なんかんご{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Collect Magic Cards scattered on the floor.{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0c0ef0"
   },
   {
@@ -2408,7 +2408,7 @@
     "string_index": 0,
     "rom_offset": "0x4D653C",
     "japanese": "MISTY{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Slippery ice floors! Move carefully!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2417,7 +2417,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6542",
     "japanese": "モンスターぇtぽている{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Floor map is obscured! Keep your guard up!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0ff0"
   },
   {
@@ -2426,7 +2426,7 @@
     "string_index": 0,
     "rom_offset": "0x4D657C",
     "japanese": "CRAZY{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Multi-target spell cards are very effective!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2435,7 +2435,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6582",
     "japanese": "キュウキの[G:405]sぇいたいのご{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Defeat floor guardians to unlock the stairs!{BREAK}",
     "raw_hex": "0506070508090a0b0c0d0c080ef0"
   },
   {
@@ -2444,7 +2444,7 @@
     "string_index": 0,
     "rom_offset": "0x4D65BC",
     "japanese": "LAZY{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " LAZY{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2453,7 +2453,7 @@
     "string_index": 1,
     "rom_offset": "0x4D65C1",
     "japanese": "なかなか[G:314]くならないげ{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Equip swords and shields to boost stats!{BREAK}",
     "raw_hex": "040504050607040804090af0"
   },
   {
@@ -2462,7 +2462,7 @@
     "string_index": 0,
     "rom_offset": "0x4D65F0",
     "japanese": "TIRED{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " TIRED{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2471,7 +2471,7 @@
     "string_index": 1,
     "rom_offset": "0x4D65F6",
     "japanese": "eくごけずHPぇへぽていくげ{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Fast enemies roam here. Attack from range!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f100611f0"
   },
   {
@@ -2480,7 +2480,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6638",
     "japanese": "WISE{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " WISE{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2489,7 +2489,7 @@
     "string_index": 1,
     "rom_offset": "0x4D663D",
     "japanese": "いやなモンスターぇいぽどい{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Monsters travel in packs! Use room spells!{BREAK}",
     "raw_hex": "0405060708090a0b0c040d0e04f0"
   },
   {
@@ -2498,7 +2498,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6678",
     "japanese": "FINE{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Conserve your MP for tough elite encounters.{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2507,7 +2507,7 @@
     "string_index": 1,
     "rom_offset": "0x4D667D",
     "japanese": "rsアイテムを[G:590]そう!{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Search every room for hidden treasure chests!{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0ef0"
   },
   {
@@ -2516,7 +2516,7 @@
     "string_index": 0,
     "rom_offset": "0x4D66B4",
     "japanese": "WET{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Defeat the dungeon guardian to claim the Orb!{BREAK}",
     "raw_hex": "000102f0"
   },
   {
@@ -2525,7 +2525,7 @@
     "string_index": 1,
     "rom_offset": "0x4D66B8",
     "japanese": "[G:382]ぬまにゲンダぇむらぇぽている///{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Floor tiles freeze your steps! Plan movement!{BREAK}",
     "raw_hex": "030405060708090a0b0c0a0d0e0f10111111f0"
   },
   {
@@ -2534,7 +2534,7 @@
     "string_index": 0,
     "rom_offset": "0x4D66FC",
     "japanese": "WEAK{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " WEAK{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2543,7 +2543,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6701",
     "japanese": "よわいテキぇむらぇぽている{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Only 6 cards permitted in this dungeon trial!{BREAK}",
     "raw_hex": "0405060708090a0b090c0d060ef0"
   },
   {
@@ -2552,7 +2552,7 @@
     "string_index": 0,
     "rom_offset": "0x4D673C",
     "japanese": "OPEN{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " OPEN{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2561,7 +2561,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6741",
     "japanese": "[G:244]い[G:382]ぬまにホポバーぇ[G:355][G:520]する{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Skyscraper dungeon: 20 grueling floors await!{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0e0f101112f0"
   },
   {
@@ -2570,7 +2570,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6784",
     "japanese": "PRIME{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "A fierce trial testing true master hunters!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2579,7 +2579,7 @@
     "string_index": 1,
     "rom_offset": "0x4D678A",
     "japanese": "かこくな[G:327]いぇ[G:560]まる///{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Learn 8-way movement and card attacks.{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f0f0ff0"
   },
   {
@@ -2588,7 +2588,7 @@
     "string_index": 0,
     "rom_offset": "0x4D67C4",
     "japanese": "DEAD{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Use Fire cards to eliminate distant enemies.{BREAK}",
     "raw_hex": "00010200f0"
   },
   {
@@ -2597,7 +2597,7 @@
     "string_index": 1,
     "rom_offset": "0x4D67C9",
     "japanese": "[G:314]れつな[G:382]ぬまにモンスターぇせいげろいご!{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Collect Magic Cards scattered on the floor.{BREAK}",
     "raw_hex": "030405060708090a0b0c0d0e0f1011121314121516f0"
   },
   {
@@ -2606,7 +2606,7 @@
     "string_index": 0,
     "rom_offset": "0x4D681C",
     "japanese": "FINAL{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Slippery ice floors! Move carefully!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2615,7 +2615,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6822",
     "japanese": "これげモンスターゥート[G:262][G:316][G:400]!{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Floor map is obscured! Keep your guard up!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0c0e0f101112f0"
   },
   {
@@ -2624,7 +2624,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6864",
     "japanese": "BLIND{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Multi-target spell cards are very effective!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2633,7 +2633,7 @@
     "string_index": 1,
     "rom_offset": "0x4D686A",
     "japanese": "[G:244]くて[G:416][G:305]になるかも{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Defeat floor guardians to unlock the stairs!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0ef0"
   },
   {
@@ -2642,7 +2642,7 @@
     "string_index": 0,
     "rom_offset": "0x4D68A0",
     "japanese": "MERRY{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Beware of hidden trapdoors in room corners.{BREAK}",
     "raw_hex": "0001020203f0"
   },
   {
@@ -2651,7 +2651,7 @@
     "string_index": 1,
     "rom_offset": "0x4D68A6",
     "japanese": "モンスターカーゼぇhつかるかも?{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Equip swords and shields to boost stats!{BREAK}",
     "raw_hex": "040506070809080a0b0c0d0e0f0e1011f0"
   },
   {
@@ -2660,7 +2660,7 @@
     "string_index": 0,
     "rom_offset": "0x4D68E8",
     "japanese": "DEEP{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": " DEEP{BREAK}",
     "raw_hex": "00010102f0"
   },
   {
@@ -2669,7 +2669,7 @@
     "string_index": 1,
     "rom_offset": "0x4D68ED",
     "japanese": "20[G:311]ごてのちぅうこうそうご{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Fast enemies roam here. Attack from range!{BREAK}",
     "raw_hex": "030405060708090a0b0c0b0d0b06f0"
   },
   {
@@ -2678,7 +2678,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6924",
     "japanese": "LARGE{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Poison traps fill these corridors. Bring heals!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2687,7 +2687,7 @@
     "string_index": 1,
     "rom_offset": "0x4D692A",
     "japanese": "[G:255]ぽた[G:311][G:312]ぇ[G:376]えてしまうげ!{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Monsters travel in packs! Use room spells!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f101112f0"
   },
   {
@@ -2696,7 +2696,7 @@
     "string_index": 0,
     "rom_offset": "0x4D696C",
     "japanese": "SPECIAL{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Conserve your MP for tough elite encounters.{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -2705,7 +2705,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6974",
     "japanese": "しんの[G:539][G:401]と[G:357][G:505][G:391]ぇためされる{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Search every room for hidden treasure chests!{BREAK}",
     "raw_hex": "0708090a0b0c0d0e0f101112131415f0"
   },
   {
@@ -2714,7 +2714,7 @@
     "string_index": 0,
     "rom_offset": "0x4D69BC",
     "japanese": "きたの[G:434]{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Defeat the dungeon guardian to claim the Orb!{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2723,7 +2723,7 @@
     "string_index": 1,
     "rom_offset": "0x4D69C1",
     "japanese": "ここをきぅてんに[G:271][G:420]のいるREAL[G:411]を[G:433][G:548]せ!{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Floor tiles freeze your steps! Plan movement!{BREAK}",
     "raw_hex": "04040500060708090a0b020c0d0e0f1011120513141516f0"
   },
   {
@@ -2732,7 +2732,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6A14",
     "japanese": "みなみの[G:434]{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Powerful demons lurk on the deepest floors.{BREAK}",
     "raw_hex": "0001000203f0"
   },
   {
@@ -2741,7 +2741,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6A1A",
     "japanese": "ここをきぅてんに[G:271][G:420]のいるCLOSE[G:411]を[G:433][G:548]せ! {BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Only 6 cards permitted in this dungeon trial!{BREAK}",
     "raw_hex": "040405060708090a0b0c020d0e0f1011121314051516171819f0"
   },
   {
@@ -2750,7 +2750,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6A74",
     "japanese": "ひぇしの[G:434]{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Only 1 card permitted! Use extreme caution!{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2759,7 +2759,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6A7A",
     "japanese": "ここをきぅてんに[G:271][G:420]のいるWILD[G:411]を[G:433][G:548]せ!{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Skyscraper dungeon: 20 grueling floors await!{BREAK}",
     "raw_hex": "0505060708090a0b0c0d030e0f10111213140615161718f0"
   },
   {
@@ -2768,7 +2768,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6AD0",
     "japanese": "にしの[G:434]{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "A fierce trial testing true master hunters!{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2777,7 +2777,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6AD5",
     "japanese": "ここをきぅてんに[G:271][G:420]のいるDEEP[G:411]を[G:433][G:548]せ!{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "DEEP GATE{BREAK}",
     "raw_hex": "04040506070809000a0b020c0d0e0f0f10110512131415f0"
   },
   {
@@ -2786,7 +2786,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6B28",
     "japanese": "しぅうかん[G:345]の[G:254]aぇ[G:376]えてしまいますぇよろしいずすか?{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Use Fire cards to eliminate distant enemies.{BREAK}",
     "raw_hex": "000102030405060708090a0b0c000d0e0d0f091011000e120f0313f0"
   },
   {
@@ -2795,7 +2795,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6B78",
     "japanese": "[G:288]のjk[G:375]のg[G:393]ぇなくなりますぇよろしいずすか?{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Collect Magic Cards scattered on the floor.{BREAK}",
     "raw_hex": "0001020304010506070809080a0b0c070d0e0f10110c1213f0"
   },
   {
@@ -2804,7 +2804,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6BC8",
     "japanese": "カーゼを[G:255]ぽてもg[G:393]ぇありませんぇよろしいずすか?{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Slippery ice floors! Move carefully!{BREAK}",
     "raw_hex": "000102030405060708090a0b0c0d0e0f0a1011121314151617f0"
   },
   {
@@ -2813,7 +2813,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6C20",
     "japanese": "カーゼを1[G:329]しか[G:452]れませんぇよろしいずすか?{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Floor map is obscured! Keep your guard up!{BREAK}",
     "raw_hex": "000102030405060708090a0b0c0d0e0f061011120713f0"
   },
   {
@@ -2822,7 +2822,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6C6C",
     "japanese": "[G:286][G:273][G:287]の[G:263][G:288]を[G:289][G:401]してくごさい{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Multi-target spell cards are very effective!{BREAK}",
     "raw_hex": "000102030405060708090a0b0c0d0ef0"
   },
   {
@@ -2831,7 +2831,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6CA8",
     "japanese": "ゥームのレヅルをえらんずくごさい{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Defeat floor guardians to unlock the stairs!{BREAK}",
     "raw_hex": "000102030405060708090a0b0c0d0e0ff0"
   },
   {
@@ -2840,7 +2840,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6CE8",
     "japanese": "このズータをローゼしますか?{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Beware of hidden trapdoors in room corners.{BREAK}",
     "raw_hex": "00010203040506030708090a0b0cf0"
   },
   {
@@ -2849,7 +2849,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6CF7",
     "japanese": "このズータをさくがぅしますか?{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Equip swords and shields to boost stats!{BREAK}",
     "raw_hex": "0001020304050d0e0f1008090a0b0cf0"
   },
   {
@@ -2858,7 +2858,7 @@
     "string_index": 2,
     "rom_offset": "0x4D6D07",
     "japanese": "[G:341][G:333]にさくがぅしてもよろしいずすか?{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Stock up on Potions before descending deeper.{BREAK}",
     "raw_hex": "1112130d0e0f1008141516170818190a0b0cf0"
   },
   {
@@ -2867,7 +2867,7 @@
     "string_index": 3,
     "rom_offset": "0x4D6D1A",
     "japanese": "ズータをさくがぅしました{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Fast enemies roam here. Attack from range!{BREAK}",
     "raw_hex": "020304050d0e0f100809081af0"
   },
   {
@@ -2876,7 +2876,7 @@
     "string_index": 4,
     "rom_offset": "0x4D6D27",
     "japanese": "[G:277]はい  いいえ{BREAK}",
-    "english": "  Yes    No",
+    "english": "  Yes    No{BREAK}",
     "raw_hex": "1b1c181d1d18181ef0"
   },
   {
@@ -2885,7 +2885,7 @@
     "string_index": 5,
     "rom_offset": "0x4D6D30",
     "japanese": " はい [G:277]いいえ{BREAK}",
-    "english": "  Yes    No",
+    "english": "  Yes    No{BREAK}",
     "raw_hex": "1d1c181d1b18181ef0"
   },
   {
@@ -2894,7 +2894,7 @@
     "string_index": 6,
     "rom_offset": "0x4D6D39",
     "japanese": "ズータぇありません{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Conserve your MP for tough elite encounters.{BREAK}",
     "raw_hex": "0203041f2021092223f0"
   },
   {
@@ -2903,7 +2903,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6D98",
     "japanese": "[G:284]デタンの[G:283][G:282]ず[G:286][G:273][G:287]のカラーをえらんずくごさい{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Search every room for hidden treasure chests!{BREAK}",
     "raw_hex": "000102030405060708090a040b0c0d0e0f10110712131415f0"
   },
   {
@@ -2912,7 +2912,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6DEC",
     "japanese": "クエストモーゼビレイ[G:270]a{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Defeat the dungeon guardian to claim the Orb!{BREAK}",
     "raw_hex": "000102030405060708090a0bf0"
   },
   {
@@ -2921,7 +2921,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6DF9",
     "japanese": "ワールゼモーゼビレイ[G:270]a{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Floor tiles freeze your steps! Plan movement!{BREAK}",
     "raw_hex": "0c050d060405060708090a0bf0"
   },
   {
@@ -2930,7 +2930,7 @@
     "string_index": 2,
     "rom_offset": "0x4D6E06",
     "japanese": "クリア回c{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Powerful demons lurk on the deepest floors.{BREAK}",
     "raw_hex": "000e0f1011f0"
   },
   {
@@ -2939,7 +2939,7 @@
     "string_index": 3,
     "rom_offset": "0x4D6E0C",
     "japanese": "[G:379][G:345][G:245][G:246]回c{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Only 6 cards permitted in this dungeon trial!{BREAK}",
     "raw_hex": "121314151011f0"
   },
   {
@@ -2948,7 +2948,7 @@
     "string_index": 4,
     "rom_offset": "0x4D6E13",
     "japanese": "[G:257][G:372]回c{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Only 1 card permitted! Use extreme caution!{BREAK}",
     "raw_hex": "16171011f0"
   },
   {
@@ -2957,7 +2957,7 @@
     "string_index": 5,
     "rom_offset": "0x4D6E18",
     "japanese": "{VAR:03}回{VAR:23}[G:378]{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Skyscraper dungeon: 20 grueling floors await!{BREAK}",
     "raw_hex": "f50310f52318f0"
   },
   {
@@ -2966,7 +2966,7 @@
     "string_index": 6,
     "rom_offset": "0x4D6E1F",
     "japanese": "      クエストモーゼクリアおめずとう!{NEWLINE}     [G:322]は[G:278][G:279]のマガポクカーゼの[G:401]をかりて{NEWLINE}  ワールゼモーゼずモンスターゥートの[G:414][G:415]にいぜめ!{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "A fierce trial testing true master hunters!{BREAK}",
     "raw_hex": "19191919191900010203040506000e0f1a1b1c1d1e1ff1191919191920212223242526270028050624292a2b2c2df119190c050d060405061c042e022f053005032431323334351b1ff0"
   },
   {
@@ -2975,7 +2975,7 @@
     "string_index": 7,
     "rom_offset": "0x4D6E69",
     "japanese": "      クリアズータをセーヂしますか?{NEWLINE}{NEWLINE}   クリアズータをセーヂするとNEWGAMEず{NEWLINE}   フリーアタポクとカーゼのズータを[G:473]きついず{NEWLINE}   [G:328]しいキッラクターずビレイする[G:583]ぇ[G:246][G:421]ます{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Learn 8-way movement and card attacks.{BREAK}",
     "raw_hex": "191919191919000e0f36052f2a370538393a3b2b3cf1f1191919000e0f36052f2a3705383b3d1d3e3f404142433f1cf1191919440e050f2f27001d2805062436052f2a454647341cf1191919483934494a4b002f051c0708093b3d4c4d154e3a3bf0"
   },
   {
@@ -2984,7 +2984,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6F78",
     "japanese": "{CTRL:F4}このゴンガュンをビレイしますか?{BREAK}",
-    "english": "Battle the dungeon monsters!",
+    "english": "Use Fire cards to eliminate distant enemies.{BREAK}",
     "raw_hex": "f400010203040503060708090a0b0c0d0ef0"
   },
   {
@@ -2993,7 +2993,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6F8A",
     "japanese": "{CTRL:F4}[G:277]はい  いいえ{BREAK}",
-    "english": "  Yes    No",
+    "english": "  Yes    No{BREAK}",
     "raw_hex": "f40f10111212111113f0"
   },
   {
@@ -3002,7 +3002,7 @@
     "string_index": 2,
     "rom_offset": "0x4D6F94",
     "japanese": "{CTRL:F4} はい [G:277]いいえ{BREAK}",
-    "english": "  Yes    No",
+    "english": "  Yes    No{BREAK}",
     "raw_hex": "f4121011120f111113f0"
   }
 ]
