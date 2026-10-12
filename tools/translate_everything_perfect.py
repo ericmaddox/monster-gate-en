@@ -10,7 +10,9 @@ Zero truncated lines, zero dropped sentences, zero Japanese glyphs.
 import json
 import os
 import re
+import sys
 
+sys.path.insert(0, os.path.abspath("."))
 RAW_DUMP_PATH = "text/raw_dump.json"
 
 # =========================================================================
@@ -476,94 +478,14 @@ TOWN_FACILITIES_DATA = {
 # 9. CUTSCENE DIALOGUE GENERATOR (Descriptors 418 - 549)
 # =========================================================================
 
-def get_speaker_tag(raw_jp):
-    if "門番" in raw_jp:
-        return "{CTRL:F9}Guard"
-    elif "サファイア" in raw_jp or "サファア" in raw_jp:
-        return "{CTRL:F9}Saph"
-    elif "バラム" in raw_jp:
-        return "{CTRL:F9}Balam"
-    elif "マリウス" in raw_jp:
-        return "{CTRL:F9}Marius"
-    elif "エレス" in raw_jp or "ガレス" in raw_jp:
-        return "{CTRL:F9}Gareth"
-    elif "フルカ" in raw_jp:
-        return "{CTRL:F9}Fulka"
-    elif "ロドリーグ" in raw_jp:
-        return "{CTRL:F9}Rodrig"
-    elif "ソフパ" in raw_jp:
-        return "{CTRL:F9}Sofpa"
-    elif "シャドウ" in raw_jp:
-        return "{CTRL:F9}Shadow"
-    elif "サーシャ" in raw_jp:
-        return "{CTRL:F9}Sasha"
-    elif "ギャンブラー" in raw_jp:
-        return "{CTRL:F9}Gambler"
-    elif "{CTRL:F6}" in raw_jp:
-        return "{CTRL:F9}{CTRL:F6}"
-    else:
-        return ""
+from tools.cutscenes_1_4 import CUTSCENES_1_4
+from tools.cutscenes_5_8 import CUTSCENES_5_8
+from tools.cutscenes_9_12 import CUTSCENES_9_12
 
-def format_cutscene_box(speaker, l1, l2=""):
-    l1 = l1.strip()
-    l2 = l2.strip()
-    if l2:
-        body = f"{l1}{{NEWLINE}}{l2}"
-    else:
-        body = l1
-    if speaker:
-        return f"{speaker}{{NEWLINE}}{body}{{CTRL:F3}}"
-    else:
-        return f"{body}{{CTRL:F3}}"
-
-KEY_CUTSCENES = {
-    418: [
-        ("{CTRL:F9}{CTRL:F6}", "The village...{NEWLINE}is on fire?!"),
-        ("", "What happened{NEWLINE}to our home?!"),
-        ("{CTRL:F9}???", "Ugh...{NEWLINE}...help me..."),
-        ("", "A voice?! Is{NEWLINE}someone there?"),
-        ("{CTRL:F9}{CTRL:F6}", "Sa-Sapphire!{NEWLINE}Hold on!"),
-        ("{CTRL:F9}Saph", "You're safe...{NEWLINE}thank heavens."),
-        ("{CTRL:F9}{CTRL:F6}", "What happened{NEWLINE}while out?"),
-        ("{CTRL:F9}Saph", "Monsters came{NEWLINE}from the Gate."),
-        ("{CTRL:F9}{CTRL:F6}", "Monsters?!{NEWLINE}From where?!"),
-        ("{CTRL:F9}Saph", "An army poured{NEWLINE}from ruins..."),
-        ("{CTRL:F9}Saph", "All were...{NEWLINE}...scattered."),
-        ("{CTRL:F9}{CTRL:F6}", "Don't speak! I{NEWLINE}will heal you!"),
-        ("{CTRL:F9}Saph", "It's no use...{NEWLINE}my time ends."),
-        ("{CTRL:F9}{CTRL:F6}", "No! Stay with{NEWLINE}me, Sapphire!"),
-        ("{CTRL:F9}Saph", "Go find the{NEWLINE}Gatekeeper..."),
-        ("{CTRL:F9}Saph", "The Gate must{NEWLINE}be sealed..."),
-        ("{CTRL:F9}{CTRL:F6}", "Sapphire!!{NEWLINE}Stay with me!"),
-        ("", "... ... ...{NEWLINE}...she passed."),
-        ("{CTRL:F9}{CTRL:F6}", "I will avenge{NEWLINE}you, Sapphire!")
-    ],
-    419: [
-        ("{CTRL:F9}{CTRL:F6}", "Are you the{NEWLINE}Gatekeeper?"),
-        ("{CTRL:F9}Guard", "Indeed. Who{NEWLINE}goes there?"),
-        ("{CTRL:F9}{CTRL:F6}", "Sapphire sent{NEWLINE}me to you."),
-        ("{CTRL:F9}{CTRL:F6}", "Monsters have{NEWLINE}overrun all!"),
-        ("{CTRL:F9}Guard", "Sapphire?! The{NEWLINE}seal is torn!"),
-        ("{CTRL:F9}{CTRL:F6}", "What is this{NEWLINE}Monster Gate?!"),
-        ("{CTRL:F9}Guard", "A gate to the{NEWLINE}demon abyss."),
-        ("{CTRL:F9}Guard", "Ancient Orbs{NEWLINE}kept it shut."),
-        ("{CTRL:F9}{CTRL:F6}", "How do we seal{NEWLINE}it again?!"),
-        ("{CTRL:F9}Guard", "Recover the{NEWLINE}four Orbs!"),
-        ("{CTRL:F9}Guard", "The shock hit{NEWLINE}them to bits!"),
-        ("{CTRL:F9}{CTRL:F6}", "Where are the{NEWLINE}fragments now?"),
-        ("{CTRL:F9}Guard", "Scattered in{NEWLINE}deep dungeons."),
-        ("{CTRL:F9}Guard", "Conquer gates{NEWLINE}to find them!"),
-        ("{CTRL:F9}{CTRL:F6}", "I will find{NEWLINE}every piece!"),
-        ("{CTRL:F9}Guard", "Brave words.{NEWLINE}Take these!"),
-        ("{CTRL:F9}Guard", "A starter deck{NEWLINE}of cards."),
-        ("{CTRL:F9}{CTRL:F6}", "Cards like{NEWLINE}Sapphire used?"),
-        ("{CTRL:F9}Guard", "Master them to{NEWLINE}slay monsters."),
-        ("{CTRL:F9}Guard", "Begin with the{NEWLINE}EASY GATE."),
-        ("{CTRL:F9}Guard", "Return when{NEWLINE}you clear it!"),
-        ("{CTRL:F9}{CTRL:F6}", "I understand!{NEWLINE}I won't fail!"),
-        ("{CTRL:F9}Guard", "May fortune{NEWLINE}protect you.")
-    ]
-}
+ALL_CUTSCENES = {}
+ALL_CUTSCENES.update(CUTSCENES_1_4)
+ALL_CUTSCENES.update(CUTSCENES_5_8)
+ALL_CUTSCENES.update(CUTSCENES_9_12)
 
 def translate_dialogue():
     with open(RAW_DUMP_PATH, "r", encoding="utf-8") as f:
@@ -597,16 +519,11 @@ def translate_dialogue():
                 global_id += 1
             continue
 
-        if didx in KEY_CUTSCENES:
-            k_list = KEY_CUTSCENES[didx]
+        if didx in ALL_CUTSCENES:
+            c_list = ALL_CUTSCENES[didx]
             for sidx in range(num_strings):
                 raw_s = raw_strings[sidx]
-                spk, body = k_list[sidx % len(k_list)]
-                if "{NEWLINE}" in body:
-                    lines = body.split("{NEWLINE}")
-                    en_text = format_cutscene_box(spk, lines[0], lines[1])
-                else:
-                    en_text = format_cutscene_box(spk, body)
+                en_text = c_list[sidx]
                 all_dialogue.append({
                     "id": global_id,
                     "descriptor_index": didx,
@@ -621,63 +538,13 @@ def translate_dialogue():
 
         for sidx in range(num_strings):
             raw_s = raw_strings[sidx]
-            jp = raw_s["japanese"]
-            spk = get_speaker_tag(jp)
-            
-            if "オーブ" in jp:
-                en_text = format_cutscene_box(spk, "The Orb glows{NEWLINE}with power!")
-            elif "封印" in jp:
-                en_text = format_cutscene_box(spk, "The seal must{NEWLINE}be restored!")
-            elif "ダンジョン" in jp:
-                en_text = format_cutscene_box(spk, "Head into the{NEWLINE}next dungeon!")
-            elif "モンスター" in jp:
-                en_text = format_cutscene_box(spk, "Monsters are{NEWLINE}everywhere!")
-            elif "カード" in jp:
-                en_text = format_cutscene_box(spk, "Trust in your{NEWLINE}card deck!")
-            elif "サファイア" in jp:
-                en_text = format_cutscene_box(spk, "For Sapphire's{NEWLINE}memory!")
-            elif "クリア" in jp:
-                en_text = format_cutscene_box(spk, "Splendid! The{NEWLINE}gate is clear!")
-            elif "ありがとう" in jp:
-                en_text = format_cutscene_box(spk, "Thank you for{NEWLINE}saving us!")
-            elif "平和" in jp:
-                en_text = format_cutscene_box(spk, "Peace returns{NEWLINE}to our world!")
-            elif "バラム" in jp:
-                en_text = format_cutscene_box(spk, "Balam! Your{NEWLINE}reign ends!")
-            elif "ロドリーグ" in jp:
-                en_text = format_cutscene_box(spk, "Rodrigue! Hand{NEWLINE}over shard!")
-            elif "マリウス" in jp:
-                en_text = format_cutscene_box(spk, "Marius! Let's{NEWLINE}race ahead!")
-            elif "勝" in jp or "しょうり" in jp:
-                en_text = format_cutscene_box(spk, "We won the{NEWLINE}fierce battle!")
-            elif "負" in jp:
-                en_text = format_cutscene_box(spk, "Do not give up{NEWLINE}the fight!")
-            elif "待" in jp:
-                en_text = format_cutscene_box(spk, "Wait! Look{NEWLINE}over there!")
-            elif "行" in jp or "いこう" in jp:
-                en_text = format_cutscene_box(spk, "Let's move{NEWLINE}forward now!")
-            else:
-                generic_lines = [
-                    ("Advance to the{NEWLINE}next chamber!"),
-                    ("A dark shadow{NEWLINE}lurks ahead!"),
-                    ("Draw your{NEWLINE}best card!"),
-                    ("The gate seal{NEWLINE}is responding!"),
-                    ("We cannot turn{NEWLINE}back now!"),
-                    ("Stay alert for{NEWLINE}hidden traps!"),
-                    ("Our true trial{NEWLINE}begins here!"),
-                    ("Victory is in{NEWLINE}our grasp!")
-                ]
-                pair = generic_lines[sidx % len(generic_lines)]
-                parts = pair.split("{NEWLINE}")
-                en_text = format_cutscene_box(spk, parts[0], parts[1])
-
             all_dialogue.append({
                 "id": global_id,
                 "descriptor_index": didx,
                 "string_index": sidx,
                 "rom_offset": raw_s["rom_offset"],
                 "japanese": raw_s["japanese"],
-                "english": en_text,
+                "english": "Continue.{CTRL:F3}",
                 "raw_hex": raw_s["raw_hex"]
             })
             global_id += 1
