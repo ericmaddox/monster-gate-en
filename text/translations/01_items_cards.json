@@ -1247,7 +1247,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0CC8",
     "japanese": "ビーニッ{BREAK}",
-    "english": "Imp Summon",
+    "english": "Imp",
     "raw_hex": "00010203f0"
   },
   {
@@ -1256,7 +1256,7 @@
     "string_index": 1,
     "rom_offset": "0x4D0CCD",
     "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
-    "english": "Summons an Imp monster.",
+    "english": "Summons an Imp ally.",
     "raw_hex": "040506070809010a0b0c0d0ef0"
   },
   {
@@ -1274,7 +1274,7 @@
     "string_index": 1,
     "rom_offset": "0x4D0D0A",
     "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
-    "english": "Summons a Killer Bee monster.",
+    "english": "Summons a Killer Bee ally.",
     "raw_hex": "040506070809020a0b0c0d0ef0"
   },
   {
@@ -1292,7 +1292,7 @@
     "string_index": 1,
     "rom_offset": "0x4D0D4A",
     "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
-    "english": "Summons a Skeleton monster.",
+    "english": "Summons a Skeleton ally.",
     "raw_hex": "050607040008090a0b0c0d0ef0"
   },
   {
@@ -1310,7 +1310,7 @@
     "string_index": 1,
     "rom_offset": "0x4D0D89",
     "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
-    "english": "Summons a Hell Hound monster.",
+    "english": "Summons a Hell Hound ally.",
     "raw_hex": "040506020708090a0b0c0d0ef0"
   },
   {
@@ -1328,7 +1328,7 @@
     "string_index": 1,
     "rom_offset": "0x4D0DC5",
     "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
-    "english": "Summons a Goblin monster.",
+    "english": "Summons a Goblin ally.",
     "raw_hex": "040506030708090a0b0c0d0ef0"
   },
   {
@@ -1346,7 +1346,7 @@
     "string_index": 1,
     "rom_offset": "0x4D0E00",
     "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
-    "english": "Summons an Orc monster.",
+    "english": "Summons an Orc ally.",
     "raw_hex": "030405060708090a0b0c0d0ef0"
   },
   {
@@ -1364,7 +1364,7 @@
     "string_index": 1,
     "rom_offset": "0x4D0E40",
     "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
-    "english": "Summons a Grand Shark monster.",
+    "english": "Summons a Grand Shark ally.",
     "raw_hex": "070809020a0b050c0d0e0f10f0"
   },
   {
@@ -1382,7 +1382,7 @@
     "string_index": 1,
     "rom_offset": "0x4D0E84",
     "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
-    "english": "Summons a Terminator monster.",
+    "english": "Summons a Terminator ally.",
     "raw_hex": "04050607080001090a0b0c0df0"
   },
   {
@@ -1400,7 +1400,7 @@
     "string_index": 1,
     "rom_offset": "0x4D0EC1",
     "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
-    "english": "Summons a Dragon monster.",
+    "english": "Summons a Dragon ally.",
     "raw_hex": "040506030708090a0b0c0d0ef0"
   },
   {
@@ -1418,7 +1418,7 @@
     "string_index": 1,
     "rom_offset": "0x4D0EFB",
     "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
-    "english": "Summons a Demon monster.",
+    "english": "Summons a Demon ally.",
     "raw_hex": "02030405060708090a0b0c0df0"
   },
   {
@@ -1436,7 +1436,7 @@
     "string_index": 1,
     "rom_offset": "0x4D0F36",
     "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
-    "english": "Summons a Magic Bird monster.",
+    "english": "Summons a Magic Bird ally.",
     "raw_hex": "05060708090a0b0c0d0e0f10f0"
   },
   {
@@ -1454,7 +1454,7 @@
     "string_index": 1,
     "rom_offset": "0x4D0F7A",
     "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
-    "english": "Summons a Manticore monster.",
+    "english": "Summons a Manticore ally.",
     "raw_hex": "05060708090a0b0c0d0e0f10f0"
   },
   {
@@ -1472,7 +1472,7 @@
     "string_index": 1,
     "rom_offset": "0x4D0FBD",
     "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
-    "english": "Summons a Golem monster.",
+    "english": "Summons a Golem ally.",
     "raw_hex": "0405020306070108090a0b0cf0"
   },
   {
@@ -1490,7 +1490,7 @@
     "string_index": 1,
     "rom_offset": "0x4D0FF8",
     "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
-    "english": "Summons a Zombie monster.",
+    "english": "Summons a Zombie ally.",
     "raw_hex": "06070801090a0b0c0d0e0f10f0"
   },
   {
@@ -1508,7 +1508,7 @@
     "string_index": 1,
     "rom_offset": "0x4D103C",
     "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
-    "english": "Summons a Ghost monster.",
+    "english": "Summons a Ghost ally.",
     "raw_hex": "070809060a0b020c0d0e0f10f0"
   },
   {
@@ -1526,7 +1526,7 @@
     "string_index": 1,
     "rom_offset": "0x4D107C",
     "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
-    "english": "Summons a Vampire monster.",
+    "english": "Summons a Vampire ally.",
     "raw_hex": "03040501060708090a0b0c0df0"
   },
   {
@@ -1544,7 +1544,7 @@
     "string_index": 1,
     "rom_offset": "0x4D10BA",
     "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
-    "english": "Summons a Behemoth monster.",
+    "english": "Summons a Behemoth ally.",
     "raw_hex": "05060708010203090a0b0c0df0"
   },
   {
@@ -1562,7 +1562,7 @@
     "string_index": 1,
     "rom_offset": "0x4D10F8",
     "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
-    "english": "Summons a Chimera monster.",
+    "english": "Summons a Chimera ally.",
     "raw_hex": "070809010a0b030c0d0e0f10f0"
   },
   {
@@ -1580,7 +1580,7 @@
     "string_index": 1,
     "rom_offset": "0x4D113C",
     "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
-    "english": "Summons a Hydra monster.",
+    "english": "Summons a Hydra ally.",
     "raw_hex": "070804090a0b050c0d0e0f10f0"
   },
   {
@@ -1598,7 +1598,7 @@
     "string_index": 1,
     "rom_offset": "0x4D117D",
     "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
-    "english": "Summons a Cerberus monster.",
+    "english": "Summons a Cerberus ally.",
     "raw_hex": "0405060708090a0b0c0d0e0ff0"
   },
   {
@@ -1616,7 +1616,7 @@
     "string_index": 1,
     "rom_offset": "0x4D11BE",
     "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
-    "english": "Summons a Minotaur monster.",
+    "english": "Summons a Minotaur ally.",
     "raw_hex": "05060708090a0b0c0d0e0f10f0"
   },
   {
@@ -1634,7 +1634,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1201",
     "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
-    "english": "Summons a Lich monster.",
+    "english": "Summons a Lich ally.",
     "raw_hex": "0405060708090a0b0c0d0e0ff0"
   },
   {
@@ -1652,7 +1652,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1241",
     "japanese": "フボイアーけいカーゼの[G:237]ちこみをきんし{BREAK}",
-    "english": "Summons a Death Horn monster.",
+    "english": "Summons a Death Horn ally.",
     "raw_hex": "040506070108090a010b0c0d0e0f1011121314f0"
   },
   {
@@ -1670,7 +1670,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1291",
     "japanese": "サンゴーけいカーゼの[G:237]ちこみをきんし{BREAK}",
-    "english": "Summons an Arch Demon monster.",
+    "english": "Summons an Arch Demon ally.",
     "raw_hex": "04050601070809010a0b0c0d0e0f10111213f0"
   },
   {
@@ -1688,7 +1688,7 @@
     "string_index": 1,
     "rom_offset": "0x4D12DD",
     "japanese": "メテオけいカーゼの[G:237]ちこみをきんし{BREAK}",
-    "english": "Summons a King Dragon monster.",
+    "english": "Summons a King Dragon ally.",
     "raw_hex": "040506070809010a0b0c0d0e0f10111213f0"
   },
   {
@@ -1706,7 +1706,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1329",
     "japanese": "ベーシュンけいカーゼの[G:237]ちこみをきんし{BREAK}",
-    "english": "Summons a Titan monster.",
+    "english": "Summons a Titan ally.",
     "raw_hex": "040105060708090a010b0c0d0e0f1011121314f0"
   },
   {
@@ -1715,7 +1715,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1374",
     "japanese": "ェースト{BREAK}",
-    "english": "Wyvern",
+    "english": "Ghost",
     "raw_hex": "00010203f0"
   },
   {
@@ -1724,7 +1724,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1379",
     "japanese": "ヒールけいカーゼの[G:237]ちこみをきんし{BREAK}",
-    "english": "Summons a Wyvern monster.",
+    "english": "Summons a Ghost ally.",
     "raw_hex": "04010506070801090a0b0c0d0e0f101112f0"
   },
   {
@@ -1733,7 +1733,7 @@
     "string_index": 0,
     "rom_offset": "0x4D13C0",
     "japanese": "ェースト{BREAK}",
-    "english": "Dark Knight",
+    "english": "Wraith",
     "raw_hex": "00010203f0"
   },
   {
@@ -1742,7 +1742,7 @@
     "string_index": 1,
     "rom_offset": "0x4D13C5",
     "japanese": "ソーゼけいカーゼの[G:237]ちこみをきんし{BREAK}",
-    "english": "Summons a Dark Knight monster.",
+    "english": "Summons a Wraith ally.",
     "raw_hex": "0401050607080105090a0b0c0d0e0f1011f0"
   },
   {
@@ -1751,7 +1751,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1408",
     "japanese": "ェースト{BREAK}",
-    "english": "Silver Dragon",
+    "english": "Specter",
     "raw_hex": "00010203f0"
   },
   {
@@ -1760,7 +1760,7 @@
     "string_index": 1,
     "rom_offset": "0x4D140D",
     "japanese": "シールゼけいカーゼの[G:237]ちこみをきんし{BREAK}",
-    "english": "Summons a Silver Dragon monster.",
+    "english": "Summons a Specter ally.",
     "raw_hex": "0401050607080901060a0b0c0d0e0f101112f0"
   },
   {
@@ -1769,7 +1769,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1454",
     "japanese": "ホポバー{BREAK}",
-    "english": "Gold Dragon",
+    "english": "Hopper",
     "raw_hex": "00010203f0"
   },
   {
@@ -1778,7 +1778,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1459",
     "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
-    "english": "Summons a Gold Dragon monster.",
+    "english": "Summons a Hopper ally.",
     "raw_hex": "040506070809030a0b0c0d0ef0"
   },
   {
@@ -1787,7 +1787,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1490",
     "japanese": "ビリースト{BREAK}",
-    "english": "Card #99",
+    "english": "Priest",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1796,7 +1796,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1496",
     "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Priest ally.",
     "raw_hex": "050607080309020a0b0c0d0ef0"
   },
   {
@@ -1805,7 +1805,7 @@
     "string_index": 0,
     "rom_offset": "0x4D14D0",
     "japanese": "キンィビーニッ{BREAK}",
-    "english": "Card #100",
+    "english": "King Peanut",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1814,7 +1814,7 @@
     "string_index": 1,
     "rom_offset": "0x4D14D8",
     "japanese": "ビレイヤーぇ[G:260][G:261]に[G:289]ぽた[G:270]のHP/MPの回復UP[G:275]SP[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a King Peanut ally.",
     "raw_hex": "03070809040a0b0c0d0e0f101112131415161412171819141a1b141cf0"
   },
   {
@@ -1823,7 +1823,7 @@
     "string_index": 0,
     "rom_offset": "0x4D153C",
     "japanese": "クパーンダー{BREAK}",
-    "english": "Card #101",
+    "english": "Grander",
     "raw_hex": "000102030402f0"
   },
   {
@@ -1832,7 +1832,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1543",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275]SP[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Grander ally.",
     "raw_hex": "050607030809020a0b0c0d0e0f101112131415161718f0"
   },
   {
@@ -1841,7 +1841,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1598",
     "japanese": "スケルトンローゼ{BREAK}",
-    "english": "Card #102",
+    "english": "Skeleton Lord",
     "raw_hex": "0001020304050607f0"
   },
   {
@@ -1850,7 +1850,7 @@
     "string_index": 1,
     "rom_offset": "0x4D15A1",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275]SP[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Skeleton Lord ally.",
     "raw_hex": "08090a04000b060c0d0e0f101112131415161718191af0"
   },
   {
@@ -1859,7 +1859,7 @@
     "string_index": 0,
     "rom_offset": "0x4D15FC",
     "japanese": "ガン{BREAK}",
-    "english": "Card #103",
+    "english": "Gunner",
     "raw_hex": "0001f0"
   },
   {
@@ -1868,7 +1868,7 @@
     "string_index": 1,
     "rom_offset": "0x4D15FF",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275]SP[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Gunner ally.",
     "raw_hex": "0203040105060708090a0b0c0d0e0f10111213141516f0"
   },
   {
@@ -1877,7 +1877,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1650",
     "japanese": "オーョ{BREAK}",
-    "english": "Card #104",
+    "english": "Orc Warrior",
     "raw_hex": "000102f0"
   },
   {
@@ -1886,7 +1886,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1654",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275]SP[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons an Orc Warrior ally.",
     "raw_hex": "03040506070801090a0b0c0d0e0f1011121314151617f0"
   },
   {
@@ -1895,7 +1895,7 @@
     "string_index": 0,
     "rom_offset": "0x4D16A8",
     "japanese": "マガポクマスター{BREAK}",
-    "english": "Card #105",
+    "english": "Magic Master",
     "raw_hex": "0001020300040506f0"
   },
   {
@@ -1904,7 +1904,7 @@
     "string_index": 1,
     "rom_offset": "0x4D16B1",
     "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275]SP[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Magic Master ally.",
     "raw_hex": "0708090a0405060b0c0d0e0f10110f120c131415161718191a1b1cf0"
   },
   {
@@ -1913,7 +1913,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1714",
     "japanese": "ィレートトピース{BREAK}",
-    "english": "Card #106",
+    "english": "Great Beast",
     "raw_hex": "0001020303040205f0"
   },
   {
@@ -1922,7 +1922,7 @@
     "string_index": 1,
     "rom_offset": "0x4D171D",
     "japanese": "wxyzのテキをpqrs[G:275]3マス[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Great Beast ally.",
     "raw_hex": "060708090a0b0c0d0e0f10111213140515f0"
   },
   {
@@ -1931,7 +1931,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1768",
     "japanese": "ガプノサイゴー{BREAK}",
-    "english": "Card #107",
+    "english": "Iron Rhino",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1940,7 +1940,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1770",
     "japanese": "rsした[G:270]スリービのg[G:393][G:275]かくりつSP[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons an Iron Rhino ally.",
     "raw_hex": "0708090a0b0c0d060e0f10111213141516171819f0"
   },
   {
@@ -1949,7 +1949,7 @@
     "string_index": 0,
     "rom_offset": "0x4D17C8",
     "japanese": "ウパンィゼラェン{BREAK}",
-    "english": "Card #108",
+    "english": "Wing Dragon",
     "raw_hex": "0001020304050602f0"
   },
   {
@@ -1958,7 +1958,7 @@
     "string_index": 1,
     "rom_offset": "0x4D17D1",
     "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275]SP[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Wing Dragon ally.",
     "raw_hex": "070809020a0b0c0d0e0f1011121311140e15161718191a1b1c1d1ef0"
   },
   {
@@ -1967,7 +1967,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1838",
     "japanese": "リポチ{BREAK}",
-    "english": "Card #109",
+    "english": "Lich King",
     "raw_hex": "000102f0"
   },
   {
@@ -1976,7 +1976,7 @@
     "string_index": 1,
     "rom_offset": "0x4D183C",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275]SP[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Lich King ally.",
     "raw_hex": "030405060708090a0b0c0d0e0f101112131415161718f0"
   },
   {
@@ -1985,7 +1985,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1894",
     "japanese": "ズスホーン{BREAK}",
-    "english": "Card #110",
+    "english": "Death Horn",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1994,7 +1994,7 @@
     "string_index": 1,
     "rom_offset": "0x4D189A",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275]SP[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Death Horn ally.",
     "raw_hex": "05060704010803090a0b0c0d0e0f1011121314151617f0"
   },
   {
@@ -2003,7 +2003,7 @@
     "string_index": 0,
     "rom_offset": "0x4D18F0",
     "japanese": "ヘルギアイ{BREAK}",
-    "english": "Card #111",
+    "english": "Hell Beast",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2012,7 +2012,7 @@
     "string_index": 1,
     "rom_offset": "0x4D18F6",
     "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275]SP[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Hell Beast ally.",
     "raw_hex": "05060708090a0b0c0d0e0f10111210130d1415161718191a1b1c1df0"
   },
   {
@@ -2021,7 +2021,7 @@
     "string_index": 0,
     "rom_offset": "0x4D195C",
     "japanese": "アークズーモン{BREAK}",
-    "english": "Card #112",
+    "english": "Arch Demon",
     "raw_hex": "00010203010405f0"
   },
   {
@@ -2030,7 +2030,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1964",
     "japanese": "ビレイヤーの[G:330][G:484]の[G:405]sぇ[G:246]やすくなる[G:275]かくりつSP[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons an Arch Demon ally.",
     "raw_hex": "06070809010a0b0c0a0d0e0f10111213141516171318191a1b1cf0"
   },
   {
@@ -2039,7 +2039,7 @@
     "string_index": 0,
     "rom_offset": "0x4D19C8",
     "japanese": "ェポゼゼラェン{BREAK}",
-    "english": "Card #113",
+    "english": "Epoch Dragon",
     "raw_hex": "00010202030004f0"
   },
   {
@@ -2048,7 +2048,7 @@
     "string_index": 1,
     "rom_offset": "0x4D19D0",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275]SP[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons an Epoch Dragon ally.",
     "raw_hex": "0506070408090a0b0c0d0e0f10111213141516171819f0"
   },
   {
@@ -2057,7 +2057,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1A28",
     "japanese": "ビリンスゼラェン{BREAK}",
-    "english": "Card #114",
+    "english": "Prince Dragon",
     "raw_hex": "0001020304050602f0"
   },
   {
@@ -2066,7 +2066,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1A31",
     "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275]SP[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Prince Dragon ally.",
     "raw_hex": "07080902030a0b0c0d0e0f10111210130d1415161718191a1b1c1df0"
   },
   {
@@ -2075,7 +2075,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1A98",
     "japanese": "ィール{BREAK}",
-    "english": "Card #115",
+    "english": "Heal Card",
     "raw_hex": "000102f0"
   },
   {
@@ -2084,7 +2084,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1A9C",
     "japanese": "[G:257][G:372]した[G:270]マルチベイギンのg[G:393][G:275]かくりつSP[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Recovers HP for you and your summons.",
     "raw_hex": "03040506070802090a0b0c0d0e0f101112131415161718f0"
   },
   {
@@ -2093,7 +2093,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1AF4",
     "japanese": "マテリアル{BREAK}",
-    "english": "Card #116",
+    "english": "Material Card",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2102,7 +2102,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1AFA",
     "japanese": "ョーズパアンに[G:342]して[G:314]い[G:275]SP[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Crafting material used for card blending.",
     "raw_hex": "0506070803090a0b0c0d0e0f10111213f0"
   },
   {
@@ -2111,7 +2111,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1B40",
     "japanese": "アクスシプル{BREAK}",
-    "english": "Card #117",
+    "english": "Axe Beast",
     "raw_hex": "000102030405f0"
   },
   {
@@ -2120,7 +2120,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1B47",
     "japanese": "[G:254]aモンスターしぅうかん/lm[G:401][G:275]SP[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons an Axe Beast ally.",
     "raw_hex": "06070809020a0b0c0d0e0f101112131415161718f0"
   },
   {
@@ -2129,7 +2129,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1B9C",
     "japanese": "ガッポクモール{BREAK}",
-    "english": "Card #118",
+    "english": "Mole Miner",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -2138,7 +2138,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1BA4",
     "japanese": "ョーズパアンに[G:342]して[G:314]い[G:275]SP[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Mole Miner ally.",
     "raw_hex": "070508090a0b0c0d0e0f101112131415f0"
   },
   {
@@ -2147,7 +2147,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1BF0",
     "japanese": "マンイーター{BREAK}",
-    "english": "Card #119",
+    "english": "Man-Eater",
     "raw_hex": "000102030403f0"
   },
   {
@@ -2156,7 +2156,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1BF7",
     "japanese": "rsした[G:270]ベイギンのg[G:393][G:275]かくりつSP[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Man-Eater plant ally.",
     "raw_hex": "05060708090a020b010c0d0e0f10111213141516f0"
   },
   {
@@ -2165,7 +2165,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1C48",
     "japanese": "アーク{BREAK}",
-    "english": "Card #120",
+    "english": "Arch Mage",
     "raw_hex": "000102f0"
   },
   {
@@ -2174,7 +2174,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1C4C",
     "japanese": "ビレイヤーぇ[G:257][G:372]した[G:270][G:355]き[G:356]らせる[G:275]かくりつSP[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons an Arch Mage ally.",
     "raw_hex": "03040506010708090a0b0c0d0e0f101112131415161718191af0"
   },
   {
@@ -2183,7 +2183,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1CA8",
     "japanese": "ヴボガャラ{BREAK}",
-    "english": "Card #121",
+    "english": "Vagara",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2192,7 +2192,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1CAE",
     "japanese": "[G:405]sずテキをそく[G:257][G:275]かくりつSP[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Vagara beast ally.",
     "raw_hex": "05060708090a0b0c0d0e0f0c1011121314f0"
   },
   {
@@ -2201,7 +2201,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1CF8",
     "japanese": "ガッンバー{BREAK}",
-    "english": "Card #122",
+    "english": "Gamber",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2210,7 +2210,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1CFE",
     "japanese": "[G:254]aモンスターしぅうかん/テキを2回rs[G:275]かくりつSP[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Gamber ally.",
     "raw_hex": "050607020809040a0b0c0d0e0f10111213141516170d18191a1b1c1df0"
   },
   {
@@ -2219,7 +2219,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1D64",
     "japanese": "ハイビリースト{BREAK}",
-    "english": "Card #123",
+    "english": "High Priest",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -2228,7 +2228,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1D6C",
     "japanese": "[G:254]aモンスターしぅうかん/ビレイヤーのHPを回復[G:275]SP[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a High Priest ally.",
     "raw_hex": "0708090a050b040c0d0e0f101102120113041415161718191a1b161cf0"
   },
   {
@@ -2237,7 +2237,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1DD0",
     "japanese": "ビーニッ{BREAK}",
-    "english": "Card #124",
+    "english": "Peanut Scout",
     "raw_hex": "00010203f0"
   },
   {
@@ -2246,7 +2246,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1DD5",
     "japanese": "ビレイヤーぇ[G:260][G:261]に[G:289]ぽた[G:270]のHP/MPの回復UP[G:275][G:502][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Peanut Scout ally.",
     "raw_hex": "00040506010708090a0b0c0d0e0f10111213110f14151611171819f0"
   },
   {
@@ -2255,7 +2255,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1E34",
     "japanese": "キラーダー{BREAK}",
-    "english": "Card #125",
+    "english": "Hornet",
     "raw_hex": "0001020302f0"
   },
   {
@@ -2264,7 +2264,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1E3A",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:502][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Hornet ally.",
     "raw_hex": "040506070809020a0b0c0d0e0f1000111213141516f0"
   },
   {
@@ -2273,7 +2273,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1E8C",
     "japanese": "スケルトン{BREAK}",
-    "english": "Card #126",
+    "english": "Skel-Fighter",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2282,7 +2282,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1E92",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:502][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Skeleton Fighter ally.",
     "raw_hex": "050607040008090a0b0c0d0e0f1011121314151617f0"
   },
   {
@@ -2291,7 +2291,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1EE4",
     "japanese": "ケムンド{BREAK}",
-    "english": "Card #127",
+    "english": "Dark Hound",
     "raw_hex": "00010203f0"
   },
   {
@@ -2300,7 +2300,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1EE9",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:502][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Dark Hound ally.",
     "raw_hex": "040506020708090a0b0c0d0e0f1011121314151617f0"
   },
   {
@@ -2309,7 +2309,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1F3C",
     "japanese": "ェヂリン{BREAK}",
-    "english": "Card #128",
+    "english": "Hobgoblin",
     "raw_hex": "00010203f0"
   },
   {
@@ -2318,7 +2318,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1F41",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:502][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Hobgoblin ally.",
     "raw_hex": "040506030708090a0b0c0d0e0f1011121314151617f0"
   },
   {
@@ -2327,7 +2327,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1F94",
     "japanese": "[G:271][G:347][G:348]{BREAK}",
-    "english": "Card #129",
+    "english": "Cave Troll",
     "raw_hex": "000102f0"
   },
   {
@@ -2336,7 +2336,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1F98",
     "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275][G:502][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Cave Troll ally.",
     "raw_hex": "030405060708090a0b0c0d0e0f100e110b12131415161718191af0"
   },
   {
@@ -2345,7 +2345,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1FF8",
     "japanese": "ィランシッーク{BREAK}",
-    "english": "Card #130",
+    "english": "Hammer Shark",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -2354,7 +2354,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2000",
     "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Hammer Shark ally.",
     "raw_hex": "070809020a0b050c0d0e0f10f0"
   },
   {
@@ -2363,7 +2363,7 @@
     "string_index": 0,
     "rom_offset": "0x4D203C",
     "japanese": "ターミネーター{BREAK}",
-    "english": "Card #131",
+    "english": "Cyber Borg",
     "raw_hex": "00010203010001f0"
   },
   {
@@ -2372,7 +2372,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2044",
     "japanese": "rsした[G:270]スリービのg[G:393][G:275]かくりつ[G:502][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Cyber Borg ally.",
     "raw_hex": "0405060708090a010b0c0d0e0f101112131415f0"
   },
   {
@@ -2381,7 +2381,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2090",
     "japanese": "ゼラェン{BREAK}",
-    "english": "Card #132",
+    "english": "Fire Dragon",
     "raw_hex": "00010203f0"
   },
   {
@@ -2390,7 +2390,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2095",
     "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275][G:502][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Fire Dragon ally.",
     "raw_hex": "040506030708090a0b0c0d0e0f100e110b12131415161718191af0"
   },
   {
@@ -2399,7 +2399,7 @@
     "string_index": 0,
     "rom_offset": "0x4D20F4",
     "japanese": "[G:257][G:266]{BREAK}",
-    "english": "Card #133",
+    "english": "Shadow Fiend",
     "raw_hex": "0001f0"
   },
   {
@@ -2408,7 +2408,7 @@
     "string_index": 1,
     "rom_offset": "0x4D20F7",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:502][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Shadow Fiend ally.",
     "raw_hex": "02030405060708090a0b0c0d0e0f10111213141516f0"
   },
   {
@@ -2417,7 +2417,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2148",
     "japanese": "マポゼヂル{BREAK}",
-    "english": "Card #134",
+    "english": "Thunder Bird",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2426,7 +2426,7 @@
     "string_index": 1,
     "rom_offset": "0x4D214E",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:502][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Thunder Bird ally.",
     "raw_hex": "05060708090a0b0c0d0e0f10111213141516171819f0"
   },
   {
@@ -2435,7 +2435,7 @@
     "string_index": 0,
     "rom_offset": "0x4D21A4",
     "japanese": "エダルアイ{BREAK}",
-    "english": "Card #135",
+    "english": "Evil Eye",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2444,7 +2444,7 @@
     "string_index": 1,
     "rom_offset": "0x4D21AA",
     "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275][G:502][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons an Evil Eye ally.",
     "raw_hex": "05060708090a0b0c0d0e0f10111210130d1415161718191a1b1cf0"
   },
   {
@@ -2453,7 +2453,7 @@
     "string_index": 0,
     "rom_offset": "0x4D220C",
     "japanese": "ズーモン{BREAK}",
-    "english": "Card #136",
+    "english": "Lesser Demon",
     "raw_hex": "00010203f0"
   },
   {
@@ -2462,7 +2462,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2211",
     "japanese": "ビレイヤーの[G:330][G:484]の[G:405]sぇ[G:246]やすくなる[G:275][G:502][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Lesser Demon ally.",
     "raw_hex": "040506070108090a080b0c0d0e0f10111213141516f0"
   },
   {
@@ -2471,7 +2471,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2264",
     "japanese": "キンィゼラェン{BREAK}",
-    "english": "Card #137",
+    "english": "Gold Dragon",
     "raw_hex": "00010203040501f0"
   },
   {
@@ -2480,7 +2480,7 @@
     "string_index": 1,
     "rom_offset": "0x4D226C",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:502][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Gold Dragon ally.",
     "raw_hex": "06070801090a0b0c0d0e0f10111200131415161718f0"
   },
   {
@@ -2489,7 +2489,7 @@
     "string_index": 0,
     "rom_offset": "0x4D22C0",
     "japanese": "ヅダーゼラェン{BREAK}",
-    "english": "Card #138",
+    "english": "Dark Dragon",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -2498,7 +2498,7 @@
     "string_index": 1,
     "rom_offset": "0x4D22C8",
     "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275][G:502][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Dark Dragon ally.",
     "raw_hex": "070809060a0b020c0d0e0f10111210130d1415161718191a1b1cf0"
   },
   {
@@ -2507,7 +2507,7 @@
     "string_index": 0,
     "rom_offset": "0x4D232C",
     "japanese": "ゲンダ{BREAK}",
-    "english": "Card #139",
+    "english": "Stone Golem",
     "raw_hex": "000102f0"
   },
   {
@@ -2516,7 +2516,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2330",
     "japanese": "[G:257][G:372]した[G:270]マルチベイギンのg[G:393][G:275]かくりつ[G:502][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Stone Golem ally.",
     "raw_hex": "030405060708090a0b0c0d010e0f1011121314151617f0"
   },
   {
@@ -2525,7 +2525,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2384",
     "japanese": "リスタール{BREAK}",
-    "english": "Card #140",
+    "english": "Lizardman",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2534,7 +2534,7 @@
     "string_index": 1,
     "rom_offset": "0x4D238A",
     "japanese": "ョーズパアンに[G:342]して[G:314]い[G:275][G:502][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Lizardman ally.",
     "raw_hex": "0503060708090a0b0c0d0e0f101112f0"
   },
   {
@@ -2543,7 +2543,7 @@
     "string_index": 0,
     "rom_offset": "0x4D23CC",
     "japanese": "ハンマーシプル{BREAK}",
-    "english": "Card #141",
+    "english": "Hammer Beast",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -2552,7 +2552,7 @@
     "string_index": 1,
     "rom_offset": "0x4D23D4",
     "japanese": "[G:254]aモンスターしぅうかん/lm[G:401][G:275][G:502][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Hammer Beast ally.",
     "raw_hex": "070809010a0b030c0d0e0f1011121314151617f0"
   },
   {
@@ -2561,7 +2561,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2424",
     "japanese": "ズパポィモール{BREAK}",
-    "english": "Card #142",
+    "english": "Spike Mole",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -2570,7 +2570,7 @@
     "string_index": 1,
     "rom_offset": "0x4D242C",
     "japanese": "ョーズパアンに[G:342]して[G:314]い[G:275][G:502][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Spike Mole ally.",
     "raw_hex": "0705000108090a0b0c0d0e0f101112f0"
   },
   {
@@ -2579,7 +2579,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2470",
     "japanese": "ヂロポサ{BREAK}",
-    "english": "Card #143",
+    "english": "Crocoda",
     "raw_hex": "00010203f0"
   },
   {
@@ -2588,7 +2588,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2475",
     "japanese": "rsした[G:270]ベイギンのg[G:393][G:275]かくりつ[G:502][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Crocoda ally.",
     "raw_hex": "0405060708090a0b0c0d0e0f10111213141516f0"
   },
   {
@@ -2597,7 +2597,7 @@
     "string_index": 0,
     "rom_offset": "0x4D24C4",
     "japanese": "ダシュポビ{BREAK}",
-    "english": "Card #144",
+    "english": "Dash Runner",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2606,7 +2606,7 @@
     "string_index": 1,
     "rom_offset": "0x4D24CA",
     "japanese": "ビレイヤーぇ[G:257][G:372]した[G:270][G:355]き[G:356]らせる[G:275]かくりつ[G:502][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Dash Runner ally.",
     "raw_hex": "0405060708090a0b0c0d0e0f101112131415161718191a1bf0"
   },
   {
@@ -2615,7 +2615,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2528",
     "japanese": "アシャラ{BREAK}",
-    "english": "Card #145",
+    "english": "Asura",
     "raw_hex": "00010203f0"
   },
   {
@@ -2624,7 +2624,7 @@
     "string_index": 1,
     "rom_offset": "0x4D252D",
     "japanese": "[G:405]sずテキをそく[G:257][G:275]かくりつ[G:502][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons an Asura deity ally.",
     "raw_hex": "0405060708090a0b0c0d0e0b0f101112f0"
   },
   {
@@ -2633,7 +2633,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2570",
     "japanese": "ホポバー{BREAK}",
-    "english": "Card #146",
+    "english": "Giant Hopper",
     "raw_hex": "00010203f0"
   },
   {
@@ -2642,7 +2642,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2575",
     "japanese": "[G:254]aモンスターしぅうかん/テキを2回rs[G:275]かくりつ[G:502][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Giant Hopper ally.",
     "raw_hex": "040506070809030a0b0c0d0e0f10111213141516170d18191a1b1cf0"
   },
   {
@@ -2651,7 +2651,7 @@
     "string_index": 0,
     "rom_offset": "0x4D25D8",
     "japanese": "ビリースト{BREAK}",
-    "english": "Card #147",
+    "english": "Cleric",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2660,7 +2660,7 @@
     "string_index": 1,
     "rom_offset": "0x4D25DE",
     "japanese": "[G:254]aモンスターしぅうかん/ビレイヤーのHPを回復[G:275][G:502][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Cleric ally.",
     "raw_hex": "050607080309020a0b0c0d0e0f0010111202131415161718191a1bf0"
   },
   {
@@ -2669,7 +2669,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2640",
     "japanese": "ビーニッ{BREAK}",
-    "english": "Card #148",
+    "english": "Peanut Guard",
     "raw_hex": "00010203f0"
   },
   {
@@ -2678,7 +2678,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2645",
     "japanese": "ビレイヤーぇ[G:260][G:261]に[G:289]ぽた[G:270]のHP/MPの回復UP[G:275][G:345][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Peanut Guard ally.",
     "raw_hex": "00040506010708090a0b0c0d0e0f10111213110f14151611171819f0"
   },
   {
@@ -2687,7 +2687,7 @@
     "string_index": 0,
     "rom_offset": "0x4D26A4",
     "japanese": "キラーダー{BREAK}",
-    "english": "Card #149",
+    "english": "Bumble Bee",
     "raw_hex": "0001020302f0"
   },
   {
@@ -2696,7 +2696,7 @@
     "string_index": 1,
     "rom_offset": "0x4D26AA",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:345][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Bumble Bee ally.",
     "raw_hex": "040506070809020a0b0c0d0e0f1000111213141516f0"
   },
   {
@@ -2705,7 +2705,7 @@
     "string_index": 0,
     "rom_offset": "0x4D26FC",
     "japanese": "スケルトン{BREAK}",
-    "english": "Card #150",
+    "english": "Skel-Archer",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2714,7 +2714,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2702",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:345][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Skeleton Archer ally.",
     "raw_hex": "050607040008090a0b0c0d0e0f1011121314151617f0"
   },
   {
@@ -2723,7 +2723,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2754",
     "japanese": "ケムンド{BREAK}",
-    "english": "Card #151",
+    "english": "Blood Hound",
     "raw_hex": "00010203f0"
   },
   {
@@ -2732,7 +2732,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2759",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:345][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Blood Hound ally.",
     "raw_hex": "040506020708090a0b0c0d0e0f1011121314151617f0"
   },
   {
@@ -2741,7 +2741,7 @@
     "string_index": 0,
     "rom_offset": "0x4D27AC",
     "japanese": "ェヂリン{BREAK}",
-    "english": "Card #152",
+    "english": "Goblin Shaman",
     "raw_hex": "00010203f0"
   },
   {
@@ -2750,7 +2750,7 @@
     "string_index": 1,
     "rom_offset": "0x4D27B1",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:345][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Goblin Shaman ally.",
     "raw_hex": "040506030708090a0b0c0d0e0f1011121314151617f0"
   },
   {
@@ -2759,7 +2759,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2804",
     "japanese": "[G:271][G:347][G:348]{BREAK}",
-    "english": "Card #153",
+    "english": "Mountain Ogre",
     "raw_hex": "000102f0"
   },
   {
@@ -2768,7 +2768,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2808",
     "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275][G:345][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Mountain Ogre ally.",
     "raw_hex": "030405060708090a0b0c0d0e0f100e110b12131415161718191af0"
   },
   {
@@ -2777,7 +2777,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2868",
     "japanese": "ィランシッーク{BREAK}",
-    "english": "Card #154",
+    "english": "Tiger Shark",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -2786,7 +2786,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2870",
     "japanese": "wxyzのテキをpqrs[G:275]2マス[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Tiger Shark ally.",
     "raw_hex": "0708090a0b0c0d0e0f1011121314151617f0"
   },
   {
@@ -2795,7 +2795,7 @@
     "string_index": 0,
     "rom_offset": "0x4D28C0",
     "japanese": "ターミネーター{BREAK}",
-    "english": "Card #155",
+    "english": "Mecha Soldier",
     "raw_hex": "00010203010001f0"
   },
   {
@@ -2804,7 +2804,7 @@
     "string_index": 1,
     "rom_offset": "0x4D28C8",
     "japanese": "rsした[G:270]スリービのg[G:393][G:275]かくりつ[G:345][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Mecha Soldier ally.",
     "raw_hex": "0405060708090a010b0c0d0e0f101112131415f0"
   },
   {
@@ -2813,7 +2813,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2914",
     "japanese": "ゼラェン{BREAK}",
-    "english": "Card #156",
+    "english": "Ice Dragon",
     "raw_hex": "00010203f0"
   },
   {
@@ -2822,7 +2822,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2919",
     "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275][G:345][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons an Ice Dragon ally.",
     "raw_hex": "040506030708090a0b0c0d0e0f100e110b12131415161718191af0"
   },
   {
@@ -2831,7 +2831,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2978",
     "japanese": "[G:257][G:266]{BREAK}",
-    "english": "Card #157",
+    "english": "Night Stalker",
     "raw_hex": "0001f0"
   },
   {
@@ -2840,7 +2840,7 @@
     "string_index": 1,
     "rom_offset": "0x4D297B",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:345][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Night Stalker ally.",
     "raw_hex": "02030405060708090a0b0c0d0e0f10111213141516f0"
   },
   {
@@ -2849,7 +2849,7 @@
     "string_index": 0,
     "rom_offset": "0x4D29CC",
     "japanese": "マポゼヂル{BREAK}",
-    "english": "Card #158",
+    "english": "Phoenix",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2858,7 +2858,7 @@
     "string_index": 1,
     "rom_offset": "0x4D29D2",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:345][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Phoenix ally.",
     "raw_hex": "05060708090a0b0c0d0e0f10111213141516171819f0"
   },
   {
@@ -2867,7 +2867,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2A28",
     "japanese": "エダルアイ{BREAK}",
-    "english": "Card #159",
+    "english": "Beholder",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2876,7 +2876,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2A2E",
     "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275][G:345][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Beholder ally.",
     "raw_hex": "05060708090a0b0c0d0e0f10111210130d1415161718191a1b1cf0"
   },
   {
@@ -2885,7 +2885,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2A90",
     "japanese": "ズーモン{BREAK}",
-    "english": "Card #160",
+    "english": "Greater Demon",
     "raw_hex": "00010203f0"
   },
   {
@@ -2894,7 +2894,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2A95",
     "japanese": "ビレイヤーの[G:330][G:484]の[G:405]sぇ[G:246]やすくなる[G:275][G:345][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Greater Demon ally.",
     "raw_hex": "040506070108090a080b0c0d0e0f10111213141516f0"
   },
   {
@@ -2903,7 +2903,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2AE8",
     "japanese": "キンィゼラェン{BREAK}",
-    "english": "Card #161",
+    "english": "Silver Dragon",
     "raw_hex": "00010203040501f0"
   },
   {
@@ -2912,7 +2912,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2AF0",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:345][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Silver Dragon ally.",
     "raw_hex": "06070801090a0b0c0d0e0f10111200131415161718f0"
   },
   {
@@ -2921,7 +2921,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2B44",
     "japanese": "ヅダーゼラェン{BREAK}",
-    "english": "Card #162",
+    "english": "Chaos Dragon",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -2930,7 +2930,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2B4C",
     "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275][G:345][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Chaos Dragon ally.",
     "raw_hex": "070809060a0b020c0d0e0f10111210130d1415161718191a1b1cf0"
   },
   {
@@ -2939,7 +2939,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2BB0",
     "japanese": "ゲンダ{BREAK}",
-    "english": "Card #163",
+    "english": "Iron Golem",
     "raw_hex": "000102f0"
   },
   {
@@ -2948,7 +2948,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2BB4",
     "japanese": "[G:257][G:372]した[G:270]マルチベイギンのg[G:393][G:275]かくりつ[G:345][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons an Iron Golem ally.",
     "raw_hex": "030405060708090a0b0c0d010e0f1011121314151617f0"
   },
   {
@@ -2957,7 +2957,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2C08",
     "japanese": "リスタール{BREAK}",
-    "english": "Card #164",
+    "english": "Lizard Chief",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2966,7 +2966,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2C0E",
     "japanese": "ョーズパアンに[G:342]して[G:314]い[G:275][G:345][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Lizard Chief ally.",
     "raw_hex": "0503060708090a0b0c0d0e0f101112f0"
   },
   {
@@ -2975,7 +2975,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2C50",
     "japanese": "ハンマーシプル{BREAK}",
-    "english": "Card #165",
+    "english": "Iron Beast",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -2984,7 +2984,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2C58",
     "japanese": "[G:254]aモンスターしぅうかん/lm[G:401][G:275][G:345][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons an Iron Beast ally.",
     "raw_hex": "070809010a0b030c0d0e0f1011121314151617f0"
   },
   {
@@ -2993,7 +2993,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2CA8",
     "japanese": "ズパポィモール{BREAK}",
-    "english": "Card #166",
+    "english": "Armored Mole",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -3002,7 +3002,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2CB0",
     "japanese": "ョーズパアンに[G:342]して[G:314]い[G:275][G:345][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons an Armored Mole ally.",
     "raw_hex": "0705000108090a0b0c0d0e0f101112f0"
   },
   {
@@ -3011,7 +3011,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2CF4",
     "japanese": "ヂロポサ{BREAK}",
-    "english": "Card #167",
+    "english": "Gator Man",
     "raw_hex": "00010203f0"
   },
   {
@@ -3020,7 +3020,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2CF9",
     "japanese": "rsした[G:270]ベイギンのg[G:393][G:275]かくりつ[G:345][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Gator Man ally.",
     "raw_hex": "0405060708090a0b0c0d0e0f10111213141516f0"
   },
   {
@@ -3029,7 +3029,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2D48",
     "japanese": "ダシュポビ{BREAK}",
-    "english": "Card #168",
+    "english": "Sprint Hound",
     "raw_hex": "0001020304f0"
   },
   {
@@ -3038,7 +3038,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2D4E",
     "japanese": "ビレイヤーぇ[G:257][G:372]した[G:270][G:355]き[G:356]らせる[G:275]かくりつ[G:345][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Sprint Hound ally.",
     "raw_hex": "0405060708090a0b0c0d0e0f101112131415161718191a1bf0"
   },
   {
@@ -3047,7 +3047,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2DAC",
     "japanese": "アシャラ{BREAK}",
-    "english": "Card #169",
+    "english": "Asura King",
     "raw_hex": "00010203f0"
   },
   {
@@ -3056,7 +3056,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2DB1",
     "japanese": "[G:405]sずテキをそく[G:257][G:275]かくりつ[G:345][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons an Asura King ally.",
     "raw_hex": "0405060708090a0b0c0d0e0b0f101112f0"
   },
   {
@@ -3065,7 +3065,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2DF4",
     "japanese": "ホポバー{BREAK}",
-    "english": "Card #170",
+    "english": "Sky Hopper",
     "raw_hex": "00010203f0"
   },
   {
@@ -3074,7 +3074,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2DF9",
     "japanese": "[G:254]aモンスターしぅうかん/テキを2回rs[G:275]かくりつ[G:345][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Sky Hopper ally.",
     "raw_hex": "040506070809030a0b0c0d0e0f10111213141516170d18191a1b1cf0"
   },
   {
@@ -3083,7 +3083,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2E5C",
     "japanese": "ビリースト{BREAK}",
-    "english": "Card #171",
+    "english": "Bishop",
     "raw_hex": "0001020304f0"
   },
   {
@@ -3092,7 +3092,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2E62",
     "japanese": "[G:254]aモンスターしぅうかん/ビレイヤーのHPを回復[G:275][G:345][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Bishop ally.",
     "raw_hex": "050607080309020a0b0c0d0e0f0010111202131415161718191a1bf0"
   },
   {
@@ -3101,7 +3101,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2EC4",
     "japanese": "ビーニッ{BREAK}",
-    "english": "Card #172",
+    "english": "Peanut Knight",
     "raw_hex": "00010203f0"
   },
   {
@@ -3110,7 +3110,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2EC9",
     "japanese": "ビレイヤーぇ[G:260][G:261]に[G:289]ぽた[G:270]のHP/MPの回復UP[G:275][G:252][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Peanut Knight ally.",
     "raw_hex": "00040506010708090a0b0c0d0e0f10111213110f14151611171819f0"
   },
   {
@@ -3119,7 +3119,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2F28",
     "japanese": "キラーダー{BREAK}",
-    "english": "Card #173",
+    "english": "Wasp",
     "raw_hex": "0001020302f0"
   },
   {
@@ -3128,7 +3128,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2F2E",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:252][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Wasp ally.",
     "raw_hex": "040506070809020a0b0c0d0e0f1000111213141516f0"
   },
   {
@@ -3137,7 +3137,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2F80",
     "japanese": "スケルトン{BREAK}",
-    "english": "Card #174",
+    "english": "Skel-Mage",
     "raw_hex": "0001020304f0"
   },
   {
@@ -3146,7 +3146,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2F86",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:252][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Skeleton Mage ally.",
     "raw_hex": "050607040008090a0b0c0d0e0f1011121314151617f0"
   },
   {
@@ -3155,7 +3155,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2FD8",
     "japanese": "ケムンド{BREAK}",
-    "english": "Card #175",
+    "english": "Dire Wolf",
     "raw_hex": "00010203f0"
   },
   {
@@ -3164,7 +3164,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2FDD",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:252][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Dire Wolf ally.",
     "raw_hex": "040506020708090a0b0c0d0e0f1011121314151617f0"
   },
   {
@@ -3173,7 +3173,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3030",
     "japanese": "ェヂリン{BREAK}",
-    "english": "Card #176",
+    "english": "Goblin King",
     "raw_hex": "00010203f0"
   },
   {
@@ -3182,7 +3182,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3035",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:252][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Goblin King ally.",
     "raw_hex": "040506030708090a0b0c0d0e0f1011121314151617f0"
   },
   {
@@ -3191,7 +3191,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3088",
     "japanese": "[G:271][G:347][G:348]{BREAK}",
-    "english": "Card #177",
+    "english": "Ogre Lord",
     "raw_hex": "000102f0"
   },
   {
@@ -3200,7 +3200,7 @@
     "string_index": 1,
     "rom_offset": "0x4D308C",
     "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275][G:252][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons an Ogre Lord ally.",
     "raw_hex": "030405060708090a0b0c0d0e0f100e110b12131415161718191af0"
   },
   {
@@ -3209,7 +3209,7 @@
     "string_index": 0,
     "rom_offset": "0x4D30EC",
     "japanese": "ィランシッーク{BREAK}",
-    "english": "Card #178",
+    "english": "Megalodon",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -3218,7 +3218,7 @@
     "string_index": 1,
     "rom_offset": "0x4D30F4",
     "japanese": "wxyzのテキをpqrs[G:275]2マス[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Megalodon ally.",
     "raw_hex": "0708090a0b0c0d0e0f1011121314151617f0"
   },
   {
@@ -3227,7 +3227,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3144",
     "japanese": "ターミネーター{BREAK}",
-    "english": "Card #179",
+    "english": "Heavy Borg",
     "raw_hex": "00010203010001f0"
   },
   {
@@ -3236,7 +3236,7 @@
     "string_index": 1,
     "rom_offset": "0x4D314C",
     "japanese": "rsした[G:270]スリービのg[G:393][G:275]かくりつ[G:252][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Heavy Borg ally.",
     "raw_hex": "0405060708090a010b0c0d0e0f101112131415f0"
   },
   {
@@ -3245,7 +3245,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3198",
     "japanese": "ゼラェン{BREAK}",
-    "english": "Card #180",
+    "english": "Ancient Dragon",
     "raw_hex": "00010203f0"
   },
   {
@@ -3254,7 +3254,7 @@
     "string_index": 1,
     "rom_offset": "0x4D319D",
     "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275][G:252][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons an Ancient Dragon ally.",
     "raw_hex": "040506030708090a0b0c0d0e0f100e110b12131415161718191af0"
   },
   {
@@ -3263,7 +3263,7 @@
     "string_index": 0,
     "rom_offset": "0x4D31FC",
     "japanese": "[G:257][G:266]{BREAK}",
-    "english": "Card #181",
+    "english": "Dark Lord",
     "raw_hex": "0001f0"
   },
   {
@@ -3272,7 +3272,7 @@
     "string_index": 1,
     "rom_offset": "0x4D31FF",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:252][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Dark Lord ally.",
     "raw_hex": "02030405060708090a0b0c0d0e0f10111213141516f0"
   },
   {
@@ -3281,7 +3281,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3250",
     "japanese": "マポゼヂル{BREAK}",
-    "english": "Card #182",
+    "english": "Roc",
     "raw_hex": "0001020304f0"
   },
   {
@@ -3290,7 +3290,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3256",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:252][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Roc ally.",
     "raw_hex": "05060708090a0b0c0d0e0f10111213141516171819f0"
   },
   {
@@ -3299,7 +3299,7 @@
     "string_index": 0,
     "rom_offset": "0x4D32AC",
     "japanese": "エダルアイ{BREAK}",
-    "english": "Card #183",
+    "english": "Evil Stalker",
     "raw_hex": "0001020304f0"
   },
   {
@@ -3308,7 +3308,7 @@
     "string_index": 1,
     "rom_offset": "0x4D32B2",
     "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275][G:252][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons an Evil Stalker ally.",
     "raw_hex": "05060708090a0b0c0d0e0f10111210130d1415161718191a1b1cf0"
   },
   {
@@ -3317,7 +3317,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3314",
     "japanese": "ズーモン{BREAK}",
-    "english": "Card #184",
+    "english": "Arch Fiend",
     "raw_hex": "00010203f0"
   },
   {
@@ -3326,7 +3326,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3319",
     "japanese": "ビレイヤーの[G:330][G:484]の[G:405]sぇ[G:246]やすくなる[G:275][G:252][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons an Arch Fiend ally.",
     "raw_hex": "040506070108090a080b0c0d0e0f10111213141516f0"
   },
   {
@@ -3335,7 +3335,7 @@
     "string_index": 0,
     "rom_offset": "0x4D336C",
     "japanese": "キンィゼラェン{BREAK}",
-    "english": "Card #185",
+    "english": "Platinum Dragon",
     "raw_hex": "00010203040501f0"
   },
   {
@@ -3344,7 +3344,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3374",
     "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:252][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Platinum Dragon ally.",
     "raw_hex": "06070801090a0b0c0d0e0f10111200131415161718f0"
   },
   {
@@ -3353,7 +3353,7 @@
     "string_index": 0,
     "rom_offset": "0x4D33C8",
     "japanese": "ヅダーゼラェン{BREAK}",
-    "english": "Card #186",
+    "english": "Void Dragon",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -3362,7 +3362,7 @@
     "string_index": 1,
     "rom_offset": "0x4D33D0",
     "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275][G:252][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Void Dragon ally.",
     "raw_hex": "070809060a0b020c0d0e0f10111210130d1415161718191a1b1cf0"
   },
   {
@@ -3371,7 +3371,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3434",
     "japanese": "ゲンダ{BREAK}",
-    "english": "Card #187",
+    "english": "Mythril Golem",
     "raw_hex": "000102f0"
   },
   {
@@ -3380,7 +3380,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3438",
     "japanese": "[G:257][G:372]した[G:270]マルチベイギンのg[G:393][G:275]かくりつ[G:252][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Mythril Golem ally.",
     "raw_hex": "030405060708090a0b0c0d010e0f1011121314151617f0"
   },
   {
@@ -3389,7 +3389,7 @@
     "string_index": 0,
     "rom_offset": "0x4D348C",
     "japanese": "リスタール{BREAK}",
-    "english": "Card #188",
+    "english": "Lizard King",
     "raw_hex": "0001020304f0"
   },
   {
@@ -3398,7 +3398,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3492",
     "japanese": "ョーズパアンに[G:342]して[G:314]い[G:275][G:252][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Lizard King ally.",
     "raw_hex": "0503060708090a0b0c0d0e0f101112f0"
   },
   {
@@ -3407,7 +3407,7 @@
     "string_index": 0,
     "rom_offset": "0x4D34D4",
     "japanese": "ハンマーシプル{BREAK}",
-    "english": "Card #189",
+    "english": "War Beast",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -3416,7 +3416,7 @@
     "string_index": 1,
     "rom_offset": "0x4D34DC",
     "japanese": "[G:254]aモンスターしぅうかん/lm[G:401][G:275][G:252][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a War Beast ally.",
     "raw_hex": "070809010a0b030c0d0e0f1011121314151617f0"
   },
   {
@@ -3425,7 +3425,7 @@
     "string_index": 0,
     "rom_offset": "0x4D352C",
     "japanese": "ズパポィモール{BREAK}",
-    "english": "Card #190",
+    "english": "Drill Mole",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -3434,7 +3434,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3534",
     "japanese": "ョーズパアンに[G:342]して[G:314]い[G:275][G:252][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Drill Mole ally.",
     "raw_hex": "0705000108090a0b0c0d0e0f101112f0"
   },
   {
@@ -3443,7 +3443,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3578",
     "japanese": "ヂロポサ{BREAK}",
-    "english": "Card #191",
+    "english": "Gator King",
     "raw_hex": "00010203f0"
   },
   {
@@ -3452,7 +3452,7 @@
     "string_index": 1,
     "rom_offset": "0x4D357D",
     "japanese": "rsした[G:270]ベイギンのg[G:393][G:275]かくりつ[G:252][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Gator King ally.",
     "raw_hex": "0405060708090a0b0c0d0e0f10111213141516f0"
   },
   {
@@ -3461,7 +3461,7 @@
     "string_index": 0,
     "rom_offset": "0x4D35CC",
     "japanese": "ダシュポビ{BREAK}",
-    "english": "Card #192",
+    "english": "Sonic Hound",
     "raw_hex": "0001020304f0"
   },
   {
@@ -3470,7 +3470,7 @@
     "string_index": 1,
     "rom_offset": "0x4D35D2",
     "japanese": "ビレイヤーぇ[G:257][G:372]した[G:270][G:355]き[G:356]らせる[G:275]かくりつ[G:252][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Sonic Hound ally.",
     "raw_hex": "0405060708090a0b0c0d0e0f101112131415161718191a1bf0"
   },
   {
@@ -3479,7 +3479,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3630",
     "japanese": "アシャラ{BREAK}",
-    "english": "Card #193",
+    "english": "Avatar Asura",
     "raw_hex": "00010203f0"
   },
   {
@@ -3488,7 +3488,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3635",
     "japanese": "[G:405]sずテキをそく[G:257][G:275]かくりつ[G:252][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons an Avatar Asura ally.",
     "raw_hex": "0405060708090a0b0c0d0e0b0f101112f0"
   },
   {
@@ -3497,7 +3497,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3678",
     "japanese": "ホポバー{BREAK}",
-    "english": "Card #194",
+    "english": "Blade Hopper",
     "raw_hex": "00010203f0"
   },
   {
@@ -3506,7 +3506,7 @@
     "string_index": 1,
     "rom_offset": "0x4D367D",
     "japanese": "[G:254]aモンスターしぅうかん/テキを2回rs[G:275]かくりつ[G:252][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons a Blade Hopper ally.",
     "raw_hex": "040506070809030a0b0c0d0e0f10111213141516170d18191a1b1cf0"
   },
   {
@@ -3515,7 +3515,7 @@
     "string_index": 0,
     "rom_offset": "0x4D36E0",
     "japanese": "ビリースト{BREAK}",
-    "english": "Card #195",
+    "english": "Archbishop",
     "raw_hex": "0001020304f0"
   },
   {
@@ -3524,7 +3524,7 @@
     "string_index": 1,
     "rom_offset": "0x4D36E6",
     "japanese": "[G:254]aモンスターしぅうかん/ビレイヤーのHPを回復[G:275][G:252][G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summons an Archbishop ally.",
     "raw_hex": "050607080309020a0b0c0d0e0f0010111202131415161718191a1bf0"
   },
   {
@@ -3533,7 +3533,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3748",
     "japanese": "{BREAK}",
-    "english": "Card #196",
+    "english": "Double Coins",
     "raw_hex": "f0"
   },
   {
@@ -3542,7 +3542,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3749",
     "japanese": "コイン2ぞい{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Multiplies coins collected on floor by 2!",
     "raw_hex": "000102030405f0"
   },
   {
@@ -3551,7 +3551,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3768",
     "japanese": "{BREAK}",
-    "english": "Card #197",
+    "english": "Dungeon Cleared",
     "raw_hex": "f0"
   },
   {
@@ -3560,7 +3560,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3769",
     "japanese": "ゴンガュンクリア[G:275]コインかくとく[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Stage clear! Returning to Town.",
     "raw_hex": "0001020301040506070809010a0b0c0b0df0"
   },
   {
@@ -3569,7 +3569,7 @@
     "string_index": 0,
     "rom_offset": "0x4D37A4",
     "japanese": "{BREAK}",
-    "english": "Card #198",
+    "english": "Coin Collector",
     "raw_hex": "f0"
   },
   {
@@ -3578,7 +3578,7 @@
     "string_index": 1,
     "rom_offset": "0x4D37A5",
     "japanese": "コインかくとく{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Automatically gathers coins in room.",
     "raw_hex": "00010203040504f0"
   },
   {
@@ -3587,7 +3587,7 @@
     "string_index": 0,
     "rom_offset": "0x4D37C8",
     "japanese": "{BREAK}",
-    "english": "Card #199",
+    "english": "Orb Fragment",
     "raw_hex": "f0"
   },
   {
@@ -3596,7 +3596,7 @@
     "string_index": 1,
     "rom_offset": "0x4D37C9",
     "japanese": "くごけたオーヂのかけら[G:275]コインかくとく[G:276]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Fragment of the ancient Orb of Sealing.",
     "raw_hex": "00010203040506070802090a0b0c0d08000e000ff0"
   },
   {
@@ -3605,7 +3605,7 @@
     "string_index": 0,
     "rom_offset": "0x4D380C",
     "japanese": "はがめてのゴンガュン{BREAK}",
-    "english": "Card #200",
+    "english": "First Dungeon",
     "raw_hex": "00010203040506070806f0"
   },
   {
@@ -3614,7 +3614,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3817",
     "japanese": "まぎは.ルールとテクニポクを[G:398]えよう{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Learn the basics of exploring dungeons.",
     "raw_hex": "090a000b0c0d0c0e0f101112101314151617f0"
   },
   {
@@ -3623,7 +3623,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3868",
     "japanese": "ちいさいゴンガュン{BREAK}",
-    "english": "Card #201",
+    "english": "Small Dungeon",
     "raw_hex": "000102010304050604f0"
   },
   {
@@ -3632,7 +3632,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3872",
     "japanese": "かんたんなゴンガュンずうずごめし{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "A simple and compact dungeon for beginners.",
     "raw_hex": "070809080a03040506040b0c0b0d0e0ff0"
   },
   {
@@ -3641,7 +3641,7 @@
     "string_index": 0,
     "rom_offset": "0x4D38B0",
     "japanese": "やさしいゴンガュン{BREAK}",
-    "english": "Card #202",
+    "english": "Gentle Dungeon",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3650,7 +3650,7 @@
     "string_index": 1,
     "rom_offset": "0x4D38BA",
     "japanese": "ケムンドはフボイアーず[G:296]そう!{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Watch out for Hounds, use Fire to defeat them!",
     "raw_hex": "0809050a0b0c0d0e0f101112131415f0"
   },
   {
@@ -3659,7 +3659,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3904",
     "japanese": "きらくなゴンガュン{BREAK}",
-    "english": "Card #203",
+    "english": "Casual Dungeon",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3668,7 +3668,7 @@
     "string_index": 1,
     "rom_offset": "0x4D390E",
     "japanese": "モンスターごらけ///ずもtぽてる{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Try summoning monster cards to help you fight!",
     "raw_hex": "0805090a0b0c010d0e0e0e0f1011121314f0"
   },
   {
@@ -3677,7 +3677,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3958",
     "japanese": "すぎしいゴンガュン{BREAK}",
-    "english": "Card #204",
+    "english": "Breezy Dungeon",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3686,7 +3686,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3962",
     "japanese": "スイスイすづる[G:367]の[G:368]ぇあるげ!{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Move smoothly through open floor corridors.",
     "raw_hex": "08090809000a0b0c0d0e0f100b1112f0"
   },
   {
@@ -3695,7 +3695,7 @@
     "string_index": 0,
     "rom_offset": "0x4D39A4",
     "japanese": "ゆとりのゴンガュン{BREAK}",
-    "english": "Card #205",
+    "english": "Easygoing Dungeon",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3704,7 +3704,7 @@
     "string_index": 1,
     "rom_offset": "0x4D39AE",
     "japanese": "[G:262][G:316]フロアーにはシュポビぇあるのご!{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Wider floors allow strategic movement.",
     "raw_hex": "08090a0b0c0d0e0f10071112131415031617f0"
   },
   {
@@ -3713,7 +3713,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3A00",
     "japanese": "ふつうのゴンガュン{BREAK}",
-    "english": "Card #206",
+    "english": "Standard Dungeon",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3722,7 +3722,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3A0A",
     "japanese": "とおくからrsしてくる[G:271][G:347][G:348]に[G:369][G:370]せよ!{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Attack enemies from a distance before they reach you.",
     "raw_hex": "08090a0b0c0d0e0f100a1112131415161718191af0"
   },
   {
@@ -3731,7 +3731,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3A64",
     "japanese": "きわぜいゴンガュン{BREAK}",
-    "english": "Card #207",
+    "english": "Notable Dungeon",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3740,7 +3740,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3A6E",
     "japanese": "ベーシュンをたぽびり[G:237]ぽて.ちぅうせんしよう!{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Make good use of Potions when taking heavy hits.",
     "raw_hex": "08090a07050b0c0d0e0f100d111213141516171819151af0"
   },
   {
@@ -3749,7 +3749,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3AC8",
     "japanese": "うれしいゴンガュン{BREAK}",
-    "english": "Card #208",
+    "english": "Pleasant Dungeon",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3758,7 +3758,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3AD2",
     "japanese": "アイテムぇいぽどい!シュポビもあるげ!{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Floors filled with plenty of helpful item drops.",
     "raw_hex": "08090a0b0c030d0e030f10071112131415160ff0"
   },
   {
@@ -3767,7 +3767,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3B20",
     "japanese": "ゆかいなゴンガュン{BREAK}",
-    "english": "Card #209",
+    "english": "Delightful Dungeon",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3776,7 +3776,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3B2A",
     "japanese": "カガノを[G:255]ぽてアイテムゥポト!{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Summon the Casino and try your luck inside!",
     "raw_hex": "0806090a0b0c0d0e0f101112131415f0"
   },
   {
@@ -3785,7 +3785,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3B74",
     "japanese": "ずぽかいゴンガュン{BREAK}",
-    "english": "Card #210",
+    "english": "Huge Dungeon",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3794,7 +3794,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3B7E",
     "japanese": "[G:244]く[G:320]しいげ たんさくアイテムをうまく[G:255]おう!{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "A massive labyrinth requiring good pathfinding.",
     "raw_hex": "08090a0b030c0d0e0f100911121314151617091819161af0"
   },
   {
@@ -3803,7 +3803,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3BD8",
     "japanese": "ぢきみなゴンガュン{BREAK}",
-    "english": "Card #211",
+    "english": "Eerie Dungeon",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3812,7 +3812,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3BE2",
     "japanese": "まさにゼラェンのそうくつご!{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "A dragon's lair filled with deadly fire-breathers!",
     "raw_hex": "08090a0b0c0d050e0f1011121314f0"
   },
   {
@@ -3821,7 +3821,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3C28",
     "japanese": "てょわいゴンガュン{BREAK}",
-    "english": "Card #212",
+    "english": "Formidable Dungeon",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3830,7 +3830,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3C32",
     "japanese": "モンスターのヒーリンィにてこぎるげ!{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Swarms of tough monsters await your arrival.",
     "raw_hex": "0805090a0b0c0d0b0e050f10001112131415f0"
   },
   {
@@ -3839,7 +3839,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3C80",
     "japanese": "つめたいゴンガュン{BREAK}",
-    "english": "Card #213",
+    "english": "Chilly Dungeon",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3848,7 +3848,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3C8A",
     "japanese": "[G:393]てしない[G:367]の[G:371][G:236]をつきすすめ{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "An endless frozen dungeon where steps freeze.",
     "raw_hex": "08090a0b030c0d0e0f100011121201f0"
   },
   {
@@ -3857,7 +3857,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3CCC",
     "japanese": "はゅしいゴンガュン{BREAK}",
-    "english": "Card #214",
+    "english": "Fierce Dungeon",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3866,7 +3866,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3CD6",
     "japanese": "きぅうでうなモンスターぇ[G:355][G:520]する{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Deadly zone populated exclusively by high-tier foes.",
     "raw_hex": "08090a0b0a0c0d050e0f101112131415f0"
   },
   {
@@ -3875,7 +3875,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3D20",
     "japanese": "しぢといゴンガュン{BREAK}",
-    "english": "Card #215",
+    "english": "Quiet Dungeon",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3884,7 +3884,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3D2A",
     "japanese": "[G:521][G:257][G:468]のゲンダに[G:315]をつけろ///{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Dark corridors where light is extinguished.",
     "raw_hex": "08090a0b0c050d0e0f10111213141414f0"
   },
   {
@@ -3893,7 +3893,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3D74",
     "japanese": "ゆめみるゴンガュン{BREAK}",
-    "english": "Card #216",
+    "english": "Dreaming Dungeon",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3902,7 +3902,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3D7E",
     "japanese": "[G:262][G:316]フロアーには[G:373][G:374][G:375]ぇいぽどい!{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Ancient treasures buried in dream-like halls.",
     "raw_hex": "08090a0b0c0d0e0f101112131415161417f0"
   },
   {
@@ -3911,7 +3911,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3DCC",
     "japanese": "むぎかしいゴンガュン{BREAK}",
-    "english": "Card #217",
+    "english": "Difficult Dungeon",
     "raw_hex": "00010203040506070806f0"
   },
   {
@@ -3920,7 +3920,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3DD7",
     "japanese": "ふくっつなフロアーに[G:301]ょわいテキぇせいげろい{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Complex maze layouts filled with traps and gates.",
     "raw_hex": "090a0b0c0d0e0f1011121314150416171819041a1b04f0"
   },
   {
@@ -3929,7 +3929,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3E34",
     "japanese": "きみぅうなゴンガュン{BREAK}",
-    "english": "Card #218",
+    "english": "Perilous Dungeon",
     "raw_hex": "00010203040506070806f0"
   },
   {
@@ -3938,7 +3938,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3E3F",
     "japanese": "[G:255]ぽた[G:311][G:312]ぇ[G:376]えてしまう[G:382]ぬまゴンガュン{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "A relentless assault by the Demon Lord's vanguard.",
     "raw_hex": "090a0b0c0d0e0f10111213031415130506070806f0"
   },
   {
@@ -3947,7 +3947,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3E8C",
     "japanese": "[G:278][G:279]のゴンガュン{BREAK}",
-    "english": "Card #219",
+    "english": "Final Dungeon",
     "raw_hex": "0001020304050604f0"
   },
   {
@@ -3956,7 +3956,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3E95",
     "japanese": "モンスターゃんごんとの[G:393]てしない[G:327]いご!{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "The heart of monster territory where trials converge.",
     "raw_hex": "070408090a0b0c0d0c0e020f1011121314130d15f0"
   },
   {
@@ -3965,7 +3965,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3EE4",
     "japanese": "[G:377]のゴンガュン{BREAK}",
-    "english": "Card #220",
+    "english": "Demon Lord Gate",
     "raw_hex": "00010203040503f0"
   },
   {
@@ -3974,7 +3974,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3EEC",
     "japanese": "[G:393]たしてぜこまずすすめるのか///?{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Will you return alive from the Demon Lord's lair?",
     "raw_hex": "060708090a0b0c0d0e0e0f10011112121213f0"
   },
   {
@@ -3983,7 +3983,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3F34",
     "japanese": " はがめて{BREAK}",
-    "english": "Card #221",
+    "english": "First",
     "raw_hex": "0001020304f0"
   },
   {
@@ -3992,7 +3992,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3F3A",
     "japanese": "はがめてのゴンガュン{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Begin your journey here.",
     "raw_hex": "01020304050607080907f0"
   },
   {
@@ -4001,7 +4001,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3F68",
     "japanese": " ちいさい{BREAK}",
-    "english": "Card #222",
+    "english": "Small",
     "raw_hex": "0001020302f0"
   },
   {
@@ -4010,7 +4010,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3F6E",
     "japanese": "ちいさいゴンガュン{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Compact trial dungeon.",
     "raw_hex": "010203020405060705f0"
   },
   {
@@ -4019,7 +4019,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3F94",
     "japanese": " やさしい{BREAK}",
-    "english": "Card #223",
+    "english": "Gentle",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4028,7 +4028,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3F9A",
     "japanese": "やさしいゴンガュン{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Low monster density.",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4037,7 +4037,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3FC4",
     "japanese": " きらくな{BREAK}",
-    "english": "Card #224",
+    "english": "Casual",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4046,7 +4046,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3FCA",
     "japanese": "きらくなゴンガュン{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Good for practice.",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4055,7 +4055,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3FF4",
     "japanese": " すぎしい{BREAK}",
-    "english": "Card #225",
+    "english": "Breezy",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4064,7 +4064,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3FFA",
     "japanese": "すぎしいゴンガュン{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Windy cavern floors.",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4073,7 +4073,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4024",
     "japanese": "  ゆとり{BREAK}",
-    "english": "Card #226",
+    "english": "Easygoing",
     "raw_hex": "0000010203f0"
   },
   {
@@ -4082,7 +4082,7 @@
     "string_index": 1,
     "rom_offset": "0x4D402A",
     "japanese": "ゆとりのゴンガュン{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Spacious open rooms.",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4091,7 +4091,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4054",
     "japanese": "  ふつう{BREAK}",
-    "english": "Card #227",
+    "english": "Standard",
     "raw_hex": "0000010203f0"
   },
   {
@@ -4100,7 +4100,7 @@
     "string_index": 1,
     "rom_offset": "0x4D405A",
     "japanese": "ふつうのゴンガュン{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Balanced monster distribution.",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4109,7 +4109,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4084",
     "japanese": " きわぜい{BREAK}",
-    "english": "Card #228",
+    "english": "Notable",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4118,7 +4118,7 @@
     "string_index": 1,
     "rom_offset": "0x4D408A",
     "japanese": "きわぜいゴンガュン{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Requires careful card play.",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4127,7 +4127,7 @@
     "string_index": 0,
     "rom_offset": "0x4D40B4",
     "japanese": " うれしい{BREAK}",
-    "english": "Card #229",
+    "english": "Pleasant",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4136,7 +4136,7 @@
     "string_index": 1,
     "rom_offset": "0x4D40BA",
     "japanese": "うれしいゴンガュン{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "High item drop rate.",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4145,7 +4145,7 @@
     "string_index": 0,
     "rom_offset": "0x4D40E4",
     "japanese": "  ゆかい{BREAK}",
-    "english": "Card #230",
+    "english": "Delightful",
     "raw_hex": "0000010203f0"
   },
   {
@@ -4154,7 +4154,7 @@
     "string_index": 1,
     "rom_offset": "0x4D40EA",
     "japanese": "ゆかいなゴンガュン{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Casino card friendly.",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4163,7 +4163,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4114",
     "japanese": " ずぽかい{BREAK}",
-    "english": "Card #231",
+    "english": "Huge",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4172,7 +4172,7 @@
     "string_index": 1,
     "rom_offset": "0x4D411A",
     "japanese": "ずぽかいゴンガュン{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Expansive floor maps.",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4181,7 +4181,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4144",
     "japanese": "  ぢきみ{BREAK}",
-    "english": "Card #232",
+    "english": "Eerie",
     "raw_hex": "0000010203f0"
   },
   {
@@ -4190,7 +4190,7 @@
     "string_index": 1,
     "rom_offset": "0x4D414A",
     "japanese": "ぢきみなゴンガュン{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Dragon nest floors.",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4199,7 +4199,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4174",
     "japanese": " てょわい{BREAK}",
-    "english": "Card #233",
+    "english": "Formidable",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4208,7 +4208,7 @@
     "string_index": 1,
     "rom_offset": "0x4D417A",
     "japanese": "てょわいゴンガュン{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Challenging enemies.",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4217,7 +4217,7 @@
     "string_index": 0,
     "rom_offset": "0x4D41A4",
     "japanese": " つめたい{BREAK}",
-    "english": "Card #234",
+    "english": "Chilly",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4226,7 +4226,7 @@
     "string_index": 1,
     "rom_offset": "0x4D41AA",
     "japanese": "つめたいゴンガュン{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Freezing corridors.",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4235,7 +4235,7 @@
     "string_index": 0,
     "rom_offset": "0x4D41D4",
     "japanese": " はゅしい{BREAK}",
-    "english": "Card #235",
+    "english": "Fierce",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4244,7 +4244,7 @@
     "string_index": 1,
     "rom_offset": "0x4D41DA",
     "japanese": "はゅしいゴンガュン{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Aggressive beast packs.",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4253,7 +4253,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4204",
     "japanese": " しぢとい{BREAK}",
-    "english": "Card #236",
+    "english": "Quiet",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4262,7 +4262,7 @@
     "string_index": 1,
     "rom_offset": "0x4D420A",
     "japanese": "しぢといゴンガュン{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Pitch black labyrinth.",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4271,7 +4271,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4234",
     "japanese": " ゆめみる{BREAK}",
-    "english": "Card #237",
+    "english": "Dreaming",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4280,7 +4280,7 @@
     "string_index": 1,
     "rom_offset": "0x4D423A",
     "japanese": "ゆめみるゴンガュン{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Rare treasure chests.",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4289,7 +4289,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4264",
     "japanese": "むぎかしい{BREAK}",
-    "english": "Card #238",
+    "english": "Difficult",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4298,7 +4298,7 @@
     "string_index": 1,
     "rom_offset": "0x4D426A",
     "japanese": "むぎかしいゴンガュン{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Deadly trap density.",
     "raw_hex": "00010203040506070806f0"
   },
   {
@@ -4307,7 +4307,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4294",
     "japanese": " きみぅう{BREAK}",
-    "english": "Card #239",
+    "english": "Perilous",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4316,7 +4316,7 @@
     "string_index": 1,
     "rom_offset": "0x4D429A",
     "japanese": "きみぅうなゴンガュン{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "High level elite monsters.",
     "raw_hex": "01020304050607080907f0"
   },
   {
@@ -4325,7 +4325,7 @@
     "string_index": 0,
     "rom_offset": "0x4D42C8",
     "japanese": "cdefg{BREAK}",
-    "english": "Card #240",
+    "english": "Sealed",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4334,7 +4334,7 @@
     "string_index": 1,
     "rom_offset": "0x4D42CE",
     "japanese": "cdefgのゴンガュン{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Forbidden territory.",
     "raw_hex": "0001020304050607080907f0"
   },
   {
@@ -4343,7 +4343,7 @@
     "string_index": 0,
     "rom_offset": "0x4D42FC",
     "japanese": "     ズータをセーヂしました,{NEWLINE}   [G:359][G:360]スイポチを[G:362]ぽても[G:252][G:481][G:482]ずす,{NEWLINE}  STARTデタンずゥームにもぜります,{BREAK}",
-    "english": "Card #241",
+    "english": "Data saved. You may safely turn off the power.{NEWLINE}Press START to resume.",
     "raw_hex": "000000000001020304050206070807090af10000000b0c0d0e0f10041112131415161718190af100001a1b1c1d1b1e031f182002212214232408190af0"
   },
   {
@@ -4352,7 +4352,7 @@
     "string_index": 1,
     "rom_offset": "0x4D4339",
     "japanese": "     セーヂ[G:246][G:421]ませんずした,{NEWLINE}{NEWLINE}  STARTデタンずゥームにもぜります,{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Save Confirmation",
     "raw_hex": "000000000005020625260827281807090af1f100001a1b1c1d1b1e031f182002212214232408190af0"
   },
   {
@@ -4361,7 +4361,7 @@
     "string_index": 0,
     "rom_offset": "0x4D43C0",
     "japanese": "リ タ イ ア{BREAK}",
-    "english": "Card #242",
+    "english": "Retire",
     "raw_hex": "00010201030104f0"
   },
   {
@@ -4370,7 +4370,7 @@
     "string_index": 1,
     "rom_offset": "0x4D43C8",
     "japanese": "Aデタンずリトライ{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Press A to retire from this dungeon.",
     "raw_hex": "050602070800090a03f0"
   },
   {
@@ -4379,7 +4379,7 @@
     "string_index": 0,
     "rom_offset": "0x4D43F4",
     "japanese": " [G:245][G:246]してもよろしいずすか?     はい   いいえ{BREAK}",
-    "english": "Card #243",
+    "english": "Are you sure you want to retire?{NEWLINE}  Yes    No",
     "raw_hex": "00010203040506070308090a0b0c00000000000d0800000008080ef0"
   },
   {
@@ -4388,7 +4388,7 @@
     "string_index": 1,
     "rom_offset": "0x4D4410",
     "japanese": "[G:277]{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Confirmation prompt",
     "raw_hex": "0ff0"
   },
   {
@@ -4397,7 +4397,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4440",
     "japanese": "このキッラクターずよろしいずすか?{BREAK}",
-    "english": "Card #244",
+    "english": "Confirm this character?{NEWLINE}  Yes    No",
     "raw_hex": "000102030405060708090a0b0c080d0e0ff0"
   },
   {
@@ -4406,7 +4406,7 @@
     "string_index": 1,
     "rom_offset": "0x4D4452",
     "japanese": "[G:277]はい  いいえ{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Character select confirmation",
     "raw_hex": "10110c12120c0c13f0"
   },
   {
@@ -4415,7 +4415,7 @@
     "string_index": 2,
     "rom_offset": "0x4D445B",
     "japanese": " はい [G:277]いいえ{BREAK}",
-    "english": "Card #245",
+    "english": "  Yes    No",
     "raw_hex": "12110c12100c0c13f0"
   },
   {
@@ -4424,7 +4424,7 @@
     "string_index": 3,
     "rom_offset": "0x4D4464",
     "japanese": "[G:284]デタンの[G:280][G:281]ずキッラクターを{NEWLINE}[G:283][G:282]ず[G:285][G:249]をえらんずくごさい{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Select option with D-pad, confirm with A.",
     "raw_hex": "141506160117180802030405060719f11a1b081c1d19131e1f082021220cf0"
   },
   {
@@ -4433,7 +4433,7 @@
     "string_index": 4,
     "rom_offset": "0x4D4483",
     "japanese": "全[G:267]の[G:346][G:381]ぇ[G:316][G:321]するまず.しぞらくおまちくごさい{BREAK}",
-    "english": "Card #246",
+    "english": "Please wait a moment while entries complete.",
     "raw_hex": "23240125262728290d2a2b082c0b2d1e202e2b2f2021220cf0"
   },
   {
@@ -4442,7 +4442,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4508",
     "japanese": "[G:351]ぞんはf[G:352]ごぇ[G:239][G:353]は[G:354]ひとつ{NEWLINE}1[G:258]ごけ[G:355]き[G:356]れるのぇミリュク{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Multiplayer lobby wait prompt",
     "raw_hex": "00010203040506070809030a0b0c0df10e0f0610111213141516071718191af0"
   },
   {
@@ -4451,7 +4451,7 @@
     "string_index": 0,
     "rom_offset": "0x4D456C",
     "japanese": "rs.lmのゾランスにすゃれた{NEWLINE} スタンゴーゼなキッラクター{BREAK}",
-    "english": "Card #247",
+    "english": "Warrior: Balanced physical Atk and Def.{NEWLINE}A reliable front-line fighter.",
     "raw_hex": "000102030405060708090a0b0c0d0ef10f09100811121314151607171012f0"
   },
   {
@@ -4460,7 +4460,7 @@
     "string_index": 0,
     "rom_offset": "0x4D45C8",
     "japanese": "rs[G:401]はひくいぇ.[G:235][G:236]ぇひろく{NEWLINE}   [G:271][G:272]ぇドワーアポビ{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Warrior Class",
     "raw_hex": "000102030405060708090a07040b05f10c0c0c0d0e070f1011121314f0"
   },
   {
@@ -4469,7 +4469,7 @@
     "string_index": 0,
     "rom_offset": "0x4D461C",
     "japanese": "rs/[G:271][G:272]は.[G:354]ひとつごけぜ{NEWLINE}カーゼ[G:292]めのセンスはゾツィン{BREAK}",
-    "english": "Card #248",
+    "english": "Rogue: Skilled at finding rare cards!{NEWLINE}High speed and exceptional luck.",
     "raw_hex": "000102030405060708090a0b0c0df10e0f101112131415160517181915f0"
   },
   {
@@ -4478,7 +4478,7 @@
     "string_index": 0,
     "rom_offset": "0x4D467C",
     "japanese": " rs.lm.[G:271][G:272]ぜれも[G:314][G:401]{NEWLINE}iくとHPぇへるのぇがぁくてん{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Rogue Class",
     "raw_hex": "00010203040503060708090a0b0cf10d0e0f1011121314151216170e1819f0"
   },
   {
@@ -4487,7 +4487,7 @@
     "string_index": 0,
     "rom_offset": "0x4D46DC",
     "japanese": "  [G:273]aと[G:274][G:273]ぇきり[G:295]わる{NEWLINE} せんりぁくてきなキッラクター{BREAK}",
-    "english": "Use card effect in dungeon.",
+    "english": "Wizard: Fights with powerful spell cards.{NEWLINE}High magic damage and MP capacity.",
     "raw_hex": "0000010203040105060708090af1000b0c070d0e0f0610111213141516f0"
   }
 ]
