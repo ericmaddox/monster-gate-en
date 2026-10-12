@@ -34,6 +34,8 @@ def main():
     elif target == "build":
         run("python tools/merge_translations.py")
         run("python tools/insert_text.py")
+    elif target == "patch":
+        run("python tools/create_patch.py")
     elif target == "all":
         run("python tools/dump_font.py")
         run("python tools/build_charmap.py")
@@ -42,8 +44,9 @@ def main():
         run("python tools/split_translations.py")
         run("python tools/merge_translations.py")
         run("python tools/insert_text.py")
+        run("python tools/create_patch.py")
     else:
-        print(f"Unknown command: {target}. Available: dump, font, build, all")
+        print(f"Unknown command: {target}. Available: dump, font, build, patch, all")
 
 if __name__ == "__main__":
     main()
