@@ -116,5 +116,17 @@ def main():
     create_bps_patch(base, target, os.path.join(PATCH_DIR, "monster_gate_en.bps"))
     create_ips_patch(base, target, os.path.join(PATCH_DIR, "monster_gate_en.ips"))
 
+    # Create release zip bundle
+    import zipfile
+    zip_path = os.path.join(PATCH_DIR, "monster_gate_en_v1.0.zip")
+    with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zipf:
+        zipf.write(os.path.join(PATCH_DIR, "monster_gate_en.bps"), "monster_gate_en.bps")
+        zipf.write(os.path.join(PATCH_DIR, "monster_gate_en.ips"), "monster_gate_en.ips")
+        if os.path.exists("README.md"):
+            zipf.write("README.md", "README.md")
+        if os.path.exists("release_notes.md"):
+            zipf.write("release_notes.md", "release_notes.md")
+    print(f"Created release ZIP: {zip_path} ({os.path.getsize(zip_path)} bytes)")
+
 if __name__ == "__main__":
     main()

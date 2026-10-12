@@ -32,7 +32,7 @@ def main():
         run("python tools/build_charmap.py")
         run("python tools/patch_font.py")
     elif target == "build":
-        run("python tools/merge_translations.py")
+        run("python tools/translate_everything_perfect.py")
         run("python tools/insert_text.py")
     elif target == "patch":
         run("python tools/create_patch.py")
@@ -41,8 +41,7 @@ def main():
         run("python tools/build_charmap.py")
         run("python tools/patch_font.py")
         run("python tools/dump_text.py")
-        run("python tools/split_translations.py")
-        run("python tools/merge_translations.py")
+        run("python tools/translate_everything_perfect.py")
         run("python tools/insert_text.py")
         run("python tools/create_patch.py")
     else:

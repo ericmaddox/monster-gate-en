@@ -5,7 +5,7 @@
     "string_index": 0,
     "rom_offset": "0x4F7D1C",
     "japanese": "0123456789{BREAK}",
-    "english": "0123456789",
+    "english": "0123456789{BREAK}",
     "raw_hex": "00010203040506070809f0"
   },
   {
@@ -14,7 +14,7 @@
     "string_index": 0,
     "rom_offset": "0x4F9D48",
     "japanese": "0123456789{BREAK}",
-    "english": "0123456789",
+    "english": "0123456789{BREAK}",
     "raw_hex": "00010203040506070809f0"
   },
   {
@@ -22,8 +22,8 @@
     "descriptor_index": 552,
     "string_index": 0,
     "rom_offset": "0x4F9D74",
-    "japanese": "ゅんっいのがぃんいは{VAR:60}いずす{BREAK}",
-    "english": "Current Rank: {VAR:60}",
+    "japanese": "げんざいのじゅんいは{VAR:60}いです{BREAK}",
+    "english": "Rank: {VAR:60}{BREAK}",
     "raw_hex": "00010203040506010307f560030809f0"
   },
   {
@@ -31,8 +31,8 @@
     "descriptor_index": 552,
     "string_index": 1,
     "rom_offset": "0x4F9D84",
-    "japanese": "のこりがかんは{VAR:60}ふんずす{BREAK}",
-    "english": "Time Left: {VAR:60} min.",
+    "japanese": "のこりじかんは{VAR:60}ふんです{BREAK}",
+    "english": "Time: {VAR:60} min{BREAK}",
     "raw_hex": "040a0b050c0107f5600d010809f0"
   },
   {
@@ -40,8 +40,8 @@
     "descriptor_index": 552,
     "string_index": 2,
     "rom_offset": "0x4F9D92",
-    "japanese": "のこりがかんは{VAR:60}びんずす{BREAK}",
-    "english": "Time Left: {VAR:60} sec.",
+    "japanese": "のこりじかんは{VAR:60}ぷんです{BREAK}",
+    "english": "Time: {VAR:60} sec{BREAK}",
     "raw_hex": "040a0b050c0107f5600e010809f0"
   },
   {
@@ -49,8 +49,8 @@
     "descriptor_index": 552,
     "string_index": 3,
     "rom_offset": "0x4F9DA0",
-    "japanese": "のこりがかんは{VAR:60}だぅうずす{BREAK}",
-    "english": "Turns Left: {VAR:60}",
+    "japanese": "のこりじかんは{VAR:60}びょうです{BREAK}",
+    "english": "Turns: {VAR:60}{BREAK}",
     "raw_hex": "040a0b050c0107f5600f10110809f0"
   },
   {
@@ -58,8 +58,8 @@
     "descriptor_index": 552,
     "string_index": 4,
     "rom_offset": "0x4F9DAF",
-    "japanese": "{CTRL:F6}ゅぇ{CTRL:F7}\\x60んにせめこみました{BREAK}",
-    "english": "Invaded enemy territory!",
+    "japanese": "{CTRL:F6}げが{CTRL:F7}\\x60んにせめこみました{BREAK}",
+    "english": "Invaded enemy{NEWLINE}territory!{BREAK}",
     "raw_hex": "f60012f760011314150a16171819f0"
   },
   {
@@ -67,8 +67,8 @@
     "descriptor_index": 552,
     "string_index": 5,
     "rom_offset": "0x4F9DBE",
-    "japanese": "{CTRL:F7}\\x60んぇせめこまれました{BREAK}",
-    "english": "Base is under attack!",
+    "japanese": "{CTRL:F7}\\x60んがせめこまれました{BREAK}",
+    "english": "Base is under{NEWLINE}attack!{BREAK}",
     "raw_hex": "f760011214150a171a171819f0"
   },
   {
@@ -76,8 +76,8 @@
     "descriptor_index": 552,
     "string_index": 6,
     "rom_offset": "0x4F9DCB",
-    "japanese": "{CTRL:F7}\\x60んぇせんりぅうされました{BREAK}",
-    "english": "Base was occupied!",
+    "japanese": "{CTRL:F7}\\x60んがせんりょうされました{BREAK}",
+    "english": "Base has been{NEWLINE}occupied!{BREAK}",
     "raw_hex": "f760011214010b10111b1a171819f0"
   },
   {
@@ -85,8 +85,8 @@
     "descriptor_index": 552,
     "string_index": 7,
     "rom_offset": "0x4F9DDA",
-    "japanese": "{CTRL:F7}\\x60んぇテキをゅきたいしました{BREAK}",
-    "english": "Enemy was defeated!",
+    "japanese": "{CTRL:F7}\\x60んがテキをげきたいしました{BREAK}",
+    "english": "Enemy was{NEWLINE}defeated!{BREAK}",
     "raw_hex": "f76001121c1d1e001f190318171819f0"
   },
   {
@@ -94,8 +94,8 @@
     "descriptor_index": 553,
     "string_index": 0,
     "rom_offset": "0x4F9E38",
-    "japanese": "{CTRL:F6}ぇぇ{VAR:60}かいにおりました{BREAK}",
-    "english": "Descended to Floor {VAR:60}.",
+    "japanese": "{CTRL:F6}がが{VAR:60}かいにおりました{BREAK}",
+    "english": "Descended to{NEWLINE}Floor {VAR:60}.{BREAK}",
     "raw_hex": "f60000f5600102030405060708f0"
   },
   {
@@ -103,8 +103,8 @@
     "descriptor_index": 553,
     "string_index": 1,
     "rom_offset": "0x4F9E46",
-    "japanese": "{CTRL:F6}ぇぇラストフロアにとうたつしました{BREAK}",
-    "english": "Reached the Final Floor!",
+    "japanese": "{CTRL:F6}ががラストフロアにとうたつしました{BREAK}",
+    "english": "Reached the{NEWLINE}Final Floor!{BREAK}",
     "raw_hex": "f60000090a0b0c0d0e030f10081107060708f0"
   },
   {
@@ -112,8 +112,8 @@
     "descriptor_index": 553,
     "string_index": 2,
     "rom_offset": "0x4F9E59",
-    "japanese": "{CTRL:F6}ぇぇリタイアしました{BREAK}",
-    "english": "Retired from the dungeon.",
+    "japanese": "{CTRL:F6}ががリタイアしました{BREAK}",
+    "english": "Retired from{NEWLINE}the dungeon.{BREAK}",
     "raw_hex": "f600001213140e07060708f0"
   }
 ]
