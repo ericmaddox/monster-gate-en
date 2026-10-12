@@ -1,0 +1,4493 @@
+[
+  {
+    "id": 0,
+    "descriptor_index": 0,
+    "string_index": 0,
+    "rom_offset": "0x4CF794",
+    "japanese": "ベーシュン{VAR:40}{BREAK}",
+    "english": "Potion {VAR:40}",
+    "raw_hex": "0001020304f540f0"
+  },
+  {
+    "id": 1,
+    "descriptor_index": 0,
+    "string_index": 1,
+    "rom_offset": "0x4CF79C",
+    "japanese": "HPを{VAR:40}回復{BREAK}",
+    "english": "Recovers {VAR:40} HP.",
+    "raw_hex": "050607f5400809f0"
+  },
+  {
+    "id": 2,
+    "descriptor_index": 1,
+    "string_index": 0,
+    "rom_offset": "0x4CF7C4",
+    "japanese": "ベーシュンMAX{BREAK}",
+    "english": "Potion MAX",
+    "raw_hex": "0001020304050607f0"
+  },
+  {
+    "id": 3,
+    "descriptor_index": 1,
+    "string_index": 1,
+    "rom_offset": "0x4CF7CD",
+    "japanese": "HPを全回復{BREAK}",
+    "english": "Fully recovers HP.",
+    "raw_hex": "08090a0b0c0df0"
+  },
+  {
+    "id": 4,
+    "descriptor_index": 2,
+    "string_index": 0,
+    "rom_offset": "0x4CF7FC",
+    "japanese": "ベーシュンSP{BREAK}",
+    "english": "Potion SP",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 5,
+    "descriptor_index": 2,
+    "string_index": 1,
+    "rom_offset": "0x4CF804",
+    "japanese": "[G:265]y全[G:267]のHPを全回復する{BREAK}",
+    "english": "Fully recovers party HP.",
+    "raw_hex": "0708090a0b0c060d090e0f1011f0"
+  },
+  {
+    "id": 6,
+    "descriptor_index": 3,
+    "string_index": 0,
+    "rom_offset": "0x4CF844",
+    "japanese": "フボイアー{BREAK}",
+    "english": "Fire",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 7,
+    "descriptor_index": 3,
+    "string_index": 1,
+    "rom_offset": "0x4CF84A",
+    "japanese": "テキに{VAR:40}ゴメーガ[G:275]はなれたテキにもfg[G:276]{BREAK}",
+    "english": "Deals {VAR:40} dmg to enemy. Range: Far.",
+    "raw_hex": "050607f5400809040a0b0c0d0e0f05060710111213f0"
+  },
+  {
+    "id": 8,
+    "descriptor_index": 4,
+    "string_index": 0,
+    "rom_offset": "0x4CF894",
+    "japanese": "マルチフボイアー{BREAK}",
+    "english": "Multi-Fire",
+    "raw_hex": "0001020304050607f0"
+  },
+  {
+    "id": 9,
+    "descriptor_index": 4,
+    "string_index": 1,
+    "rom_offset": "0x4CF89D",
+    "japanese": "hえている全テキに{VAR:40}ゴメーガ!{BREAK}",
+    "english": "Deals {VAR:40} dmg to all visible enemies!",
+    "raw_hex": "08090a0b0c0d0e0f10f5401112071314f0"
+  },
+  {
+    "id": 10,
+    "descriptor_index": 5,
+    "string_index": 0,
+    "rom_offset": "0x4CF8E4",
+    "japanese": "サンゴー{BREAK}",
+    "english": "Thunder",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 11,
+    "descriptor_index": 5,
+    "string_index": 1,
+    "rom_offset": "0x4CF8E9",
+    "japanese": "テキに{VAR:40}ゴメーガ[G:275]はなれたテキにもfg[G:276]{BREAK}",
+    "english": "Deals {VAR:40} dmg to enemy. Range: Far.",
+    "raw_hex": "040506f54002070308090a0b0c0d0405060e0f1011f0"
+  },
+  {
+    "id": 12,
+    "descriptor_index": 6,
+    "string_index": 0,
+    "rom_offset": "0x4CF930",
+    "japanese": "マルチサンゴー{BREAK}",
+    "english": "Multi-Thunder",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 13,
+    "descriptor_index": 6,
+    "string_index": 1,
+    "rom_offset": "0x4CF938",
+    "japanese": "hえている全テキに{VAR:40}ゴメーガ!{BREAK}",
+    "english": "Deals {VAR:40} dmg to all visible enemies!",
+    "raw_hex": "0708090a0b0c0d0e0ff5400510061112f0"
+  },
+  {
+    "id": 14,
+    "descriptor_index": 7,
+    "string_index": 0,
+    "rom_offset": "0x4CF97C",
+    "japanese": "メテオ{BREAK}",
+    "english": "Meteor",
+    "raw_hex": "000102f0"
+  },
+  {
+    "id": 15,
+    "descriptor_index": 7,
+    "string_index": 1,
+    "rom_offset": "0x4CF980",
+    "japanese": "テキに{VAR:40}ゴメーガ[G:275]はなれたテキにもfg[G:276]{BREAK}",
+    "english": "Deals {VAR:40} dmg to enemy. Range: Far.",
+    "raw_hex": "010304f5400500060708090a0b0c0103040d0e0f10f0"
+  },
+  {
+    "id": 16,
+    "descriptor_index": 8,
+    "string_index": 0,
+    "rom_offset": "0x4CF9C4",
+    "japanese": "マルチメテオ{BREAK}",
+    "english": "Multi-Meteor",
+    "raw_hex": "000102030405f0"
+  },
+  {
+    "id": 17,
+    "descriptor_index": 8,
+    "string_index": 1,
+    "rom_offset": "0x4CF9CB",
+    "japanese": "hえている全テキに{VAR:40}ゴメーガ!{BREAK}",
+    "english": "Deals {VAR:40} dmg to all visible enemies!",
+    "raw_hex": "060708090a0b040c0df5400e030f1011f0"
+  },
+  {
+    "id": 18,
+    "descriptor_index": 9,
+    "string_index": 0,
+    "rom_offset": "0x4CFA0C",
+    "japanese": "スバア{BREAK}",
+    "english": "Spark",
+    "raw_hex": "000102f0"
+  },
+  {
+    "id": 19,
+    "descriptor_index": 9,
+    "string_index": 1,
+    "rom_offset": "0x4CFA10",
+    "japanese": "wxyzの全テキをpqrsする{BREAK}",
+    "english": "Attacks all enemies in the room.",
+    "raw_hex": "030405060708090a0b0c0d0e0f1011f0"
+  },
+  {
+    "id": 20,
+    "descriptor_index": 10,
+    "string_index": 0,
+    "rom_offset": "0x4CFA50",
+    "japanese": "スリービ{BREAK}",
+    "english": "Sleep",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 21,
+    "descriptor_index": 10,
+    "string_index": 1,
+    "rom_offset": "0x4CFA55",
+    "japanese": "テキをtらせる[G:275]はなれたテキにもfg[G:276]{BREAK}",
+    "english": "Puts enemy to sleep. Range: Far.",
+    "raw_hex": "0405060708090a0b0c0d0e0f04051011121314f0"
+  },
+  {
+    "id": 22,
+    "descriptor_index": 11,
+    "string_index": 0,
+    "rom_offset": "0x4CFAA0",
+    "japanese": "マルチスリービ{BREAK}",
+    "english": "Multi-Sleep",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 23,
+    "descriptor_index": 11,
+    "string_index": 1,
+    "rom_offset": "0x4CFAA8",
+    "japanese": "hえている全テキをtらせる{BREAK}",
+    "english": "Puts all visible enemies to sleep.",
+    "raw_hex": "0708090a0b0c0d0e0f1011120bf0"
+  },
+  {
+    "id": 24,
+    "descriptor_index": 12,
+    "string_index": 0,
+    "rom_offset": "0x4CFAE8",
+    "japanese": "ドニポク{BREAK}",
+    "english": "Poison",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 25,
+    "descriptor_index": 12,
+    "string_index": 1,
+    "rom_offset": "0x4CFAED",
+    "japanese": "テキを[G:242][G:243]させる[G:275]はなれたテキにもfg[G:276]{BREAK}",
+    "english": "Poisons enemy. Range: Far.",
+    "raw_hex": "0405060708090a0b0c0d0e0f1004051112131415f0"
+  },
+  {
+    "id": 26,
+    "descriptor_index": 13,
+    "string_index": 0,
+    "rom_offset": "0x4CFB3C",
+    "japanese": "マルチドニポク{BREAK}",
+    "english": "Multi-Poison",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 27,
+    "descriptor_index": 13,
+    "string_index": 1,
+    "rom_offset": "0x4CFB44",
+    "japanese": "hえている全テキを[G:242][G:243]させる{BREAK}",
+    "english": "Poisons all visible enemies.",
+    "raw_hex": "0708090a0b0c0d0e0f101112130bf0"
+  },
+  {
+    "id": 28,
+    "descriptor_index": 14,
+    "string_index": 0,
+    "rom_offset": "0x4CFB88",
+    "japanese": "スロー{BREAK}",
+    "english": "Slow",
+    "raw_hex": "000102f0"
+  },
+  {
+    "id": 29,
+    "descriptor_index": 14,
+    "string_index": 1,
+    "rom_offset": "0x4CFB8C",
+    "japanese": "テキのiきを[G:234]くする[G:275]はなれたテキにもfg[G:276]{BREAK}",
+    "english": "Slows enemy speed. Range: Far.",
+    "raw_hex": "030405060708090a0b0c0d0e0f101103041213141516f0"
+  },
+  {
+    "id": 30,
+    "descriptor_index": 15,
+    "string_index": 0,
+    "rom_offset": "0x4CFBE0",
+    "japanese": "マルチスロー{BREAK}",
+    "english": "Multi-Slow",
+    "raw_hex": "000102030405f0"
+  },
+  {
+    "id": 31,
+    "descriptor_index": 15,
+    "string_index": 1,
+    "rom_offset": "0x4CFBE7",
+    "japanese": "hえている全テキのiきを[G:234]くする{BREAK}",
+    "english": "Slows all visible enemies.",
+    "raw_hex": "060708090a0b0c0d0e0f10111213140af0"
+  },
+  {
+    "id": 32,
+    "descriptor_index": 16,
+    "string_index": 0,
+    "rom_offset": "0x4CFC30",
+    "japanese": "マルチシュポク{BREAK}",
+    "english": "Multi-Panic",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 33,
+    "descriptor_index": 16,
+    "string_index": 1,
+    "rom_offset": "0x4CFC38",
+    "japanese": "hえている全テキをおだえさせる{BREAK}",
+    "english": "Confuses all visible enemies.",
+    "raw_hex": "0708090a0b0c0d0e0f10110812130bf0"
+  },
+  {
+    "id": 34,
+    "descriptor_index": 17,
+    "string_index": 0,
+    "rom_offset": "0x4CFC7C",
+    "japanese": "ヂライト{BREAK}",
+    "english": "Light",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 35,
+    "descriptor_index": 17,
+    "string_index": 1,
+    "rom_offset": "0x4CFC81",
+    "japanese": "フロアーnにて[G:235][G:236]ぇ[G:244]ぇる{BREAK}",
+    "english": "Illuminates dark floors.",
+    "raw_hex": "0405060708090a0b0c0d0e0d0ff0"
+  },
+  {
+    "id": 36,
+    "descriptor_index": 18,
+    "string_index": 0,
+    "rom_offset": "0x4CFCBC",
+    "japanese": "マポビ{BREAK}",
+    "english": "Map",
+    "raw_hex": "000102f0"
+  },
+  {
+    "id": 37,
+    "descriptor_index": 18,
+    "string_index": 1,
+    "rom_offset": "0x4CFCC0",
+    "japanese": "フロアーのマポビを[G:238][G:239]する{BREAK}",
+    "english": "Reveals the floor map.",
+    "raw_hex": "030405060700010208090a0b0cf0"
+  },
+  {
+    "id": 38,
+    "descriptor_index": 19,
+    "string_index": 0,
+    "rom_offset": "0x4CFCF4",
+    "japanese": "サーチ{BREAK}",
+    "english": "Search",
+    "raw_hex": "000102f0"
+  },
+  {
+    "id": 39,
+    "descriptor_index": 19,
+    "string_index": 1,
+    "rom_offset": "0x4CFCF8",
+    "japanese": "フロアーのテキのuvを[G:240][G:241]する{BREAK}",
+    "english": "Reveals enemy locations on floor.",
+    "raw_hex": "0304050106070806090a0b0c0d0e0ff0"
+  },
+  {
+    "id": 40,
+    "descriptor_index": 20,
+    "string_index": 0,
+    "rom_offset": "0x4CFD34",
+    "japanese": "スバーゼアポビ{BREAK}",
+    "english": "Speed Up",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 41,
+    "descriptor_index": 20,
+    "string_index": 1,
+    "rom_offset": "0x4CFD3C",
+    "japanese": "[G:405][G:381][G:270]aiきぇbくなる{BREAK}",
+    "english": "Increases movement speed.",
+    "raw_hex": "0708090a0b0c0d0e0f1011f0"
+  },
+  {
+    "id": 42,
+    "descriptor_index": 21,
+    "string_index": 0,
+    "rom_offset": "0x4CFD78",
+    "japanese": "ゾリア{BREAK}",
+    "english": "Barrier",
+    "raw_hex": "000102f0"
+  },
+  {
+    "id": 43,
+    "descriptor_index": 21,
+    "string_index": 1,
+    "rom_offset": "0x4CFD7C",
+    "japanese": "[G:405][G:381][G:270]aムテキになる{BREAK}",
+    "english": "Grants invincibility for X turns.",
+    "raw_hex": "030405060708090a0b0cf0"
+  },
+  {
+    "id": 44,
+    "descriptor_index": 22,
+    "string_index": 0,
+    "rom_offset": "0x4CFDB0",
+    "japanese": "ヒール100{BREAK}",
+    "english": "Heal 100",
+    "raw_hex": "000102030404f0"
+  },
+  {
+    "id": 45,
+    "descriptor_index": 22,
+    "string_index": 1,
+    "rom_offset": "0x4CFDB7",
+    "japanese": "eきなぇらHPを回復ずきる[G:275]{VAR:40}ターン[G:276]{BREAK}",
+    "english": "Regenerates HP for {VAR:40} turns.",
+    "raw_hex": "05060708090a0b0c0d0e0f061011f54012011314f0"
+  },
+  {
+    "id": 46,
+    "descriptor_index": 23,
+    "string_index": 0,
+    "rom_offset": "0x4CFE04",
+    "japanese": "ヒール200{BREAK}",
+    "english": "Heal 200",
+    "raw_hex": "000102030404f0"
+  },
+  {
+    "id": 47,
+    "descriptor_index": 23,
+    "string_index": 1,
+    "rom_offset": "0x4CFE0B",
+    "japanese": "eきなぇらHPを回復ずきる[G:275]{VAR:40}ターン[G:276]{BREAK}",
+    "english": "Regenerates HP for {VAR:40} turns.",
+    "raw_hex": "05060708090a0b0c0d0e0f061011f54012011314f0"
+  },
+  {
+    "id": 48,
+    "descriptor_index": 24,
+    "string_index": 0,
+    "rom_offset": "0x4CFE58",
+    "japanese": "ヒール300{BREAK}",
+    "english": "Heal 300",
+    "raw_hex": "000102030404f0"
+  },
+  {
+    "id": 49,
+    "descriptor_index": 24,
+    "string_index": 1,
+    "rom_offset": "0x4CFE5F",
+    "japanese": "eきなぇらHPを回復ずきる[G:275]{VAR:40}ターン[G:276]{BREAK}",
+    "english": "Regenerates HP for {VAR:40} turns.",
+    "raw_hex": "05060708090a0b0c0d0e0f061011f54012011314f0"
+  },
+  {
+    "id": 50,
+    "descriptor_index": 25,
+    "string_index": 0,
+    "rom_offset": "0x4CFEAC",
+    "japanese": "ロンィソーゼ{BREAK}",
+    "english": "Long Sword",
+    "raw_hex": "000102030405f0"
+  },
+  {
+    "id": 51,
+    "descriptor_index": 25,
+    "string_index": 1,
+    "rom_offset": "0x4CFEB3",
+    "japanese": "jkするとrs[G:401]ぇアポビ!{BREAK}",
+    "english": "Weapon card: Attack power up!",
+    "raw_hex": "060708090a0b0c0d0e0f101112f0"
+  },
+  {
+    "id": 52,
+    "descriptor_index": 26,
+    "string_index": 0,
+    "rom_offset": "0x4CFEF4",
+    "japanese": "ィレートソーゼ{BREAK}",
+    "english": "Great Sword",
+    "raw_hex": "00010203040205f0"
+  },
+  {
+    "id": 53,
+    "descriptor_index": 26,
+    "string_index": 1,
+    "rom_offset": "0x4CFEFC",
+    "japanese": "jkするとrs[G:401]ぇ[G:252][G:253]アポビ!{BREAK}",
+    "english": "Weapon card: Great attack power up!",
+    "raw_hex": "060708090a0b0c0d0e0f1011121314f0"
+  },
+  {
+    "id": 54,
+    "descriptor_index": 27,
+    "string_index": 0,
+    "rom_offset": "0x4CFF44",
+    "japanese": "ドワーシールゼ{BREAK}",
+    "english": "Tower Shield",
+    "raw_hex": "00010203020405f0"
+  },
+  {
+    "id": 55,
+    "descriptor_index": 27,
+    "string_index": 1,
+    "rom_offset": "0x4CFF4C",
+    "japanese": "jkするとlm[G:401]ぇアポビ!{BREAK}",
+    "english": "Shield card: Defense up!",
+    "raw_hex": "060708090a0b0c0d0e0f101112f0"
+  },
+  {
+    "id": 56,
+    "descriptor_index": 28,
+    "string_index": 0,
+    "rom_offset": "0x4CFF8C",
+    "japanese": "ィレートシールゼ{BREAK}",
+    "english": "Great Shield",
+    "raw_hex": "0001020304020506f0"
+  },
+  {
+    "id": 57,
+    "descriptor_index": 28,
+    "string_index": 1,
+    "rom_offset": "0x4CFF95",
+    "japanese": "jkするとlm[G:401]ぇ[G:252][G:253]アポビ!{BREAK}",
+    "english": "Shield card: Great defense up!",
+    "raw_hex": "0708090a0b0c0d0e0f101112131415f0"
+  },
+  {
+    "id": 58,
+    "descriptor_index": 29,
+    "string_index": 0,
+    "rom_offset": "0x4CFFE0",
+    "japanese": "ハンターリンィ{BREAK}",
+    "english": "Hunter Ring",
+    "raw_hex": "00010203040105f0"
+  },
+  {
+    "id": 59,
+    "descriptor_index": 29,
+    "string_index": 1,
+    "rom_offset": "0x4CFFE8",
+    "japanese": "jkするとモンスターカーゼをhつけやすくなる{BREAK}",
+    "english": "Ring: Makes finding cards easier.",
+    "raw_hex": "060708090a0b010c02030d030e0f1011121308141509f0"
+  },
+  {
+    "id": 60,
+    "descriptor_index": 30,
+    "string_index": 0,
+    "rom_offset": "0x4D0038",
+    "japanese": "ヘルビリンィ{BREAK}",
+    "english": "Power Ring",
+    "raw_hex": "000102030405f0"
+  },
+  {
+    "id": 61,
+    "descriptor_index": 30,
+    "string_index": 1,
+    "rom_offset": "0x4D003F",
+    "japanese": "jkするとベーシュンぇ[G:254]aにもfgになる{BREAK}",
+    "english": "Ring: Increases attack power.",
+    "raw_hex": "060708090a0b0c0d0e040f101112131415121609f0"
+  },
+  {
+    "id": 62,
+    "descriptor_index": 31,
+    "string_index": 0,
+    "rom_offset": "0x4D0090",
+    "japanese": "リゾイヂリンィ{BREAK}",
+    "english": "Guard Ring",
+    "raw_hex": "00010203000405f0"
+  },
+  {
+    "id": 63,
+    "descriptor_index": 31,
+    "string_index": 1,
+    "rom_offset": "0x4D0098",
+    "japanese": "jkすると[G:257]んずも1[G:258]ごけ復[G:259]ずきる{BREAK}",
+    "english": "Ring: Increases defense.",
+    "raw_hex": "060708090a0b0c0d0e0f10111213140d1509f0"
+  },
+  {
+    "id": 64,
+    "descriptor_index": 32,
+    "string_index": 0,
+    "rom_offset": "0x4D00E4",
+    "japanese": "ラポキーリンィ{BREAK}",
+    "english": "Speed Ring",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 65,
+    "descriptor_index": 32,
+    "string_index": 1,
+    "rom_offset": "0x4D00EC",
+    "japanese": "jkするとカーゼの[G:255][G:256]MPぇ[G:268][G:251]になる{BREAK}",
+    "english": "Ring: Increases movement speed.",
+    "raw_hex": "0708090a0b0c030d0e0f10111213141516170af0"
+  },
+  {
+    "id": 66,
+    "descriptor_index": 33,
+    "string_index": 0,
+    "rom_offset": "0x4D013C",
+    "japanese": "ベケポト+1{BREAK}",
+    "english": "Escape Card",
+    "raw_hex": "000102030405f0"
+  },
+  {
+    "id": 67,
+    "descriptor_index": 33,
+    "string_index": 1,
+    "rom_offset": "0x4D0143",
+    "japanese": "[G:237]てるカーゼのcぇ1つdえる{BREAK}",
+    "english": "Escape from the dungeon safely.",
+    "raw_hex": "060708090a0b0c0d0e050f101108f0"
+  },
+  {
+    "id": 68,
+    "descriptor_index": 34,
+    "string_index": 0,
+    "rom_offset": "0x4D0184",
+    "japanese": "ベケポト+2{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405f0"
+  },
+  {
+    "id": 69,
+    "descriptor_index": 34,
+    "string_index": 1,
+    "rom_offset": "0x4D018B",
+    "japanese": "[G:237]てるカーゼのcぇ2つdえる{BREAK}",
+    "english": "",
+    "raw_hex": "060708090a0b0c0d0e050f101108f0"
+  },
+  {
+    "id": 70,
+    "descriptor_index": 35,
+    "string_index": 0,
+    "rom_offset": "0x4D01CC",
+    "japanese": "ドワーアポビ{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405f0"
+  },
+  {
+    "id": 71,
+    "descriptor_index": 35,
+    "string_index": 1,
+    "rom_offset": "0x4D01D3",
+    "japanese": "rs[G:401]/lm[G:401]/HP/MPをdoさせる{BREAK}",
+    "english": "",
+    "raw_hex": "060708090a0b08090c0d090e0d0f1011121314f0"
+  },
+  {
+    "id": 72,
+    "descriptor_index": 36,
+    "string_index": 0,
+    "rom_offset": "0x4D0220",
+    "japanese": "テレベート{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 73,
+    "descriptor_index": 36,
+    "string_index": 1,
+    "rom_offset": "0x4D0226",
+    "japanese": "フロアーnの[G:249]の[G:247][G:248]に[G:250]iする{BREAK}",
+    "english": "",
+    "raw_hex": "0506070308090a090b0c0d0e0f1011f0"
+  },
+  {
+    "id": 74,
+    "descriptor_index": 37,
+    "string_index": 0,
+    "rom_offset": "0x4D0268",
+    "japanese": "エスケービ{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 75,
+    "descriptor_index": 37,
+    "string_index": 1,
+    "rom_offset": "0x4D026E",
+    "japanese": "ゴンガュンを[G:245][G:246]する{BREAK}",
+    "english": "",
+    "raw_hex": "0506070806090a0b0c0df0"
+  },
+  {
+    "id": 76,
+    "descriptor_index": 38,
+    "string_index": 0,
+    "rom_offset": "0x4D02A4",
+    "japanese": "コレクト{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 77,
+    "descriptor_index": 38,
+    "string_index": 1,
+    "rom_offset": "0x4D02A9",
+    "japanese": "かく[G:384]コインをその[G:247]ず[G:248][G:237]コインに[G:295]える{BREAK}",
+    "english": "",
+    "raw_hex": "040506000708090a0b0c0d0e0f00070810111213f0"
+  },
+  {
+    "id": 78,
+    "descriptor_index": 39,
+    "string_index": 0,
+    "rom_offset": "0x4D02F4",
+    "japanese": "シュポビ{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 79,
+    "descriptor_index": 39,
+    "string_index": 1,
+    "rom_offset": "0x4D02F9",
+    "japanese": "シュポビぇ[G:264]れる{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304050607f0"
+  },
+  {
+    "id": 80,
+    "descriptor_index": 40,
+    "string_index": 0,
+    "rom_offset": "0x4D0320",
+    "japanese": "カガノ{BREAK}",
+    "english": "",
+    "raw_hex": "000102f0"
+  },
+  {
+    "id": 81,
+    "descriptor_index": 40,
+    "string_index": 1,
+    "rom_offset": "0x4D0324",
+    "japanese": "カガノぇ[G:264]れる{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 82,
+    "descriptor_index": 41,
+    "string_index": 0,
+    "rom_offset": "0x4D0348",
+    "japanese": "ハンター{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 83,
+    "descriptor_index": 41,
+    "string_index": 1,
+    "rom_offset": "0x4D034D",
+    "japanese": "テキを[G:254]aモンスターにする[G:275]はなれたテキにもfg[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "040506070809010a02030b0c0d0e0f10111204050b13141516f0"
+  },
+  {
+    "id": 84,
+    "descriptor_index": 42,
+    "string_index": 0,
+    "rom_offset": "0x4D03A4",
+    "japanese": "マガポクベーシュン{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405060708f0"
+  },
+  {
+    "id": 85,
+    "descriptor_index": 42,
+    "string_index": 1,
+    "rom_offset": "0x4D03AE",
+    "japanese": "MPを全回復{BREAK}",
+    "english": "",
+    "raw_hex": "090a0b0c0d0ef0"
+  },
+  {
+    "id": 86,
+    "descriptor_index": 43,
+    "string_index": 0,
+    "rom_offset": "0x4D03E0",
+    "japanese": "ベイギン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 87,
+    "descriptor_index": 43,
+    "string_index": 1,
+    "rom_offset": "0x4D03E5",
+    "japanese": "テキを[G:382][G:383]する[G:275]5ゴメーガ%ターン[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0405060708090a0b0c0d0e0f1011120f0313f0"
+  },
+  {
+    "id": 88,
+    "descriptor_index": 44,
+    "string_index": 0,
+    "rom_offset": "0x4D042C",
+    "japanese": "マルチベイギン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 89,
+    "descriptor_index": 44,
+    "string_index": 1,
+    "rom_offset": "0x4D0434",
+    "japanese": "hえている全テキを[G:382][G:383]する[G:275]5ゴメーガ%ターン[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0708090a0b0c0d0e0f1011120b131415161718191a17061bf0"
+  },
+  {
+    "id": 90,
+    "descriptor_index": 45,
+    "string_index": 0,
+    "rom_offset": "0x4D0494",
+    "japanese": "ェールゼソーゼ{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040103f0"
+  },
+  {
+    "id": 91,
+    "descriptor_index": 45,
+    "string_index": 1,
+    "rom_offset": "0x4D049C",
+    "japanese": "[G:306][G:251]より[G:314]いテキを[G:296]すとより[G:307]くのコインを[G:384]る{BREAK}",
+    "english": "",
+    "raw_hex": "05060708090a0b0c0d0e0f1007081112131415160d1718f0"
+  },
+  {
+    "id": 92,
+    "descriptor_index": 46,
+    "string_index": 0,
+    "rom_offset": "0x4D04F4",
+    "japanese": "コール+1{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 93,
+    "descriptor_index": 46,
+    "string_index": 1,
+    "rom_offset": "0x4D04FA",
+    "japanese": "カーゼホルゴーのアイテムを1[G:329]ゥポト{BREAK}",
+    "english": "",
+    "raw_hex": "05010607020801090a0b0c0d0e040f101112f0"
+  },
+  {
+    "id": 94,
+    "descriptor_index": 47,
+    "string_index": 0,
+    "rom_offset": "0x4D0540",
+    "japanese": "コール+2{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 95,
+    "descriptor_index": 47,
+    "string_index": 1,
+    "rom_offset": "0x4D0546",
+    "japanese": "カーゼホルゴーのアイテムを2[G:329]ゥポト{BREAK}",
+    "english": "",
+    "raw_hex": "05010607020801090a0b0c0d0e040f101112f0"
+  },
+  {
+    "id": 96,
+    "descriptor_index": 48,
+    "string_index": 0,
+    "rom_offset": "0x4D058C",
+    "japanese": "チプンガ{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 97,
+    "descriptor_index": 48,
+    "string_index": 1,
+    "rom_offset": "0x4D0591",
+    "japanese": "そのゴンガュンに[G:387]り[G:388][G:389]のキッラクターにチプンガずきる{BREAK}",
+    "english": "",
+    "raw_hex": "0405060203070208090a0b0c050d0e0f1011120800010203131415f0"
+  },
+  {
+    "id": 98,
+    "descriptor_index": 49,
+    "string_index": 0,
+    "rom_offset": "0x4D05E8",
+    "japanese": "トニポクリンィ{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 99,
+    "descriptor_index": 49,
+    "string_index": 1,
+    "rom_offset": "0x4D05F0",
+    "japanese": "jkするとはがめての[G:260][G:261]ず回復ぇ2[G:385]になる{BREAK}",
+    "english": "",
+    "raw_hex": "0708090a0b0c0d0e0f101112131415161718191a0af0"
+  },
+  {
+    "id": 100,
+    "descriptor_index": 50,
+    "string_index": 0,
+    "rom_offset": "0x4D0648",
+    "japanese": "ズス{BREAK}",
+    "english": "",
+    "raw_hex": "0001f0"
+  },
+  {
+    "id": 101,
+    "descriptor_index": 50,
+    "string_index": 1,
+    "rom_offset": "0x4D064B",
+    "japanese": "テキを[G:330]ぎ[G:296]す[G:275][G:255][G:256][G:270]に[G:386][G:401]ぇ[G:281]ぇる[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "02030405060708090a0b0c0d0e0f1011101213f0"
+  },
+  {
+    "id": 102,
+    "descriptor_index": 51,
+    "string_index": 0,
+    "rom_offset": "0x4D0694",
+    "japanese": "ヂレンゼ{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 103,
+    "descriptor_index": 51,
+    "string_index": 1,
+    "rom_offset": "0x4D0699",
+    "japanese": "ヂレンゼ[G:261]ぇ[G:264]れる{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405060708f0"
+  },
+  {
+    "id": 104,
+    "descriptor_index": 52,
+    "string_index": 0,
+    "rom_offset": "0x4D06C4",
+    "japanese": "ホーリーライト{BREAK}",
+    "english": "",
+    "raw_hex": "00010201030405f0"
+  },
+  {
+    "id": 105,
+    "descriptor_index": 52,
+    "string_index": 1,
+    "rom_offset": "0x4D06CC",
+    "japanese": "[G:405][G:381]のかくりつずテキのrsをむこうかする{BREAK}",
+    "english": "",
+    "raw_hex": "060708090a0b0c0d0e0f08101112131415091617f0"
+  },
+  {
+    "id": 106,
+    "descriptor_index": 53,
+    "string_index": 0,
+    "rom_offset": "0x4D0720",
+    "japanese": "セイントソーゼ{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 107,
+    "descriptor_index": 53,
+    "string_index": 1,
+    "rom_offset": "0x4D0728",
+    "japanese": "テキを[G:296]すと[G:405][G:381]ベイントHP回復[G:275]+rs[G:401]アポビ[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0708090a0b0c0d0e0f010203101112131415161718191a1b1cf0"
+  },
+  {
+    "id": 108,
+    "descriptor_index": 54,
+    "string_index": 0,
+    "rom_offset": "0x4D0788",
+    "japanese": "フレイムロポゼ{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 109,
+    "descriptor_index": 54,
+    "string_index": 1,
+    "rom_offset": "0x4D0790",
+    "japanese": "はなれたテキにrsするとフボイアーのg[G:393][G:275]2MP[G:330][G:331][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0708090a0b0c0d0e0f1011120013021415161718191a1b1c1d1e1ff0"
+  },
+  {
+    "id": 110,
+    "descriptor_index": 55,
+    "string_index": 0,
+    "rom_offset": "0x4D07F8",
+    "japanese": "インダガヂル{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405f0"
+  },
+  {
+    "id": 111,
+    "descriptor_index": 55,
+    "string_index": 1,
+    "rom_offset": "0x4D07FF",
+    "japanese": "トウメイになぽてテキからえんきぅりrsをうけなくなる{BREAK}",
+    "english": "",
+    "raw_hex": "06070800090a0b0c0d0e0f101112131415161718191a0a1b0a1cf0"
+  },
+  {
+    "id": 112,
+    "descriptor_index": 56,
+    "string_index": 0,
+    "rom_offset": "0x4D0860",
+    "japanese": "ハリケーン{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 113,
+    "descriptor_index": 56,
+    "string_index": 1,
+    "rom_offset": "0x4D0866",
+    "japanese": "hえている全テキを[G:392]の[G:260][G:261]へとぞす{BREAK}",
+    "english": "",
+    "raw_hex": "05060708090a0b0c0d0e0f101112131415f0"
+  },
+  {
+    "id": 114,
+    "descriptor_index": 57,
+    "string_index": 0,
+    "rom_offset": "0x4D08B0",
+    "japanese": "リフレクトシールゼ{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405060708f0"
+  },
+  {
+    "id": 115,
+    "descriptor_index": 57,
+    "string_index": 1,
+    "rom_offset": "0x4D08BA",
+    "japanese": "うけたゴメーガの[G:405][G:260]をテキにはんしぁ[G:275]+lm[G:401]アポビ[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "090a0b0c0d060e0f101112131415161718191a1b1c1d1e1f202122f0"
+  },
+  {
+    "id": 116,
+    "descriptor_index": 58,
+    "string_index": 0,
+    "rom_offset": "0x4D0928",
+    "japanese": "ワンゴー{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 117,
+    "descriptor_index": 58,
+    "string_index": 1,
+    "rom_offset": "0x4D092D",
+    "japanese": "[G:255]うと[G:342][G:327][G:493][G:301]に[G:424]かぇ[G:390]こる!{BREAK}",
+    "english": "",
+    "raw_hex": "0405060708090a0b0c0d0e0f101112f0"
+  },
+  {
+    "id": 118,
+    "descriptor_index": 59,
+    "string_index": 0,
+    "rom_offset": "0x4D0970",
+    "japanese": "ェールゼシールゼ{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304010203f0"
+  },
+  {
+    "id": 119,
+    "descriptor_index": 59,
+    "string_index": 1,
+    "rom_offset": "0x4D0979",
+    "japanese": "[G:306][G:251]より[G:314]いテキを[G:296]すとより[G:307]くのコインを[G:384]る{BREAK}",
+    "english": "",
+    "raw_hex": "05060708090a0b0c0d0e0f1007081112131415160d1718f0"
+  },
+  {
+    "id": 120,
+    "descriptor_index": 60,
+    "string_index": 0,
+    "rom_offset": "0x4D09D0",
+    "japanese": "マポビリンィ{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405f0"
+  },
+  {
+    "id": 121,
+    "descriptor_index": 60,
+    "string_index": 1,
+    "rom_offset": "0x4D09D7",
+    "japanese": "jkするとつねにマポビのg[G:393]ぇある{BREAK}",
+    "english": "",
+    "raw_hex": "060708090a0b0c0d0001020e0f10111209f0"
+  },
+  {
+    "id": 122,
+    "descriptor_index": 61,
+    "string_index": 0,
+    "rom_offset": "0x4D0A1C",
+    "japanese": "ヂライトリンィ{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 123,
+    "descriptor_index": 61,
+    "string_index": 1,
+    "rom_offset": "0x4D0A24",
+    "japanese": "jkするとつねにヂライトのg[G:393]ぇある{BREAK}",
+    "english": "",
+    "raw_hex": "0708090a0b0c0d0e000102030f101112130af0"
+  },
+  {
+    "id": 124,
+    "descriptor_index": 62,
+    "string_index": 0,
+    "rom_offset": "0x4D0A6C",
+    "japanese": "サーチリンィ{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405f0"
+  },
+  {
+    "id": 125,
+    "descriptor_index": 62,
+    "string_index": 1,
+    "rom_offset": "0x4D0A73",
+    "japanese": "jkするとつねにサーチのg[G:393]ぇある{BREAK}",
+    "english": "",
+    "raw_hex": "060708090a0b0c0d0001020e0f10111209f0"
+  },
+  {
+    "id": 126,
+    "descriptor_index": 63,
+    "string_index": 0,
+    "rom_offset": "0x4D0AB8",
+    "japanese": "ェールゼリンィ{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 127,
+    "descriptor_index": 63,
+    "string_index": 1,
+    "rom_offset": "0x4D0AC0",
+    "japanese": "[G:306][G:251]より[G:314]いテキを[G:296]すとより[G:307]くのコインを[G:384]る{BREAK}",
+    "english": "",
+    "raw_hex": "0708090a0b0c0d0e0f101112090a1314151617050f1819f0"
+  },
+  {
+    "id": 128,
+    "descriptor_index": 64,
+    "string_index": 0,
+    "rom_offset": "0x4D0B18",
+    "japanese": "ウルトラスリービ{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304050607f0"
+  },
+  {
+    "id": 129,
+    "descriptor_index": 64,
+    "string_index": 1,
+    "rom_offset": "0x4D0B21",
+    "japanese": "hえている{CTRL:F4}ぜんなテキずも{CTRL:F4}tらせる!{BREAK}",
+    "english": "",
+    "raw_hex": "08090a0b0cf40d0e0f10111213f41415160c17f0"
+  },
+  {
+    "id": 130,
+    "descriptor_index": 65,
+    "string_index": 0,
+    "rom_offset": "0x4D0B74",
+    "japanese": "ウルトラドニポク{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304050607f0"
+  },
+  {
+    "id": 131,
+    "descriptor_index": 65,
+    "string_index": 1,
+    "rom_offset": "0x4D0B7D",
+    "japanese": "hえている{CTRL:F4}ぜんなテキずも{CTRL:F4}[G:242][G:243]させる!{BREAK}",
+    "english": "",
+    "raw_hex": "08090a0b0cf40d0e0f10111213f4141516170c18f0"
+  },
+  {
+    "id": 132,
+    "descriptor_index": 66,
+    "string_index": 0,
+    "rom_offset": "0x4D0BD0",
+    "japanese": "ウルトラスロー{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 133,
+    "descriptor_index": 66,
+    "string_index": 1,
+    "rom_offset": "0x4D0BD8",
+    "japanese": "hえている{CTRL:F4}ぜんなテキずも{CTRL:F4}iきを[G:234]くする!{BREAK}",
+    "english": "",
+    "raw_hex": "0708090a0bf40c0d0e0f101112f41314151617180b19f0"
+  },
+  {
+    "id": 134,
+    "descriptor_index": 67,
+    "string_index": 0,
+    "rom_offset": "0x4D0C30",
+    "japanese": "ウルトラシュポク{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304050607f0"
+  },
+  {
+    "id": 135,
+    "descriptor_index": 67,
+    "string_index": 1,
+    "rom_offset": "0x4D0C39",
+    "japanese": "hえている{CTRL:F4}ぜんなテキずも{CTRL:F4}おだえさせる!{BREAK}",
+    "english": "",
+    "raw_hex": "08090a0b0cf40d0e0f10111213f414150916170c18f0"
+  },
+  {
+    "id": 136,
+    "descriptor_index": 68,
+    "string_index": 0,
+    "rom_offset": "0x4D0C90",
+    "japanese": "{VAR:02}MP{BREAK}",
+    "english": "",
+    "raw_hex": "f5020001f0"
+  },
+  {
+    "id": 137,
+    "descriptor_index": 68,
+    "string_index": 1,
+    "rom_offset": "0x4D0C95",
+    "japanese": "を{CTRL:F4}{VAR:20}MP{CTRL:F4}に{CTRL:F4}へんかん{CTRL:F4}します{BREAK}",
+    "english": "",
+    "raw_hex": "02f4f5200001f403f404050605f4070809f0"
+  },
+  {
+    "id": 138,
+    "descriptor_index": 69,
+    "string_index": 0,
+    "rom_offset": "0x4D0CC8",
+    "japanese": "ビーニッ{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 139,
+    "descriptor_index": 69,
+    "string_index": 1,
+    "rom_offset": "0x4D0CCD",
+    "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
+    "english": "",
+    "raw_hex": "040506070809010a0b0c0d0ef0"
+  },
+  {
+    "id": 140,
+    "descriptor_index": 70,
+    "string_index": 0,
+    "rom_offset": "0x4D0D04",
+    "japanese": "キラーダー{BREAK}",
+    "english": "",
+    "raw_hex": "0001020302f0"
+  },
+  {
+    "id": 141,
+    "descriptor_index": 70,
+    "string_index": 1,
+    "rom_offset": "0x4D0D0A",
+    "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
+    "english": "",
+    "raw_hex": "040506070809020a0b0c0d0ef0"
+  },
+  {
+    "id": 142,
+    "descriptor_index": 71,
+    "string_index": 0,
+    "rom_offset": "0x4D0D44",
+    "japanese": "スケルトン{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 143,
+    "descriptor_index": 71,
+    "string_index": 1,
+    "rom_offset": "0x4D0D4A",
+    "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
+    "english": "",
+    "raw_hex": "050607040008090a0b0c0d0ef0"
+  },
+  {
+    "id": 144,
+    "descriptor_index": 72,
+    "string_index": 0,
+    "rom_offset": "0x4D0D84",
+    "japanese": "ケムンド{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 145,
+    "descriptor_index": 72,
+    "string_index": 1,
+    "rom_offset": "0x4D0D89",
+    "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
+    "english": "",
+    "raw_hex": "040506020708090a0b0c0d0ef0"
+  },
+  {
+    "id": 146,
+    "descriptor_index": 73,
+    "string_index": 0,
+    "rom_offset": "0x4D0DC0",
+    "japanese": "ェヂリン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 147,
+    "descriptor_index": 73,
+    "string_index": 1,
+    "rom_offset": "0x4D0DC5",
+    "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
+    "english": "",
+    "raw_hex": "040506030708090a0b0c0d0ef0"
+  },
+  {
+    "id": 148,
+    "descriptor_index": 74,
+    "string_index": 0,
+    "rom_offset": "0x4D0DFC",
+    "japanese": "[G:271][G:347][G:348]{BREAK}",
+    "english": "",
+    "raw_hex": "000102f0"
+  },
+  {
+    "id": 149,
+    "descriptor_index": 74,
+    "string_index": 1,
+    "rom_offset": "0x4D0E00",
+    "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
+    "english": "",
+    "raw_hex": "030405060708090a0b0c0d0ef0"
+  },
+  {
+    "id": 150,
+    "descriptor_index": 75,
+    "string_index": 0,
+    "rom_offset": "0x4D0E38",
+    "japanese": "ィランシッーク{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 151,
+    "descriptor_index": 75,
+    "string_index": 1,
+    "rom_offset": "0x4D0E40",
+    "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
+    "english": "",
+    "raw_hex": "070809020a0b050c0d0e0f10f0"
+  },
+  {
+    "id": 152,
+    "descriptor_index": 76,
+    "string_index": 0,
+    "rom_offset": "0x4D0E7C",
+    "japanese": "ターミネーター{BREAK}",
+    "english": "",
+    "raw_hex": "00010203010001f0"
+  },
+  {
+    "id": 153,
+    "descriptor_index": 76,
+    "string_index": 1,
+    "rom_offset": "0x4D0E84",
+    "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
+    "english": "",
+    "raw_hex": "04050607080001090a0b0c0df0"
+  },
+  {
+    "id": 154,
+    "descriptor_index": 77,
+    "string_index": 0,
+    "rom_offset": "0x4D0EBC",
+    "japanese": "ゼラェン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 155,
+    "descriptor_index": 77,
+    "string_index": 1,
+    "rom_offset": "0x4D0EC1",
+    "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
+    "english": "",
+    "raw_hex": "040506030708090a0b0c0d0ef0"
+  },
+  {
+    "id": 156,
+    "descriptor_index": 78,
+    "string_index": 0,
+    "rom_offset": "0x4D0EF8",
+    "japanese": "[G:257][G:266]{BREAK}",
+    "english": "",
+    "raw_hex": "0001f0"
+  },
+  {
+    "id": 157,
+    "descriptor_index": 78,
+    "string_index": 1,
+    "rom_offset": "0x4D0EFB",
+    "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
+    "english": "",
+    "raw_hex": "02030405060708090a0b0c0df0"
+  },
+  {
+    "id": 158,
+    "descriptor_index": 79,
+    "string_index": 0,
+    "rom_offset": "0x4D0F30",
+    "japanese": "マポゼヂル{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 159,
+    "descriptor_index": 79,
+    "string_index": 1,
+    "rom_offset": "0x4D0F36",
+    "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
+    "english": "",
+    "raw_hex": "05060708090a0b0c0d0e0f10f0"
+  },
+  {
+    "id": 160,
+    "descriptor_index": 80,
+    "string_index": 0,
+    "rom_offset": "0x4D0F74",
+    "japanese": "エダルアイ{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 161,
+    "descriptor_index": 80,
+    "string_index": 1,
+    "rom_offset": "0x4D0F7A",
+    "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
+    "english": "",
+    "raw_hex": "05060708090a0b0c0d0e0f10f0"
+  },
+  {
+    "id": 162,
+    "descriptor_index": 81,
+    "string_index": 0,
+    "rom_offset": "0x4D0FB8",
+    "japanese": "ズーモン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 163,
+    "descriptor_index": 81,
+    "string_index": 1,
+    "rom_offset": "0x4D0FBD",
+    "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
+    "english": "",
+    "raw_hex": "0405020306070108090a0b0cf0"
+  },
+  {
+    "id": 164,
+    "descriptor_index": 82,
+    "string_index": 0,
+    "rom_offset": "0x4D0FF0",
+    "japanese": "キンィゼラェン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040501f0"
+  },
+  {
+    "id": 165,
+    "descriptor_index": 82,
+    "string_index": 1,
+    "rom_offset": "0x4D0FF8",
+    "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
+    "english": "",
+    "raw_hex": "06070801090a0b0c0d0e0f10f0"
+  },
+  {
+    "id": 166,
+    "descriptor_index": 83,
+    "string_index": 0,
+    "rom_offset": "0x4D1034",
+    "japanese": "ヅダーゼラェン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 167,
+    "descriptor_index": 83,
+    "string_index": 1,
+    "rom_offset": "0x4D103C",
+    "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
+    "english": "",
+    "raw_hex": "070809060a0b020c0d0e0f10f0"
+  },
+  {
+    "id": 168,
+    "descriptor_index": 84,
+    "string_index": 0,
+    "rom_offset": "0x4D1078",
+    "japanese": "ゲンダ{BREAK}",
+    "english": "",
+    "raw_hex": "000102f0"
+  },
+  {
+    "id": 169,
+    "descriptor_index": 84,
+    "string_index": 1,
+    "rom_offset": "0x4D107C",
+    "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
+    "english": "",
+    "raw_hex": "03040501060708090a0b0c0df0"
+  },
+  {
+    "id": 170,
+    "descriptor_index": 85,
+    "string_index": 0,
+    "rom_offset": "0x4D10B4",
+    "japanese": "リスタール{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 171,
+    "descriptor_index": 85,
+    "string_index": 1,
+    "rom_offset": "0x4D10BA",
+    "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
+    "english": "",
+    "raw_hex": "05060708010203090a0b0c0df0"
+  },
+  {
+    "id": 172,
+    "descriptor_index": 86,
+    "string_index": 0,
+    "rom_offset": "0x4D10F0",
+    "japanese": "ハンマーシプル{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 173,
+    "descriptor_index": 86,
+    "string_index": 1,
+    "rom_offset": "0x4D10F8",
+    "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
+    "english": "",
+    "raw_hex": "070809010a0b030c0d0e0f10f0"
+  },
+  {
+    "id": 174,
+    "descriptor_index": 87,
+    "string_index": 0,
+    "rom_offset": "0x4D1134",
+    "japanese": "ズパポィモール{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 175,
+    "descriptor_index": 87,
+    "string_index": 1,
+    "rom_offset": "0x4D113C",
+    "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
+    "english": "",
+    "raw_hex": "070804090a0b050c0d0e0f10f0"
+  },
+  {
+    "id": 176,
+    "descriptor_index": 88,
+    "string_index": 0,
+    "rom_offset": "0x4D1178",
+    "japanese": "ヂロポサ{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 177,
+    "descriptor_index": 88,
+    "string_index": 1,
+    "rom_offset": "0x4D117D",
+    "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
+    "english": "",
+    "raw_hex": "0405060708090a0b0c0d0e0ff0"
+  },
+  {
+    "id": 178,
+    "descriptor_index": 89,
+    "string_index": 0,
+    "rom_offset": "0x4D11B8",
+    "japanese": "ダシュポビ{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 179,
+    "descriptor_index": 89,
+    "string_index": 1,
+    "rom_offset": "0x4D11BE",
+    "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
+    "english": "",
+    "raw_hex": "05060708090a0b0c0d0e0f10f0"
+  },
+  {
+    "id": 180,
+    "descriptor_index": 90,
+    "string_index": 0,
+    "rom_offset": "0x4D11FC",
+    "japanese": "アシャラ{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 181,
+    "descriptor_index": 90,
+    "string_index": 1,
+    "rom_offset": "0x4D1201",
+    "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
+    "english": "",
+    "raw_hex": "0405060708090a0b0c0d0e0ff0"
+  },
+  {
+    "id": 182,
+    "descriptor_index": 91,
+    "string_index": 0,
+    "rom_offset": "0x4D123C",
+    "japanese": "ェースト{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 183,
+    "descriptor_index": 91,
+    "string_index": 1,
+    "rom_offset": "0x4D1241",
+    "japanese": "フボイアーけいカーゼの[G:237]ちこみをきんし{BREAK}",
+    "english": "",
+    "raw_hex": "040506070108090a010b0c0d0e0f1011121314f0"
+  },
+  {
+    "id": 184,
+    "descriptor_index": 92,
+    "string_index": 0,
+    "rom_offset": "0x4D128C",
+    "japanese": "ェースト{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 185,
+    "descriptor_index": 92,
+    "string_index": 1,
+    "rom_offset": "0x4D1291",
+    "japanese": "サンゴーけいカーゼの[G:237]ちこみをきんし{BREAK}",
+    "english": "",
+    "raw_hex": "04050601070809010a0b0c0d0e0f10111213f0"
+  },
+  {
+    "id": 186,
+    "descriptor_index": 93,
+    "string_index": 0,
+    "rom_offset": "0x4D12D8",
+    "japanese": "ェースト{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 187,
+    "descriptor_index": 93,
+    "string_index": 1,
+    "rom_offset": "0x4D12DD",
+    "japanese": "メテオけいカーゼの[G:237]ちこみをきんし{BREAK}",
+    "english": "",
+    "raw_hex": "040506070809010a0b0c0d0e0f10111213f0"
+  },
+  {
+    "id": 188,
+    "descriptor_index": 94,
+    "string_index": 0,
+    "rom_offset": "0x4D1324",
+    "japanese": "ェースト{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 189,
+    "descriptor_index": 94,
+    "string_index": 1,
+    "rom_offset": "0x4D1329",
+    "japanese": "ベーシュンけいカーゼの[G:237]ちこみをきんし{BREAK}",
+    "english": "",
+    "raw_hex": "040105060708090a010b0c0d0e0f1011121314f0"
+  },
+  {
+    "id": 190,
+    "descriptor_index": 95,
+    "string_index": 0,
+    "rom_offset": "0x4D1374",
+    "japanese": "ェースト{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 191,
+    "descriptor_index": 95,
+    "string_index": 1,
+    "rom_offset": "0x4D1379",
+    "japanese": "ヒールけいカーゼの[G:237]ちこみをきんし{BREAK}",
+    "english": "",
+    "raw_hex": "04010506070801090a0b0c0d0e0f101112f0"
+  },
+  {
+    "id": 192,
+    "descriptor_index": 96,
+    "string_index": 0,
+    "rom_offset": "0x4D13C0",
+    "japanese": "ェースト{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 193,
+    "descriptor_index": 96,
+    "string_index": 1,
+    "rom_offset": "0x4D13C5",
+    "japanese": "ソーゼけいカーゼの[G:237]ちこみをきんし{BREAK}",
+    "english": "",
+    "raw_hex": "0401050607080105090a0b0c0d0e0f1011f0"
+  },
+  {
+    "id": 194,
+    "descriptor_index": 97,
+    "string_index": 0,
+    "rom_offset": "0x4D1408",
+    "japanese": "ェースト{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 195,
+    "descriptor_index": 97,
+    "string_index": 1,
+    "rom_offset": "0x4D140D",
+    "japanese": "シールゼけいカーゼの[G:237]ちこみをきんし{BREAK}",
+    "english": "",
+    "raw_hex": "0401050607080901060a0b0c0d0e0f101112f0"
+  },
+  {
+    "id": 196,
+    "descriptor_index": 98,
+    "string_index": 0,
+    "rom_offset": "0x4D1454",
+    "japanese": "ホポバー{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 197,
+    "descriptor_index": 98,
+    "string_index": 1,
+    "rom_offset": "0x4D1459",
+    "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
+    "english": "",
+    "raw_hex": "040506070809030a0b0c0d0ef0"
+  },
+  {
+    "id": 198,
+    "descriptor_index": 99,
+    "string_index": 0,
+    "rom_offset": "0x4D1490",
+    "japanese": "ビリースト{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 199,
+    "descriptor_index": 99,
+    "string_index": 1,
+    "rom_offset": "0x4D1496",
+    "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
+    "english": "",
+    "raw_hex": "050607080309020a0b0c0d0ef0"
+  },
+  {
+    "id": 200,
+    "descriptor_index": 100,
+    "string_index": 0,
+    "rom_offset": "0x4D14D0",
+    "japanese": "キンィビーニッ{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 201,
+    "descriptor_index": 100,
+    "string_index": 1,
+    "rom_offset": "0x4D14D8",
+    "japanese": "ビレイヤーぇ[G:260][G:261]に[G:289]ぽた[G:270]のHP/MPの回復UP[G:275]SP[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "03070809040a0b0c0d0e0f101112131415161412171819141a1b141cf0"
+  },
+  {
+    "id": 202,
+    "descriptor_index": 101,
+    "string_index": 0,
+    "rom_offset": "0x4D153C",
+    "japanese": "クパーンダー{BREAK}",
+    "english": "",
+    "raw_hex": "000102030402f0"
+  },
+  {
+    "id": 203,
+    "descriptor_index": 101,
+    "string_index": 1,
+    "rom_offset": "0x4D1543",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275]SP[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "050607030809020a0b0c0d0e0f101112131415161718f0"
+  },
+  {
+    "id": 204,
+    "descriptor_index": 102,
+    "string_index": 0,
+    "rom_offset": "0x4D1598",
+    "japanese": "スケルトンローゼ{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304050607f0"
+  },
+  {
+    "id": 205,
+    "descriptor_index": 102,
+    "string_index": 1,
+    "rom_offset": "0x4D15A1",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275]SP[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "08090a04000b060c0d0e0f101112131415161718191af0"
+  },
+  {
+    "id": 206,
+    "descriptor_index": 103,
+    "string_index": 0,
+    "rom_offset": "0x4D15FC",
+    "japanese": "ガン{BREAK}",
+    "english": "",
+    "raw_hex": "0001f0"
+  },
+  {
+    "id": 207,
+    "descriptor_index": 103,
+    "string_index": 1,
+    "rom_offset": "0x4D15FF",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275]SP[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0203040105060708090a0b0c0d0e0f10111213141516f0"
+  },
+  {
+    "id": 208,
+    "descriptor_index": 104,
+    "string_index": 0,
+    "rom_offset": "0x4D1650",
+    "japanese": "オーョ{BREAK}",
+    "english": "",
+    "raw_hex": "000102f0"
+  },
+  {
+    "id": 209,
+    "descriptor_index": 104,
+    "string_index": 1,
+    "rom_offset": "0x4D1654",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275]SP[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "03040506070801090a0b0c0d0e0f1011121314151617f0"
+  },
+  {
+    "id": 210,
+    "descriptor_index": 105,
+    "string_index": 0,
+    "rom_offset": "0x4D16A8",
+    "japanese": "マガポクマスター{BREAK}",
+    "english": "",
+    "raw_hex": "0001020300040506f0"
+  },
+  {
+    "id": 211,
+    "descriptor_index": 105,
+    "string_index": 1,
+    "rom_offset": "0x4D16B1",
+    "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275]SP[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0708090a0405060b0c0d0e0f10110f120c131415161718191a1b1cf0"
+  },
+  {
+    "id": 212,
+    "descriptor_index": 106,
+    "string_index": 0,
+    "rom_offset": "0x4D1714",
+    "japanese": "ィレートトピース{BREAK}",
+    "english": "",
+    "raw_hex": "0001020303040205f0"
+  },
+  {
+    "id": 213,
+    "descriptor_index": 106,
+    "string_index": 1,
+    "rom_offset": "0x4D171D",
+    "japanese": "wxyzのテキをpqrs[G:275]3マス[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "060708090a0b0c0d0e0f10111213140515f0"
+  },
+  {
+    "id": 214,
+    "descriptor_index": 107,
+    "string_index": 0,
+    "rom_offset": "0x4D1768",
+    "japanese": "ガプノサイゴー{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 215,
+    "descriptor_index": 107,
+    "string_index": 1,
+    "rom_offset": "0x4D1770",
+    "japanese": "rsした[G:270]スリービのg[G:393][G:275]かくりつSP[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0708090a0b0c0d060e0f10111213141516171819f0"
+  },
+  {
+    "id": 216,
+    "descriptor_index": 108,
+    "string_index": 0,
+    "rom_offset": "0x4D17C8",
+    "japanese": "ウパンィゼラェン{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304050602f0"
+  },
+  {
+    "id": 217,
+    "descriptor_index": 108,
+    "string_index": 1,
+    "rom_offset": "0x4D17D1",
+    "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275]SP[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "070809020a0b0c0d0e0f1011121311140e15161718191a1b1c1d1ef0"
+  },
+  {
+    "id": 218,
+    "descriptor_index": 109,
+    "string_index": 0,
+    "rom_offset": "0x4D1838",
+    "japanese": "リポチ{BREAK}",
+    "english": "",
+    "raw_hex": "000102f0"
+  },
+  {
+    "id": 219,
+    "descriptor_index": 109,
+    "string_index": 1,
+    "rom_offset": "0x4D183C",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275]SP[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "030405060708090a0b0c0d0e0f101112131415161718f0"
+  },
+  {
+    "id": 220,
+    "descriptor_index": 110,
+    "string_index": 0,
+    "rom_offset": "0x4D1894",
+    "japanese": "ズスホーン{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 221,
+    "descriptor_index": 110,
+    "string_index": 1,
+    "rom_offset": "0x4D189A",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275]SP[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "05060704010803090a0b0c0d0e0f1011121314151617f0"
+  },
+  {
+    "id": 222,
+    "descriptor_index": 111,
+    "string_index": 0,
+    "rom_offset": "0x4D18F0",
+    "japanese": "ヘルギアイ{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 223,
+    "descriptor_index": 111,
+    "string_index": 1,
+    "rom_offset": "0x4D18F6",
+    "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275]SP[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "05060708090a0b0c0d0e0f10111210130d1415161718191a1b1c1df0"
+  },
+  {
+    "id": 224,
+    "descriptor_index": 112,
+    "string_index": 0,
+    "rom_offset": "0x4D195C",
+    "japanese": "アークズーモン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203010405f0"
+  },
+  {
+    "id": 225,
+    "descriptor_index": 112,
+    "string_index": 1,
+    "rom_offset": "0x4D1964",
+    "japanese": "ビレイヤーの[G:330][G:484]の[G:405]sぇ[G:246]やすくなる[G:275]かくりつSP[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "06070809010a0b0c0a0d0e0f10111213141516171318191a1b1cf0"
+  },
+  {
+    "id": 226,
+    "descriptor_index": 113,
+    "string_index": 0,
+    "rom_offset": "0x4D19C8",
+    "japanese": "ェポゼゼラェン{BREAK}",
+    "english": "",
+    "raw_hex": "00010202030004f0"
+  },
+  {
+    "id": 227,
+    "descriptor_index": 113,
+    "string_index": 1,
+    "rom_offset": "0x4D19D0",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275]SP[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0506070408090a0b0c0d0e0f10111213141516171819f0"
+  },
+  {
+    "id": 228,
+    "descriptor_index": 114,
+    "string_index": 0,
+    "rom_offset": "0x4D1A28",
+    "japanese": "ビリンスゼラェン{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304050602f0"
+  },
+  {
+    "id": 229,
+    "descriptor_index": 114,
+    "string_index": 1,
+    "rom_offset": "0x4D1A31",
+    "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275]SP[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "07080902030a0b0c0d0e0f10111210130d1415161718191a1b1c1df0"
+  },
+  {
+    "id": 230,
+    "descriptor_index": 115,
+    "string_index": 0,
+    "rom_offset": "0x4D1A98",
+    "japanese": "ィール{BREAK}",
+    "english": "",
+    "raw_hex": "000102f0"
+  },
+  {
+    "id": 231,
+    "descriptor_index": 115,
+    "string_index": 1,
+    "rom_offset": "0x4D1A9C",
+    "japanese": "[G:257][G:372]した[G:270]マルチベイギンのg[G:393][G:275]かくりつSP[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "03040506070802090a0b0c0d0e0f101112131415161718f0"
+  },
+  {
+    "id": 232,
+    "descriptor_index": 116,
+    "string_index": 0,
+    "rom_offset": "0x4D1AF4",
+    "japanese": "マテリアル{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 233,
+    "descriptor_index": 116,
+    "string_index": 1,
+    "rom_offset": "0x4D1AFA",
+    "japanese": "ョーズパアンに[G:342]して[G:314]い[G:275]SP[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0506070803090a0b0c0d0e0f10111213f0"
+  },
+  {
+    "id": 234,
+    "descriptor_index": 117,
+    "string_index": 0,
+    "rom_offset": "0x4D1B40",
+    "japanese": "アクスシプル{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405f0"
+  },
+  {
+    "id": 235,
+    "descriptor_index": 117,
+    "string_index": 1,
+    "rom_offset": "0x4D1B47",
+    "japanese": "[G:254]aモンスターしぅうかん/lm[G:401][G:275]SP[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "06070809020a0b0c0d0e0f101112131415161718f0"
+  },
+  {
+    "id": 236,
+    "descriptor_index": 118,
+    "string_index": 0,
+    "rom_offset": "0x4D1B9C",
+    "japanese": "ガッポクモール{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 237,
+    "descriptor_index": 118,
+    "string_index": 1,
+    "rom_offset": "0x4D1BA4",
+    "japanese": "ョーズパアンに[G:342]して[G:314]い[G:275]SP[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "070508090a0b0c0d0e0f101112131415f0"
+  },
+  {
+    "id": 238,
+    "descriptor_index": 119,
+    "string_index": 0,
+    "rom_offset": "0x4D1BF0",
+    "japanese": "マンイーター{BREAK}",
+    "english": "",
+    "raw_hex": "000102030403f0"
+  },
+  {
+    "id": 239,
+    "descriptor_index": 119,
+    "string_index": 1,
+    "rom_offset": "0x4D1BF7",
+    "japanese": "rsした[G:270]ベイギンのg[G:393][G:275]かくりつSP[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "05060708090a020b010c0d0e0f10111213141516f0"
+  },
+  {
+    "id": 240,
+    "descriptor_index": 120,
+    "string_index": 0,
+    "rom_offset": "0x4D1C48",
+    "japanese": "アーク{BREAK}",
+    "english": "",
+    "raw_hex": "000102f0"
+  },
+  {
+    "id": 241,
+    "descriptor_index": 120,
+    "string_index": 1,
+    "rom_offset": "0x4D1C4C",
+    "japanese": "ビレイヤーぇ[G:257][G:372]した[G:270][G:355]き[G:356]らせる[G:275]かくりつSP[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "03040506010708090a0b0c0d0e0f101112131415161718191af0"
+  },
+  {
+    "id": 242,
+    "descriptor_index": 121,
+    "string_index": 0,
+    "rom_offset": "0x4D1CA8",
+    "japanese": "ヴボガャラ{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 243,
+    "descriptor_index": 121,
+    "string_index": 1,
+    "rom_offset": "0x4D1CAE",
+    "japanese": "[G:405]sずテキをそく[G:257][G:275]かくりつSP[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "05060708090a0b0c0d0e0f0c1011121314f0"
+  },
+  {
+    "id": 244,
+    "descriptor_index": 122,
+    "string_index": 0,
+    "rom_offset": "0x4D1CF8",
+    "japanese": "ガッンバー{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 245,
+    "descriptor_index": 122,
+    "string_index": 1,
+    "rom_offset": "0x4D1CFE",
+    "japanese": "[G:254]aモンスターしぅうかん/テキを2回rs[G:275]かくりつSP[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "050607020809040a0b0c0d0e0f10111213141516170d18191a1b1c1df0"
+  },
+  {
+    "id": 246,
+    "descriptor_index": 123,
+    "string_index": 0,
+    "rom_offset": "0x4D1D64",
+    "japanese": "ハイビリースト{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 247,
+    "descriptor_index": 123,
+    "string_index": 1,
+    "rom_offset": "0x4D1D6C",
+    "japanese": "[G:254]aモンスターしぅうかん/ビレイヤーのHPを回復[G:275]SP[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0708090a050b040c0d0e0f101102120113041415161718191a1b161cf0"
+  },
+  {
+    "id": 248,
+    "descriptor_index": 124,
+    "string_index": 0,
+    "rom_offset": "0x4D1DD0",
+    "japanese": "ビーニッ{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 249,
+    "descriptor_index": 124,
+    "string_index": 1,
+    "rom_offset": "0x4D1DD5",
+    "japanese": "ビレイヤーぇ[G:260][G:261]に[G:289]ぽた[G:270]のHP/MPの回復UP[G:275][G:502][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "00040506010708090a0b0c0d0e0f10111213110f14151611171819f0"
+  },
+  {
+    "id": 250,
+    "descriptor_index": 125,
+    "string_index": 0,
+    "rom_offset": "0x4D1E34",
+    "japanese": "キラーダー{BREAK}",
+    "english": "",
+    "raw_hex": "0001020302f0"
+  },
+  {
+    "id": 251,
+    "descriptor_index": 125,
+    "string_index": 1,
+    "rom_offset": "0x4D1E3A",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:502][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "040506070809020a0b0c0d0e0f1000111213141516f0"
+  },
+  {
+    "id": 252,
+    "descriptor_index": 126,
+    "string_index": 0,
+    "rom_offset": "0x4D1E8C",
+    "japanese": "スケルトン{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 253,
+    "descriptor_index": 126,
+    "string_index": 1,
+    "rom_offset": "0x4D1E92",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:502][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "050607040008090a0b0c0d0e0f1011121314151617f0"
+  },
+  {
+    "id": 254,
+    "descriptor_index": 127,
+    "string_index": 0,
+    "rom_offset": "0x4D1EE4",
+    "japanese": "ケムンド{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 255,
+    "descriptor_index": 127,
+    "string_index": 1,
+    "rom_offset": "0x4D1EE9",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:502][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "040506020708090a0b0c0d0e0f1011121314151617f0"
+  },
+  {
+    "id": 256,
+    "descriptor_index": 128,
+    "string_index": 0,
+    "rom_offset": "0x4D1F3C",
+    "japanese": "ェヂリン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 257,
+    "descriptor_index": 128,
+    "string_index": 1,
+    "rom_offset": "0x4D1F41",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:502][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "040506030708090a0b0c0d0e0f1011121314151617f0"
+  },
+  {
+    "id": 258,
+    "descriptor_index": 129,
+    "string_index": 0,
+    "rom_offset": "0x4D1F94",
+    "japanese": "[G:271][G:347][G:348]{BREAK}",
+    "english": "",
+    "raw_hex": "000102f0"
+  },
+  {
+    "id": 259,
+    "descriptor_index": 129,
+    "string_index": 1,
+    "rom_offset": "0x4D1F98",
+    "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275][G:502][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "030405060708090a0b0c0d0e0f100e110b12131415161718191af0"
+  },
+  {
+    "id": 260,
+    "descriptor_index": 130,
+    "string_index": 0,
+    "rom_offset": "0x4D1FF8",
+    "japanese": "ィランシッーク{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 261,
+    "descriptor_index": 130,
+    "string_index": 1,
+    "rom_offset": "0x4D2000",
+    "japanese": "[G:254]aモンスターしぅうかん{BREAK}",
+    "english": "",
+    "raw_hex": "070809020a0b050c0d0e0f10f0"
+  },
+  {
+    "id": 262,
+    "descriptor_index": 131,
+    "string_index": 0,
+    "rom_offset": "0x4D203C",
+    "japanese": "ターミネーター{BREAK}",
+    "english": "",
+    "raw_hex": "00010203010001f0"
+  },
+  {
+    "id": 263,
+    "descriptor_index": 131,
+    "string_index": 1,
+    "rom_offset": "0x4D2044",
+    "japanese": "rsした[G:270]スリービのg[G:393][G:275]かくりつ[G:502][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0405060708090a010b0c0d0e0f101112131415f0"
+  },
+  {
+    "id": 264,
+    "descriptor_index": 132,
+    "string_index": 0,
+    "rom_offset": "0x4D2090",
+    "japanese": "ゼラェン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 265,
+    "descriptor_index": 132,
+    "string_index": 1,
+    "rom_offset": "0x4D2095",
+    "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275][G:502][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "040506030708090a0b0c0d0e0f100e110b12131415161718191af0"
+  },
+  {
+    "id": 266,
+    "descriptor_index": 133,
+    "string_index": 0,
+    "rom_offset": "0x4D20F4",
+    "japanese": "[G:257][G:266]{BREAK}",
+    "english": "",
+    "raw_hex": "0001f0"
+  },
+  {
+    "id": 267,
+    "descriptor_index": 133,
+    "string_index": 1,
+    "rom_offset": "0x4D20F7",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:502][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "02030405060708090a0b0c0d0e0f10111213141516f0"
+  },
+  {
+    "id": 268,
+    "descriptor_index": 134,
+    "string_index": 0,
+    "rom_offset": "0x4D2148",
+    "japanese": "マポゼヂル{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 269,
+    "descriptor_index": 134,
+    "string_index": 1,
+    "rom_offset": "0x4D214E",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:502][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "05060708090a0b0c0d0e0f10111213141516171819f0"
+  },
+  {
+    "id": 270,
+    "descriptor_index": 135,
+    "string_index": 0,
+    "rom_offset": "0x4D21A4",
+    "japanese": "エダルアイ{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 271,
+    "descriptor_index": 135,
+    "string_index": 1,
+    "rom_offset": "0x4D21AA",
+    "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275][G:502][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "05060708090a0b0c0d0e0f10111210130d1415161718191a1b1cf0"
+  },
+  {
+    "id": 272,
+    "descriptor_index": 136,
+    "string_index": 0,
+    "rom_offset": "0x4D220C",
+    "japanese": "ズーモン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 273,
+    "descriptor_index": 136,
+    "string_index": 1,
+    "rom_offset": "0x4D2211",
+    "japanese": "ビレイヤーの[G:330][G:484]の[G:405]sぇ[G:246]やすくなる[G:275][G:502][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "040506070108090a080b0c0d0e0f10111213141516f0"
+  },
+  {
+    "id": 274,
+    "descriptor_index": 137,
+    "string_index": 0,
+    "rom_offset": "0x4D2264",
+    "japanese": "キンィゼラェン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040501f0"
+  },
+  {
+    "id": 275,
+    "descriptor_index": 137,
+    "string_index": 1,
+    "rom_offset": "0x4D226C",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:502][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "06070801090a0b0c0d0e0f10111200131415161718f0"
+  },
+  {
+    "id": 276,
+    "descriptor_index": 138,
+    "string_index": 0,
+    "rom_offset": "0x4D22C0",
+    "japanese": "ヅダーゼラェン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 277,
+    "descriptor_index": 138,
+    "string_index": 1,
+    "rom_offset": "0x4D22C8",
+    "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275][G:502][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "070809060a0b020c0d0e0f10111210130d1415161718191a1b1cf0"
+  },
+  {
+    "id": 278,
+    "descriptor_index": 139,
+    "string_index": 0,
+    "rom_offset": "0x4D232C",
+    "japanese": "ゲンダ{BREAK}",
+    "english": "",
+    "raw_hex": "000102f0"
+  },
+  {
+    "id": 279,
+    "descriptor_index": 139,
+    "string_index": 1,
+    "rom_offset": "0x4D2330",
+    "japanese": "[G:257][G:372]した[G:270]マルチベイギンのg[G:393][G:275]かくりつ[G:502][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "030405060708090a0b0c0d010e0f1011121314151617f0"
+  },
+  {
+    "id": 280,
+    "descriptor_index": 140,
+    "string_index": 0,
+    "rom_offset": "0x4D2384",
+    "japanese": "リスタール{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 281,
+    "descriptor_index": 140,
+    "string_index": 1,
+    "rom_offset": "0x4D238A",
+    "japanese": "ョーズパアンに[G:342]して[G:314]い[G:275][G:502][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0503060708090a0b0c0d0e0f101112f0"
+  },
+  {
+    "id": 282,
+    "descriptor_index": 141,
+    "string_index": 0,
+    "rom_offset": "0x4D23CC",
+    "japanese": "ハンマーシプル{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 283,
+    "descriptor_index": 141,
+    "string_index": 1,
+    "rom_offset": "0x4D23D4",
+    "japanese": "[G:254]aモンスターしぅうかん/lm[G:401][G:275][G:502][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "070809010a0b030c0d0e0f1011121314151617f0"
+  },
+  {
+    "id": 284,
+    "descriptor_index": 142,
+    "string_index": 0,
+    "rom_offset": "0x4D2424",
+    "japanese": "ズパポィモール{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 285,
+    "descriptor_index": 142,
+    "string_index": 1,
+    "rom_offset": "0x4D242C",
+    "japanese": "ョーズパアンに[G:342]して[G:314]い[G:275][G:502][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0705000108090a0b0c0d0e0f101112f0"
+  },
+  {
+    "id": 286,
+    "descriptor_index": 143,
+    "string_index": 0,
+    "rom_offset": "0x4D2470",
+    "japanese": "ヂロポサ{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 287,
+    "descriptor_index": 143,
+    "string_index": 1,
+    "rom_offset": "0x4D2475",
+    "japanese": "rsした[G:270]ベイギンのg[G:393][G:275]かくりつ[G:502][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0405060708090a0b0c0d0e0f10111213141516f0"
+  },
+  {
+    "id": 288,
+    "descriptor_index": 144,
+    "string_index": 0,
+    "rom_offset": "0x4D24C4",
+    "japanese": "ダシュポビ{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 289,
+    "descriptor_index": 144,
+    "string_index": 1,
+    "rom_offset": "0x4D24CA",
+    "japanese": "ビレイヤーぇ[G:257][G:372]した[G:270][G:355]き[G:356]らせる[G:275]かくりつ[G:502][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0405060708090a0b0c0d0e0f101112131415161718191a1bf0"
+  },
+  {
+    "id": 290,
+    "descriptor_index": 145,
+    "string_index": 0,
+    "rom_offset": "0x4D2528",
+    "japanese": "アシャラ{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 291,
+    "descriptor_index": 145,
+    "string_index": 1,
+    "rom_offset": "0x4D252D",
+    "japanese": "[G:405]sずテキをそく[G:257][G:275]かくりつ[G:502][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0405060708090a0b0c0d0e0b0f101112f0"
+  },
+  {
+    "id": 292,
+    "descriptor_index": 146,
+    "string_index": 0,
+    "rom_offset": "0x4D2570",
+    "japanese": "ホポバー{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 293,
+    "descriptor_index": 146,
+    "string_index": 1,
+    "rom_offset": "0x4D2575",
+    "japanese": "[G:254]aモンスターしぅうかん/テキを2回rs[G:275]かくりつ[G:502][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "040506070809030a0b0c0d0e0f10111213141516170d18191a1b1cf0"
+  },
+  {
+    "id": 294,
+    "descriptor_index": 147,
+    "string_index": 0,
+    "rom_offset": "0x4D25D8",
+    "japanese": "ビリースト{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 295,
+    "descriptor_index": 147,
+    "string_index": 1,
+    "rom_offset": "0x4D25DE",
+    "japanese": "[G:254]aモンスターしぅうかん/ビレイヤーのHPを回復[G:275][G:502][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "050607080309020a0b0c0d0e0f0010111202131415161718191a1bf0"
+  },
+  {
+    "id": 296,
+    "descriptor_index": 148,
+    "string_index": 0,
+    "rom_offset": "0x4D2640",
+    "japanese": "ビーニッ{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 297,
+    "descriptor_index": 148,
+    "string_index": 1,
+    "rom_offset": "0x4D2645",
+    "japanese": "ビレイヤーぇ[G:260][G:261]に[G:289]ぽた[G:270]のHP/MPの回復UP[G:275][G:345][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "00040506010708090a0b0c0d0e0f10111213110f14151611171819f0"
+  },
+  {
+    "id": 298,
+    "descriptor_index": 149,
+    "string_index": 0,
+    "rom_offset": "0x4D26A4",
+    "japanese": "キラーダー{BREAK}",
+    "english": "",
+    "raw_hex": "0001020302f0"
+  },
+  {
+    "id": 299,
+    "descriptor_index": 149,
+    "string_index": 1,
+    "rom_offset": "0x4D26AA",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:345][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "040506070809020a0b0c0d0e0f1000111213141516f0"
+  },
+  {
+    "id": 300,
+    "descriptor_index": 150,
+    "string_index": 0,
+    "rom_offset": "0x4D26FC",
+    "japanese": "スケルトン{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 301,
+    "descriptor_index": 150,
+    "string_index": 1,
+    "rom_offset": "0x4D2702",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:345][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "050607040008090a0b0c0d0e0f1011121314151617f0"
+  },
+  {
+    "id": 302,
+    "descriptor_index": 151,
+    "string_index": 0,
+    "rom_offset": "0x4D2754",
+    "japanese": "ケムンド{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 303,
+    "descriptor_index": 151,
+    "string_index": 1,
+    "rom_offset": "0x4D2759",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:345][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "040506020708090a0b0c0d0e0f1011121314151617f0"
+  },
+  {
+    "id": 304,
+    "descriptor_index": 152,
+    "string_index": 0,
+    "rom_offset": "0x4D27AC",
+    "japanese": "ェヂリン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 305,
+    "descriptor_index": 152,
+    "string_index": 1,
+    "rom_offset": "0x4D27B1",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:345][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "040506030708090a0b0c0d0e0f1011121314151617f0"
+  },
+  {
+    "id": 306,
+    "descriptor_index": 153,
+    "string_index": 0,
+    "rom_offset": "0x4D2804",
+    "japanese": "[G:271][G:347][G:348]{BREAK}",
+    "english": "",
+    "raw_hex": "000102f0"
+  },
+  {
+    "id": 307,
+    "descriptor_index": 153,
+    "string_index": 1,
+    "rom_offset": "0x4D2808",
+    "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275][G:345][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "030405060708090a0b0c0d0e0f100e110b12131415161718191af0"
+  },
+  {
+    "id": 308,
+    "descriptor_index": 154,
+    "string_index": 0,
+    "rom_offset": "0x4D2868",
+    "japanese": "ィランシッーク{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 309,
+    "descriptor_index": 154,
+    "string_index": 1,
+    "rom_offset": "0x4D2870",
+    "japanese": "wxyzのテキをpqrs[G:275]2マス[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0708090a0b0c0d0e0f1011121314151617f0"
+  },
+  {
+    "id": 310,
+    "descriptor_index": 155,
+    "string_index": 0,
+    "rom_offset": "0x4D28C0",
+    "japanese": "ターミネーター{BREAK}",
+    "english": "",
+    "raw_hex": "00010203010001f0"
+  },
+  {
+    "id": 311,
+    "descriptor_index": 155,
+    "string_index": 1,
+    "rom_offset": "0x4D28C8",
+    "japanese": "rsした[G:270]スリービのg[G:393][G:275]かくりつ[G:345][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0405060708090a010b0c0d0e0f101112131415f0"
+  },
+  {
+    "id": 312,
+    "descriptor_index": 156,
+    "string_index": 0,
+    "rom_offset": "0x4D2914",
+    "japanese": "ゼラェン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 313,
+    "descriptor_index": 156,
+    "string_index": 1,
+    "rom_offset": "0x4D2919",
+    "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275][G:345][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "040506030708090a0b0c0d0e0f100e110b12131415161718191af0"
+  },
+  {
+    "id": 314,
+    "descriptor_index": 157,
+    "string_index": 0,
+    "rom_offset": "0x4D2978",
+    "japanese": "[G:257][G:266]{BREAK}",
+    "english": "",
+    "raw_hex": "0001f0"
+  },
+  {
+    "id": 315,
+    "descriptor_index": 157,
+    "string_index": 1,
+    "rom_offset": "0x4D297B",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:345][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "02030405060708090a0b0c0d0e0f10111213141516f0"
+  },
+  {
+    "id": 316,
+    "descriptor_index": 158,
+    "string_index": 0,
+    "rom_offset": "0x4D29CC",
+    "japanese": "マポゼヂル{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 317,
+    "descriptor_index": 158,
+    "string_index": 1,
+    "rom_offset": "0x4D29D2",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:345][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "05060708090a0b0c0d0e0f10111213141516171819f0"
+  },
+  {
+    "id": 318,
+    "descriptor_index": 159,
+    "string_index": 0,
+    "rom_offset": "0x4D2A28",
+    "japanese": "エダルアイ{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 319,
+    "descriptor_index": 159,
+    "string_index": 1,
+    "rom_offset": "0x4D2A2E",
+    "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275][G:345][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "05060708090a0b0c0d0e0f10111210130d1415161718191a1b1cf0"
+  },
+  {
+    "id": 320,
+    "descriptor_index": 160,
+    "string_index": 0,
+    "rom_offset": "0x4D2A90",
+    "japanese": "ズーモン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 321,
+    "descriptor_index": 160,
+    "string_index": 1,
+    "rom_offset": "0x4D2A95",
+    "japanese": "ビレイヤーの[G:330][G:484]の[G:405]sぇ[G:246]やすくなる[G:275][G:345][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "040506070108090a080b0c0d0e0f10111213141516f0"
+  },
+  {
+    "id": 322,
+    "descriptor_index": 161,
+    "string_index": 0,
+    "rom_offset": "0x4D2AE8",
+    "japanese": "キンィゼラェン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040501f0"
+  },
+  {
+    "id": 323,
+    "descriptor_index": 161,
+    "string_index": 1,
+    "rom_offset": "0x4D2AF0",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:345][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "06070801090a0b0c0d0e0f10111200131415161718f0"
+  },
+  {
+    "id": 324,
+    "descriptor_index": 162,
+    "string_index": 0,
+    "rom_offset": "0x4D2B44",
+    "japanese": "ヅダーゼラェン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 325,
+    "descriptor_index": 162,
+    "string_index": 1,
+    "rom_offset": "0x4D2B4C",
+    "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275][G:345][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "070809060a0b020c0d0e0f10111210130d1415161718191a1b1cf0"
+  },
+  {
+    "id": 326,
+    "descriptor_index": 163,
+    "string_index": 0,
+    "rom_offset": "0x4D2BB0",
+    "japanese": "ゲンダ{BREAK}",
+    "english": "",
+    "raw_hex": "000102f0"
+  },
+  {
+    "id": 327,
+    "descriptor_index": 163,
+    "string_index": 1,
+    "rom_offset": "0x4D2BB4",
+    "japanese": "[G:257][G:372]した[G:270]マルチベイギンのg[G:393][G:275]かくりつ[G:345][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "030405060708090a0b0c0d010e0f1011121314151617f0"
+  },
+  {
+    "id": 328,
+    "descriptor_index": 164,
+    "string_index": 0,
+    "rom_offset": "0x4D2C08",
+    "japanese": "リスタール{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 329,
+    "descriptor_index": 164,
+    "string_index": 1,
+    "rom_offset": "0x4D2C0E",
+    "japanese": "ョーズパアンに[G:342]して[G:314]い[G:275][G:345][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0503060708090a0b0c0d0e0f101112f0"
+  },
+  {
+    "id": 330,
+    "descriptor_index": 165,
+    "string_index": 0,
+    "rom_offset": "0x4D2C50",
+    "japanese": "ハンマーシプル{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 331,
+    "descriptor_index": 165,
+    "string_index": 1,
+    "rom_offset": "0x4D2C58",
+    "japanese": "[G:254]aモンスターしぅうかん/lm[G:401][G:275][G:345][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "070809010a0b030c0d0e0f1011121314151617f0"
+  },
+  {
+    "id": 332,
+    "descriptor_index": 166,
+    "string_index": 0,
+    "rom_offset": "0x4D2CA8",
+    "japanese": "ズパポィモール{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 333,
+    "descriptor_index": 166,
+    "string_index": 1,
+    "rom_offset": "0x4D2CB0",
+    "japanese": "ョーズパアンに[G:342]して[G:314]い[G:275][G:345][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0705000108090a0b0c0d0e0f101112f0"
+  },
+  {
+    "id": 334,
+    "descriptor_index": 167,
+    "string_index": 0,
+    "rom_offset": "0x4D2CF4",
+    "japanese": "ヂロポサ{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 335,
+    "descriptor_index": 167,
+    "string_index": 1,
+    "rom_offset": "0x4D2CF9",
+    "japanese": "rsした[G:270]ベイギンのg[G:393][G:275]かくりつ[G:345][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0405060708090a0b0c0d0e0f10111213141516f0"
+  },
+  {
+    "id": 336,
+    "descriptor_index": 168,
+    "string_index": 0,
+    "rom_offset": "0x4D2D48",
+    "japanese": "ダシュポビ{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 337,
+    "descriptor_index": 168,
+    "string_index": 1,
+    "rom_offset": "0x4D2D4E",
+    "japanese": "ビレイヤーぇ[G:257][G:372]した[G:270][G:355]き[G:356]らせる[G:275]かくりつ[G:345][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0405060708090a0b0c0d0e0f101112131415161718191a1bf0"
+  },
+  {
+    "id": 338,
+    "descriptor_index": 169,
+    "string_index": 0,
+    "rom_offset": "0x4D2DAC",
+    "japanese": "アシャラ{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 339,
+    "descriptor_index": 169,
+    "string_index": 1,
+    "rom_offset": "0x4D2DB1",
+    "japanese": "[G:405]sずテキをそく[G:257][G:275]かくりつ[G:345][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0405060708090a0b0c0d0e0b0f101112f0"
+  },
+  {
+    "id": 340,
+    "descriptor_index": 170,
+    "string_index": 0,
+    "rom_offset": "0x4D2DF4",
+    "japanese": "ホポバー{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 341,
+    "descriptor_index": 170,
+    "string_index": 1,
+    "rom_offset": "0x4D2DF9",
+    "japanese": "[G:254]aモンスターしぅうかん/テキを2回rs[G:275]かくりつ[G:345][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "040506070809030a0b0c0d0e0f10111213141516170d18191a1b1cf0"
+  },
+  {
+    "id": 342,
+    "descriptor_index": 171,
+    "string_index": 0,
+    "rom_offset": "0x4D2E5C",
+    "japanese": "ビリースト{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 343,
+    "descriptor_index": 171,
+    "string_index": 1,
+    "rom_offset": "0x4D2E62",
+    "japanese": "[G:254]aモンスターしぅうかん/ビレイヤーのHPを回復[G:275][G:345][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "050607080309020a0b0c0d0e0f0010111202131415161718191a1bf0"
+  },
+  {
+    "id": 344,
+    "descriptor_index": 172,
+    "string_index": 0,
+    "rom_offset": "0x4D2EC4",
+    "japanese": "ビーニッ{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 345,
+    "descriptor_index": 172,
+    "string_index": 1,
+    "rom_offset": "0x4D2EC9",
+    "japanese": "ビレイヤーぇ[G:260][G:261]に[G:289]ぽた[G:270]のHP/MPの回復UP[G:275][G:252][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "00040506010708090a0b0c0d0e0f10111213110f14151611171819f0"
+  },
+  {
+    "id": 346,
+    "descriptor_index": 173,
+    "string_index": 0,
+    "rom_offset": "0x4D2F28",
+    "japanese": "キラーダー{BREAK}",
+    "english": "",
+    "raw_hex": "0001020302f0"
+  },
+  {
+    "id": 347,
+    "descriptor_index": 173,
+    "string_index": 1,
+    "rom_offset": "0x4D2F2E",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:252][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "040506070809020a0b0c0d0e0f1000111213141516f0"
+  },
+  {
+    "id": 348,
+    "descriptor_index": 174,
+    "string_index": 0,
+    "rom_offset": "0x4D2F80",
+    "japanese": "スケルトン{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 349,
+    "descriptor_index": 174,
+    "string_index": 1,
+    "rom_offset": "0x4D2F86",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:252][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "050607040008090a0b0c0d0e0f1011121314151617f0"
+  },
+  {
+    "id": 350,
+    "descriptor_index": 175,
+    "string_index": 0,
+    "rom_offset": "0x4D2FD8",
+    "japanese": "ケムンド{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 351,
+    "descriptor_index": 175,
+    "string_index": 1,
+    "rom_offset": "0x4D2FDD",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:252][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "040506020708090a0b0c0d0e0f1011121314151617f0"
+  },
+  {
+    "id": 352,
+    "descriptor_index": 176,
+    "string_index": 0,
+    "rom_offset": "0x4D3030",
+    "japanese": "ェヂリン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 353,
+    "descriptor_index": 176,
+    "string_index": 1,
+    "rom_offset": "0x4D3035",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:252][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "040506030708090a0b0c0d0e0f1011121314151617f0"
+  },
+  {
+    "id": 354,
+    "descriptor_index": 177,
+    "string_index": 0,
+    "rom_offset": "0x4D3088",
+    "japanese": "[G:271][G:347][G:348]{BREAK}",
+    "english": "",
+    "raw_hex": "000102f0"
+  },
+  {
+    "id": 355,
+    "descriptor_index": 177,
+    "string_index": 1,
+    "rom_offset": "0x4D308C",
+    "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275][G:252][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "030405060708090a0b0c0d0e0f100e110b12131415161718191af0"
+  },
+  {
+    "id": 356,
+    "descriptor_index": 178,
+    "string_index": 0,
+    "rom_offset": "0x4D30EC",
+    "japanese": "ィランシッーク{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 357,
+    "descriptor_index": 178,
+    "string_index": 1,
+    "rom_offset": "0x4D30F4",
+    "japanese": "wxyzのテキをpqrs[G:275]2マス[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0708090a0b0c0d0e0f1011121314151617f0"
+  },
+  {
+    "id": 358,
+    "descriptor_index": 179,
+    "string_index": 0,
+    "rom_offset": "0x4D3144",
+    "japanese": "ターミネーター{BREAK}",
+    "english": "",
+    "raw_hex": "00010203010001f0"
+  },
+  {
+    "id": 359,
+    "descriptor_index": 179,
+    "string_index": 1,
+    "rom_offset": "0x4D314C",
+    "japanese": "rsした[G:270]スリービのg[G:393][G:275]かくりつ[G:252][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0405060708090a010b0c0d0e0f101112131415f0"
+  },
+  {
+    "id": 360,
+    "descriptor_index": 180,
+    "string_index": 0,
+    "rom_offset": "0x4D3198",
+    "japanese": "ゼラェン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 361,
+    "descriptor_index": 180,
+    "string_index": 1,
+    "rom_offset": "0x4D319D",
+    "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275][G:252][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "040506030708090a0b0c0d0e0f100e110b12131415161718191af0"
+  },
+  {
+    "id": 362,
+    "descriptor_index": 181,
+    "string_index": 0,
+    "rom_offset": "0x4D31FC",
+    "japanese": "[G:257][G:266]{BREAK}",
+    "english": "",
+    "raw_hex": "0001f0"
+  },
+  {
+    "id": 363,
+    "descriptor_index": 181,
+    "string_index": 1,
+    "rom_offset": "0x4D31FF",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:252][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "02030405060708090a0b0c0d0e0f10111213141516f0"
+  },
+  {
+    "id": 364,
+    "descriptor_index": 182,
+    "string_index": 0,
+    "rom_offset": "0x4D3250",
+    "japanese": "マポゼヂル{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 365,
+    "descriptor_index": 182,
+    "string_index": 1,
+    "rom_offset": "0x4D3256",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:252][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "05060708090a0b0c0d0e0f10111213141516171819f0"
+  },
+  {
+    "id": 366,
+    "descriptor_index": 183,
+    "string_index": 0,
+    "rom_offset": "0x4D32AC",
+    "japanese": "エダルアイ{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 367,
+    "descriptor_index": 183,
+    "string_index": 1,
+    "rom_offset": "0x4D32B2",
+    "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275][G:252][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "05060708090a0b0c0d0e0f10111210130d1415161718191a1b1cf0"
+  },
+  {
+    "id": 368,
+    "descriptor_index": 184,
+    "string_index": 0,
+    "rom_offset": "0x4D3314",
+    "japanese": "ズーモン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 369,
+    "descriptor_index": 184,
+    "string_index": 1,
+    "rom_offset": "0x4D3319",
+    "japanese": "ビレイヤーの[G:330][G:484]の[G:405]sぇ[G:246]やすくなる[G:275][G:252][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "040506070108090a080b0c0d0e0f10111213141516f0"
+  },
+  {
+    "id": 370,
+    "descriptor_index": 185,
+    "string_index": 0,
+    "rom_offset": "0x4D336C",
+    "japanese": "キンィゼラェン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040501f0"
+  },
+  {
+    "id": 371,
+    "descriptor_index": 185,
+    "string_index": 1,
+    "rom_offset": "0x4D3374",
+    "japanese": "[G:254]aモンスターしぅうかん/テキにrs[G:275][G:252][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "06070801090a0b0c0d0e0f10111200131415161718f0"
+  },
+  {
+    "id": 372,
+    "descriptor_index": 186,
+    "string_index": 0,
+    "rom_offset": "0x4D33C8",
+    "japanese": "ヅダーゼラェン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 373,
+    "descriptor_index": 186,
+    "string_index": 1,
+    "rom_offset": "0x4D33D0",
+    "japanese": "[G:254]aモンスターしぅうかん/えんきぅりrsぇ[G:314][G:383][G:275][G:252][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "070809060a0b020c0d0e0f10111210130d1415161718191a1b1cf0"
+  },
+  {
+    "id": 374,
+    "descriptor_index": 187,
+    "string_index": 0,
+    "rom_offset": "0x4D3434",
+    "japanese": "ゲンダ{BREAK}",
+    "english": "",
+    "raw_hex": "000102f0"
+  },
+  {
+    "id": 375,
+    "descriptor_index": 187,
+    "string_index": 1,
+    "rom_offset": "0x4D3438",
+    "japanese": "[G:257][G:372]した[G:270]マルチベイギンのg[G:393][G:275]かくりつ[G:252][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "030405060708090a0b0c0d010e0f1011121314151617f0"
+  },
+  {
+    "id": 376,
+    "descriptor_index": 188,
+    "string_index": 0,
+    "rom_offset": "0x4D348C",
+    "japanese": "リスタール{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 377,
+    "descriptor_index": 188,
+    "string_index": 1,
+    "rom_offset": "0x4D3492",
+    "japanese": "ョーズパアンに[G:342]して[G:314]い[G:275][G:252][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0503060708090a0b0c0d0e0f101112f0"
+  },
+  {
+    "id": 378,
+    "descriptor_index": 189,
+    "string_index": 0,
+    "rom_offset": "0x4D34D4",
+    "japanese": "ハンマーシプル{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 379,
+    "descriptor_index": 189,
+    "string_index": 1,
+    "rom_offset": "0x4D34DC",
+    "japanese": "[G:254]aモンスターしぅうかん/lm[G:401][G:275][G:252][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "070809010a0b030c0d0e0f1011121314151617f0"
+  },
+  {
+    "id": 380,
+    "descriptor_index": 190,
+    "string_index": 0,
+    "rom_offset": "0x4D352C",
+    "japanese": "ズパポィモール{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506f0"
+  },
+  {
+    "id": 381,
+    "descriptor_index": 190,
+    "string_index": 1,
+    "rom_offset": "0x4D3534",
+    "japanese": "ョーズパアンに[G:342]して[G:314]い[G:275][G:252][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0705000108090a0b0c0d0e0f101112f0"
+  },
+  {
+    "id": 382,
+    "descriptor_index": 191,
+    "string_index": 0,
+    "rom_offset": "0x4D3578",
+    "japanese": "ヂロポサ{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 383,
+    "descriptor_index": 191,
+    "string_index": 1,
+    "rom_offset": "0x4D357D",
+    "japanese": "rsした[G:270]ベイギンのg[G:393][G:275]かくりつ[G:252][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0405060708090a0b0c0d0e0f10111213141516f0"
+  },
+  {
+    "id": 384,
+    "descriptor_index": 192,
+    "string_index": 0,
+    "rom_offset": "0x4D35CC",
+    "japanese": "ダシュポビ{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 385,
+    "descriptor_index": 192,
+    "string_index": 1,
+    "rom_offset": "0x4D35D2",
+    "japanese": "ビレイヤーぇ[G:257][G:372]した[G:270][G:355]き[G:356]らせる[G:275]かくりつ[G:252][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0405060708090a0b0c0d0e0f101112131415161718191a1bf0"
+  },
+  {
+    "id": 386,
+    "descriptor_index": 193,
+    "string_index": 0,
+    "rom_offset": "0x4D3630",
+    "japanese": "アシャラ{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 387,
+    "descriptor_index": 193,
+    "string_index": 1,
+    "rom_offset": "0x4D3635",
+    "japanese": "[G:405]sずテキをそく[G:257][G:275]かくりつ[G:252][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0405060708090a0b0c0d0e0b0f101112f0"
+  },
+  {
+    "id": 388,
+    "descriptor_index": 194,
+    "string_index": 0,
+    "rom_offset": "0x4D3678",
+    "japanese": "ホポバー{BREAK}",
+    "english": "",
+    "raw_hex": "00010203f0"
+  },
+  {
+    "id": 389,
+    "descriptor_index": 194,
+    "string_index": 1,
+    "rom_offset": "0x4D367D",
+    "japanese": "[G:254]aモンスターしぅうかん/テキを2回rs[G:275]かくりつ[G:252][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "040506070809030a0b0c0d0e0f10111213141516170d18191a1b1cf0"
+  },
+  {
+    "id": 390,
+    "descriptor_index": 195,
+    "string_index": 0,
+    "rom_offset": "0x4D36E0",
+    "japanese": "ビリースト{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 391,
+    "descriptor_index": 195,
+    "string_index": 1,
+    "rom_offset": "0x4D36E6",
+    "japanese": "[G:254]aモンスターしぅうかん/ビレイヤーのHPを回復[G:275][G:252][G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "050607080309020a0b0c0d0e0f0010111202131415161718191a1bf0"
+  },
+  {
+    "id": 392,
+    "descriptor_index": 196,
+    "string_index": 0,
+    "rom_offset": "0x4D3748",
+    "japanese": "{BREAK}",
+    "english": "",
+    "raw_hex": "f0"
+  },
+  {
+    "id": 393,
+    "descriptor_index": 196,
+    "string_index": 1,
+    "rom_offset": "0x4D3749",
+    "japanese": "コイン2ぞい{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405f0"
+  },
+  {
+    "id": 394,
+    "descriptor_index": 197,
+    "string_index": 0,
+    "rom_offset": "0x4D3768",
+    "japanese": "{BREAK}",
+    "english": "",
+    "raw_hex": "f0"
+  },
+  {
+    "id": 395,
+    "descriptor_index": 197,
+    "string_index": 1,
+    "rom_offset": "0x4D3769",
+    "japanese": "ゴンガュンクリア[G:275]コインかくとく[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "0001020301040506070809010a0b0c0b0df0"
+  },
+  {
+    "id": 396,
+    "descriptor_index": 198,
+    "string_index": 0,
+    "rom_offset": "0x4D37A4",
+    "japanese": "{BREAK}",
+    "english": "",
+    "raw_hex": "f0"
+  },
+  {
+    "id": 397,
+    "descriptor_index": 198,
+    "string_index": 1,
+    "rom_offset": "0x4D37A5",
+    "japanese": "コインかくとく{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040504f0"
+  },
+  {
+    "id": 398,
+    "descriptor_index": 199,
+    "string_index": 0,
+    "rom_offset": "0x4D37C8",
+    "japanese": "{BREAK}",
+    "english": "",
+    "raw_hex": "f0"
+  },
+  {
+    "id": 399,
+    "descriptor_index": 199,
+    "string_index": 1,
+    "rom_offset": "0x4D37C9",
+    "japanese": "くごけたオーヂのかけら[G:275]コインかくとく[G:276]{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506070802090a0b0c0d08000e000ff0"
+  },
+  {
+    "id": 400,
+    "descriptor_index": 200,
+    "string_index": 0,
+    "rom_offset": "0x4D380C",
+    "japanese": "はがめてのゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506070806f0"
+  },
+  {
+    "id": 401,
+    "descriptor_index": 200,
+    "string_index": 1,
+    "rom_offset": "0x4D3817",
+    "japanese": "まぎは.ルールとテクニポクを[G:398]えよう{BREAK}",
+    "english": "",
+    "raw_hex": "090a000b0c0d0c0e0f101112101314151617f0"
+  },
+  {
+    "id": 402,
+    "descriptor_index": 201,
+    "string_index": 0,
+    "rom_offset": "0x4D3868",
+    "japanese": "ちいさいゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "000102010304050604f0"
+  },
+  {
+    "id": 403,
+    "descriptor_index": 201,
+    "string_index": 1,
+    "rom_offset": "0x4D3872",
+    "japanese": "かんたんなゴンガュンずうずごめし{BREAK}",
+    "english": "",
+    "raw_hex": "070809080a03040506040b0c0b0d0e0ff0"
+  },
+  {
+    "id": 404,
+    "descriptor_index": 202,
+    "string_index": 0,
+    "rom_offset": "0x4D38B0",
+    "japanese": "やさしいゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405060705f0"
+  },
+  {
+    "id": 405,
+    "descriptor_index": 202,
+    "string_index": 1,
+    "rom_offset": "0x4D38BA",
+    "japanese": "ケムンドはフボイアーず[G:296]そう!{BREAK}",
+    "english": "",
+    "raw_hex": "0809050a0b0c0d0e0f101112131415f0"
+  },
+  {
+    "id": 406,
+    "descriptor_index": 203,
+    "string_index": 0,
+    "rom_offset": "0x4D3904",
+    "japanese": "きらくなゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405060705f0"
+  },
+  {
+    "id": 407,
+    "descriptor_index": 203,
+    "string_index": 1,
+    "rom_offset": "0x4D390E",
+    "japanese": "モンスターごらけ///ずもtぽてる{BREAK}",
+    "english": "",
+    "raw_hex": "0805090a0b0c010d0e0e0e0f1011121314f0"
+  },
+  {
+    "id": 408,
+    "descriptor_index": 204,
+    "string_index": 0,
+    "rom_offset": "0x4D3958",
+    "japanese": "すぎしいゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405060705f0"
+  },
+  {
+    "id": 409,
+    "descriptor_index": 204,
+    "string_index": 1,
+    "rom_offset": "0x4D3962",
+    "japanese": "スイスイすづる[G:367]の[G:368]ぇあるげ!{BREAK}",
+    "english": "",
+    "raw_hex": "08090809000a0b0c0d0e0f100b1112f0"
+  },
+  {
+    "id": 410,
+    "descriptor_index": 205,
+    "string_index": 0,
+    "rom_offset": "0x4D39A4",
+    "japanese": "ゆとりのゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405060705f0"
+  },
+  {
+    "id": 411,
+    "descriptor_index": 205,
+    "string_index": 1,
+    "rom_offset": "0x4D39AE",
+    "japanese": "[G:262][G:316]フロアーにはシュポビぇあるのご!{BREAK}",
+    "english": "",
+    "raw_hex": "08090a0b0c0d0e0f10071112131415031617f0"
+  },
+  {
+    "id": 412,
+    "descriptor_index": 206,
+    "string_index": 0,
+    "rom_offset": "0x4D3A00",
+    "japanese": "ふつうのゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405060705f0"
+  },
+  {
+    "id": 413,
+    "descriptor_index": 206,
+    "string_index": 1,
+    "rom_offset": "0x4D3A0A",
+    "japanese": "とおくからrsしてくる[G:271][G:347][G:348]に[G:369][G:370]せよ!{BREAK}",
+    "english": "",
+    "raw_hex": "08090a0b0c0d0e0f100a1112131415161718191af0"
+  },
+  {
+    "id": 414,
+    "descriptor_index": 207,
+    "string_index": 0,
+    "rom_offset": "0x4D3A64",
+    "japanese": "きわぜいゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405060705f0"
+  },
+  {
+    "id": 415,
+    "descriptor_index": 207,
+    "string_index": 1,
+    "rom_offset": "0x4D3A6E",
+    "japanese": "ベーシュンをたぽびり[G:237]ぽて.ちぅうせんしよう!{BREAK}",
+    "english": "",
+    "raw_hex": "08090a07050b0c0d0e0f100d111213141516171819151af0"
+  },
+  {
+    "id": 416,
+    "descriptor_index": 208,
+    "string_index": 0,
+    "rom_offset": "0x4D3AC8",
+    "japanese": "うれしいゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405060705f0"
+  },
+  {
+    "id": 417,
+    "descriptor_index": 208,
+    "string_index": 1,
+    "rom_offset": "0x4D3AD2",
+    "japanese": "アイテムぇいぽどい!シュポビもあるげ!{BREAK}",
+    "english": "",
+    "raw_hex": "08090a0b0c030d0e030f10071112131415160ff0"
+  },
+  {
+    "id": 418,
+    "descriptor_index": 209,
+    "string_index": 0,
+    "rom_offset": "0x4D3B20",
+    "japanese": "ゆかいなゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405060705f0"
+  },
+  {
+    "id": 419,
+    "descriptor_index": 209,
+    "string_index": 1,
+    "rom_offset": "0x4D3B2A",
+    "japanese": "カガノを[G:255]ぽてアイテムゥポト!{BREAK}",
+    "english": "",
+    "raw_hex": "0806090a0b0c0d0e0f101112131415f0"
+  },
+  {
+    "id": 420,
+    "descriptor_index": 210,
+    "string_index": 0,
+    "rom_offset": "0x4D3B74",
+    "japanese": "ずぽかいゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405060705f0"
+  },
+  {
+    "id": 421,
+    "descriptor_index": 210,
+    "string_index": 1,
+    "rom_offset": "0x4D3B7E",
+    "japanese": "[G:244]く[G:320]しいげ たんさくアイテムをうまく[G:255]おう!{BREAK}",
+    "english": "",
+    "raw_hex": "08090a0b030c0d0e0f100911121314151617091819161af0"
+  },
+  {
+    "id": 422,
+    "descriptor_index": 211,
+    "string_index": 0,
+    "rom_offset": "0x4D3BD8",
+    "japanese": "ぢきみなゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405060705f0"
+  },
+  {
+    "id": 423,
+    "descriptor_index": 211,
+    "string_index": 1,
+    "rom_offset": "0x4D3BE2",
+    "japanese": "まさにゼラェンのそうくつご!{BREAK}",
+    "english": "",
+    "raw_hex": "08090a0b0c0d050e0f1011121314f0"
+  },
+  {
+    "id": 424,
+    "descriptor_index": 212,
+    "string_index": 0,
+    "rom_offset": "0x4D3C28",
+    "japanese": "てょわいゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405060705f0"
+  },
+  {
+    "id": 425,
+    "descriptor_index": 212,
+    "string_index": 1,
+    "rom_offset": "0x4D3C32",
+    "japanese": "モンスターのヒーリンィにてこぎるげ!{BREAK}",
+    "english": "",
+    "raw_hex": "0805090a0b0c0d0b0e050f10001112131415f0"
+  },
+  {
+    "id": 426,
+    "descriptor_index": 213,
+    "string_index": 0,
+    "rom_offset": "0x4D3C80",
+    "japanese": "つめたいゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405060705f0"
+  },
+  {
+    "id": 427,
+    "descriptor_index": 213,
+    "string_index": 1,
+    "rom_offset": "0x4D3C8A",
+    "japanese": "[G:393]てしない[G:367]の[G:371][G:236]をつきすすめ{BREAK}",
+    "english": "",
+    "raw_hex": "08090a0b030c0d0e0f100011121201f0"
+  },
+  {
+    "id": 428,
+    "descriptor_index": 214,
+    "string_index": 0,
+    "rom_offset": "0x4D3CCC",
+    "japanese": "はゅしいゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405060705f0"
+  },
+  {
+    "id": 429,
+    "descriptor_index": 214,
+    "string_index": 1,
+    "rom_offset": "0x4D3CD6",
+    "japanese": "きぅうでうなモンスターぇ[G:355][G:520]する{BREAK}",
+    "english": "",
+    "raw_hex": "08090a0b0a0c0d050e0f101112131415f0"
+  },
+  {
+    "id": 430,
+    "descriptor_index": 215,
+    "string_index": 0,
+    "rom_offset": "0x4D3D20",
+    "japanese": "しぢといゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405060705f0"
+  },
+  {
+    "id": 431,
+    "descriptor_index": 215,
+    "string_index": 1,
+    "rom_offset": "0x4D3D2A",
+    "japanese": "[G:521][G:257][G:468]のゲンダに[G:315]をつけろ///{BREAK}",
+    "english": "",
+    "raw_hex": "08090a0b0c050d0e0f10111213141414f0"
+  },
+  {
+    "id": 432,
+    "descriptor_index": 216,
+    "string_index": 0,
+    "rom_offset": "0x4D3D74",
+    "japanese": "ゆめみるゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405060705f0"
+  },
+  {
+    "id": 433,
+    "descriptor_index": 216,
+    "string_index": 1,
+    "rom_offset": "0x4D3D7E",
+    "japanese": "[G:262][G:316]フロアーには[G:373][G:374][G:375]ぇいぽどい!{BREAK}",
+    "english": "",
+    "raw_hex": "08090a0b0c0d0e0f101112131415161417f0"
+  },
+  {
+    "id": 434,
+    "descriptor_index": 217,
+    "string_index": 0,
+    "rom_offset": "0x4D3DCC",
+    "japanese": "むぎかしいゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506070806f0"
+  },
+  {
+    "id": 435,
+    "descriptor_index": 217,
+    "string_index": 1,
+    "rom_offset": "0x4D3DD7",
+    "japanese": "ふくっつなフロアーに[G:301]ょわいテキぇせいげろい{BREAK}",
+    "english": "",
+    "raw_hex": "090a0b0c0d0e0f1011121314150416171819041a1b04f0"
+  },
+  {
+    "id": 436,
+    "descriptor_index": 218,
+    "string_index": 0,
+    "rom_offset": "0x4D3E34",
+    "japanese": "きみぅうなゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506070806f0"
+  },
+  {
+    "id": 437,
+    "descriptor_index": 218,
+    "string_index": 1,
+    "rom_offset": "0x4D3E3F",
+    "japanese": "[G:255]ぽた[G:311][G:312]ぇ[G:376]えてしまう[G:382]ぬまゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "090a0b0c0d0e0f10111213031415130506070806f0"
+  },
+  {
+    "id": 438,
+    "descriptor_index": 219,
+    "string_index": 0,
+    "rom_offset": "0x4D3E8C",
+    "japanese": "[G:278][G:279]のゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304050604f0"
+  },
+  {
+    "id": 439,
+    "descriptor_index": 219,
+    "string_index": 1,
+    "rom_offset": "0x4D3E95",
+    "japanese": "モンスターゃんごんとの[G:393]てしない[G:327]いご!{BREAK}",
+    "english": "",
+    "raw_hex": "070408090a0b0c0d0c0e020f1011121314130d15f0"
+  },
+  {
+    "id": 440,
+    "descriptor_index": 220,
+    "string_index": 0,
+    "rom_offset": "0x4D3EE4",
+    "japanese": "[G:377]のゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040503f0"
+  },
+  {
+    "id": 441,
+    "descriptor_index": 220,
+    "string_index": 1,
+    "rom_offset": "0x4D3EEC",
+    "japanese": "[G:393]たしてぜこまずすすめるのか///?{BREAK}",
+    "english": "",
+    "raw_hex": "060708090a0b0c0d0e0e0f10011112121213f0"
+  },
+  {
+    "id": 442,
+    "descriptor_index": 221,
+    "string_index": 0,
+    "rom_offset": "0x4D3F34",
+    "japanese": " はがめて{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 443,
+    "descriptor_index": 221,
+    "string_index": 1,
+    "rom_offset": "0x4D3F3A",
+    "japanese": "はがめてのゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "01020304050607080907f0"
+  },
+  {
+    "id": 444,
+    "descriptor_index": 222,
+    "string_index": 0,
+    "rom_offset": "0x4D3F68",
+    "japanese": " ちいさい{BREAK}",
+    "english": "",
+    "raw_hex": "0001020302f0"
+  },
+  {
+    "id": 445,
+    "descriptor_index": 222,
+    "string_index": 1,
+    "rom_offset": "0x4D3F6E",
+    "japanese": "ちいさいゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "010203020405060705f0"
+  },
+  {
+    "id": 446,
+    "descriptor_index": 223,
+    "string_index": 0,
+    "rom_offset": "0x4D3F94",
+    "japanese": " やさしい{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 447,
+    "descriptor_index": 223,
+    "string_index": 1,
+    "rom_offset": "0x4D3F9A",
+    "japanese": "やさしいゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "010203040506070806f0"
+  },
+  {
+    "id": 448,
+    "descriptor_index": 224,
+    "string_index": 0,
+    "rom_offset": "0x4D3FC4",
+    "japanese": " きらくな{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 449,
+    "descriptor_index": 224,
+    "string_index": 1,
+    "rom_offset": "0x4D3FCA",
+    "japanese": "きらくなゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "010203040506070806f0"
+  },
+  {
+    "id": 450,
+    "descriptor_index": 225,
+    "string_index": 0,
+    "rom_offset": "0x4D3FF4",
+    "japanese": " すぎしい{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 451,
+    "descriptor_index": 225,
+    "string_index": 1,
+    "rom_offset": "0x4D3FFA",
+    "japanese": "すぎしいゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "010203040506070806f0"
+  },
+  {
+    "id": 452,
+    "descriptor_index": 226,
+    "string_index": 0,
+    "rom_offset": "0x4D4024",
+    "japanese": "  ゆとり{BREAK}",
+    "english": "",
+    "raw_hex": "0000010203f0"
+  },
+  {
+    "id": 453,
+    "descriptor_index": 226,
+    "string_index": 1,
+    "rom_offset": "0x4D402A",
+    "japanese": "ゆとりのゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "010203040506070806f0"
+  },
+  {
+    "id": 454,
+    "descriptor_index": 227,
+    "string_index": 0,
+    "rom_offset": "0x4D4054",
+    "japanese": "  ふつう{BREAK}",
+    "english": "",
+    "raw_hex": "0000010203f0"
+  },
+  {
+    "id": 455,
+    "descriptor_index": 227,
+    "string_index": 1,
+    "rom_offset": "0x4D405A",
+    "japanese": "ふつうのゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "010203040506070806f0"
+  },
+  {
+    "id": 456,
+    "descriptor_index": 228,
+    "string_index": 0,
+    "rom_offset": "0x4D4084",
+    "japanese": " きわぜい{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 457,
+    "descriptor_index": 228,
+    "string_index": 1,
+    "rom_offset": "0x4D408A",
+    "japanese": "きわぜいゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "010203040506070806f0"
+  },
+  {
+    "id": 458,
+    "descriptor_index": 229,
+    "string_index": 0,
+    "rom_offset": "0x4D40B4",
+    "japanese": " うれしい{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 459,
+    "descriptor_index": 229,
+    "string_index": 1,
+    "rom_offset": "0x4D40BA",
+    "japanese": "うれしいゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "010203040506070806f0"
+  },
+  {
+    "id": 460,
+    "descriptor_index": 230,
+    "string_index": 0,
+    "rom_offset": "0x4D40E4",
+    "japanese": "  ゆかい{BREAK}",
+    "english": "",
+    "raw_hex": "0000010203f0"
+  },
+  {
+    "id": 461,
+    "descriptor_index": 230,
+    "string_index": 1,
+    "rom_offset": "0x4D40EA",
+    "japanese": "ゆかいなゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "010203040506070806f0"
+  },
+  {
+    "id": 462,
+    "descriptor_index": 231,
+    "string_index": 0,
+    "rom_offset": "0x4D4114",
+    "japanese": " ずぽかい{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 463,
+    "descriptor_index": 231,
+    "string_index": 1,
+    "rom_offset": "0x4D411A",
+    "japanese": "ずぽかいゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "010203040506070806f0"
+  },
+  {
+    "id": 464,
+    "descriptor_index": 232,
+    "string_index": 0,
+    "rom_offset": "0x4D4144",
+    "japanese": "  ぢきみ{BREAK}",
+    "english": "",
+    "raw_hex": "0000010203f0"
+  },
+  {
+    "id": 465,
+    "descriptor_index": 232,
+    "string_index": 1,
+    "rom_offset": "0x4D414A",
+    "japanese": "ぢきみなゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "010203040506070806f0"
+  },
+  {
+    "id": 466,
+    "descriptor_index": 233,
+    "string_index": 0,
+    "rom_offset": "0x4D4174",
+    "japanese": " てょわい{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 467,
+    "descriptor_index": 233,
+    "string_index": 1,
+    "rom_offset": "0x4D417A",
+    "japanese": "てょわいゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "010203040506070806f0"
+  },
+  {
+    "id": 468,
+    "descriptor_index": 234,
+    "string_index": 0,
+    "rom_offset": "0x4D41A4",
+    "japanese": " つめたい{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 469,
+    "descriptor_index": 234,
+    "string_index": 1,
+    "rom_offset": "0x4D41AA",
+    "japanese": "つめたいゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "010203040506070806f0"
+  },
+  {
+    "id": 470,
+    "descriptor_index": 235,
+    "string_index": 0,
+    "rom_offset": "0x4D41D4",
+    "japanese": " はゅしい{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 471,
+    "descriptor_index": 235,
+    "string_index": 1,
+    "rom_offset": "0x4D41DA",
+    "japanese": "はゅしいゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "010203040506070806f0"
+  },
+  {
+    "id": 472,
+    "descriptor_index": 236,
+    "string_index": 0,
+    "rom_offset": "0x4D4204",
+    "japanese": " しぢとい{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 473,
+    "descriptor_index": 236,
+    "string_index": 1,
+    "rom_offset": "0x4D420A",
+    "japanese": "しぢといゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "010203040506070806f0"
+  },
+  {
+    "id": 474,
+    "descriptor_index": 237,
+    "string_index": 0,
+    "rom_offset": "0x4D4234",
+    "japanese": " ゆめみる{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 475,
+    "descriptor_index": 237,
+    "string_index": 1,
+    "rom_offset": "0x4D423A",
+    "japanese": "ゆめみるゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "010203040506070806f0"
+  },
+  {
+    "id": 476,
+    "descriptor_index": 238,
+    "string_index": 0,
+    "rom_offset": "0x4D4264",
+    "japanese": "むぎかしい{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 477,
+    "descriptor_index": 238,
+    "string_index": 1,
+    "rom_offset": "0x4D426A",
+    "japanese": "むぎかしいゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506070806f0"
+  },
+  {
+    "id": 478,
+    "descriptor_index": 239,
+    "string_index": 0,
+    "rom_offset": "0x4D4294",
+    "japanese": " きみぅう{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 479,
+    "descriptor_index": 239,
+    "string_index": 1,
+    "rom_offset": "0x4D429A",
+    "japanese": "きみぅうなゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "01020304050607080907f0"
+  },
+  {
+    "id": 480,
+    "descriptor_index": 240,
+    "string_index": 0,
+    "rom_offset": "0x4D42C8",
+    "japanese": "cdefg{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304f0"
+  },
+  {
+    "id": 481,
+    "descriptor_index": 240,
+    "string_index": 1,
+    "rom_offset": "0x4D42CE",
+    "japanese": "cdefgのゴンガュン{BREAK}",
+    "english": "",
+    "raw_hex": "0001020304050607080907f0"
+  },
+  {
+    "id": 482,
+    "descriptor_index": 241,
+    "string_index": 0,
+    "rom_offset": "0x4D42FC",
+    "japanese": "     ズータをセーヂしました,{NEWLINE}   [G:359][G:360]スイポチを[G:362]ぽても[G:252][G:481][G:482]ずす,{NEWLINE}  STARTデタンずゥームにもぜります,{BREAK}",
+    "english": "",
+    "raw_hex": "000000000001020304050206070807090af10000000b0c0d0e0f10041112131415161718190af100001a1b1c1d1b1e031f182002212214232408190af0"
+  },
+  {
+    "id": 483,
+    "descriptor_index": 241,
+    "string_index": 1,
+    "rom_offset": "0x4D4339",
+    "japanese": "     セーヂ[G:246][G:421]ませんずした,{NEWLINE}{NEWLINE}  STARTデタンずゥームにもぜります,{BREAK}",
+    "english": "",
+    "raw_hex": "000000000005020625260827281807090af1f100001a1b1c1d1b1e031f182002212214232408190af0"
+  },
+  {
+    "id": 484,
+    "descriptor_index": 242,
+    "string_index": 0,
+    "rom_offset": "0x4D43C0",
+    "japanese": "リ タ イ ア{BREAK}",
+    "english": "",
+    "raw_hex": "00010201030104f0"
+  },
+  {
+    "id": 485,
+    "descriptor_index": 242,
+    "string_index": 1,
+    "rom_offset": "0x4D43C8",
+    "japanese": "Aデタンずリトライ{BREAK}",
+    "english": "",
+    "raw_hex": "050602070800090a03f0"
+  },
+  {
+    "id": 486,
+    "descriptor_index": 243,
+    "string_index": 0,
+    "rom_offset": "0x4D43F4",
+    "japanese": " [G:245][G:246]してもよろしいずすか?     はい   いいえ{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506070308090a0b0c00000000000d0800000008080ef0"
+  },
+  {
+    "id": 487,
+    "descriptor_index": 243,
+    "string_index": 1,
+    "rom_offset": "0x4D4410",
+    "japanese": "[G:277]{BREAK}",
+    "english": "",
+    "raw_hex": "0ff0"
+  },
+  {
+    "id": 488,
+    "descriptor_index": 244,
+    "string_index": 0,
+    "rom_offset": "0x4D4440",
+    "japanese": "このキッラクターずよろしいずすか?{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405060708090a0b0c080d0e0ff0"
+  },
+  {
+    "id": 489,
+    "descriptor_index": 244,
+    "string_index": 1,
+    "rom_offset": "0x4D4452",
+    "japanese": "[G:277]はい  いいえ{BREAK}",
+    "english": "",
+    "raw_hex": "10110c12120c0c13f0"
+  },
+  {
+    "id": 490,
+    "descriptor_index": 244,
+    "string_index": 2,
+    "rom_offset": "0x4D445B",
+    "japanese": " はい [G:277]いいえ{BREAK}",
+    "english": "",
+    "raw_hex": "12110c12100c0c13f0"
+  },
+  {
+    "id": 491,
+    "descriptor_index": 244,
+    "string_index": 3,
+    "rom_offset": "0x4D4464",
+    "japanese": "[G:284]デタンの[G:280][G:281]ずキッラクターを{NEWLINE}[G:283][G:282]ず[G:285][G:249]をえらんずくごさい{BREAK}",
+    "english": "",
+    "raw_hex": "141506160117180802030405060719f11a1b081c1d19131e1f082021220cf0"
+  },
+  {
+    "id": 492,
+    "descriptor_index": 244,
+    "string_index": 4,
+    "rom_offset": "0x4D4483",
+    "japanese": "全[G:267]の[G:346][G:381]ぇ[G:316][G:321]するまず.しぞらくおまちくごさい{BREAK}",
+    "english": "",
+    "raw_hex": "23240125262728290d2a2b082c0b2d1e202e2b2f2021220cf0"
+  },
+  {
+    "id": 493,
+    "descriptor_index": 245,
+    "string_index": 0,
+    "rom_offset": "0x4D4508",
+    "japanese": "[G:351]ぞんはf[G:352]ごぇ[G:239][G:353]は[G:354]ひとつ{NEWLINE}1[G:258]ごけ[G:355]き[G:356]れるのぇミリュク{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040506070809030a0b0c0df10e0f0610111213141516071718191af0"
+  },
+  {
+    "id": 494,
+    "descriptor_index": 246,
+    "string_index": 0,
+    "rom_offset": "0x4D456C",
+    "japanese": "rs.lmのゾランスにすゃれた{NEWLINE} スタンゴーゼなキッラクター{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405060708090a0b0c0d0ef10f09100811121314151607171012f0"
+  },
+  {
+    "id": 495,
+    "descriptor_index": 247,
+    "string_index": 0,
+    "rom_offset": "0x4D45C8",
+    "japanese": "rs[G:401]はひくいぇ.[G:235][G:236]ぇひろく{NEWLINE}   [G:271][G:272]ぇドワーアポビ{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405060708090a07040b05f10c0c0c0d0e070f1011121314f0"
+  },
+  {
+    "id": 496,
+    "descriptor_index": 248,
+    "string_index": 0,
+    "rom_offset": "0x4D461C",
+    "japanese": "rs/[G:271][G:272]は.[G:354]ひとつごけぜ{NEWLINE}カーゼ[G:292]めのセンスはゾツィン{BREAK}",
+    "english": "",
+    "raw_hex": "000102030405060708090a0b0c0df10e0f101112131415160517181915f0"
+  },
+  {
+    "id": 497,
+    "descriptor_index": 249,
+    "string_index": 0,
+    "rom_offset": "0x4D467C",
+    "japanese": " rs.lm.[G:271][G:272]ぜれも[G:314][G:401]{NEWLINE}iくとHPぇへるのぇがぁくてん{BREAK}",
+    "english": "",
+    "raw_hex": "00010203040503060708090a0b0cf10d0e0f1011121314151216170e1819f0"
+  },
+  {
+    "id": 498,
+    "descriptor_index": 250,
+    "string_index": 0,
+    "rom_offset": "0x4D46DC",
+    "japanese": "  [G:273]aと[G:274][G:273]ぇきり[G:295]わる{NEWLINE} せんりぁくてきなキッラクター{BREAK}",
+    "english": "",
+    "raw_hex": "0000010203040105060708090af1000b0c070d0e0f0610111213141516f0"
+  }
+]
