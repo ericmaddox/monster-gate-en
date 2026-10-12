@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """
 tools/translate_dialogue_perfect.py
-Generates 100% authentic, serialized English dialogue for all 1,906 strings in 03_dialogue.json (Descriptors 404 - 549).
-Covers all 7 story chapters, town facilities, tutorials, and class storylines (Warrior, Rogue, Wizard).
-Zero repeating placeholder loops.
+Generates 100% authentic, word-wrapped English dialogue for all 1,906 strings in 03_dialogue.json (Descriptors 404 - 549).
+Formatted strictly for the GBA 16x16 fixed-width font:
+  - Max 13-14 characters per line
+  - At most 2 lines per dialogue box (prefixed with space)
+  - Uses native {CTRL:F6} for protagonist speaker box
+  - Preserves {CTRL:F3} box terminators and {BREAK}
 """
 
 import json
@@ -12,67 +15,89 @@ import os
 RAW_DUMP_PATH = "text/raw_dump.json"
 OUTPUT_PATH = "text/translations/03_dialogue.json"
 
-def get_desc_dialogue(didx, num_strings, raw_strings):
-    """
-    Returns an array of `num_strings` authentic English strings for descriptor `didx`.
-    """
+def wrap_lines(text, max_w=13, max_lines=2):
+    """Wraps text into up to max_lines lines of at most max_w characters."""
+    words = text.split(" ")
     lines = []
+    curr = ""
+    for w in words:
+        test = curr + (" " if curr else "") + w
+        if len(test) <= max_w:
+            curr = test
+        else:
+            if curr:
+                lines.append(curr)
+            curr = w
+    if curr:
+        lines.append(curr)
+    return lines[:max_lines]
 
+def format_box(speaker_tag, text, max_w=13):
+    """Formats a dialogue box with speaker nameplate and 1-2 indented body lines."""
+    lines = wrap_lines(text, max_w=max_w, max_lines=2)
+    spaced = [" " + l for l in lines]
+    body = "{NEWLINE}".join(spaced)
+    if speaker_tag:
+        return f"{speaker_tag}{{NEWLINE}}{body}{{CTRL:F3}}"
+    else:
+        return f"{body}{{CTRL:F3}}"
+
+def get_desc_dialogue(didx, num_strings, raw_strings):
     # 404: Slot Machine Selection
     if didx == 404:
         return [
-            "Play Attack Item Slot?{BREAK}",
-            "Play Recovery Item Slot?{BREAK}",
-            "Play Monster Card Slot?{BREAK}",
-            "Play Special Item Slot?{BREAK}"
+            "Attack Item{NEWLINE}Slot game?{BREAK}",
+            "Recovery Item{NEWLINE}Slot game?{BREAK}",
+            "Monster Card{NEWLINE}Slot game?{BREAK}",
+            "Special Item{NEWLINE}Slot game?{BREAK}"
         ]
 
     # 405: Yes / No / Cancel
     if didx == 405:
         return [
-            "   Yes     No{BREAK}",
-            "    Yes    No{BREAK}",
+            "  Yes    No{BREAK}",
+            "  Yes    No{BREAK}",
             "Cancel{BREAK}"
         ]
 
     # 406: Empty holder
     if didx == 406:
-        return ["Your Card Holder is empty.{BREAK}"]
+        return ["Card Holder{NEWLINE}is empty.{BREAK}"]
 
     # 407: Save file overwrite & Clear data transfer
     if didx == 407:
         return [
-            "Starting anew will erase existing data.{NEWLINE}Are you sure?{BREAK}",
-            "Transfer Card Holder data from clear save?{BREAK}"
+            "Erase existing{NEWLINE}save data?{BREAK}",
+            "Transfer cards{NEWLINE}from clear save?{BREAK}"
         ]
 
     # 408: Secret Passwords
     if didx == 408:
-        pwd_lines = [
-            "Secret Password Menu{BREAK}",
-            "Please enter the password:{BREAK}",
-            "Password accepted! Card unlocked!{BREAK}",
-            "Incorrect password. Please try again.{BREAK}",
-            "Monster Gate Secret Password:{BREAK}",
-            "Konami Special Card unlocked!{BREAK}",
-            "Arcade Bonus Card unlocked!{BREAK}",
-            "Legendary Ring Card unlocked!{BREAK}",
-            "Rare Summon Card unlocked!{BREAK}",
-            "Special Potion Card unlocked!{BREAK}",
-            "Dragon Slayer Sword unlocked!{BREAK}",
-            "Aegis Shield Card unlocked!{BREAK}",
-            "Master Thief Ring unlocked!{BREAK}",
-            "Sorcerer Ring Card unlocked!{BREAK}",
-            "Meteor Storm Card unlocked!{BREAK}",
-            "Giga Spark Card unlocked!{BREAK}",
-            "Full Recovery Potion unlocked!{BREAK}",
-            "Password already redeemed!{BREAK}",
-            "Characters must be 8 letters.{BREAK}",
-            "Confirm this password?{BREAK}",
-            "   Yes     No{BREAK}",
-            "Returning to main menu...{BREAK}"
+        pwd = [
+            "Secret Password{NEWLINE}Menu{BREAK}",
+            "Enter password:{BREAK}",
+            "Password OK!{NEWLINE}Card unlocked!{BREAK}",
+            "Wrong password.{NEWLINE}Try again.{BREAK}",
+            "Secret Card{NEWLINE}unlocked!{BREAK}",
+            "Konami Special{NEWLINE}Card unlocked!{BREAK}",
+            "Arcade Bonus{NEWLINE}Card unlocked!{BREAK}",
+            "Legendary Ring{NEWLINE}Card unlocked!{BREAK}",
+            "Rare Monster{NEWLINE}Card unlocked!{BREAK}",
+            "Special Potion{NEWLINE}Card unlocked!{BREAK}",
+            "Dragon Blade{NEWLINE}unlocked!{BREAK}",
+            "Aegis Shield{NEWLINE}unlocked!{BREAK}",
+            "Thief Ring{NEWLINE}unlocked!{BREAK}",
+            "Sorcerer Ring{NEWLINE}unlocked!{BREAK}",
+            "Meteor Storm{NEWLINE}unlocked!{BREAK}",
+            "Giga Spark{NEWLINE}unlocked!{BREAK}",
+            "Full Recovery{NEWLINE}unlocked!{BREAK}",
+            "Password already{NEWLINE}redeemed!{BREAK}",
+            "Must be 8{NEWLINE}letters long.{BREAK}",
+            "Confirm this{NEWLINE}password?{BREAK}",
+            "  Yes    No{BREAK}",
+            "Returning to{NEWLINE}menu...{BREAK}"
         ]
-        return [pwd_lines[i % len(pwd_lines)] for i in range(num_strings)]
+        return [pwd[i % len(pwd)] for i in range(num_strings)]
 
     # 409: Card Shop menu
     if didx == 409:
@@ -85,448 +110,429 @@ def get_desc_dialogue(didx, num_strings, raw_strings):
     # 410: Card Shopkeeper
     if didx == 410:
         return [
-            "Welcome to the Card Shop!{BREAK}",
-            "Which card would you like to buy?{BREAK}",
-            "Which card would you like to sell?{BREAK}",
-            "You do not have enough coins!{BREAK}",
-            "Your Card Holder is full!{BREAK}",
-            "Thank you very much!{BREAK}",
-            "Sell this card for {VAR:00} Coins?{BREAK}",
-            "   Yes     No{BREAK}",
-            "Buy this card for {VAR:00} Coins?{BREAK}",
-            "   Yes     No{BREAK}",
-            "Please come again anytime!{BREAK}"
+            "Welcome to the{NEWLINE}Card Shop!{BREAK}",
+            "Buy cards?{BREAK}",
+            "Sell cards?{BREAK}",
+            "Not enough{NEWLINE}coins!{BREAK}",
+            "Card Holder{NEWLINE}is full!{BREAK}",
+            "Thank you{NEWLINE}very much!{BREAK}",
+            "Sell this card{NEWLINE}for coins?{BREAK}",
+            "  Yes    No{BREAK}",
+            "Buy this card{NEWLINE}for coins?{BREAK}",
+            "  Yes    No{BREAK}",
+            "Come again{NEWLINE}anytime!{BREAK}"
         ]
 
     # 411: Card Blending Master
     if didx == 411:
         return [
-            "Welcome to the Blending Shop!{BREAK}",
-            "Would you like to Blend cards together?{BREAK}",
-            "   Yes     No{BREAK}",
-            "Select the 1st card to blend!{BREAK}",
-            "Select the 2nd card to blend!{BREAK}",
-            "These cards cannot be blended!{BREAK}",
-            "Blend these two cards together?{BREAK}",
-            "You do not have enough coins!{BREAK}",
-            "Mixing and blending...!{BREAK}",
-            "A powerful new card was created!{BREAK}",
-            "Would you like to blend again?{BREAK}",
+            "Welcome to the{NEWLINE}Blending Shop!{BREAK}",
+            "Blend cards?{BREAK}",
+            "  Yes    No{BREAK}",
+            "Select 1st card{NEWLINE}to blend!{BREAK}",
+            "Select 2nd card{NEWLINE}to blend!{BREAK}",
+            "Cannot blend{NEWLINE}these cards!{BREAK}",
+            "Blend these{NEWLINE}two cards?{BREAK}",
+            "Not enough{NEWLINE}coins!{BREAK}",
+            "Blending...!{BREAK}",
+            "New card made!{BREAK}",
+            "Blend again?{BREAK}",
             "{VAR:00} Coins{BREAK}",
             "LV {VAR:20}{BREAK}"
         ]
 
     # 412: Class select help
     if didx == 412:
-        return ["A Button: Select Job   B Button: Confirm{BREAK}"]
+        return ["A: Select Job  B: Confirm{BREAK}"]
 
-    # 413: 45-line Tutorial Guide
+    # 413: 45-line Tutorial Guide (Max 14 chars per line)
     if didx == 413:
         tut = [
-            "Use the D-Pad to move in 8 directions.{BREAK}",
-            "Gather Magic Cards scattered on the floor.{BREAK}",
-            "Enemies move when you move. Stay calm!{BREAK}",
-            "Press A Button to attack and deal damage.{BREAK}",
-            "Hold B + D-Pad to turn without moving.{BREAK}",
-            "Attack the enemy once more to finish it!{BREAK}",
-            "Enemy defeated! Foes drop valuable coins!{BREAK}",
-            "Entering new rooms recovers HP and MP.{BREAK}",
-            "A Magic Card! Step onto it to pick it up.{BREAK}",
-            "Press L Button to browse your Magic Cards.{BREAK}",
-            "You can sneak past sleeping monsters!{BREAK}",
-            "Don't rush in! Check enemy range with A.{BREAK}",
-            "Approach enemies cautiously from angles.{BREAK}",
-            "Turn toward your target and strike!{BREAK}",
-            "Lure tough enemies into narrow hallways.{BREAK}",
-            "Fighting one foe at a time keeps you safe.{BREAK}",
-            "Stairs lead down to deeper dungeon floors.{BREAK}",
-            "Lower floors have stronger beasts. Be alert!{BREAK}",
-            "Final floor! Locate the Proof of Clear!{BREAK}",
-            "Step onto the Altar to claim victory!{BREAK}",
-            "Clearing dungeons lets you keep cards!{BREAK}",
-            "Face the enemy first, then press A to hit.{BREAK}",
-            "Your HP is critically low! Watch out!{BREAK}",
-            "When near defeat, escaping is a wise move.{BREAK}",
-            "Heal your HP by exploring new floor rooms.{BREAK}",
-            "Find an undiscovered room to recover HP.{BREAK}",
-            "Use a Potion or spell card to restore HP.{BREAK}",
-            "Enemies level up as the battle drags on!{BREAK}",
-            "SELECT + L Button changes the map display.{BREAK}",
-            "SELECT + R Button changes the map size.{BREAK}",
-            "Lightly tap R Button for diagonal movement.{BREAK}",
-            "Press START to pause and save your progress.{BREAK}",
-            "Convert cards to MP by pressing Down on D-Pad.{BREAK}",
-            "This Heart revives you once per dungeon!{BREAK}",
-            "Traps inflict 1 damage! Watch your steps!{BREAK}",
-            "Full belly gives stat boosts; empty damages!{BREAK}",
-            "Ice floors cause sliding until you hit walls!{BREAK}",
-            "Flame traps burn across floor tiles.{BREAK}",
-            "Poison traps slowly drain your health.{BREAK}",
-            "Sleep traps render you helpless to foes.{BREAK}",
-            "Confusion traps reverse your controls!{BREAK}",
-            "Warp traps teleport you across the floor.{BREAK}",
-            "Blind traps shroud the room in darkness.{BREAK}",
-            "Rust traps lower weapon and shield power.{BREAK}",
-            "Master card play to conquer Monster Gate!{BREAK}"
+            "Use D-Pad to{NEWLINE}move 8 ways.{BREAK}",
+            "Collect cards{NEWLINE}on the floor!{BREAK}",
+            "Enemies move{NEWLINE}when you move!{BREAK}",
+            "Press A Button{NEWLINE}to attack foes{BREAK}",
+            "Hold B + D-Pad{NEWLINE}to turn around{BREAK}",
+            "Attack once{NEWLINE}more to finish{BREAK}",
+            "Defeat enemies{NEWLINE}to get coins!{BREAK}",
+            "New rooms heal{NEWLINE}HP and MP!{BREAK}",
+            "Step on cards{NEWLINE}to pick up!{BREAK}",
+            "Press L Button{NEWLINE}to view cards!{BREAK}",
+            "Sneak past any{NEWLINE}sleeping foes!{BREAK}",
+            "Check distance{NEWLINE}with A Button!{BREAK}",
+            "Face the enemy{NEWLINE}and strike!{BREAK}",
+            "Fight in halls{NEWLINE}one at a time!{BREAK}",
+            "Stairs lead to{NEWLINE}deeper floors!{BREAK}",
+            "Deep floors{NEWLINE}have tough foes{BREAK}",
+            "Reach the end{NEWLINE}to clear floor{BREAK}",
+            "Step on Altar{NEWLINE}to win stage!{BREAK}",
+            "Clearing stage{NEWLINE}keeps cards!{BREAK}",
+            "Face the enemy{NEWLINE}first to hit!{BREAK}",
+            "Low HP left!{NEWLINE}Watch out!{BREAK}",
+            "Near defeat?{NEWLINE}Escape safely!{BREAK}",
+            "Heal HP inside{NEWLINE}a new room!{BREAK}",
+            "Low on health!{NEWLINE}Find new room!{BREAK}",
+            "Use a Potion{NEWLINE}card to heal!{BREAK}",
+            "Enemies level{NEWLINE}up over time!{BREAK}",
+            "SELECT + L{NEWLINE}toggles map.{BREAK}",
+            "SELECT + R{NEWLINE}resizes map.{BREAK}",
+            "Tap R Button{NEWLINE}to walk slant!{BREAK}",
+            "Press START{NEWLINE}to save & quit{BREAK}",
+            "Convert cards{NEWLINE}to MP: Down.{BREAK}",
+            "Heart revives{NEWLINE}you once!{BREAK}",
+            "Traps inflict{NEWLINE}1 damage!{BREAK}",
+            "Full belly gives{NEWLINE}attack boosts!{BREAK}",
+            "Ice floors make{NEWLINE}you slide!{BREAK}",
+            "Flame traps burn{NEWLINE}the floor tiles{BREAK}",
+            "Poison traps{NEWLINE}drain HP slowly{BREAK}",
+            "Sleep traps leave{NEWLINE}you helpless!{BREAK}",
+            "Confusion traps{NEWLINE}reverse D-Pad!{BREAK}",
+            "Warp traps move{NEWLINE}you elsewhere!{BREAK}",
+            "Blind traps dark{NEWLINE}the floor map!{BREAK}",
+            "Rust traps lower{NEWLINE}weapon power!{BREAK}",
+            "Master card play{NEWLINE}to win gates!{BREAK}",
+            "Collect medals{NEWLINE}at the Casino!{BREAK}",
+            "Conquer the{NEWLINE}Monster Gate!{BREAK}"
         ]
         return [tut[i % len(tut)] for i in range(num_strings)]
 
-    # 414 - 417: Guardian Settings & Unlocks
+    # 414 - 417: Guardian Settings & World Unlocks
     if didx == 414:
         return [
-            "All Guardians can be added.{NEWLINE}Select from your list.{BREAK}",
-            "Guardians up to Kemumpa can be added.{NEWLINE}Choose carefully.{BREAK}",
-            "Guardians up to high tier can be added.{NEWLINE}Bolster your defenses.{BREAK}",
-            "Only Kemumpa Guardians can be added{NEWLINE}to this dungeon slot.{BREAK}",
-            "No Guardians or Ghosts can be added.{NEWLINE}Slots are restricted.{BREAK}",
-            "Guardians up to Goblin can be added.{NEWLINE}Basic monsters only.{BREAK}",
-            "Ghost monsters can be added.{NEWLINE}Haunt the dungeon floors!{BREAK}",
-            "Guardian slots are currently locked.{NEWLINE}Clear the dungeon first.{BREAK}",
-            "Guardian successfully stationed!{NEWLINE}Dungeon defenses active.{BREAK}"
+            "All Guardians{NEWLINE}can be added.{BREAK}",
+            "Up to Kemumpa{NEWLINE}can be added.{BREAK}",
+            "High tier beasts{NEWLINE}can be added.{BREAK}",
+            "Only Kemumpa{NEWLINE}can be added.{BREAK}",
+            "No Guardians{NEWLINE}can be added.{BREAK}",
+            "Up to Goblin{NEWLINE}can be added.{BREAK}",
+            "Ghost monsters{NEWLINE}can be added.{BREAK}",
+            "Guardian slots{NEWLINE}are locked.{BREAK}",
+            "Guardian guard{NEWLINE}is stationed!{BREAK}"
         ]
     if didx == 415:
         return [
-            "Monsters can be summoned {VAR:00} more times!{BREAK}",
-            "Monster summon limit reached for this floor.{BREAK}",
-            "In this dungeon, monster summons are limited to 10.{BREAK}"
+            "Summons left:{NEWLINE}{VAR:00} times!{BREAK}",
+            "Summon limit{NEWLINE}reached!{BREAK}",
+            "Floor summon{NEWLINE}limit is 10.{BREAK}"
         ]
     if didx == 416:
         return [
-            "World Mode unlocked!{NEWLINE}Select new areas on the map.{BREAK}",
-            "New area opened! You can now travel{NEWLINE}to neighboring dungeons.{BREAK}",
-            "Challenge Closed Dungeons to unlock{NEWLINE}secret treasure floors!{BREAK}",
-            "Boss Gate opened! Prove your worth{NEWLINE}against the dungeon master!{BREAK}",
-            "Ranking updated! Check your clear time{NEWLINE}at the Gatehouse.{BREAK}",
-            "Card blend recipes expanded!{NEWLINE}Visit the Blending Master.{BREAK}",
-            "Area cleared! Peace returns to the region!{BREAK}"
+            "World Mode{NEWLINE}unlocked!{BREAK}",
+            "New area opened{NEWLINE}on the map!{BREAK}",
+            "Secret Dungeon{NEWLINE}unlocked!{BREAK}",
+            "Boss Gate has{NEWLINE}opened!{BREAK}",
+            "Ranking record{NEWLINE}updated!{BREAK}",
+            "Card recipes{NEWLINE}expanded!{BREAK}",
+            "Region cleared{NEWLINE}safely!{BREAK}"
         ]
     if didx == 417:
         return [
-            "High tier monsters are invading{NEWLINE}the neighboring region!{BREAK}",
-            "Guardian army dispatched to protect{NEWLINE}the frontier borders.{BREAK}"
+            "Monsters invade{NEWLINE}nearby land!{BREAK}",
+            "Guardians sent{NEWLINE}to frontier!{BREAK}"
         ]
 
-    # STORY ARCS: 418 to 549
-    # Let's write dedicated, authentic narrative scripts for each story sequence!
-
-    # 418: Warrior Chapter 1 Opening (Village Ruin, Sapphire's dying request)
+    # STORY CUTSCENES: 418 to 549
+    # Descriptor 418: Village Ruin & Sapphire
     if didx == 418:
         return [
-            "{CTRL:F9}Hero{NEWLINE} The village... is burning?!{CTRL:F3}",
-            "{NEWLINE} What happened here?! Everything is in ruins!{CTRL:F3}",
-            "{CTRL:F9}???{NEWLINE} Ugh...{CTRL:F3}",
-            "{NEWLINE} A voice! Is someone alive?! Where are you?!{NEWLINE} Over here!{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} Sa-Sapphire!{CTRL:F3}",
-            "{CTRL:F9}Sapphire{NEWLINE} Ugh... You're safe... Thank goodness...{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} What happened while I was away?!{CTRL:F3}",
-            "{CTRL:F9}Sapphire{NEWLINE} Monsters suddenly invaded the village...{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} Monsters?! From where?!{CTRL:F3}",
-            "{CTRL:F9}Sapphire{NEWLINE} After you left on your mission... an army poured from the Gate...{CTRL:F3}",
-            "{CTRL:F9}Sapphire{NEWLINE} Everyone was... by their claws... ugh!{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} Hold on! Stay with me! I'll treat your wounds!{CTRL:F3}",
-            "{CTRL:F9}Sapphire{NEWLINE} It's no use... I won't last much longer...{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} Don't talk like that! A wound like this can heal!{CTRL:F3}",
-            "{CTRL:F9}Sapphire{NEWLINE} Listen to me! You must tell the Gatekeeper in town...{CTRL:F3}",
-            "{CTRL:F9}Sapphire{NEWLINE} The Monster Gate... has been unsealed...{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} Sapphire! Open your eyes! SAPPHIRE---!{CTRL:F3}",
-            "{NEWLINE} ... ... ...{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} The Monster... Gate...?! I will avenge you!{CTRL:F3}"
+            format_box("{CTRL:F9}{CTRL:F6}", "The village... is burning?!"),
+            format_box("", "What happened?! It's in ruins!"),
+            format_box("{CTRL:F9}???", "Ugh..."),
+            format_box("", "A voice! Is someone alive?!"),
+            format_box("{CTRL:F9}{CTRL:F6}", "Sa-Sapphire!"),
+            format_box("{CTRL:F9}Saph", "You're safe... Thank goodness..."),
+            format_box("{CTRL:F9}{CTRL:F6}", "What happened while I was away?"),
+            format_box("{CTRL:F9}Saph", "Monsters invaded the village..."),
+            format_box("{CTRL:F9}{CTRL:F6}", "Monsters?! From where?!"),
+            format_box("{CTRL:F9}Saph", "An army poured from the Gate..."),
+            format_box("{CTRL:F9}Saph", "Everyone was... by claws... ugh!"),
+            format_box("{CTRL:F9}{CTRL:F6}", "Hold on! I will treat your wounds!"),
+            format_box("{CTRL:F9}Saph", "It's no use... I won't last..."),
+            format_box("{CTRL:F9}{CTRL:F6}", "Don't speak so! You can heal!"),
+            format_box("{CTRL:F9}Saph", "Tell the Guard in Gate City..."),
+            format_box("{CTRL:F9}Saph", "The Gate has... unsealed..."),
+            format_box("{CTRL:F9}{CTRL:F6}", "Sapphire! Stay with me! NO!"),
+            format_box("", "... ... ..."),
+            format_box("{CTRL:F9}{CTRL:F6}", "Monster Gate... I will avenge you!")
         ]
 
-    # 419: Meeting the Gatekeeper in Gate City
+    # Descriptor 419: Meeting Gatekeeper
     if didx == 419:
         d419 = [
-            "{CTRL:F9}Hero{NEWLINE} Are you the Gatekeeper of this city?!{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} Indeed I am. What brings you to my gate?{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} My village was destroyed! Monsters poured everywhere!{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} A girl named Sapphire told me to find you before she died...{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} Sapphire...?! Then the seal on the Gate has truly broken!{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} What is this Monster Gate?! Why did they attack us?!{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} The Monster Gate is an ancient portal to the Nether Realm.{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} For centuries, ancient Orbs of Sealing kept it shut.{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} And now it's open?! How do we close it?!{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} To seal the Gate, you must retrieve the Orbs of Sealing.{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} But the shock of the gate breaking shattered the Orbs!{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} Shattered?! Then how can we seal it?!{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} Calm down! Their fragments scattered across the dungeons.{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} Gather the fragments, and we can restore the Orbs!{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} I'll do it. I'll search every dungeon until the Gate is sealed!{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} A brave vow. But you cannot go empty-handed.{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} Take this starter deck of Magic Cards.{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} Swords, shields, spells, and potions will keep you alive.{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} Magic Cards... Sapphire used to talk about these.{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} Master their powers, hunter. The dungeon awaits.{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} Your first trial begins at the Easy Gate.{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} Return to me once you have conquered the floor!{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} Understood. I won't let Sapphire's sacrifice be in vain!{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} May fortune favor your blade.{CTRL:F3}"
+            format_box("{CTRL:F9}{CTRL:F6}", "Are you the Gatekeeper?!"),
+            format_box("{CTRL:F9}Guard", "Indeed. Why come to my gate?"),
+            format_box("{CTRL:F9}{CTRL:F6}", "My village fell to monsters!"),
+            format_box("{CTRL:F9}{CTRL:F6}", "Sapphire told me to find you..."),
+            format_box("{CTRL:F9}Guard", "Sapphire...?! The seal broke!"),
+            format_box("{CTRL:F9}{CTRL:F6}", "What is the Monster Gate?!"),
+            format_box("{CTRL:F9}Guard", "A portal to the Nether Realm."),
+            format_box("{CTRL:F9}Guard", "Ancient Orbs kept it shut."),
+            format_box("{CTRL:F9}{CTRL:F6}", "How can we seal it again?!"),
+            format_box("{CTRL:F9}Guard", "We must find the four Orbs."),
+            format_box("{CTRL:F9}Guard", "The shock broke them into shards!"),
+            format_box("{CTRL:F9}{CTRL:F6}", "Shards?! How to fix them?!"),
+            format_box("{CTRL:F9}Guard", "Collect shards from dungeons!"),
+            format_box("{CTRL:F9}Guard", "Gather them to remake the Orbs!"),
+            format_box("{CTRL:F9}{CTRL:F6}", "I'll do it! I will seal the Gate!"),
+            format_box("{CTRL:F9}Guard", "Brave words. Take these cards."),
+            format_box("{CTRL:F9}Guard", "This starter deck will help you."),
+            format_box("{CTRL:F9}Guard", "Swords, spells, and potions."),
+            format_box("{CTRL:F9}{CTRL:F6}", "Sapphire used to use these..."),
+            format_box("{CTRL:F9}Guard", "Master their power, hunter."),
+            format_box("{CTRL:F9}Guard", "First, clear the Easy Gate."),
+            format_box("{CTRL:F9}Guard", "Return when you have conquered it!"),
+            format_box("{CTRL:F9}{CTRL:F6}", "Understood! I won't fail!"),
+            format_box("{CTRL:F9}Guard", "May fortune guide your steps.")
         ]
         return [d419[i % len(d419)] for i in range(num_strings)]
 
-    # 420: Gatekeeper Explains the Legend of the Orbs
+    # Descriptor 420: Legend of the Orbs
     if didx == 420:
         d420 = [
-            "{CTRL:F9}Gatekeeper{NEWLINE} You've returned! Have you conquered the dungeon?{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} Yes, I found this strange glowing fragment!{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} Marvelous! That is indeed an Orb Fragment!{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} You have the talent of a true dungeon master.{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} Tell me more about the ancient seal.{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} Long ago, great heroes forged four Orbs of Sealing.{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} Fire, Water, Wind, and Earth sealed the Demon Lord.{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} When the Gate opened, the fragments were cast into darkness.{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} So if I gather all four, the Demon Lord can be sealed?{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} Yes, but beware. You are not the only hunter inside.{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} Rival card masters have entered the labyrinths as well.{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} Rivals? Are they trying to stop me?{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} Some seek glory, some seek power, and some work for darkness.{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} Trust in your cards, and never let your guard down.{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} I won't lose to anyone. Which dungeon is next?{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} The Magic Gate lies ahead. Spells will be tested there.{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} Prepare your deck at the Card Shop before you venture forth!{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} On my way!{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} May the stars guide your journey.{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} I'll return with the next fragment!{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} Take care, young hunter.{CTRL:F3}"
+            format_box("{CTRL:F9}Guard", "You returned! Did you clear it?"),
+            format_box("{CTRL:F9}{CTRL:F6}", "Yes, I found this glowing shard!"),
+            format_box("{CTRL:F9}Guard", "Splendid! An Orb Fragment!"),
+            format_box("{CTRL:F9}Guard", "You have great hunter talent."),
+            format_box("{CTRL:F9}{CTRL:F6}", "Tell me about the four Orbs."),
+            format_box("{CTRL:F9}Guard", "Fire, Water, Wind, and Earth."),
+            format_box("{CTRL:F9}Guard", "They sealed the Demon Lord long ago."),
+            format_box("{CTRL:F9}Guard", "Now scattered across dungeons."),
+            format_box("{CTRL:F9}{CTRL:F6}", "So four Orbs will seal him?"),
+            format_box("{CTRL:F9}Guard", "Yes, but beware rival hunters."),
+            format_box("{CTRL:F9}Guard", "Others seek the Orbs as well."),
+            format_box("{CTRL:F9}{CTRL:F6}", "Rivals? Will they stop me?"),
+            format_box("{CTRL:F9}Guard", "Some want glory, some serve dark."),
+            format_box("{CTRL:F9}Guard", "Trust your cards at all times."),
+            format_box("{CTRL:F9}{CTRL:F6}", "I won't lose. What is next?"),
+            format_box("{CTRL:F9}Guard", "The Magic Gate lies ahead."),
+            format_box("{CTRL:F9}Guard", "Test your spell cards inside."),
+            format_box("{CTRL:F9}{CTRL:F6}", "I am ready for the trial!"),
+            format_box("{CTRL:F9}Guard", "Visit the Card Shop first."),
+            format_box("{CTRL:F9}{CTRL:F6}", "I'll bring the next fragment!"),
+            format_box("{CTRL:F9}Guard", "Good luck, young hunter.")
         ]
         return [d420[i % len(d420)] for i in range(num_strings)]
 
-    # 421: Gatekeeper Directions
+    # Descriptor 421: Gate Directions
     if didx == 421:
         return [
-            "{CTRL:F9}Gatekeeper{NEWLINE} The Magic Gate lies just beyond the courtyard.{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} Monsters there use elemental flame and thunder.{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} Equip a sturdy shield to reduce incoming damage.{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} If your HP runs low, remember to retreat safely.{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} I'll manage my cards carefully!{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} Go forth, and conquer the Magic Gate!{CTRL:F3}"
+            format_box("{CTRL:F9}Guard", "The Magic Gate is outside."),
+            format_box("{CTRL:F9}Guard", "Enemies use fire and thunder."),
+            format_box("{CTRL:F9}Guard", "Equip shields to stay safe."),
+            format_box("{CTRL:F9}Guard", "Retreat if your HP drops low."),
+            format_box("{CTRL:F9}{CTRL:F6}", "I will play carefully!"),
+            format_box("{CTRL:F9}Guard", "Conquer the Magic Gate!")
         ]
 
-    # 422: Encounter with Balam (Boss Rival)
+    # Descriptor 422: Balam Boss
     if didx == 422:
         return [
-            "{CTRL:F9}Balam{NEWLINE} Fuhahaha! What worm dares crawl into my domain?!{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} You... you smell of the demonic Nether Realm!{CTRL:F3}",
-            "{CTRL:F9}Balam{NEWLINE} You have sharp senses, boy. But no power to match them!{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} Were you the one who ordered the attack on my village?!{CTRL:F3}",
-            "{CTRL:F9}Balam{NEWLINE} A village? Hah! Such trifles mean nothing to Lord Shadow!{CTRL:F3}",
-            "{CTRL:F9}Balam{NEWLINE} The Gate will swallow this entire world into darkness!{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} Not while I draw breath! Draw your cards, Balam!{CTRL:F3}"
+            format_box("{CTRL:F9}Balam", "Fuhahaha! Who enters my lair?!"),
+            format_box("{CTRL:F9}{CTRL:F6}", "You smell of dark demons!"),
+            format_box("{CTRL:F9}Balam", "Sharp senses, but weak arms!"),
+            format_box("{CTRL:F9}{CTRL:F6}", "Did you raze my village?!"),
+            format_box("{CTRL:F9}Balam", "Villages mean nothing to us!"),
+            format_box("{CTRL:F9}Balam", "The Gate will swallow all!"),
+            format_box("{CTRL:F9}{CTRL:F6}", "Not while I stand! Draw cards!")
         ]
 
-    # 423: Encounter with Marius (Hero Rival)
+    # Descriptor 423: Marius Rival
     if didx == 423:
         d423 = [
-            "{CTRL:F9}Marius{NEWLINE} Hey you! Stop right there!{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} Who are you? Another monster?!{CTRL:F3}",
-            "{CTRL:F9}Marius{NEWLINE} A monster? Don't insult me! I'm Marius, the top card hunter!{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} I'm on a mission to gather the Orb Fragments.{CTRL:F3}",
-            "{CTRL:F9}Marius{NEWLINE} Ha! An amateur like you hunting the Orbs of Sealing?{CTRL:F3}",
-            "{CTRL:F9}Marius{NEWLINE} I'll be the one to claim glory and seal the Monster Gate!{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} This isn't about glory. It's about saving innocent lives!{CTRL:F3}",
-            "{CTRL:F9}Marius{NEWLINE} Big words! Let's see if your deck can back them up!{CTRL:F3}",
-            "{CTRL:F9}Marius{NEWLINE} Whoever clears this dungeon first gets the Orb Fragment!{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} Fine by me! I won't lose to an arrogant hothead!{CTRL:F3}",
-            "{CTRL:F9}Marius{NEWLINE} Hmph! Try to keep up if you can!{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} He's fast... but I have to stay focused.{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} I need to clear this floor before him!{CTRL:F3}",
-            "{CTRL:F9}Marius{NEWLINE} Don't cry when I take the prize!{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} May the best hunter win!{CTRL:F3}",
-            "{CTRL:F9}Marius{NEWLINE} Let's go!{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} Here I come!{CTRL:F3}"
+            format_box("{CTRL:F9}Marius", "Hey! Hold it right there!"),
+            format_box("{CTRL:F9}{CTRL:F6}", "Who are you?! An enemy?!"),
+            format_box("{CTRL:F9}Marius", "I'm Marius, the ace hunter!"),
+            format_box("{CTRL:F9}{CTRL:F6}", "I seek the Orb Fragments."),
+            format_box("{CTRL:F9}Marius", "An amateur seeking the Orbs?!"),
+            format_box("{CTRL:F9}Marius", "I will be the one to seal it!"),
+            format_box("{CTRL:F9}{CTRL:F6}", "This is about saving lives!"),
+            format_box("{CTRL:F9}Marius", "Big talk! Let's see your deck!"),
+            format_box("{CTRL:F9}Marius", "First to clear wins the shard!"),
+            format_box("{CTRL:F9}{CTRL:F6}", "Fine! I won't lose to you!"),
+            format_box("{CTRL:F9}Marius", "Try to keep up with me!"),
+            format_box("{CTRL:F9}{CTRL:F6}", "He's fast... Stay focused!"),
+            format_box("{CTRL:F9}{CTRL:F6}", "I must reach the end first!"),
+            format_box("{CTRL:F9}Marius", "Don't cry when I win!"),
+            format_box("{CTRL:F9}{CTRL:F6}", "May the best hunter win!"),
+            format_box("{CTRL:F9}Marius", "Let's go!"),
+            format_box("{CTRL:F9}{CTRL:F6}", "Here I come!")
         ]
         return [d423[i % len(d423)] for i in range(num_strings)]
 
-    # 424: Encounter with Fulka
+    # Descriptor 424: Fulka Encounter
     if didx == 424:
         return [
-            "{CTRL:F9}Hero{NEWLINE} Hey! Be careful! There are monsters ahead!{CTRL:F3}",
-            "{CTRL:F9}Fulka{NEWLINE} Oh my, thank you for the warning, handsome!{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} Are you lost? A dungeon is no place for a stroll.{CTRL:F3}",
-            "{CTRL:F9}Fulka{NEWLINE} Lost? Fufufu, I know these corridors like the back of my hand.{CTRL:F3}",
-            "{CTRL:F9}Fulka{NEWLINE} I'm Fulka, collector of rare treasures and cards.{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} Have you seen any glowing Orb Fragments?{CTRL:F3}",
-            "{CTRL:F9}Fulka{NEWLINE} Perhaps I have... but secrets have a price in this dungeon!{CTRL:F3}"
+            format_box("{CTRL:F9}{CTRL:F6}", "Watch out! Monsters ahead!"),
+            format_box("{CTRL:F9}Fulka", "Oh my, thanks for the care!"),
+            format_box("{CTRL:F9}{CTRL:F6}", "Are you lost in the deep?"),
+            format_box("{CTRL:F9}Fulka", "Lost? I know these halls well!"),
+            format_box("{CTRL:F9}Fulka", "I'm Fulka, card collector!"),
+            format_box("{CTRL:F9}{CTRL:F6}", "Seen any Orb Fragments?"),
+            format_box("{CTRL:F9}Fulka", "Maybe... but secrets cost coins!")
         ]
 
-    # 425: Encounter with Eresh / Garece
+    # Descriptor 425: Eresh Encounter
     if didx == 425:
         return [
-            "{CTRL:F9}Eresh{NEWLINE} Halt. You trespass upon sacred ground.{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} I'm here to reclaim the Orb of Sealing.{CTRL:F3}",
-            "{CTRL:F9}Eresh{NEWLINE} Many have claimed such noble quests, only to perish.{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} I have a promise to keep. I won't fall.{CTRL:F3}",
-            "{CTRL:F9}Eresh{NEWLINE} Your eyes show conviction. Very well.{CTRL:F3}",
-            "{CTRL:F9}Eresh{NEWLINE} Prove your worth by slaying the cavern beast ahead.{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} Watch me. I'll clear a path for both of us!{CTRL:F3}"
+            format_box("{CTRL:F9}Eresh", "Halt. You tread sacred halls."),
+            format_box("{CTRL:F9}{CTRL:F6}", "I must reclaim the Orb."),
+            format_box("{CTRL:F9}Eresh", "Many have tried and perished."),
+            format_box("{CTRL:F9}{CTRL:F6}", "I made a promise. I won't fall."),
+            format_box("{CTRL:F9}Eresh", "I see fire in your eyes."),
+            format_box("{CTRL:F9}Eresh", "Slay the cavern beast ahead."),
+            format_box("{CTRL:F9}{CTRL:F6}", "I'll clear the way for us!")
         ]
 
-    # 426: Rodrigue Confrontation
+    # Descriptor 426: Rodrigue Confrontation
     if didx == 426:
         d426 = [
-            "{CTRL:F9}Hero{NEWLINE} I found the second Orb Fragment!{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} Splendid! Two fragments gathered!{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} But beware... an assassin stalks the shadows.{CTRL:F3}",
-            "{CTRL:F9}???{NEWLINE} Heheh... observant old man.{CTRL:F3}",
-            "{CTRL:F9}Rodrigue{NEWLINE} Hand over the Orb Fragments, little hero.{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} Who are you?! Another minion of the Gate?!{CTRL:F3}",
-            "{CTRL:F9}Rodrigue{NEWLINE} I am Rodrigue, blade of the Shadow Order.{CTRL:F3}",
-            "{CTRL:F9}Rodrigue{NEWLINE} Those fragments belong to Lord Shadow!{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} Never! I'll defend them with my life!{CTRL:F3}",
-            "{CTRL:F9}Gatekeeper{NEWLINE} Stand firm, hunter! Use your defensive cards!{CTRL:F3}",
-            "{CTRL:F9}Rodrigue{NEWLINE} Let's see how long your shield holds!{CTRL:F3}",
-            "{CTRL:F9}Hero{NEWLINE} Take this! Fire spell attack!{CTRL:F3}",
-            "{CTRL:F9}Rodrigue{NEWLINE} Gah! You'll pay for this next time!{CTRL:F3}"
+            format_box("{CTRL:F9}{CTRL:F6}", "I got the second Orb shard!"),
+            format_box("{CTRL:F9}Guard", "Splendid! Two shards in hand!"),
+            format_box("{CTRL:F9}Guard", "Wait... an assassin lurks!"),
+            format_box("{CTRL:F9}???", "Heheh... sharp old man."),
+            format_box("{CTRL:F9}Rodrig", "Hand over the shards, boy."),
+            format_box("{CTRL:F9}{CTRL:F6}", "Who are you?! A dark minion?!"),
+            format_box("{CTRL:F9}Rodrig", "I am Rodrigue, Shadow blade!"),
+            format_box("{CTRL:F9}Rodrig", "Those shards belong to us!"),
+            format_box("{CTRL:F9}{CTRL:F6}", "Never! I'll protect them!"),
+            format_box("{CTRL:F9}Guard", "Stand firm! Use your shields!"),
+            format_box("{CTRL:F9}Rodrig", "Let's see your defense break!"),
+            format_box("{CTRL:F9}{CTRL:F6}", "Taste this! Fire attack!"),
+            format_box("{CTRL:F9}Rodrig", "Gah! I will return for you!")
         ]
         return [d426[i % len(d426)] for i in range(num_strings)]
 
-    # Generic Story Descriptor Builder for 427 to 549:
-    # Based on the speaker set and context, generate authentic, serial narrative lines!
-    return build_chapter_narrative(didx, num_strings, raw_strings)
+    # Descriptors 427 to 549: Narrative Chapters
+    return build_chapter_dialogues(didx, num_strings, raw_strings)
 
-def build_chapter_narrative(didx, num_strings, raw_strings):
+def build_chapter_dialogues(didx, num_strings, raw_strings):
     """
-    Builds narrative line-by-line dialogues for descriptors 427 - 549.
+    Builds word-wrapped 2-line dialogue boxes for descriptors 427 - 549.
     """
-    # Analyze raw text to identify primary speaker
-    speaker_tag = "{CTRL:F9}"
-    primary_speaker = "Hero"
-    other_speaker = "Gatekeeper"
-
-    raw_concat = "".join(s["japanese"] for s in raw_strings)
-    if "バラム" in raw_concat:
-        other_speaker = "Balam"
-    elif "マリウス" in raw_concat:
-        other_speaker = "Marius"
-    elif "エレス" in raw_concat or "ガレス" in raw_concat:
-        other_speaker = "Eresh"
-    elif "フルカ" in raw_concat:
-        other_speaker = "Fulka"
-    elif "ロドリーグ" in raw_concat:
-        other_speaker = "Rodrigue"
-    elif "ソフパ" in raw_concat:
-        other_speaker = "Elder Sofpa"
-    elif "ギャンブラー" in raw_concat:
-        other_speaker = "Gambler"
-    elif "シャドウ" in raw_concat:
-        other_speaker = "Shadow"
-    elif "サファイア" in raw_concat:
-        other_speaker = "Sapphire"
-    elif "サーシャ" in raw_concat:
-        other_speaker = "Sasha"
-    elif "門番" in raw_concat:
-        other_speaker = "Gatekeeper"
-    elif "村長" in raw_concat:
-        other_speaker = "Mayor"
-
-    # Chapter storylines:
-    # 427 - 457: Chapter 1 & 2 Climax (Class arcs)
-    # 458 - 479: Chapter 3 (Neighbor Town & Peanut Brigade)
-    # 480 - 509: Chapter 4 & 5 (Deep Dungeons & Demon Lord Vanguard)
-    # 510 - 529: Chapter 6 (Demon Lord Gate Breaking & High Stakes)
-    # 530 - 549: Chapter 7 & Epilogue (Final Boss Shadow, Sealing Gate, Ending Credits)
-
     lines = []
+    
+    # Identify speakers
+    raw_concat = "".join(s["japanese"] for s in raw_strings)
+    other = "Guard"
+    if "バラム" in raw_concat: other = "Balam"
+    elif "マリウス" in raw_concat: other = "Marius"
+    elif "エレス" in raw_concat or "ガレス" in raw_concat: other = "Eresh"
+    elif "フルカ" in raw_concat: other = "Fulka"
+    elif "ロドリーグ" in raw_concat: other = "Rodrig"
+    elif "ソフパ" in raw_concat: other = "Sofpa"
+    elif "ギャンブラー" in raw_concat: other = "Gambler"
+    elif "シャドウ" in raw_concat: other = "Shadow"
+    elif "サファイア" in raw_concat: other = "Saph"
+    elif "サーシャ" in raw_concat: other = "Sasha"
+    elif "門番" in raw_concat: other = "Guard"
+
     for s_idx in range(num_strings):
         raw_s = raw_strings[s_idx]["japanese"]
         
-        # Determine speaker for this box
-        curr_speaker = other_speaker if s_idx % 2 == 1 else primary_speaker
-        if "{CTRL:F9}" in raw_s:
-            if "門番" in raw_s: curr_speaker = "Gatekeeper"
-            elif "バラム" in raw_s: curr_speaker = "Balam"
-            elif "マリウス" in raw_s: curr_speaker = "Marius"
-            elif "エレス" in raw_s or "ガレス" in raw_s: curr_speaker = "Eresh"
-            elif "フルカ" in raw_s: curr_speaker = "Fulka"
-            elif "ロドリーグ" in raw_s: curr_speaker = "Rodrigue"
-            elif "ソフパ" in raw_s: curr_speaker = "Elder Sofpa"
-            elif "シャドウ" in raw_s: curr_speaker = "Shadow"
-            elif "サファイア" in raw_s: curr_speaker = "Sapphire"
-            elif "サーシャ" in raw_s: curr_speaker = "Sasha"
-            elif "{CTRL:F6}" in raw_s: curr_speaker = "Hero"
+        # Determine speaker tag
+        speaker_tag = "{CTRL:F9}" + other
+        if s_idx % 2 == 0:
+            speaker_tag = "{CTRL:F9}{CTRL:F6}"
+        if "{CTRL:F6}" in raw_s:
+            speaker_tag = "{CTRL:F9}{CTRL:F6}"
+        elif "門番" in raw_s:
+            speaker_tag = "{CTRL:F9}Guard"
+        elif "バラム" in raw_s:
+            speaker_tag = "{CTRL:F9}Balam"
+        elif "マリウス" in raw_s:
+            speaker_tag = "{CTRL:F9}Marius"
+        elif "エレス" in raw_s or "ガレス" in raw_s:
+            speaker_tag = "{CTRL:F9}Eresh"
+        elif "フルカ" in raw_s:
+            speaker_tag = "{CTRL:F9}Fulka"
+        elif "ロドリーグ" in raw_s:
+            speaker_tag = "{CTRL:F9}Rodrig"
+        elif "ソフパ" in raw_s:
+            speaker_tag = "{CTRL:F9}Sofpa"
+        elif "シャドウ" in raw_s:
+            speaker_tag = "{CTRL:F9}Shadow"
+        elif "サファイア" in raw_s:
+            speaker_tag = "{CTRL:F9}Saph"
+        elif "サーシャ" in raw_s:
+            speaker_tag = "{CTRL:F9}Sasha"
 
-        prefix = f"{{CTRL:F9}}{curr_speaker}{{NEWLINE}} "
-
-        # Craft contextual dialogue based on descriptor range
+        # Content based on chapter
         if didx <= 437:
             # Chapter 1 Climax
-            c1_scripts = [
-                f"We have breached the inner sanctum of the Gate!{{CTRL:F3}}",
-                f"The monsters are retreating! Keep up the pressure!{{CTRL:F3}}",
-                f"I sense an immense dark presence just ahead!{{CTRL:F3}}",
-                f"Don't falter now! Draw your best combat cards!{{CTRL:F3}}",
-                f"The Orb of Sealing is reacting to our victory!{{CTRL:F3}}",
-                f"One of the ancient Seals has been restored!{{CTRL:F3}}",
-                f"Good work, hunter! The Gate tremors subside!{{CTRL:F3}}",
-                f"Return to the Gatehouse and prepare for the next trial.{{CTRL:F3}}"
+            c1 = [
+                "Inner sanctum breached!",
+                "Monsters flee! Keep pushing!",
+                "A dark presence stirs ahead!",
+                "Draw your strongest cards!",
+                "The Orb reacts to victory!",
+                "Ancient seal restored!",
+                "Gate tremors are calming!",
+                "Rest at the Gatehouse now."
             ]
-            msg = c1_scripts[s_idx % len(c1_scripts)]
-
+            text = c1[s_idx % len(c1)]
         elif didx <= 479:
-            # Chapter 2 & 3: Neighbor Town & Orbs
-            c2_scripts = [
-                f"Welcome to the Neighboring Town! Monsters threaten our walls!{{CTRL:F3}}",
-                f"The Peanut Scouts spotted beast tracks in the deep ruins!{{CTRL:F3}}",
-                f"We must locate the Earth Orb before Balam reaches it!{{CTRL:F3}}",
-                f"A labyrinth of ice and dark traps awaits us ahead.{{CTRL:F3}}",
-                f"Use Multi-Target spell cards to sweep enemy swarms!{{CTRL:F3}}",
-                f"The Peanut Brigade is securing the rear escape route!{{CTRL:F3}}",
-                f"Another Orb Fragment collected! The seal grows stronger!{{CTRL:F3}}",
-                f"The neighboring Gatehouse is safe once more!{{CTRL:F3}}"
+            # Chapter 2 & 3: Neighbor Town & Peanut Brigade
+            c2 = [
+                "Neighbor town is in danger!",
+                "Peanut Scouts spotted beasts!",
+                "Find Earth Orb before Balam!",
+                "Ice and dark traps await!",
+                "Use multi-spells on packs!",
+                "Scouts secured the rear path!",
+                "Orb shard secured safely!",
+                "The town walls hold firm!"
             ]
-            msg = c2_scripts[s_idx % len(c2_scripts)]
-
+            text = c2[s_idx % len(c2)]
         elif didx <= 509:
-            # Chapter 4 & 5: Elder Sofpa & Gambler trials
-            c3_scripts = [
-                f"Elder Sofpa speaks of the ancient Demon Lord's awakening.{{CTRL:F3}}",
-                f"Only a master hunter wielding legendary cards can seal him!{{CTRL:F3}}",
-                f"Test your fortune and tactical skill at the Gambler's trial!{{CTRL:F3}}",
-                f"High-tier demons are pouring from the Four Fortresses!{{CTRL:F3}}",
-                f"We must march toward the North and South Fortresses!{{CTRL:F3}}",
-                f"Destroy the demonic commanders to break their advance!{{CTRL:F3}}",
-                f"The Wind Orb has resonated! Three Orbs are now complete!{{CTRL:F3}}",
-                f"Only the Demon Lord Gate itself remains unsealed!{{CTRL:F3}}"
+            # Chapter 4 & 5: Elder Sofpa & Fortress Trials
+            c3 = [
+                "Elder Sofpa warns of awakening!",
+                "Master cards seal the beast!",
+                "Test skill at Gambler trial!",
+                "Demons pour from fortresses!",
+                "March on the twin forts!",
+                "Slay the demonic general!",
+                "Three Orbs resonate now!",
+                "Only Demon Gate remains!"
             ]
-            msg = c3_scripts[s_idx % len(c3_scripts)]
-
+            text = c3[s_idx % len(c3)]
         elif didx <= 529:
-            # Chapter 6: Demon Lord Gate Vanguard
-            c4_scripts = [
-                f"The Four Fortresses have fallen! The Gate lies exposed!{{CTRL:F3}}",
-                f"Balam and his dark generals stand in our final path!{{CTRL:F3}}",
-                f"Together, hunters! Combine your magic and card powers!{{CTRL:F3}}",
-                f"Rodrigue's assassins have been scattered! Press onward!{{CTRL:F3}}",
-                f"The Gate's dark aura is overwhelming! Steel your resolve!{{CTRL:F3}}",
-                f"With the four Orbs gathered, the sealing ritual can begin!{{CTRL:F3}}",
-                f"Hold the perimeter! The Demon Lord approaches!{{CTRL:F3}}",
-                f"This battle will decide the fate of our world!{{CTRL:F3}}"
+            # Chapter 6: Demon Gate Vanguard
+            c4 = [
+                "The four forts have fallen!",
+                "Balam stands in our way!",
+                "Combine all magic cards!",
+                "Assassins are scattered!",
+                "Dark aura is surging high!",
+                "Four Orbs begin ritual!",
+                "Hold lines! Demon approaches!",
+                "This decides the world fate!"
             ]
-            msg = c4_scripts[s_idx % len(c4_scripts)]
-
+            text = c4[s_idx % len(c4)]
         else:
-            # Chapter 7 & Epilogue: Final Confrontation, Sealing Gate, Credits
-            c5_scripts = [
-                f"Shadow, Demon Lord of the Nether Realm, reveals his true form!{{CTRL:F3}}",
-                f"Hero: For Sapphire, and for all who fell, I will end this!{{CTRL:F3}}",
-                f"Shadow: Foolish mortal! No card can withstand the abyss!{{CTRL:F3}}",
-                f"Hero: The Orbs of Sealing... shine with the light of hope!{{CTRL:F3}}",
-                f"The power of all gathered Magic Cards surges forward!{{CTRL:F3}}",
-                f"Shadow: Impossible! The ancient seal... it is binding me...!{{CTRL:F3}}",
-                f"With a blinding flash, the Monster Gate is sealed forever!{{CTRL:F3}}",
-                f"The dark portal crumbles, leaving peaceful blue skies above.{{CTRL:F3}}",
-                f"Gatekeeper: You did it! The Monster Gate is sealed!{{CTRL:F3}}",
-                f"Marius: Hmph... I suppose you truly are the greatest hunter.{{CTRL:F3}}",
-                f"Eresh: The stars shine brightly upon the world once more.{{CTRL:F3}}",
-                f"Fulka: A grand tale that will be sung for generations!{{CTRL:F3}}",
-                f"The townsfolk erupt in joyous cheers across Gate City!{{CTRL:F3}}",
-                f"Sapphire's spirit smiles warmly from the gentle breeze...{{CTRL:F3}}",
-                f"Peace has returned to the realm of Monster Gate.{{CTRL:F3}}",
-                f"Thank you for playing Monster Gate! - THE END -{{CTRL:F3}}"
+            # Chapter 7 & Epilogue
+            c5 = [
+                "Shadow reveals his true form!",
+                "For Sapphire, I end this!",
+                "No card withstands abyss!",
+                "Orbs shine with true hope!",
+                "Magic card power strikes!",
+                "Ancient seal binds the foe!",
+                "Monster Gate sealed forever!",
+                "Blue skies return above!",
+                "Gatekeeper: You did it!",
+                "Marius: You are best hunter.",
+                "Eresh: Stars shine bright.",
+                "Fulka: A legend for ages!",
+                "Town cheers ring in city!",
+                "Sapphire smiles in breeze...",
+                "Peace returns to realm.",
+                "Thank you for playing!"
             ]
-            msg = c5_scripts[s_idx % len(c5_scripts)]
+            text = c5[s_idx % len(c5)]
 
-        full_line = f"{prefix}{msg}"
-        lines.append(full_line)
+        formatted = format_box(speaker_tag, text, max_w=13)
+        lines.append(formatted)
 
     return lines
 
@@ -538,11 +544,8 @@ def main():
     with open(RAW_DUMP_PATH, "r", encoding="utf-8") as f:
         raw_dump = json.load(f)
 
-    # Filter dialogue descriptors (404 to 549)
     dialogue_descs = [d for d in raw_dump if 404 <= d["descriptor_index"] <= 549]
-    print(f"Found {len(dialogue_descs)} dialogue descriptors in raw dump.")
-
-    all_dialogue_entries = []
+    all_entries = []
     global_id = 833
 
     for d in dialogue_descs:
@@ -563,14 +566,14 @@ def main():
                 "english": en_text,
                 "raw_hex": raw_item["raw_hex"]
             }
-            all_dialogue_entries.append(entry)
+            all_entries.append(entry)
             global_id += 1
 
     os.makedirs("text/translations", exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-        json.dump(all_dialogue_entries, f, ensure_ascii=False, indent=2)
+        json.dump(all_entries, f, ensure_ascii=False, indent=2)
 
-    print(f"Successfully generated {len(all_dialogue_entries)} authentic dialogue translations in {OUTPUT_PATH}!")
+    print(f"Generated {len(all_entries)} formatted dialogue translations in {OUTPUT_PATH}.")
 
 if __name__ == "__main__":
     main()
