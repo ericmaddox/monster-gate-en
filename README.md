@@ -7,6 +7,18 @@ An unofficial English fan-translation project for Konami's *Monster Gate* (*ãƒ¢ã
 
 ---
 
+## Screenshots
+
+| Title Screen | Naming Screen |
+| :---: | :---: |
+| ![Title Screen](docs/images/01_title_screen.png) | ![Naming Screen](docs/images/02_naming_screen.png) |
+| **Character Select (Boy / Ma-jin)** | **Story Dialogue** |
+| ![Character Select](docs/images/03_character_select.png) | ![Story Dialogue](docs/images/04_story_dialogue.png) |
+| **World Map** | **Dungeon Gameplay** |
+| ![World Map](docs/images/05_world_map.png) | ![Dungeon Gameplay](docs/images/06_gameplay_dungeon.png) |
+
+---
+
 ## ROM Verification
 
 Apply the patch **only** to a clean, unmodified Japanese *Monster Gate* (`ANFJ`) GBA ROM matching these exact checksums:
