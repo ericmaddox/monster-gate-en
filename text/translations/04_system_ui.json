@@ -41,7 +41,7 @@
     "string_index": 2,
     "rom_offset": "0x4F9D92",
     "japanese": "のこりじかんは{VAR:60}ぷんです{BREAK}",
-    "english": "Time: {VAR:60} sec{BREAK}",
+    "english": "Time: {VAR:60} min{BREAK}",
     "raw_hex": "040a0b050c0107f5600e010809f0"
   },
   {
@@ -50,7 +50,7 @@
     "string_index": 3,
     "rom_offset": "0x4F9DA0",
     "japanese": "のこりじかんは{VAR:60}びょうです{BREAK}",
-    "english": "Turns: {VAR:60}{BREAK}",
+    "english": "Time: {VAR:60} sec{BREAK}",
     "raw_hex": "040a0b050c0107f5600f10110809f0"
   },
   {

@@ -32,7 +32,7 @@
     "string_index": 0,
     "rom_offset": "0x4D483C",
     "japanese": "いつでもダンジョンにちょうせん{NEWLINE} ベストタイムにもチャレンジ!{BREAK}",
-    "english": "Challenge time{NEWLINE}records!{BREAK}",
+    "english": "Beat record{NEWLINE}clear times!{BREAK}",
     "raw_hex": "00010203040506070508090a0b0c0df10e0f10111213140803151617050618f0"
   },
   {
@@ -50,7 +50,7 @@
     "string_index": 0,
     "rom_offset": "0x4D48E0",
     "japanese": " もぉているマジォクカードを{NEWLINE}   かくにんできるよ{BREAK}",
-    "english": "Check cards in{NEWLINE}Card Holder.{BREAK}",
+    "english": "View cards in{NEWLINE}Card Holder.{BREAK}",
     "raw_hex": "000102030405060708090a0b0c0df10000000e0f101112130514f0"
   },
   {
@@ -122,7 +122,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4AA0",
     "japanese": "カードをかくとくしました!{BREAK}",
-    "english": "Card obtained!{BREAK}",
+    "english": "Got a card!{BREAK}",
     "raw_hex": "0001020304050605070807090af0"
   },
   {
@@ -176,7 +176,7 @@
     "string_index": 3,
     "rom_offset": "0x4D4B36",
     "japanese": "ライン[G:280]に[G:358]じ[G:581]が[G:578]ぶと.{BREAK}",
-    "english": "Match icons on{NEWLINE}bet lines.{BREAK}",
+    "english": "Match symbols{NEWLINE}on bet lines.{BREAK}",
     "raw_hex": "02030412131415161718191a1bf0"
   },
   {
@@ -230,7 +230,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4C60",
     "japanese": "ワールドモードのお[G:411]をかけてお[G:343][G:344]と[G:327]おう!{NEWLINE}いちばんポイントの[G:307]かぉた[G:273]の[G:357]ち!{BREAK}",
-    "english": "Compete with{NEWLINE}friends in VS!{BREAK}",
+    "english": "Compete with{NEWLINE}friends!{BREAK}",
     "raw_hex": "0001020304010305060708090a0b060c0d0e0f061011f11213141516171819051a091b1c1d051e1311f0"
   },
   {
@@ -275,7 +275,7 @@
     "string_index": 5,
     "rom_offset": "0x4D4D17",
     "japanese": "あなたは2Pです しばらくおまちください{BREAK}",
-    "english": "You are 2P.{NEWLINE}Please wait...{BREAK}",
+    "english": "You are 2P.{NEWLINE}Wait please..{BREAK}",
     "raw_hex": "57251c58595a44335b50145155064a13552a5612f0"
   },
   {
@@ -284,7 +284,7 @@
     "string_index": 6,
     "rom_offset": "0x4D4D2C",
     "japanese": "あなたは3Pです しばらくおまちください{BREAK}",
-    "english": "You are 3P.{NEWLINE}Please wait...{BREAK}",
+    "english": "You are 3P.{NEWLINE}Wait please..{BREAK}",
     "raw_hex": "57251c585c5a44335b50145155064a13552a5612f0"
   },
   {
@@ -293,7 +293,7 @@
     "string_index": 7,
     "rom_offset": "0x4D4D41",
     "japanese": "あなたは4Pです しばらくおまちください{BREAK}",
-    "english": "You are 4P.{NEWLINE}Please wait...{BREAK}",
+    "english": "You are 4P.{NEWLINE}Wait please..{BREAK}",
     "raw_hex": "57251c58495a44335b50145155064a13552a5612f0"
   },
   {
@@ -338,7 +338,7 @@
     "string_index": 1,
     "rom_offset": "0x4D4EBE",
     "japanese": "!データを[G:346][G:381][G:345]!{BREAK}",
-    "english": "! Sending data{NEWLINE}now...!{BREAK}",
+    "english": "Sending data{NEWLINE}now...!{BREAK}",
     "raw_hex": "131401150416171813f0"
   },
   {
@@ -356,7 +356,7 @@
     "string_index": 3,
     "rom_offset": "0x4D4ED4",
     "japanese": "ダンジョンのむずかしさを[G:346][G:381]します,{BREAK}",
-    "english": "Adjust dungeon{NEWLINE}difficulty.{BREAK}",
+    "english": "Set dungeon{NEWLINE}difficulty.{BREAK}",
     "raw_hex": "1d1e1f201e212223240d120416170d252627f0"
   },
   {
@@ -437,7 +437,7 @@
     "string_index": 2,
     "rom_offset": "0x4D5047",
     "japanese": "[G:264][G:540]いるフロアーのマォプひょうじを[G:346][G:381]します,{BREAK}",
-    "english": "Floor map{NEWLINE}map on or off{BREAK}",
+    "english": "Floor map{NEWLINE}on or off.{BREAK}",
     "raw_hex": "1b25131d26272803051e1f292a2b2c2d0b0c0d0e241c14f0"
   },
   {
@@ -563,7 +563,7 @@
     "string_index": 0,
     "rom_offset": "0x4D51DC",
     "japanese": "QUIET{BREAK}",
-    "english": "DARK{BREAK}",
+    "english": "QUIET{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -572,7 +572,7 @@
     "string_index": 1,
     "rom_offset": "0x4D51E2",
     "japanese": "QUIETab{BREAK}",
-    "english": "DARK GATE{BREAK}",
+    "english": "QUIET GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -581,7 +581,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5204",
     "japanese": " COLD{BREAK}",
-    "english": "WARM{BREAK}",
+    "english": "COLD{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -590,7 +590,7 @@
     "string_index": 1,
     "rom_offset": "0x4D520A",
     "japanese": "COLDab{BREAK}",
-    "english": "WARM GATE{BREAK}",
+    "english": "COLD GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -599,7 +599,7 @@
     "string_index": 0,
     "rom_offset": "0x4D522C",
     "japanese": "LUCKY{BREAK}",
-    "english": "COLD{BREAK}",
+    "english": "LUCKY{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -608,7 +608,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5232",
     "japanese": "LUCKYab{BREAK}",
-    "english": "COLD GATE{BREAK}",
+    "english": "LUCKY GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -617,7 +617,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5254",
     "japanese": " FLAT{BREAK}",
-    "english": "WIND{BREAK}",
+    "english": "FLAT{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -626,7 +626,7 @@
     "string_index": 1,
     "rom_offset": "0x4D525A",
     "japanese": "FLATab{BREAK}",
-    "english": "WIND GATE{BREAK}",
+    "english": "FLAT GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -635,7 +635,7 @@
     "string_index": 0,
     "rom_offset": "0x4D527C",
     "japanese": "SMOKY{BREAK}",
-    "english": "ROCK{BREAK}",
+    "english": "SMOKY{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -644,7 +644,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5282",
     "japanese": "SMOKYab{BREAK}",
-    "english": "ROCK GATE{BREAK}",
+    "english": "SMOKY GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -653,7 +653,7 @@
     "string_index": 0,
     "rom_offset": "0x4D52A4",
     "japanese": " MILD{BREAK}",
-    "english": "IRON{BREAK}",
+    "english": "MILD{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -662,7 +662,7 @@
     "string_index": 1,
     "rom_offset": "0x4D52AA",
     "japanese": "MILDab{BREAK}",
-    "english": "IRON GATE{BREAK}",
+    "english": "MILD GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -671,7 +671,7 @@
     "string_index": 0,
     "rom_offset": "0x4D52CC",
     "japanese": "TIGHT{BREAK}",
-    "english": "GOLD{BREAK}",
+    "english": "TIGHT{BREAK}",
     "raw_hex": "0001020300f0"
   },
   {
@@ -680,7 +680,7 @@
     "string_index": 1,
     "rom_offset": "0x4D52D2",
     "japanese": "TIGHTab{BREAK}",
-    "english": "GOLD GATE{BREAK}",
+    "english": "TIGHT GATE{BREAK}",
     "raw_hex": "00010203000405f0"
   },
   {
@@ -689,7 +689,7 @@
     "string_index": 0,
     "rom_offset": "0x4D52F4",
     "japanese": " RARE{BREAK}",
-    "english": "STAR{BREAK}",
+    "english": "RARE{BREAK}",
     "raw_hex": "0001020103f0"
   },
   {
@@ -698,7 +698,7 @@
     "string_index": 1,
     "rom_offset": "0x4D52FA",
     "japanese": "RAREab{BREAK}",
-    "english": "STAR GATE{BREAK}",
+    "english": "RARE GATE{BREAK}",
     "raw_hex": "010201030405f0"
   },
   {
@@ -707,7 +707,7 @@
     "string_index": 0,
     "rom_offset": "0x4D531C",
     "japanese": " WILD{BREAK}",
-    "english": "MOON{BREAK}",
+    "english": "WILD{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -716,7 +716,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5322",
     "japanese": "WILDab{BREAK}",
-    "english": "MOON GATE{BREAK}",
+    "english": "WILD GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -725,7 +725,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5344",
     "japanese": "HEAVY{BREAK}",
-    "english": "SUN{BREAK}",
+    "english": "HEAVY{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -734,7 +734,7 @@
     "string_index": 1,
     "rom_offset": "0x4D534A",
     "japanese": "HEAVYab{BREAK}",
-    "english": "SUN GATE{BREAK}",
+    "english": "HEAVY GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -743,7 +743,7 @@
     "string_index": 0,
     "rom_offset": "0x4D536C",
     "japanese": "ROYAL{BREAK}",
-    "english": "FIRE{BREAK}",
+    "english": "ROYAL{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -752,7 +752,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5372",
     "japanese": "ROYALab{BREAK}",
-    "english": "FIRE GATE{BREAK}",
+    "english": "ROYAL GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -761,7 +761,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5394",
     "japanese": "BRAVE{BREAK}",
-    "english": "ICE{BREAK}",
+    "english": "BRAVE{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -770,7 +770,7 @@
     "string_index": 1,
     "rom_offset": "0x4D539A",
     "japanese": "BRAVEab{BREAK}",
-    "english": "ICE GATE{BREAK}",
+    "english": "BRAVE GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -779,7 +779,7 @@
     "string_index": 0,
     "rom_offset": "0x4D53BC",
     "japanese": " DEAR{BREAK}",
-    "english": "BOLT{BREAK}",
+    "english": "DEAR{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -788,7 +788,7 @@
     "string_index": 1,
     "rom_offset": "0x4D53C2",
     "japanese": "DEARab{BREAK}",
-    "english": "BOLT GATE{BREAK}",
+    "english": "DEAR GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -797,7 +797,7 @@
     "string_index": 0,
     "rom_offset": "0x4D53E4",
     "japanese": "PLAIN{BREAK}",
-    "english": "HOLY{BREAK}",
+    "english": "PLAIN{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -806,7 +806,7 @@
     "string_index": 1,
     "rom_offset": "0x4D53EA",
     "japanese": "PLAINab{BREAK}",
-    "english": "HOLY GATE{BREAK}",
+    "english": "PLAIN GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -815,7 +815,7 @@
     "string_index": 0,
     "rom_offset": "0x4D540C",
     "japanese": " SICK{BREAK}",
-    "english": "VOID{BREAK}",
+    "english": "SICK{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -824,7 +824,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5412",
     "japanese": "SICKab{BREAK}",
-    "english": "VOID GATE{BREAK}",
+    "english": "SICK GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -833,7 +833,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5434",
     "japanese": "QUICK{BREAK}",
-    "english": "SICK{BREAK}",
+    "english": "QUICK{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -842,7 +842,7 @@
     "string_index": 1,
     "rom_offset": "0x4D543A",
     "japanese": "QUICKab{BREAK}",
-    "english": "SICK GATE{BREAK}",
+    "english": "QUICK GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -851,7 +851,7 @@
     "string_index": 0,
     "rom_offset": "0x4D545C",
     "japanese": "CLOSE{BREAK}",
-    "english": "WILD{BREAK}",
+    "english": "CLOSE{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -860,7 +860,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5462",
     "japanese": "CLOSEab{BREAK}",
-    "english": "WILD GATE{BREAK}",
+    "english": "CLOSE GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -869,7 +869,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5484",
     "japanese": "  DRY{BREAK}",
-    "english": "DEEP{BREAK}",
+    "english": "DRY{BREAK}",
     "raw_hex": "0000010203f0"
   },
   {
@@ -878,7 +878,7 @@
     "string_index": 1,
     "rom_offset": "0x4D548A",
     "japanese": "DRYab{BREAK}",
-    "english": "DEEP GATE{BREAK}",
+    "english": "DRY GATE{BREAK}",
     "raw_hex": "0102030405f0"
   },
   {
@@ -887,7 +887,7 @@
     "string_index": 0,
     "rom_offset": "0x4D54A8",
     "japanese": " BUSY{BREAK}",
-    "english": "REAL{BREAK}",
+    "english": "BUSY{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -896,7 +896,7 @@
     "string_index": 1,
     "rom_offset": "0x4D54AE",
     "japanese": "BUSYab{BREAK}",
-    "english": "REAL GATE{BREAK}",
+    "english": "BUSY GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -905,7 +905,7 @@
     "string_index": 0,
     "rom_offset": "0x4D54D0",
     "japanese": " TALL{BREAK}",
-    "english": "CLOSE{BREAK}",
+    "english": "TALL{BREAK}",
     "raw_hex": "0001020303f0"
   },
   {
@@ -914,7 +914,7 @@
     "string_index": 1,
     "rom_offset": "0x4D54D6",
     "japanese": "TALLab{BREAK}",
-    "english": "CLOSE GATE{BREAK}",
+    "english": "TALL GATE{BREAK}",
     "raw_hex": "010203030405f0"
   },
   {
@@ -923,7 +923,7 @@
     "string_index": 0,
     "rom_offset": "0x4D54F8",
     "japanese": " SOFT{BREAK}",
-    "english": "FREE{BREAK}",
+    "english": "SOFT{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -932,7 +932,7 @@
     "string_index": 1,
     "rom_offset": "0x4D54FE",
     "japanese": "SOFTab{BREAK}",
-    "english": "FREE GATE{BREAK}",
+    "english": "SOFT GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -941,7 +941,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5520",
     "japanese": " DARK{BREAK}",
-    "english": "HARD{BREAK}",
+    "english": "DARK{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -950,7 +950,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5526",
     "japanese": "DARKab{BREAK}",
-    "english": "HARD GATE{BREAK}",
+    "english": "DARK GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -959,7 +959,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5548",
     "japanese": "SWEET{BREAK}",
-    "english": "FINAL{BREAK}",
+    "english": "SWEET{BREAK}",
     "raw_hex": "0001020203f0"
   },
   {
@@ -968,7 +968,7 @@
     "string_index": 1,
     "rom_offset": "0x4D554E",
     "japanese": "SWEETab{BREAK}",
-    "english": "FINAL GATE{BREAK}",
+    "english": "SWEET GATE{BREAK}",
     "raw_hex": "00010202030405f0"
   },
   {
@@ -977,7 +977,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5570",
     "japanese": "PANIC{BREAK}",
-    "english": "KIND{BREAK}",
+    "english": "PANIC{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -986,7 +986,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5576",
     "japanese": "PANICab{BREAK}",
-    "english": "KIND GATE{BREAK}",
+    "english": "PANIC GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -995,7 +995,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5598",
     "japanese": " COOL{BREAK}",
-    "english": "DARK{BREAK}",
+    "english": "COOL{BREAK}",
     "raw_hex": "0001020203f0"
   },
   {
@@ -1004,7 +1004,7 @@
     "string_index": 1,
     "rom_offset": "0x4D559E",
     "japanese": "COOLab{BREAK}",
-    "english": "DARK GATE{BREAK}",
+    "english": "COOL GATE{BREAK}",
     "raw_hex": "010202030405f0"
   },
   {
@@ -1013,7 +1013,7 @@
     "string_index": 0,
     "rom_offset": "0x4D55C0",
     "japanese": "SHARP{BREAK}",
-    "english": "WARM{BREAK}",
+    "english": "SHARP{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1022,7 +1022,7 @@
     "string_index": 1,
     "rom_offset": "0x4D55C6",
     "japanese": "SHARPab{BREAK}",
-    "english": "WARM GATE{BREAK}",
+    "english": "SHARP GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1031,7 +1031,7 @@
     "string_index": 0,
     "rom_offset": "0x4D55E8",
     "japanese": "GREAT{BREAK}",
-    "english": "COLD{BREAK}",
+    "english": "GREAT{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1040,7 +1040,7 @@
     "string_index": 1,
     "rom_offset": "0x4D55EE",
     "japanese": "GREATab{BREAK}",
-    "english": "COLD GATE{BREAK}",
+    "english": "GREAT GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1049,7 +1049,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5610",
     "japanese": " PURE{BREAK}",
-    "english": "WIND{BREAK}",
+    "english": "PURE{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1058,7 +1058,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5616",
     "japanese": "PUREab{BREAK}",
-    "english": "WIND GATE{BREAK}",
+    "english": "PURE GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -1067,7 +1067,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5638",
     "japanese": " HARD{BREAK}",
-    "english": "ROCK{BREAK}",
+    "english": "HARD{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1076,7 +1076,7 @@
     "string_index": 1,
     "rom_offset": "0x4D563E",
     "japanese": "HARDab{BREAK}",
-    "english": "ROCK GATE{BREAK}",
+    "english": "HARD GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -1085,7 +1085,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5660",
     "japanese": "LIGHT{BREAK}",
-    "english": "IRON{BREAK}",
+    "english": "LIGHT{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1094,7 +1094,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5666",
     "japanese": "LIGHTab{BREAK}",
-    "english": "IRON GATE{BREAK}",
+    "english": "LIGHT GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1103,7 +1103,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5688",
     "japanese": " WIDE{BREAK}",
-    "english": "GOLD{BREAK}",
+    "english": "WIDE{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1112,7 +1112,7 @@
     "string_index": 1,
     "rom_offset": "0x4D568E",
     "japanese": "WIDEab{BREAK}",
-    "english": "GOLD GATE{BREAK}",
+    "english": "WIDE GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -1121,7 +1121,7 @@
     "string_index": 0,
     "rom_offset": "0x4D56B0",
     "japanese": "CLEAR{BREAK}",
-    "english": "STAR{BREAK}",
+    "english": "CLEAR{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1130,7 +1130,7 @@
     "string_index": 1,
     "rom_offset": "0x4D56B6",
     "japanese": "CLEARab{BREAK}",
-    "english": "STAR GATE{BREAK}",
+    "english": "CLEAR GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1139,7 +1139,7 @@
     "string_index": 0,
     "rom_offset": "0x4D56D8",
     "japanese": " RICH{BREAK}",
-    "english": "MOON{BREAK}",
+    "english": "RICH{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1148,7 +1148,7 @@
     "string_index": 1,
     "rom_offset": "0x4D56DE",
     "japanese": "RICHab{BREAK}",
-    "english": "MOON GATE{BREAK}",
+    "english": "RICH GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -1157,7 +1157,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5700",
     "japanese": "CHEAP{BREAK}",
-    "english": "SUN{BREAK}",
+    "english": "CHEAP{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1166,7 +1166,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5706",
     "japanese": "CHEAPab{BREAK}",
-    "english": "SUN GATE{BREAK}",
+    "english": "CHEAP GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1175,7 +1175,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5728",
     "japanese": "FRESH{BREAK}",
-    "english": "FIRE{BREAK}",
+    "english": "FRESH{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1184,7 +1184,7 @@
     "string_index": 1,
     "rom_offset": "0x4D572E",
     "japanese": "FRESHab{BREAK}",
-    "english": "FIRE GATE{BREAK}",
+    "english": "FRESH GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1193,7 +1193,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5750",
     "japanese": "  HOT{BREAK}",
-    "english": "ICE{BREAK}",
+    "english": "HOT{BREAK}",
     "raw_hex": "0000010203f0"
   },
   {
@@ -1202,7 +1202,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5756",
     "japanese": "HOTab{BREAK}",
-    "english": "ICE GATE{BREAK}",
+    "english": "HOT GATE{BREAK}",
     "raw_hex": "0102030405f0"
   },
   {
@@ -1211,7 +1211,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5774",
     "japanese": " REAL{BREAK}",
-    "english": "BOLT{BREAK}",
+    "english": "REAL{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1220,7 +1220,7 @@
     "string_index": 1,
     "rom_offset": "0x4D577A",
     "japanese": "REALab{BREAK}",
-    "english": "BOLT GATE{BREAK}",
+    "english": "REAL GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -1229,7 +1229,7 @@
     "string_index": 0,
     "rom_offset": "0x4D579C",
     "japanese": "MISTY{BREAK}",
-    "english": "HOLY{BREAK}",
+    "english": "MISTY{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1238,7 +1238,7 @@
     "string_index": 1,
     "rom_offset": "0x4D57A2",
     "japanese": "MISTYab{BREAK}",
-    "english": "HOLY GATE{BREAK}",
+    "english": "MISTY GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1247,7 +1247,7 @@
     "string_index": 0,
     "rom_offset": "0x4D57C4",
     "japanese": "CRAZY{BREAK}",
-    "english": "VOID{BREAK}",
+    "english": "CRAZY{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1256,7 +1256,7 @@
     "string_index": 1,
     "rom_offset": "0x4D57CA",
     "japanese": "CRAZYab{BREAK}",
-    "english": "VOID GATE{BREAK}",
+    "english": "CRAZY GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1265,7 +1265,7 @@
     "string_index": 0,
     "rom_offset": "0x4D57EC",
     "japanese": " LAZY{BREAK}",
-    "english": "SICK{BREAK}",
+    "english": "LAZY{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1274,7 +1274,7 @@
     "string_index": 1,
     "rom_offset": "0x4D57F2",
     "japanese": "LAZYab{BREAK}",
-    "english": "SICK GATE{BREAK}",
+    "english": "LAZY GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -1283,7 +1283,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5814",
     "japanese": "TIRED{BREAK}",
-    "english": "WILD{BREAK}",
+    "english": "TIRED{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1292,7 +1292,7 @@
     "string_index": 1,
     "rom_offset": "0x4D581A",
     "japanese": "TIREDab{BREAK}",
-    "english": "WILD GATE{BREAK}",
+    "english": "TIRED GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1301,7 +1301,7 @@
     "string_index": 0,
     "rom_offset": "0x4D583C",
     "japanese": " WISE{BREAK}",
-    "english": "DEEP{BREAK}",
+    "english": "WISE{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1310,7 +1310,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5842",
     "japanese": "WISEab{BREAK}",
-    "english": "DEEP GATE{BREAK}",
+    "english": "WISE GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -1319,7 +1319,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5864",
     "japanese": " FINE{BREAK}",
-    "english": "REAL{BREAK}",
+    "english": "FINE{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1328,7 +1328,7 @@
     "string_index": 1,
     "rom_offset": "0x4D586A",
     "japanese": "FINEab{BREAK}",
-    "english": "REAL GATE{BREAK}",
+    "english": "FINE GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -1337,7 +1337,7 @@
     "string_index": 0,
     "rom_offset": "0x4D588C",
     "japanese": "  WET{BREAK}",
-    "english": "CLOSE{BREAK}",
+    "english": "WET{BREAK}",
     "raw_hex": "0000010203f0"
   },
   {
@@ -1346,7 +1346,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5892",
     "japanese": "WETab{BREAK}",
-    "english": "CLOSE GATE{BREAK}",
+    "english": "WET GATE{BREAK}",
     "raw_hex": "0102030405f0"
   },
   {
@@ -1355,7 +1355,7 @@
     "string_index": 0,
     "rom_offset": "0x4D58B0",
     "japanese": " WEAK{BREAK}",
-    "english": "FREE{BREAK}",
+    "english": "WEAK{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1364,7 +1364,7 @@
     "string_index": 1,
     "rom_offset": "0x4D58B6",
     "japanese": "WEAKab{BREAK}",
-    "english": "FREE GATE{BREAK}",
+    "english": "WEAK GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -1373,7 +1373,7 @@
     "string_index": 0,
     "rom_offset": "0x4D58D8",
     "japanese": " OPEN{BREAK}",
-    "english": "HARD{BREAK}",
+    "english": "OPEN{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1382,7 +1382,7 @@
     "string_index": 1,
     "rom_offset": "0x4D58DE",
     "japanese": "OPENab{BREAK}",
-    "english": "HARD GATE{BREAK}",
+    "english": "OPEN GATE{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -1391,7 +1391,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5900",
     "japanese": "PRIME{BREAK}",
-    "english": "FINAL{BREAK}",
+    "english": "PRIME{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1400,7 +1400,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5906",
     "japanese": "PRIMEab{BREAK}",
-    "english": "FINAL GATE{BREAK}",
+    "english": "PRIME GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1409,7 +1409,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5928",
     "japanese": " DEAD{BREAK}",
-    "english": "KIND{BREAK}",
+    "english": "DEAD{BREAK}",
     "raw_hex": "0001020301f0"
   },
   {
@@ -1418,7 +1418,7 @@
     "string_index": 1,
     "rom_offset": "0x4D592E",
     "japanese": "DEADab{BREAK}",
-    "english": "KIND GATE{BREAK}",
+    "english": "DEAD GATE{BREAK}",
     "raw_hex": "010203010405f0"
   },
   {
@@ -1427,7 +1427,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5950",
     "japanese": "FINAL{BREAK}",
-    "english": "DARK{BREAK}",
+    "english": "FINAL{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1436,7 +1436,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5956",
     "japanese": "FINALab{BREAK}",
-    "english": "DARK GATE{BREAK}",
+    "english": "FINAL GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1445,7 +1445,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5978",
     "japanese": "BLIND{BREAK}",
-    "english": "WARM{BREAK}",
+    "english": "BLIND{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1454,7 +1454,7 @@
     "string_index": 1,
     "rom_offset": "0x4D597E",
     "japanese": "BLINDab{BREAK}",
-    "english": "WARM GATE{BREAK}",
+    "english": "BLIND GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1463,7 +1463,7 @@
     "string_index": 0,
     "rom_offset": "0x4D59A0",
     "japanese": "MERRY{BREAK}",
-    "english": "COLD{BREAK}",
+    "english": "MERRY{BREAK}",
     "raw_hex": "0001020203f0"
   },
   {
@@ -1472,7 +1472,7 @@
     "string_index": 1,
     "rom_offset": "0x4D59A6",
     "japanese": "MERRYab{BREAK}",
-    "english": "COLD GATE{BREAK}",
+    "english": "MERRY GATE{BREAK}",
     "raw_hex": "00010202030405f0"
   },
   {
@@ -1481,7 +1481,7 @@
     "string_index": 0,
     "rom_offset": "0x4D59C8",
     "japanese": " DEEP{BREAK}",
-    "english": "WIND{BREAK}",
+    "english": "DEEP{BREAK}",
     "raw_hex": "0001020203f0"
   },
   {
@@ -1490,7 +1490,7 @@
     "string_index": 1,
     "rom_offset": "0x4D59CE",
     "japanese": "DEEPab{BREAK}",
-    "english": "WIND GATE{BREAK}",
+    "english": "DEEP GATE{BREAK}",
     "raw_hex": "010202030405f0"
   },
   {
@@ -1499,7 +1499,7 @@
     "string_index": 0,
     "rom_offset": "0x4D59F0",
     "japanese": "LARGE{BREAK}",
-    "english": "ROCK{BREAK}",
+    "english": "LARGE{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1508,7 +1508,7 @@
     "string_index": 1,
     "rom_offset": "0x4D59F6",
     "japanese": "LARGEab{BREAK}",
-    "english": "ROCK GATE{BREAK}",
+    "english": "LARGE GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1517,7 +1517,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5A18",
     "japanese": "hijkl{BREAK}",
-    "english": "IRON{BREAK}",
+    "english": "TRIAL{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1526,7 +1526,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5A1E",
     "japanese": "hijklab{BREAK}",
-    "english": "IRON GATE{BREAK}",
+    "english": "TRIAL GATE{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1535,7 +1535,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5A40",
     "japanese": " ニシのトリデ{BREAK}",
-    "english": "GOLD{BREAK}",
+    "english": "West Fort{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1544,7 +1544,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5A48",
     "japanese": "ニシのトリデ{BREAK}",
-    "english": "GOLD GATE{BREAK}",
+    "english": "West Fort{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -1553,7 +1553,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5A6C",
     "japanese": " キタのトリデ{BREAK}",
-    "english": "STAR{BREAK}",
+    "english": "North Fort{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1562,7 +1562,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5A74",
     "japanese": "キタのトリデ{BREAK}",
-    "english": "STAR GATE{BREAK}",
+    "english": "North Fort{BREAK}",
     "raw_hex": "010203040506f0"
   },
   {
@@ -1571,7 +1571,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5A98",
     "japanese": " ミナミのトリデ{BREAK}",
-    "english": "MOON{BREAK}",
+    "english": "South Fort{BREAK}",
     "raw_hex": "0001020103040506f0"
   },
   {
@@ -1580,7 +1580,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5AA1",
     "japanese": "ミナミのトリデ{BREAK}",
-    "english": "MOON GATE{BREAK}",
+    "english": "South Fort{BREAK}",
     "raw_hex": "01020103040506f0"
   },
   {
@@ -1589,7 +1589,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5AC4",
     "japanese": " ヒガシのトリデ{BREAK}",
-    "english": "SUN{BREAK}",
+    "english": "East Fort{BREAK}",
     "raw_hex": "0001020304050607f0"
   },
   {
@@ -1598,7 +1598,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5ACD",
     "japanese": "ヒガシのトリデ{BREAK}",
-    "english": "SUN GATE{BREAK}",
+    "english": "East Fort{BREAK}",
     "raw_hex": "01020304050607f0"
   },
   {
@@ -1607,7 +1607,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5AF4",
     "japanese": "クエストモード{BREAK}",
-    "english": "FIRE{BREAK}",
+    "english": "Quest Mode{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1616,7 +1616,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5AFC",
     "japanese": "ワールドモード{BREAK}",
-    "english": "Easy starter{NEWLINE}dungeon.{BREAK}",
+    "english": "World Mode{BREAK}",
     "raw_hex": "07050806040506f0"
   },
   {
@@ -1625,7 +1625,7 @@
     "string_index": 2,
     "rom_offset": "0x4D5B04",
     "japanese": "フリーアタォク{BREAK}",
-    "english": "FIRE{BREAK}",
+    "english": "Free Attack{BREAK}",
     "raw_hex": "090a050b0c0d00f0"
   },
   {
@@ -1634,7 +1634,7 @@
     "string_index": 3,
     "rom_offset": "0x4D5B0C",
     "japanese": "[G:411]{BREAK}",
-    "english": "Easy starter{NEWLINE}dungeon.{BREAK}",
+    "english": "Gate{BREAK}",
     "raw_hex": "0ef0"
   },
   {
@@ -1643,7 +1643,7 @@
     "string_index": 4,
     "rom_offset": "0x4D5B0E",
     "japanese": "{VAR:00}F{BREAK}",
-    "english": "FIRE{BREAK}",
+    "english": "{VAR:00}F{BREAK}",
     "raw_hex": "f5000ff0"
   },
   {
@@ -1652,7 +1652,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5B40",
     "japanese": "EASY{BREAK}",
-    "english": "ICE{BREAK}",
+    "english": "EASY{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1670,7 +1670,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5B6C",
     "japanese": "MAGIC{BREAK}",
-    "english": "BOLT{BREAK}",
+    "english": "MAGIC{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1688,7 +1688,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5BB4",
     "japanese": "SMALL{BREAK}",
-    "english": "HOLY{BREAK}",
+    "english": "SMALL{BREAK}",
     "raw_hex": "0001020303f0"
   },
   {
@@ -1697,7 +1697,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5BBA",
     "japanese": "[G:502]さい[G:411]だぞ{BREAK}",
-    "english": "Walking drains{NEWLINE}HP slowly.{BREAK}",
+    "english": "Walking saps{NEWLINE}HP slowly.{BREAK}",
     "raw_hex": "040506070809f0"
   },
   {
@@ -1706,7 +1706,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5BE4",
     "japanese": "HAPPY{BREAK}",
-    "english": "VOID{BREAK}",
+    "english": "HAPPY{BREAK}",
     "raw_hex": "0001020203f0"
   },
   {
@@ -1715,7 +1715,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5BEA",
     "japanese": "ショォプがあるぞ{BREAK}",
-    "english": "Enemies move{NEWLINE}twice as fast!{BREAK}",
+    "english": "Foes move at{NEWLINE}double speed!{BREAK}",
     "raw_hex": "0405060708090a0bf0"
   },
   {
@@ -1724,7 +1724,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5C18",
     "japanese": "KIND{BREAK}",
-    "english": "SICK{BREAK}",
+    "english": "KIND{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1742,7 +1742,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5C48",
     "japanese": "QUIET{BREAK}",
-    "english": "WILD{BREAK}",
+    "english": "QUIET{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1760,7 +1760,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5C88",
     "japanese": "COLD{BREAK}",
-    "english": "DEEP{BREAK}",
+    "english": "COLD{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1769,7 +1769,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5C8D",
     "japanese": "[G:260][G:261]の[G:345]がすべるぞ{BREAK}",
-    "english": "Defeat boss to{NEWLINE}seal the gate!{BREAK}",
+    "english": "Slay boss to{NEWLINE}seal gate!{BREAK}",
     "raw_hex": "0405060708090a0b0cf0"
   },
   {
@@ -1778,7 +1778,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5CC0",
     "japanese": "LUCKY{BREAK}",
-    "english": "REAL{BREAK}",
+    "english": "LUCKY{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1796,7 +1796,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5CF4",
     "japanese": "FLAT{BREAK}",
-    "english": "CLOSE{BREAK}",
+    "english": "FLAT{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1814,7 +1814,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5D28",
     "japanese": "SMOKY{BREAK}",
-    "english": "FREE{BREAK}",
+    "english": "SMOKY{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1832,7 +1832,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5D60",
     "japanese": "MILD{BREAK}",
-    "english": "HARD{BREAK}",
+    "english": "MILD{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1841,7 +1841,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5D65",
     "japanese": "モンスターがよわいね{BREAK}",
-    "english": "Walking drains{NEWLINE}HP slowly.{BREAK}",
+    "english": "Walking saps{NEWLINE}HP slowly.{BREAK}",
     "raw_hex": "0405060708090a0b0c0df0"
   },
   {
@@ -1850,7 +1850,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5D98",
     "japanese": "TIGHT{BREAK}",
-    "english": "FINAL{BREAK}",
+    "english": "TIGHT{BREAK}",
     "raw_hex": "0001020300f0"
   },
   {
@@ -1859,7 +1859,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5D9E",
     "japanese": "[G:314]テキだらけ! カードは6[G:329]せいげんだ{BREAK}",
-    "english": "Enemies move{NEWLINE}twice as fast!{BREAK}",
+    "english": "Foes move at{NEWLINE}double speed!{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0e0f10111213141507f0"
   },
   {
@@ -1868,7 +1868,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5DEC",
     "japanese": "RARE{BREAK}",
-    "english": "KIND{BREAK}",
+    "english": "RARE{BREAK}",
     "raw_hex": "00010002f0"
   },
   {
@@ -1886,7 +1886,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5E34",
     "japanese": "WILD{BREAK}",
-    "english": "DARK{BREAK}",
+    "english": "WILD{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1904,7 +1904,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5E70",
     "japanese": "HEAVY{BREAK}",
-    "english": "WARM{BREAK}",
+    "english": "HEAVY{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1913,7 +1913,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5E76",
     "japanese": "[G:314]れつな[G:382]ぬまだ{BREAK}",
-    "english": "Defeat boss to{NEWLINE}seal the gate!{BREAK}",
+    "english": "Slay boss to{NEWLINE}seal gate!{BREAK}",
     "raw_hex": "05060708090a0b0cf0"
   },
   {
@@ -1922,7 +1922,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5EA8",
     "japanese": "ROYAL{BREAK}",
-    "english": "COLD{BREAK}",
+    "english": "ROYAL{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1940,7 +1940,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5EF0",
     "japanese": "BRAVE{BREAK}",
-    "english": "WIND{BREAK}",
+    "english": "BRAVE{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1958,7 +1958,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5F30",
     "japanese": "DEAR{BREAK}",
-    "english": "ROCK{BREAK}",
+    "english": "DEAR{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1976,7 +1976,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5F78",
     "japanese": "PLAIN{BREAK}",
-    "english": "IRON{BREAK}",
+    "english": "PLAIN{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1985,7 +1985,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5F7E",
     "japanese": "[G:244]い[G:260][G:261]ばかりだ{BREAK}",
-    "english": "Walking drains{NEWLINE}HP slowly.{BREAK}",
+    "english": "Walking saps{NEWLINE}HP slowly.{BREAK}",
     "raw_hex": "05060708090a0b0cf0"
   },
   {
@@ -1994,7 +1994,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5FB0",
     "japanese": "SICK{BREAK}",
-    "english": "GOLD{BREAK}",
+    "english": "SICK{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2003,7 +2003,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5FB5",
     "japanese": "なかなか[G:314]くならないぞ{BREAK}",
-    "english": "Enemies move{NEWLINE}twice as fast!{BREAK}",
+    "english": "Foes move at{NEWLINE}double speed!{BREAK}",
     "raw_hex": "040504050607040804090af0"
   },
   {
@@ -2012,7 +2012,7 @@
     "string_index": 0,
     "rom_offset": "0x4D5FE4",
     "japanese": "QUICK{BREAK}",
-    "english": "STAR{BREAK}",
+    "english": "QUICK{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2030,7 +2030,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6018",
     "japanese": "CLOSE{BREAK}",
-    "english": "MOON{BREAK}",
+    "english": "CLOSE{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2048,7 +2048,7 @@
     "string_index": 0,
     "rom_offset": "0x4D605C",
     "japanese": "DRY{BREAK}",
-    "english": "SUN{BREAK}",
+    "english": "DRY{BREAK}",
     "raw_hex": "000102f0"
   },
   {
@@ -2057,7 +2057,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6060",
     "japanese": "ポーションが[G:500]りなくなるぞ{BREAK}",
-    "english": "Defeat boss to{NEWLINE}seal the gate!{BREAK}",
+    "english": "Slay boss to{NEWLINE}seal gate!{BREAK}",
     "raw_hex": "030405060708090a0b0c0b0d0ef0"
   },
   {
@@ -2066,7 +2066,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6098",
     "japanese": "BUSY{BREAK}",
-    "english": "FIRE{BREAK}",
+    "english": "BUSY{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2084,7 +2084,7 @@
     "string_index": 0,
     "rom_offset": "0x4D60DC",
     "japanese": "TALL{BREAK}",
-    "english": "ICE{BREAK}",
+    "english": "TALL{BREAK}",
     "raw_hex": "00010202f0"
   },
   {
@@ -2102,7 +2102,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6108",
     "japanese": "SOFT{BREAK}",
-    "english": "BOLT{BREAK}",
+    "english": "SOFT{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2120,7 +2120,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6140",
     "japanese": "DARK{BREAK}",
-    "english": "HOLY{BREAK}",
+    "english": "DARK{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2129,7 +2129,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6145",
     "japanese": "マォプがhえないのだ{BREAK}",
-    "english": "Walking drains{NEWLINE}HP slowly.{BREAK}",
+    "english": "Walking saps{NEWLINE}HP slowly.{BREAK}",
     "raw_hex": "0405060708090a0b0c0df0"
   },
   {
@@ -2138,7 +2138,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6178",
     "japanese": "SWEET{BREAK}",
-    "english": "VOID{BREAK}",
+    "english": "SWEET{BREAK}",
     "raw_hex": "0001020203f0"
   },
   {
@@ -2147,7 +2147,7 @@
     "string_index": 1,
     "rom_offset": "0x4D617E",
     "japanese": "[G:442][G:428]がたくさんおちてるぞ{BREAK}",
-    "english": "Enemies move{NEWLINE}twice as fast!{BREAK}",
+    "english": "Foes move at{NEWLINE}double speed!{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0e0ff0"
   },
   {
@@ -2156,7 +2156,7 @@
     "string_index": 0,
     "rom_offset": "0x4D61B8",
     "japanese": "PANIC{BREAK}",
-    "english": "SICK{BREAK}",
+    "english": "PANIC{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2174,7 +2174,7 @@
     "string_index": 0,
     "rom_offset": "0x4D61FC",
     "japanese": "COOL{BREAK}",
-    "english": "WILD{BREAK}",
+    "english": "COOL{BREAK}",
     "raw_hex": "00010102f0"
   },
   {
@@ -2192,7 +2192,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6240",
     "japanese": "SHARP{BREAK}",
-    "english": "DEEP{BREAK}",
+    "english": "SHARP{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2201,7 +2201,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6246",
     "japanese": "[G:413][G:445]の[G:405]sにきたいしすぎると///{BREAK}",
-    "english": "Defeat boss to{NEWLINE}seal the gate!{BREAK}",
+    "english": "Slay boss to{NEWLINE}seal gate!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f101112131313f0"
   },
   {
@@ -2210,7 +2210,7 @@
     "string_index": 0,
     "rom_offset": "0x4D628C",
     "japanese": "GREAT{BREAK}",
-    "english": "REAL{BREAK}",
+    "english": "GREAT{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2228,7 +2228,7 @@
     "string_index": 0,
     "rom_offset": "0x4D62C0",
     "japanese": "PURE{BREAK}",
-    "english": "CLOSE{BREAK}",
+    "english": "PURE{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2246,7 +2246,7 @@
     "string_index": 0,
     "rom_offset": "0x4D62FC",
     "japanese": "HARD{BREAK}",
-    "english": "FREE{BREAK}",
+    "english": "HARD{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2264,7 +2264,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6344",
     "japanese": "LIGHT{BREAK}",
-    "english": "HARD{BREAK}",
+    "english": "LIGHT{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2273,7 +2273,7 @@
     "string_index": 1,
     "rom_offset": "0x4D634A",
     "japanese": "ブライトg[G:393]でhqしがいいぞ{BREAK}",
-    "english": "Walking drains{NEWLINE}HP slowly.{BREAK}",
+    "english": "Walking saps{NEWLINE}HP slowly.{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f101011f0"
   },
   {
@@ -2282,7 +2282,7 @@
     "string_index": 0,
     "rom_offset": "0x4D638C",
     "japanese": "WIDE{BREAK}",
-    "english": "FINAL{BREAK}",
+    "english": "WIDE{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2291,7 +2291,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6391",
     "japanese": "とにかく[G:244]いのだ{BREAK}",
-    "english": "Enemies move{NEWLINE}twice as fast!{BREAK}",
+    "english": "Foes move at{NEWLINE}double speed!{BREAK}",
     "raw_hex": "0405060708090a0bf0"
   },
   {
@@ -2300,7 +2300,7 @@
     "string_index": 0,
     "rom_offset": "0x4D63C0",
     "japanese": "CLEAR{BREAK}",
-    "english": "KIND{BREAK}",
+    "english": "CLEAR{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2318,7 +2318,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6408",
     "japanese": "RICH{BREAK}",
-    "english": "DARK{BREAK}",
+    "english": "RICH{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2336,7 +2336,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6450",
     "japanese": "CHEAP{BREAK}",
-    "english": "WARM{BREAK}",
+    "english": "CHEAP{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2345,7 +2345,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6456",
     "japanese": "コインが[G:324]ないね{BREAK}",
-    "english": "Defeat boss to{NEWLINE}seal the gate!{BREAK}",
+    "english": "Slay boss to{NEWLINE}seal gate!{BREAK}",
     "raw_hex": "05060708090a0b0cf0"
   },
   {
@@ -2354,7 +2354,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6488",
     "japanese": "FRESH{BREAK}",
-    "english": "COLD{BREAK}",
+    "english": "FRESH{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2372,7 +2372,7 @@
     "string_index": 0,
     "rom_offset": "0x4D64CC",
     "japanese": "HOT{BREAK}",
-    "english": "WIND{BREAK}",
+    "english": "HOT{BREAK}",
     "raw_hex": "000102f0"
   },
   {
@@ -2390,7 +2390,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6500",
     "japanese": "REAL{BREAK}",
-    "english": "ROCK{BREAK}",
+    "english": "REAL{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2408,7 +2408,7 @@
     "string_index": 0,
     "rom_offset": "0x4D653C",
     "japanese": "MISTY{BREAK}",
-    "english": "IRON{BREAK}",
+    "english": "MISTY{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2417,7 +2417,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6542",
     "japanese": "モンスターがtぉている{BREAK}",
-    "english": "Walking drains{NEWLINE}HP slowly.{BREAK}",
+    "english": "Walking saps{NEWLINE}HP slowly.{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0ff0"
   },
   {
@@ -2426,7 +2426,7 @@
     "string_index": 0,
     "rom_offset": "0x4D657C",
     "japanese": "CRAZY{BREAK}",
-    "english": "GOLD{BREAK}",
+    "english": "CRAZY{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2435,7 +2435,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6582",
     "japanese": "キョウキの[G:405]sがいたいのだ{BREAK}",
-    "english": "Enemies move{NEWLINE}twice as fast!{BREAK}",
+    "english": "Foes move at{NEWLINE}double speed!{BREAK}",
     "raw_hex": "0506070508090a0b0c0d0c080ef0"
   },
   {
@@ -2444,7 +2444,7 @@
     "string_index": 0,
     "rom_offset": "0x4D65BC",
     "japanese": "LAZY{BREAK}",
-    "english": "STAR{BREAK}",
+    "english": "LAZY{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2462,7 +2462,7 @@
     "string_index": 0,
     "rom_offset": "0x4D65F0",
     "japanese": "TIRED{BREAK}",
-    "english": "MOON{BREAK}",
+    "english": "TIRED{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2480,7 +2480,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6638",
     "japanese": "WISE{BREAK}",
-    "english": "SUN{BREAK}",
+    "english": "WISE{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2489,7 +2489,7 @@
     "string_index": 1,
     "rom_offset": "0x4D663D",
     "japanese": "いやなモンスターがいぉぱい{BREAK}",
-    "english": "Defeat boss to{NEWLINE}seal the gate!{BREAK}",
+    "english": "Slay boss to{NEWLINE}seal gate!{BREAK}",
     "raw_hex": "0405060708090a0b0c040d0e04f0"
   },
   {
@@ -2498,7 +2498,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6678",
     "japanese": "FINE{BREAK}",
-    "english": "FIRE{BREAK}",
+    "english": "FINE{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2516,7 +2516,7 @@
     "string_index": 0,
     "rom_offset": "0x4D66B4",
     "japanese": "WET{BREAK}",
-    "english": "ICE{BREAK}",
+    "english": "WET{BREAK}",
     "raw_hex": "000102f0"
   },
   {
@@ -2534,7 +2534,7 @@
     "string_index": 0,
     "rom_offset": "0x4D66FC",
     "japanese": "WEAK{BREAK}",
-    "english": "BOLT{BREAK}",
+    "english": "WEAK{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2552,7 +2552,7 @@
     "string_index": 0,
     "rom_offset": "0x4D673C",
     "japanese": "OPEN{BREAK}",
-    "english": "HOLY{BREAK}",
+    "english": "OPEN{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2561,7 +2561,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6741",
     "japanese": "[G:244]い[G:382]ぬまにホォピーが[G:355][G:520]する{BREAK}",
-    "english": "Walking drains{NEWLINE}HP slowly.{BREAK}",
+    "english": "Walking saps{NEWLINE}HP slowly.{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0e0f101112f0"
   },
   {
@@ -2570,7 +2570,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6784",
     "japanese": "PRIME{BREAK}",
-    "english": "VOID{BREAK}",
+    "english": "PRIME{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2579,7 +2579,7 @@
     "string_index": 1,
     "rom_offset": "0x4D678A",
     "japanese": "かこくな[G:327]いが[G:560]まる///{BREAK}",
-    "english": "Enemies move{NEWLINE}twice as fast!{BREAK}",
+    "english": "Foes move at{NEWLINE}double speed!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f0f0ff0"
   },
   {
@@ -2588,7 +2588,7 @@
     "string_index": 0,
     "rom_offset": "0x4D67C4",
     "japanese": "DEAD{BREAK}",
-    "english": "SICK{BREAK}",
+    "english": "DEAD{BREAK}",
     "raw_hex": "00010200f0"
   },
   {
@@ -2606,7 +2606,7 @@
     "string_index": 0,
     "rom_offset": "0x4D681C",
     "japanese": "FINAL{BREAK}",
-    "english": "WILD{BREAK}",
+    "english": "FINAL{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2624,7 +2624,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6864",
     "japanese": "BLIND{BREAK}",
-    "english": "DEEP{BREAK}",
+    "english": "BLIND{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2633,7 +2633,7 @@
     "string_index": 1,
     "rom_offset": "0x4D686A",
     "japanese": "[G:244]くて[G:416][G:305]になるかも{BREAK}",
-    "english": "Defeat boss to{NEWLINE}seal the gate!{BREAK}",
+    "english": "Slay boss to{NEWLINE}seal gate!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0ef0"
   },
   {
@@ -2642,7 +2642,7 @@
     "string_index": 0,
     "rom_offset": "0x4D68A0",
     "japanese": "MERRY{BREAK}",
-    "english": "REAL{BREAK}",
+    "english": "MERRY{BREAK}",
     "raw_hex": "0001020203f0"
   },
   {
@@ -2660,7 +2660,7 @@
     "string_index": 0,
     "rom_offset": "0x4D68E8",
     "japanese": "DEEP{BREAK}",
-    "english": "CLOSE{BREAK}",
+    "english": "DEEP{BREAK}",
     "raw_hex": "00010102f0"
   },
   {
@@ -2678,7 +2678,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6924",
     "japanese": "LARGE{BREAK}",
-    "english": "FREE{BREAK}",
+    "english": "LARGE{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2696,7 +2696,7 @@
     "string_index": 0,
     "rom_offset": "0x4D696C",
     "japanese": "SPECIAL{BREAK}",
-    "english": "HARD{BREAK}",
+    "english": "SPECIAL{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -2705,7 +2705,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6974",
     "japanese": "しんの[G:539][G:401]と[G:357][G:505][G:391]がためされる{BREAK}",
-    "english": "Walking drains{NEWLINE}HP slowly.{BREAK}",
+    "english": "Walking saps{NEWLINE}HP slowly.{BREAK}",
     "raw_hex": "0708090a0b0c0d0e0f101112131415f0"
   },
   {
@@ -2795,7 +2795,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6B78",
     "japanese": "[G:288]のjk[G:375]のg[G:393]がなくなりますがよろしいですか?{BREAK}",
-    "english": "Cancel current{NEWLINE}buff effect?{BREAK}",
+    "english": "Cancel active{NEWLINE}buff effect?{BREAK}",
     "raw_hex": "0001020304010506070809080a0b0c070d0e0f10110c1213f0"
   },
   {
@@ -2813,7 +2813,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6C20",
     "japanese": "カードを1[G:329]しか[G:452]れませんがよろしいですか?{BREAK}",
-    "english": "Can only carry{NEWLINE}1 card now!{BREAK}",
+    "english": "Can hold only{NEWLINE}1 card now!{BREAK}",
     "raw_hex": "000102030405060708090a0b0c0d0e0f061011120713f0"
   },
   {
@@ -2912,7 +2912,7 @@
     "string_index": 0,
     "rom_offset": "0x4D6DEC",
     "japanese": "クエストモードプレイ[G:270]a{BREAK}",
-    "english": "Quest Mode: {VAR:03}{BREAK}",
+    "english": "Quest Time{BREAK}",
     "raw_hex": "000102030405060708090a0bf0"
   },
   {
@@ -2921,7 +2921,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6DF9",
     "japanese": "ワールドモードプレイ[G:270]a{BREAK}",
-    "english": "World Mode: {VAR:03}{BREAK}",
+    "english": "World Time{BREAK}",
     "raw_hex": "0c050d060405060708090a0bf0"
   },
   {
@@ -2930,7 +2930,7 @@
     "string_index": 2,
     "rom_offset": "0x4D6E06",
     "japanese": "クリア回c{BREAK}",
-    "english": "Clears: {VAR:03}{BREAK}",
+    "english": "Clears{BREAK}",
     "raw_hex": "000e0f1011f0"
   },
   {
@@ -2939,7 +2939,7 @@
     "string_index": 3,
     "rom_offset": "0x4D6E0C",
     "japanese": "[G:379][G:345][G:245][G:246]回c{BREAK}",
-    "english": "Max Wins: {VAR:03}{BREAK}",
+    "english": "Max Streak{BREAK}",
     "raw_hex": "121314151011f0"
   },
   {
@@ -2948,7 +2948,7 @@
     "string_index": 4,
     "rom_offset": "0x4D6E13",
     "japanese": "[G:257][G:372]回c{BREAK}",
-    "english": "Losses: {VAR:03}{BREAK}",
+    "english": "Losses{BREAK}",
     "raw_hex": "16171011f0"
   },
   {
@@ -2957,7 +2957,7 @@
     "string_index": 5,
     "rom_offset": "0x4D6E18",
     "japanese": "{VAR:03}回{VAR:23}[G:378]{BREAK}",
-    "english": "Times: {VAR:03}{BREAK}",
+    "english": "{VAR:03}W {VAR:23}L{BREAK}",
     "raw_hex": "f50310f52318f0"
   },
   {
@@ -2966,7 +2966,7 @@
     "string_index": 6,
     "rom_offset": "0x4D6E1F",
     "japanese": "      クエストモードクリアおめでとう!{NEWLINE}     [G:322]は[G:278][G:279]のマジォクカードの[G:401]をかりて{NEWLINE}  ワールドモードでモンスターゲートの封印にいどめ!{BREAK}",
-    "english": "Quest Cleared!{NEWLINE}World open!{BREAK}",
+    "english": "Quest Clear!{NEWLINE}World open!{BREAK}",
     "raw_hex": "19191919191900010203040506000e0f1a1b1c1d1e1ff1191919191920212223242526270028050624292a2b2c2df119190c050d060405061c042e022f053005032431323334351b1ff0"
   },
   {
