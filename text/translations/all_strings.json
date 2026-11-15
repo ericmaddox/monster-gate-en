@@ -5,7 +5,7 @@
     "string_index": 0,
     "rom_offset": "0x4CF794",
     "japanese": "ポーション{VAR:40}{BREAK}",
-    "english": "Potion {VAR:40}",
+    "english": "Potion {VAR:40}{BREAK}",
     "raw_hex": "0001020304f540f0"
   },
   {
@@ -23,7 +23,7 @@
     "string_index": 0,
     "rom_offset": "0x4CF7C4",
     "japanese": "ポーションMAX{BREAK}",
-    "english": "Potion MAX",
+    "english": "Potion MAX{BREAK}",
     "raw_hex": "0001020304050607f0"
   },
   {
@@ -41,7 +41,7 @@
     "string_index": 0,
     "rom_offset": "0x4CF7FC",
     "japanese": "ポーションSP{BREAK}",
-    "english": "Potion SP",
+    "english": "Potion SP{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -59,7 +59,7 @@
     "string_index": 0,
     "rom_offset": "0x4CF844",
     "japanese": "フッイアー{BREAK}",
-    "english": "Fire",
+    "english": "Fire{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -77,7 +77,7 @@
     "string_index": 0,
     "rom_offset": "0x4CF894",
     "japanese": "マルチフッイアー{BREAK}",
-    "english": "Multi-Fire",
+    "english": "Multi-Fire{BREAK}",
     "raw_hex": "0001020304050607f0"
   },
   {
@@ -95,7 +95,7 @@
     "string_index": 0,
     "rom_offset": "0x4CF8E4",
     "japanese": "サンダー{BREAK}",
-    "english": "Thunder",
+    "english": "Thunder{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -113,7 +113,7 @@
     "string_index": 0,
     "rom_offset": "0x4CF930",
     "japanese": "マルチサンダー{BREAK}",
-    "english": "Multi-Thunder",
+    "english": "Multi-Thunder{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -131,7 +131,7 @@
     "string_index": 0,
     "rom_offset": "0x4CF97C",
     "japanese": "メテオ{BREAK}",
-    "english": "Meteor",
+    "english": "Meteor{BREAK}",
     "raw_hex": "000102f0"
   },
   {
@@ -149,7 +149,7 @@
     "string_index": 0,
     "rom_offset": "0x4CF9C4",
     "japanese": "マルチメテオ{BREAK}",
-    "english": "Multi-Meteor",
+    "english": "Multi-Meteor{BREAK}",
     "raw_hex": "000102030405f0"
   },
   {
@@ -167,7 +167,7 @@
     "string_index": 0,
     "rom_offset": "0x4CFA0C",
     "japanese": "スピア{BREAK}",
-    "english": "Spark",
+    "english": "Spear{BREAK}",
     "raw_hex": "000102f0"
   },
   {
@@ -176,7 +176,7 @@
     "string_index": 1,
     "rom_offset": "0x4CFA10",
     "japanese": "wxyzの全テキをpqrsする{BREAK}",
-    "english": "Attacks all{NEWLINE}room foes.{BREAK}",
+    "english": "Attacks foes{NEWLINE}2 tiles ahead{BREAK}",
     "raw_hex": "030405060708090a0b0c0d0e0f1011f0"
   },
   {
@@ -185,7 +185,7 @@
     "string_index": 0,
     "rom_offset": "0x4CFA50",
     "japanese": "スリープ{BREAK}",
-    "english": "Sleep",
+    "english": "Sleep{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -203,7 +203,7 @@
     "string_index": 0,
     "rom_offset": "0x4CFAA0",
     "japanese": "マルチスリープ{BREAK}",
-    "english": "Multi-Sleep",
+    "english": "Multi-Sleep{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -221,7 +221,7 @@
     "string_index": 0,
     "rom_offset": "0x4CFAE8",
     "japanese": "パニォク{BREAK}",
-    "english": "Poison",
+    "english": "Panic{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -230,7 +230,7 @@
     "string_index": 1,
     "rom_offset": "0x4CFAED",
     "japanese": "テキを[G:242][G:243]させる[G:275]はなれたテキにもfg[G:276]{BREAK}",
-    "english": "Poisons enemy{NEWLINE}over time.{BREAK}",
+    "english": "Confuses foe{NEWLINE}at range.{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0e0f1004051112131415f0"
   },
   {
@@ -239,7 +239,7 @@
     "string_index": 0,
     "rom_offset": "0x4CFB3C",
     "japanese": "マルチパニォク{BREAK}",
-    "english": "Multi-Poison",
+    "english": "Multi-Panic{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -248,7 +248,7 @@
     "string_index": 1,
     "rom_offset": "0x4CFB44",
     "japanese": "hえている全テキを[G:242][G:243]させる{BREAK}",
-    "english": "Poisons all{NEWLINE}visible foes.{BREAK}",
+    "english": "Confuses all{NEWLINE}visible foes.{BREAK}",
     "raw_hex": "0708090a0b0c0d0e0f101112130bf0"
   },
   {
@@ -257,7 +257,7 @@
     "string_index": 0,
     "rom_offset": "0x4CFB88",
     "japanese": "スロー{BREAK}",
-    "english": "Slow",
+    "english": "Slow{BREAK}",
     "raw_hex": "000102f0"
   },
   {
@@ -275,7 +275,7 @@
     "string_index": 0,
     "rom_offset": "0x4CFBE0",
     "japanese": "マルチスロー{BREAK}",
-    "english": "Multi-Slow",
+    "english": "Multi-Slow{BREAK}",
     "raw_hex": "000102030405f0"
   },
   {
@@ -293,7 +293,7 @@
     "string_index": 0,
     "rom_offset": "0x4CFC30",
     "japanese": "マルチショォク{BREAK}",
-    "english": "Multi-Panic",
+    "english": "Multi-Shock{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -302,7 +302,7 @@
     "string_index": 1,
     "rom_offset": "0x4CFC38",
     "japanese": "hえている全テキをおびえさせる{BREAK}",
-    "english": "Confuses all{NEWLINE}visible foes.{BREAK}",
+    "english": "Frightens all{NEWLINE}visible foes.{BREAK}",
     "raw_hex": "0708090a0b0c0d0e0f10110812130bf0"
   },
   {
@@ -311,7 +311,7 @@
     "string_index": 0,
     "rom_offset": "0x4CFC7C",
     "japanese": "ブライト{BREAK}",
-    "english": "Light",
+    "english": "Light{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -329,7 +329,7 @@
     "string_index": 0,
     "rom_offset": "0x4CFCBC",
     "japanese": "マォプ{BREAK}",
-    "english": "Map",
+    "english": "Map{BREAK}",
     "raw_hex": "000102f0"
   },
   {
@@ -347,7 +347,7 @@
     "string_index": 0,
     "rom_offset": "0x4CFCF4",
     "japanese": "サーチ{BREAK}",
-    "english": "Search",
+    "english": "Search{BREAK}",
     "raw_hex": "000102f0"
   },
   {
@@ -365,7 +365,7 @@
     "string_index": 0,
     "rom_offset": "0x4CFD34",
     "japanese": "スピードアォプ{BREAK}",
-    "english": "Speed Up",
+    "english": "Speed Up{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -383,7 +383,7 @@
     "string_index": 0,
     "rom_offset": "0x4CFD78",
     "japanese": "バリア{BREAK}",
-    "english": "Barrier",
+    "english": "Barrier{BREAK}",
     "raw_hex": "000102f0"
   },
   {
@@ -401,7 +401,7 @@
     "string_index": 0,
     "rom_offset": "0x4CFDB0",
     "japanese": "ヒール100{BREAK}",
-    "english": "Heal 100",
+    "english": "Heal 100{BREAK}",
     "raw_hex": "000102030404f0"
   },
   {
@@ -419,7 +419,7 @@
     "string_index": 0,
     "rom_offset": "0x4CFE04",
     "japanese": "ヒール200{BREAK}",
-    "english": "Heal 200",
+    "english": "Heal 200{BREAK}",
     "raw_hex": "000102030404f0"
   },
   {
@@ -437,7 +437,7 @@
     "string_index": 0,
     "rom_offset": "0x4CFE58",
     "japanese": "ヒール300{BREAK}",
-    "english": "Heal 300",
+    "english": "Heal 300{BREAK}",
     "raw_hex": "000102030404f0"
   },
   {
@@ -455,7 +455,7 @@
     "string_index": 0,
     "rom_offset": "0x4CFEAC",
     "japanese": "ロングソード{BREAK}",
-    "english": "Long Sword",
+    "english": "Long Sword{BREAK}",
     "raw_hex": "000102030405f0"
   },
   {
@@ -473,7 +473,7 @@
     "string_index": 0,
     "rom_offset": "0x4CFEF4",
     "japanese": "グレートソード{BREAK}",
-    "english": "Great Sword",
+    "english": "Great Sword{BREAK}",
     "raw_hex": "00010203040205f0"
   },
   {
@@ -491,7 +491,7 @@
     "string_index": 0,
     "rom_offset": "0x4CFF44",
     "japanese": "パワーシールド{BREAK}",
-    "english": "Tower Shield",
+    "english": "Power Shield{BREAK}",
     "raw_hex": "00010203020405f0"
   },
   {
@@ -509,7 +509,7 @@
     "string_index": 0,
     "rom_offset": "0x4CFF8C",
     "japanese": "グレートシールド{BREAK}",
-    "english": "Great Shield",
+    "english": "Great Shield{BREAK}",
     "raw_hex": "0001020304020506f0"
   },
   {
@@ -527,7 +527,7 @@
     "string_index": 0,
     "rom_offset": "0x4CFFE0",
     "japanese": "ハンターリング{BREAK}",
-    "english": "Hunter Ring",
+    "english": "Hunter Ring{BREAK}",
     "raw_hex": "00010203040105f0"
   },
   {
@@ -545,7 +545,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0038",
     "japanese": "ヘルプリング{BREAK}",
-    "english": "Power Ring",
+    "english": "Help Ring{BREAK}",
     "raw_hex": "000102030405f0"
   },
   {
@@ -554,7 +554,7 @@
     "string_index": 1,
     "rom_offset": "0x4D003F",
     "japanese": "jkするとポーションが[G:254]aにもfgになる{BREAK}",
-    "english": "Increases{NEWLINE}attack power.{BREAK}",
+    "english": "Potions also{NEWLINE}heal summons.{BREAK}",
     "raw_hex": "060708090a0b0c0d0e040f101112131415121609f0"
   },
   {
@@ -563,7 +563,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0090",
     "japanese": "リバイブリング{BREAK}",
-    "english": "Guard Ring",
+    "english": "Revive Ring{BREAK}",
     "raw_hex": "00010203000405f0"
   },
   {
@@ -572,7 +572,7 @@
     "string_index": 1,
     "rom_offset": "0x4D0098",
     "japanese": "jkすると[G:257]んでも1[G:258]だけ復[G:259]できる{BREAK}",
-    "english": "Boosts your{NEWLINE}defense.{BREAK}",
+    "english": "Revives you{NEWLINE}once if KO'd.{BREAK}",
     "raw_hex": "060708090a0b0c0d0e0f10111213140d1509f0"
   },
   {
@@ -581,7 +581,7 @@
     "string_index": 0,
     "rom_offset": "0x4D00E4",
     "japanese": "ラォキーリング{BREAK}",
-    "english": "Speed Ring",
+    "english": "Lucky Ring{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -590,7 +590,7 @@
     "string_index": 1,
     "rom_offset": "0x4D00EC",
     "japanese": "jkするとカードの[G:255][G:256]MPが[G:268][G:251]になる{BREAK}",
-    "english": "Increases{NEWLINE}move speed.{BREAK}",
+    "english": "Halves card{NEWLINE}MP cost.{BREAK}",
     "raw_hex": "0708090a0b0c030d0e0f10111213141516170af0"
   },
   {
@@ -599,7 +599,7 @@
     "string_index": 0,
     "rom_offset": "0x4D013C",
     "japanese": "ポケォト+1{BREAK}",
-    "english": "Escape Card",
+    "english": "Pocket +1{BREAK}",
     "raw_hex": "000102030405f0"
   },
   {
@@ -608,7 +608,7 @@
     "string_index": 1,
     "rom_offset": "0x4D0143",
     "japanese": "[G:237]てるカードのcが1つdえる{BREAK}",
-    "english": "Exit dungeon{NEWLINE}safely.{BREAK}",
+    "english": "Hold +1 more{NEWLINE}card in hand.{BREAK}",
     "raw_hex": "060708090a0b0c0d0e050f101108f0"
   },
   {
@@ -617,7 +617,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0184",
     "japanese": "ポケォト+2{BREAK}",
-    "english": "Power Up",
+    "english": "Pocket +2{BREAK}",
     "raw_hex": "000102030405f0"
   },
   {
@@ -626,7 +626,7 @@
     "string_index": 1,
     "rom_offset": "0x4D018B",
     "japanese": "[G:237]てるカードのcが2つdえる{BREAK}",
-    "english": "Boosts Atk &{NEWLINE}Def, HP, MP.{BREAK}",
+    "english": "Hold +2 more{NEWLINE}cards in hand{BREAK}",
     "raw_hex": "060708090a0b0c0d0e050f101108f0"
   },
   {
@@ -635,7 +635,7 @@
     "string_index": 0,
     "rom_offset": "0x4D01CC",
     "japanese": "パワーアォプ{BREAK}",
-    "english": "Teleport",
+    "english": "Power Up{BREAK}",
     "raw_hex": "000102030405f0"
   },
   {
@@ -644,7 +644,7 @@
     "string_index": 1,
     "rom_offset": "0x4D01D3",
     "japanese": "rs[G:401]/lm[G:401]/HP/MPをdoさせる{BREAK}",
-    "english": "Warp to room{NEWLINE}or stairs.{BREAK}",
+    "english": "Boosts Atk,{NEWLINE}Def, HP, MP.{BREAK}",
     "raw_hex": "060708090a0b08090c0d090e0d0f1011121314f0"
   },
   {
@@ -653,7 +653,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0220",
     "japanese": "テレポート{BREAK}",
-    "english": "Escape",
+    "english": "Teleport{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -662,7 +662,7 @@
     "string_index": 1,
     "rom_offset": "0x4D0226",
     "japanese": "フロアーnの[G:249]の[G:247][G:248]に[G:250]iする{BREAK}",
-    "english": "Exit dungeon{NEWLINE}instantly.{BREAK}",
+    "english": "Warps you to{NEWLINE}another spot.{BREAK}",
     "raw_hex": "0506070308090a090b0c0d0e0f1011f0"
   },
   {
@@ -671,7 +671,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0268",
     "japanese": "エスケープ{BREAK}",
-    "english": "Collect",
+    "english": "Escape{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -680,7 +680,7 @@
     "string_index": 1,
     "rom_offset": "0x4D026E",
     "japanese": "ダンジョンを[G:245][G:246]する{BREAK}",
-    "english": "Collect all{NEWLINE}floor coins.{BREAK}",
+    "english": "Exit dungeon{NEWLINE}instantly.{BREAK}",
     "raw_hex": "0506070806090a0b0c0df0"
   },
   {
@@ -689,7 +689,7 @@
     "string_index": 0,
     "rom_offset": "0x4D02A4",
     "japanese": "コレクト{BREAK}",
-    "english": "Shop Card",
+    "english": "Collect{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -698,7 +698,7 @@
     "string_index": 1,
     "rom_offset": "0x4D02A9",
     "japanese": "かく[G:384]コインをその[G:247]で[G:248][G:237]コインに[G:295]える{BREAK}",
-    "english": "Open shop{NEWLINE}anywhere.{BREAK}",
+    "english": "Locks earned{NEWLINE}coins safely.{BREAK}",
     "raw_hex": "040506000708090a0b0c0d0e0f00070810111213f0"
   },
   {
@@ -707,7 +707,7 @@
     "string_index": 0,
     "rom_offset": "0x4D02F4",
     "japanese": "ショォプ{BREAK}",
-    "english": "Casino Card",
+    "english": "Shop{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -716,7 +716,7 @@
     "string_index": 1,
     "rom_offset": "0x4D02F9",
     "japanese": "ショォプが[G:264]れる{BREAK}",
-    "english": "Open casino{NEWLINE}anywhere.{BREAK}",
+    "english": "Calls a Shop{NEWLINE}anywhere.{BREAK}",
     "raw_hex": "0001020304050607f0"
   },
   {
@@ -725,7 +725,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0320",
     "japanese": "カジノ{BREAK}",
-    "english": "Hunter",
+    "english": "Casino{BREAK}",
     "raw_hex": "000102f0"
   },
   {
@@ -734,7 +734,7 @@
     "string_index": 1,
     "rom_offset": "0x4D0324",
     "japanese": "カジノが[G:264]れる{BREAK}",
-    "english": "Turn foe into{NEWLINE}monster card!{BREAK}",
+    "english": "Calls Casino{NEWLINE}anywhere.{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -743,7 +743,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0348",
     "japanese": "ハンター{BREAK}",
-    "english": "Magic Potion",
+    "english": "Hunter{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -752,7 +752,7 @@
     "string_index": 1,
     "rom_offset": "0x4D034D",
     "japanese": "テキを[G:254]aモンスターにする[G:275]はなれたテキにもfg[G:276]{BREAK}",
-    "english": "Fully heals{NEWLINE}all MP.{BREAK}",
+    "english": "Turns foe to{NEWLINE}ally card!{BREAK}",
     "raw_hex": "040506070809010a02030b0c0d0e0f10111204050b13141516f0"
   },
   {
@@ -761,7 +761,7 @@
     "string_index": 0,
     "rom_offset": "0x4D03A4",
     "japanese": "マジォクポーション{BREAK}",
-    "english": "Venom",
+    "english": "Magic Potion{BREAK}",
     "raw_hex": "000102030405060708f0"
   },
   {
@@ -770,7 +770,7 @@
     "string_index": 1,
     "rom_offset": "0x4D03AE",
     "japanese": "MPを全回復{BREAK}",
-    "english": "Poisons foe:{NEWLINE}5 dmg/turn.{BREAK}",
+    "english": "Fully heals{NEWLINE}all MP.{BREAK}",
     "raw_hex": "090a0b0c0d0ef0"
   },
   {
@@ -779,7 +779,7 @@
     "string_index": 0,
     "rom_offset": "0x4D03E0",
     "japanese": "ポイズン{BREAK}",
-    "english": "Multi-Venom",
+    "english": "Poison{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -788,7 +788,7 @@
     "string_index": 1,
     "rom_offset": "0x4D03E5",
     "japanese": "テキを[G:382][G:383]する[G:275]5ダメージ%ターン[G:276]{BREAK}",
-    "english": "Poisons all{NEWLINE}visible foes.{BREAK}",
+    "english": "Poisons foe:{NEWLINE}5 dmg/turn.{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0e0f1011120f0313f0"
   },
   {
@@ -797,7 +797,7 @@
     "string_index": 0,
     "rom_offset": "0x4D042C",
     "japanese": "マルチポイズン{BREAK}",
-    "english": "Gold Sword",
+    "english": "Multi-Poison{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -806,7 +806,7 @@
     "string_index": 1,
     "rom_offset": "0x4D0434",
     "japanese": "hえている全テキを[G:382][G:383]する[G:275]5ダメージ%ターン[G:276]{BREAK}",
-    "english": "Earn coins in{NEWLINE}battle.{BREAK}",
+    "english": "Poisons all:{NEWLINE}5 dmg/turn.{BREAK}",
     "raw_hex": "0708090a0b0c0d0e0f1011120b131415161718191a17061bf0"
   },
   {
@@ -815,7 +815,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0494",
     "japanese": "ゴールドソード{BREAK}",
-    "english": "Call +1",
+    "english": "Gold Sword{BREAK}",
     "raw_hex": "00010203040103f0"
   },
   {
@@ -824,7 +824,7 @@
     "string_index": 1,
     "rom_offset": "0x4D049C",
     "japanese": "[G:306][G:251]より[G:314]いテキを[G:296]すとより[G:307]くのコインを[G:384]る{BREAK}",
-    "english": "Summon 1 card{NEWLINE}from Holder.{BREAK}",
+    "english": "Strong foes{NEWLINE}drop +coins.{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f1007081112131415160d1718f0"
   },
   {
@@ -833,7 +833,7 @@
     "string_index": 0,
     "rom_offset": "0x4D04F4",
     "japanese": "コール+1{BREAK}",
-    "english": "Call +2",
+    "english": "Call +1{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -842,7 +842,7 @@
     "string_index": 1,
     "rom_offset": "0x4D04FA",
     "japanese": "カードホルダーのアイテムを1[G:329]ゲォト{BREAK}",
-    "english": "Summon 2 card{NEWLINE}from Holder.{BREAK}",
+    "english": "Get 1 item{NEWLINE}from Holder.{BREAK}",
     "raw_hex": "05010607020801090a0b0c0d0e040f101112f0"
   },
   {
@@ -851,7 +851,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0540",
     "japanese": "コール+2{BREAK}",
-    "english": "Change",
+    "english": "Call +2{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -860,7 +860,7 @@
     "string_index": 1,
     "rom_offset": "0x4D0546",
     "japanese": "カードホルダーのアイテムを2[G:329]ゲォト{BREAK}",
-    "english": "Change class{NEWLINE}in dungeon.{BREAK}",
+    "english": "Get 2 items{NEWLINE}from Holder.{BREAK}",
     "raw_hex": "05010607020801090a0b0c0d0e040f101112f0"
   },
   {
@@ -869,7 +869,7 @@
     "string_index": 0,
     "rom_offset": "0x4D058C",
     "japanese": "チゥンジ{BREAK}",
-    "english": "Heal Ring",
+    "english": "Change{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -878,7 +878,7 @@
     "string_index": 1,
     "rom_offset": "0x4D0591",
     "japanese": "そのダンジョンに[G:387]り[G:388][G:389]のキャラクターにチゥンジできる{BREAK}",
-    "english": "Double heals{NEWLINE}in rooms.{BREAK}",
+    "english": "Change class{NEWLINE}in dungeon.{BREAK}",
     "raw_hex": "0405060203070208090a0b0c050d0e0f1011120800010203131415f0"
   },
   {
@@ -887,7 +887,7 @@
     "string_index": 0,
     "rom_offset": "0x4D05E8",
     "japanese": "トニォクリング{BREAK}",
-    "english": "Death",
+    "english": "Tonic Ring{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -896,7 +896,7 @@
     "string_index": 1,
     "rom_offset": "0x4D05F0",
     "japanese": "jkするとはじめての[G:260][G:261]で回復が2[G:385]になる{BREAK}",
-    "english": "Defeat target{NEWLINE}instantly!{BREAK}",
+    "english": "2x recovery{NEWLINE}in new rooms.{BREAK}",
     "raw_hex": "0708090a0b0c0d0e0f101112131415161718191a0af0"
   },
   {
@@ -905,7 +905,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0648",
     "japanese": "デス{BREAK}",
-    "english": "Blend Card",
+    "english": "Death{BREAK}",
     "raw_hex": "0001f0"
   },
   {
@@ -914,7 +914,7 @@
     "string_index": 1,
     "rom_offset": "0x4D064B",
     "japanese": "テキを[G:330]ず[G:296]す[G:275][G:255][G:256][G:270]に[G:386][G:401]が[G:281]がる[G:276]{BREAK}",
-    "english": "Combine two{NEWLINE}into 1 card!{BREAK}",
+    "english": "Slays foe,{NEWLINE}lowers stats.{BREAK}",
     "raw_hex": "02030405060708090a0b0c0d0e0f1011101213f0"
   },
   {
@@ -923,7 +923,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0694",
     "japanese": "ブレンド{BREAK}",
-    "english": "Holy Light",
+    "english": "Blend{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -932,7 +932,7 @@
     "string_index": 1,
     "rom_offset": "0x4D0699",
     "japanese": "ブレンド[G:261]が[G:264]れる{BREAK}",
-    "english": "May nullify{NEWLINE}foe attack.{BREAK}",
+    "english": "Calls Blend{NEWLINE}Shop here.{BREAK}",
     "raw_hex": "000102030405060708f0"
   },
   {
@@ -941,7 +941,7 @@
     "string_index": 0,
     "rom_offset": "0x4D06C4",
     "japanese": "ホーリーライト{BREAK}",
-    "english": "Saint Sword",
+    "english": "Holy Light{BREAK}",
     "raw_hex": "00010201030405f0"
   },
   {
@@ -950,7 +950,7 @@
     "string_index": 1,
     "rom_offset": "0x4D06CC",
     "japanese": "[G:405][G:381]のかくりつでテキのrsをむこうかする{BREAK}",
-    "english": "Slaying foes{NEWLINE}heals HP.{BREAK}",
+    "english": "May nullify{NEWLINE}foe attack.{BREAK}",
     "raw_hex": "060708090a0b0c0d0e0f08101112131415091617f0"
   },
   {
@@ -959,7 +959,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0720",
     "japanese": "セイントソード{BREAK}",
-    "english": "Flame Rod",
+    "english": "Saint Sword{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -968,7 +968,7 @@
     "string_index": 1,
     "rom_offset": "0x4D0728",
     "japanese": "テキを[G:296]すと[G:405][G:381]ポイントHP回復[G:275]+rs[G:401]アォプ[G:276]{BREAK}",
-    "english": "Casts Fire{NEWLINE}for 2 MP.{BREAK}",
+    "english": "Slaying foes{NEWLINE}heals HP.{BREAK}",
     "raw_hex": "0708090a0b0c0d0e0f010203101112131415161718191a1b1cf0"
   },
   {
@@ -977,7 +977,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0788",
     "japanese": "フレイムロォド{BREAK}",
-    "english": "Thunder Rod",
+    "english": "Flame Rod{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -986,7 +986,7 @@
     "string_index": 1,
     "rom_offset": "0x4D0790",
     "japanese": "はなれたテキにrsするとフッイアーのg[G:393][G:275]2MP[G:330][G:331][G:276]{BREAK}",
-    "english": "Casts Thunder{NEWLINE}for 2 MP.{BREAK}",
+    "english": "Ranged Fire{NEWLINE}hit: 2 MP.{BREAK}",
     "raw_hex": "0708090a0b0c0d0e0f1011120013021415161718191a1b1c1d1e1ff0"
   },
   {
@@ -995,7 +995,7 @@
     "string_index": 0,
     "rom_offset": "0x4D07F8",
     "japanese": "インビジブル{BREAK}",
-    "english": "Ice Rod",
+    "english": "Invisible{BREAK}",
     "raw_hex": "000102030405f0"
   },
   {
@@ -1004,7 +1004,7 @@
     "string_index": 1,
     "rom_offset": "0x4D07FF",
     "japanese": "トウメイになぉてテキからえんきょりrsをうけなくなる{BREAK}",
-    "english": "Casts Ice{NEWLINE}for 2 MP.{BREAK}",
+    "english": "Turn unseen,{NEWLINE}block ranged.{BREAK}",
     "raw_hex": "06070800090a0b0c0d0e0f101112131415161718191a0a1b0a1cf0"
   },
   {
@@ -1013,7 +1013,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0860",
     "japanese": "ハリケーン{BREAK}",
-    "english": "Hurricane",
+    "english": "Hurricane{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1031,7 +1031,7 @@
     "string_index": 0,
     "rom_offset": "0x4D08B0",
     "japanese": "リフレクトシールド{BREAK}",
-    "english": "Mirror Shield",
+    "english": "Mirror Shield{BREAK}",
     "raw_hex": "000102030405060708f0"
   },
   {
@@ -1049,7 +1049,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0928",
     "japanese": "ワンダー{BREAK}",
-    "english": "Wand Card",
+    "english": "Wonder{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1058,7 +1058,7 @@
     "string_index": 1,
     "rom_offset": "0x4D092D",
     "japanese": "[G:255]うと[G:342][G:327][G:493][G:301]に[G:424]かが[G:390]こる!{BREAK}",
-    "english": "Boosts spell{NEWLINE}magic damage.{BREAK}",
+    "english": "Random effect{NEWLINE}when used!{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0e0f101112f0"
   },
   {
@@ -1067,7 +1067,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0970",
     "japanese": "ゴールドシールド{BREAK}",
-    "english": "Gold Shield",
+    "english": "Gold Shield{BREAK}",
     "raw_hex": "0001020304010203f0"
   },
   {
@@ -1076,7 +1076,7 @@
     "string_index": 1,
     "rom_offset": "0x4D0979",
     "japanese": "[G:306][G:251]より[G:314]いテキを[G:296]すとより[G:307]くのコインを[G:384]る{BREAK}",
-    "english": "Earn coins on{NEWLINE}blocking.{BREAK}",
+    "english": "Strong foes{NEWLINE}drop +coins.{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f1007081112131415160d1718f0"
   },
   {
@@ -1085,7 +1085,7 @@
     "string_index": 0,
     "rom_offset": "0x4D09D0",
     "japanese": "マォプリング{BREAK}",
-    "english": "Map Ring",
+    "english": "Map Ring{BREAK}",
     "raw_hex": "000102030405f0"
   },
   {
@@ -1103,7 +1103,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0A1C",
     "japanese": "ブライトリング{BREAK}",
-    "english": "Light Ring",
+    "english": "Light Ring{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1121,7 +1121,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0A6C",
     "japanese": "サーチリング{BREAK}",
-    "english": "Search Ring",
+    "english": "Search Ring{BREAK}",
     "raw_hex": "000102030405f0"
   },
   {
@@ -1139,7 +1139,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0AB8",
     "japanese": "ゴールドリング{BREAK}",
-    "english": "Gold Ring",
+    "english": "Gold Ring{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1157,7 +1157,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0B18",
     "japanese": "ウルトラスリープ{BREAK}",
-    "english": "Ultra Sleep",
+    "english": "Ultra Sleep{BREAK}",
     "raw_hex": "0001020304050607f0"
   },
   {
@@ -1175,7 +1175,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0B74",
     "japanese": "ウルトラパニォク{BREAK}",
-    "english": "Ultra Panic",
+    "english": "Ultra Panic{BREAK}",
     "raw_hex": "0001020304050607f0"
   },
   {
@@ -1193,7 +1193,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0BD0",
     "japanese": "ウルトラスロー{BREAK}",
-    "english": "Ultra Slow",
+    "english": "Ultra Slow{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1211,7 +1211,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0C30",
     "japanese": "ウルトラショォク{BREAK}",
-    "english": "Ultra Shock",
+    "english": "Ultra Shock{BREAK}",
     "raw_hex": "0001020304050607f0"
   },
   {
@@ -1229,7 +1229,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0C90",
     "japanese": "{VAR:02}MP{BREAK}",
-    "english": "{VAR:02}MP",
+    "english": "{VAR:02}MP{BREAK}",
     "raw_hex": "f5020001f0"
   },
   {
@@ -1247,7 +1247,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0CC8",
     "japanese": "プーニャ{BREAK}",
-    "english": "Poona",
+    "english": "Poona{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1265,7 +1265,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0D04",
     "japanese": "キラービー{BREAK}",
-    "english": "Killer Bee",
+    "english": "Killer Bee{BREAK}",
     "raw_hex": "0001020302f0"
   },
   {
@@ -1283,7 +1283,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0D44",
     "japanese": "スケルトン{BREAK}",
-    "english": "Skeleton",
+    "english": "Skeleton{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1301,7 +1301,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0D84",
     "japanese": "ケムンパ{BREAK}",
-    "english": "Kemumpa",
+    "english": "Kemumpa{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1319,7 +1319,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0DC0",
     "japanese": "ゴブリン{BREAK}",
-    "english": "Goblin",
+    "english": "Goblin{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1337,7 +1337,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0DFC",
     "japanese": "[G:271][G:347][G:348]{BREAK}",
-    "english": "Archer",
+    "english": "Archer{BREAK}",
     "raw_hex": "000102f0"
   },
   {
@@ -1355,7 +1355,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0E38",
     "japanese": "グランシャーク{BREAK}",
-    "english": "Grand Shark",
+    "english": "Grand Shark{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1373,7 +1373,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0E7C",
     "japanese": "ターミネーター{BREAK}",
-    "english": "Terminator",
+    "english": "Terminator{BREAK}",
     "raw_hex": "00010203010001f0"
   },
   {
@@ -1391,7 +1391,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0EBC",
     "japanese": "ドラゴン{BREAK}",
-    "english": "Dragon",
+    "english": "Dragon{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1409,7 +1409,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0EF8",
     "japanese": "[G:257][G:266]{BREAK}",
-    "english": "Death Armor",
+    "english": "Death Armor{BREAK}",
     "raw_hex": "0001f0"
   },
   {
@@ -1427,7 +1427,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0F30",
     "japanese": "マォドブル{BREAK}",
-    "english": "Mad Bull",
+    "english": "Mad Bull{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1445,7 +1445,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0F74",
     "japanese": "エビルアイ{BREAK}",
-    "english": "Evil Eye",
+    "english": "Evil Eye{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1463,7 +1463,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0FB8",
     "japanese": "デーモン{BREAK}",
-    "english": "Demon",
+    "english": "Demon{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1481,7 +1481,7 @@
     "string_index": 0,
     "rom_offset": "0x4D0FF0",
     "japanese": "キングドラゴン{BREAK}",
-    "english": "King Dragon",
+    "english": "King Dragon{BREAK}",
     "raw_hex": "00010203040501f0"
   },
   {
@@ -1499,7 +1499,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1034",
     "japanese": "ベビードラゴン{BREAK}",
-    "english": "Baby Dragon",
+    "english": "Baby Dragon{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1517,7 +1517,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1078",
     "japanese": "ゾンビ{BREAK}",
-    "english": "Zombie",
+    "english": "Zombie{BREAK}",
     "raw_hex": "000102f0"
   },
   {
@@ -1535,7 +1535,7 @@
     "string_index": 0,
     "rom_offset": "0x4D10B4",
     "japanese": "リスタール{BREAK}",
-    "english": "Ristar",
+    "english": "Ristar{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1553,7 +1553,7 @@
     "string_index": 0,
     "rom_offset": "0x4D10F0",
     "japanese": "ハンマーシゥル{BREAK}",
-    "english": "Hammer Shell",
+    "english": "Hammer Shell{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1571,7 +1571,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1134",
     "japanese": "デァォグモール{BREAK}",
-    "english": "Dig Mole",
+    "english": "Dig Mole{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1589,7 +1589,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1178",
     "japanese": "ブロォサ{BREAK}",
-    "english": "Blossa",
+    "english": "Blossa{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1607,7 +1607,7 @@
     "string_index": 0,
     "rom_offset": "0x4D11B8",
     "japanese": "ビショォプ{BREAK}",
-    "english": "Bishop",
+    "english": "Bishop{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1625,7 +1625,7 @@
     "string_index": 0,
     "rom_offset": "0x4D11FC",
     "japanese": "アシュラ{BREAK}",
-    "english": "Ashura",
+    "english": "Ashura{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1643,7 +1643,7 @@
     "string_index": 0,
     "rom_offset": "0x4D123C",
     "japanese": "ゴースト{BREAK}",
-    "english": "Ghost",
+    "english": "Ghost{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1661,7 +1661,7 @@
     "string_index": 0,
     "rom_offset": "0x4D128C",
     "japanese": "ゴースト{BREAK}",
-    "english": "Ghost",
+    "english": "Ghost{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1679,7 +1679,7 @@
     "string_index": 0,
     "rom_offset": "0x4D12D8",
     "japanese": "ゴースト{BREAK}",
-    "english": "Ghost",
+    "english": "Ghost{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1697,7 +1697,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1324",
     "japanese": "ゴースト{BREAK}",
-    "english": "Ghost",
+    "english": "Ghost{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1715,7 +1715,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1374",
     "japanese": "ゴースト{BREAK}",
-    "english": "Ghost",
+    "english": "Ghost{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1733,7 +1733,7 @@
     "string_index": 0,
     "rom_offset": "0x4D13C0",
     "japanese": "ゴースト{BREAK}",
-    "english": "Ghost",
+    "english": "Ghost{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1751,7 +1751,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1408",
     "japanese": "ゴースト{BREAK}",
-    "english": "Ghost",
+    "english": "Ghost{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1769,7 +1769,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1454",
     "japanese": "ホォピー{BREAK}",
-    "english": "Hoppy",
+    "english": "Hoppy{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -1787,7 +1787,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1490",
     "japanese": "プリースト{BREAK}",
-    "english": "Priest",
+    "english": "Priest{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1805,7 +1805,7 @@
     "string_index": 0,
     "rom_offset": "0x4D14D0",
     "japanese": "キングプーニャ{BREAK}",
-    "english": "King Poona",
+    "english": "King Poona{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1814,7 +1814,7 @@
     "string_index": 1,
     "rom_offset": "0x4D14D8",
     "japanese": "プレイヤーが[G:260][G:261]に[G:289]ぉた[G:270]のHP/MPの回復UP[G:275]SP[G:276]{BREAK}",
-    "english": "Boosts room{NEWLINE}HP/MP regen!{BREAK}",
+    "english": "Room HP/MP{NEWLINE}regen UP! SP{BREAK}",
     "raw_hex": "03070809040a0b0c0d0e0f101112131415161412171819141a1b141cf0"
   },
   {
@@ -1823,7 +1823,7 @@
     "string_index": 0,
     "rom_offset": "0x4D153C",
     "japanese": "クァーンビー{BREAK}",
-    "english": "Queen Bee",
+    "english": "Queen Bee{BREAK}",
     "raw_hex": "000102030402f0"
   },
   {
@@ -1832,7 +1832,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1543",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275]SP[G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! SP{BREAK}",
     "raw_hex": "050607030809020a0b0c0d0e0f101112131415161718f0"
   },
   {
@@ -1841,7 +1841,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1598",
     "japanese": "スケルトンロード{BREAK}",
-    "english": "Skel. Lord",
+    "english": "Skel. Lord{BREAK}",
     "raw_hex": "0001020304050607f0"
   },
   {
@@ -1850,7 +1850,7 @@
     "string_index": 1,
     "rom_offset": "0x4D15A1",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275]SP[G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! SP{BREAK}",
     "raw_hex": "08090a04000b060c0d0e0f101112131415161718191af0"
   },
   {
@@ -1859,7 +1859,7 @@
     "string_index": 0,
     "rom_offset": "0x4D15FC",
     "japanese": "ジン{BREAK}",
-    "english": "Djinn",
+    "english": "Djinn{BREAK}",
     "raw_hex": "0001f0"
   },
   {
@@ -1868,7 +1868,7 @@
     "string_index": 1,
     "rom_offset": "0x4D15FF",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275]SP[G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! SP{BREAK}",
     "raw_hex": "0203040105060708090a0b0c0d0e0f10111213141516f0"
   },
   {
@@ -1877,7 +1877,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1650",
     "japanese": "オーガ{BREAK}",
-    "english": "Ogre",
+    "english": "Ogre{BREAK}",
     "raw_hex": "000102f0"
   },
   {
@@ -1886,7 +1886,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1654",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275]SP[G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! SP{BREAK}",
     "raw_hex": "03040506070801090a0b0c0d0e0f1011121314151617f0"
   },
   {
@@ -1895,7 +1895,7 @@
     "string_index": 0,
     "rom_offset": "0x4D16A8",
     "japanese": "マジォクマスター{BREAK}",
-    "english": "Magic Master",
+    "english": "Magic Master{BREAK}",
     "raw_hex": "0001020300040506f0"
   },
   {
@@ -1904,7 +1904,7 @@
     "string_index": 1,
     "rom_offset": "0x4D16B1",
     "japanese": "[G:254]aモンスターしょうかん/えんきょりrsが[G:314][G:383][G:275]SP[G:276]{BREAK}",
-    "english": "Ranged magic{NEWLINE}ally! SP!{BREAK}",
+    "english": "Ranged ally{NEWLINE}attack! SP{BREAK}",
     "raw_hex": "0708090a0405060b0c0d0e0f10110f120c131415161718191a1b1cf0"
   },
   {
@@ -1913,7 +1913,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1714",
     "japanese": "グレートトィース{BREAK}",
-    "english": "Great Teeth",
+    "english": "Great Teeth{BREAK}",
     "raw_hex": "0001020303040205f0"
   },
   {
@@ -1931,7 +1931,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1768",
     "japanese": "ジゥノサイダー{BREAK}",
-    "english": "Genocider",
+    "english": "Genocider{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -1940,7 +1940,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1770",
     "japanese": "rsした[G:270]スリープのg[G:393][G:275]かくりつSP[G:276]{BREAK}",
-    "english": "Attacks may{NEWLINE}sleep foes!{BREAK}",
+    "english": "Attacks may{NEWLINE}sleep! SP{BREAK}",
     "raw_hex": "0708090a0b0c0d060e0f10111213141516171819f0"
   },
   {
@@ -1949,7 +1949,7 @@
     "string_index": 0,
     "rom_offset": "0x4D17C8",
     "japanese": "ウァングドラゴン{BREAK}",
-    "english": "Fang Dragon",
+    "english": "Wing Dragon{BREAK}",
     "raw_hex": "0001020304050602f0"
   },
   {
@@ -1958,7 +1958,7 @@
     "string_index": 1,
     "rom_offset": "0x4D17D1",
     "japanese": "[G:254]aモンスターしょうかん/えんきょりrsが[G:314][G:383][G:275]SP[G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Ranged ally{NEWLINE}attack! SP{BREAK}",
     "raw_hex": "070809020a0b0c0d0e0f1011121311140e15161718191a1b1c1d1ef0"
   },
   {
@@ -1967,7 +1967,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1838",
     "japanese": "リォチ{BREAK}",
-    "english": "Lich",
+    "english": "Lich{BREAK}",
     "raw_hex": "000102f0"
   },
   {
@@ -1976,7 +1976,7 @@
     "string_index": 1,
     "rom_offset": "0x4D183C",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275]SP[G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! SP{BREAK}",
     "raw_hex": "030405060708090a0b0c0d0e0f101112131415161718f0"
   },
   {
@@ -1985,7 +1985,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1894",
     "japanese": "デスホーン{BREAK}",
-    "english": "Death Horn",
+    "english": "Death Horn{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -1994,7 +1994,7 @@
     "string_index": 1,
     "rom_offset": "0x4D189A",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275]SP[G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! SP{BREAK}",
     "raw_hex": "05060704010803090a0b0c0d0e0f1011121314151617f0"
   },
   {
@@ -2003,7 +2003,7 @@
     "string_index": 0,
     "rom_offset": "0x4D18F0",
     "japanese": "ヘルズアイ{BREAK}",
-    "english": "Hell's Eye",
+    "english": "Hell's Eye{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2012,7 +2012,7 @@
     "string_index": 1,
     "rom_offset": "0x4D18F6",
     "japanese": "[G:254]aモンスターしょうかん/えんきょりrsが[G:314][G:383][G:275]SP[G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Ranged ally{NEWLINE}attack! SP{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f10111210130d1415161718191a1b1c1df0"
   },
   {
@@ -2021,7 +2021,7 @@
     "string_index": 0,
     "rom_offset": "0x4D195C",
     "japanese": "アークデーモン{BREAK}",
-    "english": "Archdemon",
+    "english": "Archdemon{BREAK}",
     "raw_hex": "00010203010405f0"
   },
   {
@@ -2030,7 +2030,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1964",
     "japanese": "プレイヤーの[G:330][G:484]の[G:405]sが[G:246]やすくなる[G:275]かくりつSP[G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Boosts spell{NEWLINE}hit rate! SP{BREAK}",
     "raw_hex": "06070809010a0b0c0a0d0e0f10111213141516171318191a1b1cf0"
   },
   {
@@ -2039,7 +2039,7 @@
     "string_index": 0,
     "rom_offset": "0x4D19C8",
     "japanese": "ゴォドドラゴン{BREAK}",
-    "english": "God Dragon",
+    "english": "God Dragon{BREAK}",
     "raw_hex": "00010202030004f0"
   },
   {
@@ -2048,7 +2048,7 @@
     "string_index": 1,
     "rom_offset": "0x4D19D0",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275]SP[G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! SP{BREAK}",
     "raw_hex": "0506070408090a0b0c0d0e0f10111213141516171819f0"
   },
   {
@@ -2057,7 +2057,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1A28",
     "japanese": "プリンスドラゴン{BREAK}",
-    "english": "Prince Dragon",
+    "english": "Prince Dragon{BREAK}",
     "raw_hex": "0001020304050602f0"
   },
   {
@@ -2066,7 +2066,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1A31",
     "japanese": "[G:254]aモンスターしょうかん/えんきょりrsが[G:314][G:383][G:275]SP[G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Ranged ally{NEWLINE}attack! SP{BREAK}",
     "raw_hex": "07080902030a0b0c0d0e0f10111210130d1415161718191a1b1c1df0"
   },
   {
@@ -2075,7 +2075,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1A98",
     "japanese": "グール{BREAK}",
-    "english": "Ghoul",
+    "english": "Ghoul{BREAK}",
     "raw_hex": "000102f0"
   },
   {
@@ -2084,7 +2084,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1A9C",
     "japanese": "[G:257][G:372]した[G:270]マルチポイズンのg[G:393][G:275]かくりつSP[G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "May inflict{NEWLINE}M-Poison! SP{BREAK}",
     "raw_hex": "03040506070802090a0b0c0d0e0f101112131415161718f0"
   },
   {
@@ -2093,7 +2093,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1AF4",
     "japanese": "マテリアル{BREAK}",
-    "english": "Material",
+    "english": "Material{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2102,7 +2102,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1AFA",
     "japanese": "ガーデァアンに[G:342]して[G:314]い[G:275]SP[G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Strong vs{NEWLINE}Guardians! SP{BREAK}",
     "raw_hex": "0506070803090a0b0c0d0e0f10111213f0"
   },
   {
@@ -2111,7 +2111,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1B40",
     "japanese": "アクスシゥル{BREAK}",
-    "english": "Axe Skull",
+    "english": "Axe Shell{BREAK}",
     "raw_hex": "000102030405f0"
   },
   {
@@ -2120,7 +2120,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1B47",
     "japanese": "[G:254]aモンスターしょうかん/lm[G:401][G:275]SP[G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "High defense{NEWLINE}ally! SP{BREAK}",
     "raw_hex": "06070809020a0b0c0d0e0f101112131415161718f0"
   },
   {
@@ -2129,7 +2129,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1B9C",
     "japanese": "ジャォクモール{BREAK}",
-    "english": "Jack Mole",
+    "english": "Jack Mole{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -2138,7 +2138,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1BA4",
     "japanese": "ガーデァアンに[G:342]して[G:314]い[G:275]SP[G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Strong vs{NEWLINE}Guardians! SP{BREAK}",
     "raw_hex": "070508090a0b0c0d0e0f101112131415f0"
   },
   {
@@ -2147,7 +2147,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1BF0",
     "japanese": "マンイーター{BREAK}",
-    "english": "Maneater",
+    "english": "Maneater{BREAK}",
     "raw_hex": "000102030403f0"
   },
   {
@@ -2156,7 +2156,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1BF7",
     "japanese": "rsした[G:270]ポイズンのg[G:393][G:275]かくりつSP[G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "May inflict{NEWLINE}Poison! SP{BREAK}",
     "raw_hex": "05060708090a020b010c0d0e0f10111213141516f0"
   },
   {
@@ -2165,7 +2165,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1C48",
     "japanese": "アーク{BREAK}",
-    "english": "Goblin",
+    "english": "Arc{BREAK}",
     "raw_hex": "000102f0"
   },
   {
@@ -2174,7 +2174,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1C4C",
     "japanese": "プレイヤーが[G:257][G:372]した[G:270][G:355]き[G:356]らせる[G:275]かくりつSP[G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "May knock{NEWLINE}foes back! SP{BREAK}",
     "raw_hex": "03040506010708090a0b0c0d0e0f101112131415161718191af0"
   },
   {
@@ -2183,7 +2183,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1CA8",
     "japanese": "ヴッジュラ{BREAK}",
-    "english": "Hobgoblin",
+    "english": "Vajra{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2192,7 +2192,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1CAE",
     "japanese": "[G:405]sでテキをそく[G:257][G:275]かくりつSP[G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Chance to KO{NEWLINE}foes! SP{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f0c1011121314f0"
   },
   {
@@ -2201,7 +2201,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1CF8",
     "japanese": "ジャンピー{BREAK}",
-    "english": "Orc",
+    "english": "Jumpy{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2210,7 +2210,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1CFE",
     "japanese": "[G:254]aモンスターしょうかん/テキを2回rs[G:275]かくりつSP[G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Attacks foes{NEWLINE}twice! SP{BREAK}",
     "raw_hex": "050607020809040a0b0c0d0e0f10111213141516170d18191a1b1c1df0"
   },
   {
@@ -2219,7 +2219,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1D64",
     "japanese": "ハイプリースト{BREAK}",
-    "english": "Orc Warrior",
+    "english": "High Priest{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -2228,7 +2228,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1D6C",
     "japanese": "[G:254]aモンスターしょうかん/プレイヤーのHPを回復[G:275]SP[G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Heals player{NEWLINE}HP! SP{BREAK}",
     "raw_hex": "0708090a050b040c0d0e0f101102120113041415161718191a1b161cf0"
   },
   {
@@ -2237,7 +2237,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1DD0",
     "japanese": "プーニャ{BREAK}",
-    "english": "Skeleton",
+    "english": "Poona{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2246,7 +2246,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1DD5",
     "japanese": "プレイヤーが[G:260][G:261]に[G:289]ぉた[G:270]のHP/MPの回復UP[G:275][G:502][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Room HP/MP{NEWLINE}regen UP! S{BREAK}",
     "raw_hex": "00040506010708090a0b0c0d0e0f10111213110f14151611171819f0"
   },
   {
@@ -2255,7 +2255,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1E34",
     "japanese": "キラービー{BREAK}",
-    "english": "Skel. Lord",
+    "english": "Killer Bee{BREAK}",
     "raw_hex": "0001020302f0"
   },
   {
@@ -2264,7 +2264,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1E3A",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275][G:502][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! S{BREAK}",
     "raw_hex": "040506070809020a0b0c0d0e0f1000111213141516f0"
   },
   {
@@ -2273,7 +2273,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1E8C",
     "japanese": "スケルトン{BREAK}",
-    "english": "Zombie",
+    "english": "Skeleton{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2282,7 +2282,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1E92",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275][G:502][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! S{BREAK}",
     "raw_hex": "050607040008090a0b0c0d0e0f1011121314151617f0"
   },
   {
@@ -2291,7 +2291,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1EE4",
     "japanese": "ケムンパ{BREAK}",
-    "english": "Mummy",
+    "english": "Kemumpa{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2300,7 +2300,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1EE9",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275][G:502][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! S{BREAK}",
     "raw_hex": "040506020708090a0b0c0d0e0f1011121314151617f0"
   },
   {
@@ -2309,7 +2309,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1F3C",
     "japanese": "ゴブリン{BREAK}",
-    "english": "Ghost",
+    "english": "Goblin{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2318,7 +2318,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1F41",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275][G:502][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! S{BREAK}",
     "raw_hex": "040506030708090a0b0c0d0e0f1011121314151617f0"
   },
   {
@@ -2327,7 +2327,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1F94",
     "japanese": "[G:271][G:347][G:348]{BREAK}",
-    "english": "Specter",
+    "english": "Archer{BREAK}",
     "raw_hex": "000102f0"
   },
   {
@@ -2336,7 +2336,7 @@
     "string_index": 1,
     "rom_offset": "0x4D1F98",
     "japanese": "[G:254]aモンスターしょうかん/えんきょりrsが[G:314][G:383][G:275][G:502][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Ranged ally{NEWLINE}attack! S{BREAK}",
     "raw_hex": "030405060708090a0b0c0d0e0f100e110b12131415161718191af0"
   },
   {
@@ -2345,7 +2345,7 @@
     "string_index": 0,
     "rom_offset": "0x4D1FF8",
     "japanese": "グランシャーク{BREAK}",
-    "english": "Wraith",
+    "english": "Grand Shark{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -2363,7 +2363,7 @@
     "string_index": 0,
     "rom_offset": "0x4D203C",
     "japanese": "ターミネーター{BREAK}",
-    "english": "Phantom",
+    "english": "Terminator{BREAK}",
     "raw_hex": "00010203010001f0"
   },
   {
@@ -2372,7 +2372,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2044",
     "japanese": "rsした[G:270]スリープのg[G:393][G:275]かくりつ[G:502][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Attacks may{NEWLINE}sleep! S{BREAK}",
     "raw_hex": "0405060708090a010b0c0d0e0f101112131415f0"
   },
   {
@@ -2381,7 +2381,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2090",
     "japanese": "ドラゴン{BREAK}",
-    "english": "Mimic",
+    "english": "Dragon{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2390,7 +2390,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2095",
     "japanese": "[G:254]aモンスターしょうかん/えんきょりrsが[G:314][G:383][G:275][G:502][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Ranged ally{NEWLINE}attack! S{BREAK}",
     "raw_hex": "040506030708090a0b0c0d0e0f100e110b12131415161718191af0"
   },
   {
@@ -2399,7 +2399,7 @@
     "string_index": 0,
     "rom_offset": "0x4D20F4",
     "japanese": "[G:257][G:266]{BREAK}",
-    "english": "Slime",
+    "english": "Death Armor{BREAK}",
     "raw_hex": "0001f0"
   },
   {
@@ -2408,7 +2408,7 @@
     "string_index": 1,
     "rom_offset": "0x4D20F7",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275][G:502][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! S{BREAK}",
     "raw_hex": "02030405060708090a0b0c0d0e0f10111213141516f0"
   },
   {
@@ -2417,7 +2417,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2148",
     "japanese": "マォドブル{BREAK}",
-    "english": "Red Slime",
+    "english": "Mad Bull{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2426,7 +2426,7 @@
     "string_index": 1,
     "rom_offset": "0x4D214E",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275][G:502][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! S{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f10111213141516171819f0"
   },
   {
@@ -2435,7 +2435,7 @@
     "string_index": 0,
     "rom_offset": "0x4D21A4",
     "japanese": "エビルアイ{BREAK}",
-    "english": "King Slime",
+    "english": "Evil Eye{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2444,7 +2444,7 @@
     "string_index": 1,
     "rom_offset": "0x4D21AA",
     "japanese": "[G:254]aモンスターしょうかん/えんきょりrsが[G:314][G:383][G:275][G:502][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Ranged ally{NEWLINE}attack! S{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f10111210130d1415161718191a1b1cf0"
   },
   {
@@ -2453,7 +2453,7 @@
     "string_index": 0,
     "rom_offset": "0x4D220C",
     "japanese": "デーモン{BREAK}",
-    "english": "Bat",
+    "english": "Demon{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2462,7 +2462,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2211",
     "japanese": "プレイヤーの[G:330][G:484]の[G:405]sが[G:246]やすくなる[G:275][G:502][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Boosts spell{NEWLINE}hit rate! S{BREAK}",
     "raw_hex": "040506070108090a080b0c0d0e0f10111213141516f0"
   },
   {
@@ -2471,7 +2471,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2264",
     "japanese": "キングドラゴン{BREAK}",
-    "english": "Vampire Bat",
+    "english": "King Dragon{BREAK}",
     "raw_hex": "00010203040501f0"
   },
   {
@@ -2480,7 +2480,7 @@
     "string_index": 1,
     "rom_offset": "0x4D226C",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275][G:502][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! S{BREAK}",
     "raw_hex": "06070801090a0b0c0d0e0f10111200131415161718f0"
   },
   {
@@ -2489,7 +2489,7 @@
     "string_index": 0,
     "rom_offset": "0x4D22C0",
     "japanese": "ベビードラゴン{BREAK}",
-    "english": "Giant Spider",
+    "english": "Baby Dragon{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -2498,7 +2498,7 @@
     "string_index": 1,
     "rom_offset": "0x4D22C8",
     "japanese": "[G:254]aモンスターしょうかん/えんきょりrsが[G:314][G:383][G:275][G:502][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Ranged ally{NEWLINE}attack! S{BREAK}",
     "raw_hex": "070809060a0b020c0d0e0f10111210130d1415161718191a1b1cf0"
   },
   {
@@ -2507,7 +2507,7 @@
     "string_index": 0,
     "rom_offset": "0x4D232C",
     "japanese": "ゾンビ{BREAK}",
-    "english": "Tarantula",
+    "english": "Zombie{BREAK}",
     "raw_hex": "000102f0"
   },
   {
@@ -2516,7 +2516,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2330",
     "japanese": "[G:257][G:372]した[G:270]マルチポイズンのg[G:393][G:275]かくりつ[G:502][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "May inflict{NEWLINE}M-Poison! S{BREAK}",
     "raw_hex": "030405060708090a0b0c0d010e0f1011121314151617f0"
   },
   {
@@ -2525,7 +2525,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2384",
     "japanese": "リスタール{BREAK}",
-    "english": "Scorpion",
+    "english": "Ristar{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2534,7 +2534,7 @@
     "string_index": 1,
     "rom_offset": "0x4D238A",
     "japanese": "ガーデァアンに[G:342]して[G:314]い[G:275][G:502][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Strong vs{NEWLINE}Guardians! S{BREAK}",
     "raw_hex": "0503060708090a0b0c0d0e0f101112f0"
   },
   {
@@ -2543,7 +2543,7 @@
     "string_index": 0,
     "rom_offset": "0x4D23CC",
     "japanese": "ハンマーシゥル{BREAK}",
-    "english": "Death Scorp.",
+    "english": "Hammer Shell{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -2552,7 +2552,7 @@
     "string_index": 1,
     "rom_offset": "0x4D23D4",
     "japanese": "[G:254]aモンスターしょうかん/lm[G:401][G:275][G:502][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "High defense{NEWLINE}ally! S{BREAK}",
     "raw_hex": "070809010a0b030c0d0e0f1011121314151617f0"
   },
   {
@@ -2561,7 +2561,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2424",
     "japanese": "デァォグモール{BREAK}",
-    "english": "Snake",
+    "english": "Dig Mole{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -2570,7 +2570,7 @@
     "string_index": 1,
     "rom_offset": "0x4D242C",
     "japanese": "ガーデァアンに[G:342]して[G:314]い[G:275][G:502][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Strong vs{NEWLINE}Guardians! S{BREAK}",
     "raw_hex": "0705000108090a0b0c0d0e0f101112f0"
   },
   {
@@ -2579,7 +2579,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2470",
     "japanese": "ブロォサ{BREAK}",
-    "english": "Viper",
+    "english": "Blossa{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2588,7 +2588,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2475",
     "japanese": "rsした[G:270]ポイズンのg[G:393][G:275]かくりつ[G:502][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "May inflict{NEWLINE}Poison! S{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0e0f10111213141516f0"
   },
   {
@@ -2597,7 +2597,7 @@
     "string_index": 0,
     "rom_offset": "0x4D24C4",
     "japanese": "ビショォプ{BREAK}",
-    "english": "Cobra",
+    "english": "Bishop{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2606,7 +2606,7 @@
     "string_index": 1,
     "rom_offset": "0x4D24CA",
     "japanese": "プレイヤーが[G:257][G:372]した[G:270][G:355]き[G:356]らせる[G:275]かくりつ[G:502][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "May knock{NEWLINE}foes back! S{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0e0f101112131415161718191a1bf0"
   },
   {
@@ -2615,7 +2615,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2528",
     "japanese": "アシュラ{BREAK}",
-    "english": "Hydra",
+    "english": "Ashura{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2624,7 +2624,7 @@
     "string_index": 1,
     "rom_offset": "0x4D252D",
     "japanese": "[G:405]sでテキをそく[G:257][G:275]かくりつ[G:502][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Chance to{NEWLINE}KO foes! S{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0e0b0f101112f0"
   },
   {
@@ -2633,7 +2633,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2570",
     "japanese": "ホォピー{BREAK}",
-    "english": "Basilisk",
+    "english": "Hoppy{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2642,7 +2642,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2575",
     "japanese": "[G:254]aモンスターしょうかん/テキを2回rs[G:275]かくりつ[G:502][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Attacks foes{NEWLINE}twice! S{BREAK}",
     "raw_hex": "040506070809030a0b0c0d0e0f10111213141516170d18191a1b1cf0"
   },
   {
@@ -2651,7 +2651,7 @@
     "string_index": 0,
     "rom_offset": "0x4D25D8",
     "japanese": "プリースト{BREAK}",
-    "english": "Cockatrice",
+    "english": "Priest{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2660,7 +2660,7 @@
     "string_index": 1,
     "rom_offset": "0x4D25DE",
     "japanese": "[G:254]aモンスターしょうかん/プレイヤーのHPを回復[G:275][G:502][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Heals player{NEWLINE}HP! S{BREAK}",
     "raw_hex": "050607080309020a0b0c0d0e0f0010111202131415161718191a1bf0"
   },
   {
@@ -2669,7 +2669,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2640",
     "japanese": "プーニャ{BREAK}",
-    "english": "Harpy",
+    "english": "Poona{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2678,7 +2678,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2645",
     "japanese": "プレイヤーが[G:260][G:261]に[G:289]ぉた[G:270]のHP/MPの回復UP[G:275][G:345][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Room HP/MP{NEWLINE}regen UP! M{BREAK}",
     "raw_hex": "00040506010708090a0b0c0d0e0f10111213110f14151611171819f0"
   },
   {
@@ -2687,7 +2687,7 @@
     "string_index": 0,
     "rom_offset": "0x4D26A4",
     "japanese": "キラービー{BREAK}",
-    "english": "Gargoyle",
+    "english": "Killer Bee{BREAK}",
     "raw_hex": "0001020302f0"
   },
   {
@@ -2696,7 +2696,7 @@
     "string_index": 1,
     "rom_offset": "0x4D26AA",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275][G:345][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! M{BREAK}",
     "raw_hex": "040506070809020a0b0c0d0e0f1000111213141516f0"
   },
   {
@@ -2705,7 +2705,7 @@
     "string_index": 0,
     "rom_offset": "0x4D26FC",
     "japanese": "スケルトン{BREAK}",
-    "english": "Minotaur",
+    "english": "Skeleton{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2714,7 +2714,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2702",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275][G:345][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! M{BREAK}",
     "raw_hex": "050607040008090a0b0c0d0e0f1011121314151617f0"
   },
   {
@@ -2723,7 +2723,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2754",
     "japanese": "ケムンパ{BREAK}",
-    "english": "Centaur",
+    "english": "Kemumpa{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2732,7 +2732,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2759",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275][G:345][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! M{BREAK}",
     "raw_hex": "040506020708090a0b0c0d0e0f1011121314151617f0"
   },
   {
@@ -2741,7 +2741,7 @@
     "string_index": 0,
     "rom_offset": "0x4D27AC",
     "japanese": "ゴブリン{BREAK}",
-    "english": "Golem",
+    "english": "Goblin{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2750,7 +2750,7 @@
     "string_index": 1,
     "rom_offset": "0x4D27B1",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275][G:345][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! M{BREAK}",
     "raw_hex": "040506030708090a0b0c0d0e0f1011121314151617f0"
   },
   {
@@ -2759,7 +2759,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2804",
     "japanese": "[G:271][G:347][G:348]{BREAK}",
-    "english": "Stone Golem",
+    "english": "Archer{BREAK}",
     "raw_hex": "000102f0"
   },
   {
@@ -2768,7 +2768,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2808",
     "japanese": "[G:254]aモンスターしょうかん/えんきょりrsが[G:314][G:383][G:275][G:345][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Ranged ally{NEWLINE}attack! M{BREAK}",
     "raw_hex": "030405060708090a0b0c0d0e0f100e110b12131415161718191af0"
   },
   {
@@ -2777,7 +2777,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2868",
     "japanese": "グランシャーク{BREAK}",
-    "english": "Iron Golem",
+    "english": "Grand Shark{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -2786,7 +2786,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2870",
     "japanese": "wxyzのテキをpqrs[G:275]2マス[G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Hits foes up{NEWLINE}to 2 tiles!{BREAK}",
     "raw_hex": "0708090a0b0c0d0e0f1011121314151617f0"
   },
   {
@@ -2795,7 +2795,7 @@
     "string_index": 0,
     "rom_offset": "0x4D28C0",
     "japanese": "ターミネーター{BREAK}",
-    "english": "Clay Golem",
+    "english": "Terminator{BREAK}",
     "raw_hex": "00010203010001f0"
   },
   {
@@ -2804,7 +2804,7 @@
     "string_index": 1,
     "rom_offset": "0x4D28C8",
     "japanese": "rsした[G:270]スリープのg[G:393][G:275]かくりつ[G:345][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Attacks may{NEWLINE}sleep! M{BREAK}",
     "raw_hex": "0405060708090a010b0c0d0e0f101112131415f0"
   },
   {
@@ -2813,7 +2813,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2914",
     "japanese": "ドラゴン{BREAK}",
-    "english": "Fire Element",
+    "english": "Dragon{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2822,7 +2822,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2919",
     "japanese": "[G:254]aモンスターしょうかん/えんきょりrsが[G:314][G:383][G:275][G:345][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Ranged ally{NEWLINE}attack! M{BREAK}",
     "raw_hex": "040506030708090a0b0c0d0e0f100e110b12131415161718191af0"
   },
   {
@@ -2831,7 +2831,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2978",
     "japanese": "[G:257][G:266]{BREAK}",
-    "english": "Ice Element",
+    "english": "Death Armor{BREAK}",
     "raw_hex": "0001f0"
   },
   {
@@ -2840,7 +2840,7 @@
     "string_index": 1,
     "rom_offset": "0x4D297B",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275][G:345][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! M{BREAK}",
     "raw_hex": "02030405060708090a0b0c0d0e0f10111213141516f0"
   },
   {
@@ -2849,7 +2849,7 @@
     "string_index": 0,
     "rom_offset": "0x4D29CC",
     "japanese": "マォドブル{BREAK}",
-    "english": "Thun. Spirit",
+    "english": "Mad Bull{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2858,7 +2858,7 @@
     "string_index": 1,
     "rom_offset": "0x4D29D2",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275][G:345][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! M{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f10111213141516171819f0"
   },
   {
@@ -2867,7 +2867,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2A28",
     "japanese": "エビルアイ{BREAK}",
-    "english": "Dark Knight",
+    "english": "Evil Eye{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2876,7 +2876,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2A2E",
     "japanese": "[G:254]aモンスターしょうかん/えんきょりrsが[G:314][G:383][G:275][G:345][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Ranged ally{NEWLINE}attack! M{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f10111210130d1415161718191a1b1cf0"
   },
   {
@@ -2885,7 +2885,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2A90",
     "japanese": "デーモン{BREAK}",
-    "english": "Death Knight",
+    "english": "Demon{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -2894,7 +2894,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2A95",
     "japanese": "プレイヤーの[G:330][G:484]の[G:405]sが[G:246]やすくなる[G:275][G:345][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Boosts spell{NEWLINE}hit rate! M{BREAK}",
     "raw_hex": "040506070108090a080b0c0d0e0f10111213141516f0"
   },
   {
@@ -2903,7 +2903,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2AE8",
     "japanese": "キングドラゴン{BREAK}",
-    "english": "Shadow",
+    "english": "King Dragon{BREAK}",
     "raw_hex": "00010203040501f0"
   },
   {
@@ -2912,7 +2912,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2AF0",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275][G:345][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! M{BREAK}",
     "raw_hex": "06070801090a0b0c0d0e0f10111200131415161718f0"
   },
   {
@@ -2921,7 +2921,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2B44",
     "japanese": "ベビードラゴン{BREAK}",
-    "english": "Beholder",
+    "english": "Baby Dragon{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -2930,7 +2930,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2B4C",
     "japanese": "[G:254]aモンスターしょうかん/えんきょりrsが[G:314][G:383][G:275][G:345][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Ranged ally{NEWLINE}attack! M{BREAK}",
     "raw_hex": "070809060a0b020c0d0e0f10111210130d1415161718191a1b1cf0"
   },
   {
@@ -2939,7 +2939,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2BB0",
     "japanese": "ゾンビ{BREAK}",
-    "english": "Evil Eye",
+    "english": "Zombie{BREAK}",
     "raw_hex": "000102f0"
   },
   {
@@ -2948,7 +2948,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2BB4",
     "japanese": "[G:257][G:372]した[G:270]マルチポイズンのg[G:393][G:275]かくりつ[G:345][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "May inflict{NEWLINE}M-Poison! M{BREAK}",
     "raw_hex": "030405060708090a0b0c0d010e0f1011121314151617f0"
   },
   {
@@ -2957,7 +2957,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2C08",
     "japanese": "リスタール{BREAK}",
-    "english": "Chimera",
+    "english": "Ristar{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -2966,7 +2966,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2C0E",
     "japanese": "ガーデァアンに[G:342]して[G:314]い[G:275][G:345][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Strong vs{NEWLINE}Guardians! M{BREAK}",
     "raw_hex": "0503060708090a0b0c0d0e0f101112f0"
   },
   {
@@ -2975,7 +2975,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2C50",
     "japanese": "ハンマーシゥル{BREAK}",
-    "english": "Manticore",
+    "english": "Hammer Shell{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -2984,7 +2984,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2C58",
     "japanese": "[G:254]aモンスターしょうかん/lm[G:401][G:275][G:345][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "High defense{NEWLINE}ally! M{BREAK}",
     "raw_hex": "070809010a0b030c0d0e0f1011121314151617f0"
   },
   {
@@ -2993,7 +2993,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2CA8",
     "japanese": "デァォグモール{BREAK}",
-    "english": "Wyvern",
+    "english": "Dig Mole{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -3002,7 +3002,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2CB0",
     "japanese": "ガーデァアンに[G:342]して[G:314]い[G:275][G:345][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Strong vs{NEWLINE}Guardians! M{BREAK}",
     "raw_hex": "0705000108090a0b0c0d0e0f101112f0"
   },
   {
@@ -3011,7 +3011,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2CF4",
     "japanese": "ブロォサ{BREAK}",
-    "english": "Drake",
+    "english": "Blossa{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -3020,7 +3020,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2CF9",
     "japanese": "rsした[G:270]ポイズンのg[G:393][G:275]かくりつ[G:345][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "May inflict{NEWLINE}Poison! M{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0e0f10111213141516f0"
   },
   {
@@ -3029,7 +3029,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2D48",
     "japanese": "ビショォプ{BREAK}",
-    "english": "Red Dragon",
+    "english": "Bishop{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -3038,7 +3038,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2D4E",
     "japanese": "プレイヤーが[G:257][G:372]した[G:270][G:355]き[G:356]らせる[G:275]かくりつ[G:345][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "May knock{NEWLINE}foes back! M{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0e0f101112131415161718191a1bf0"
   },
   {
@@ -3047,7 +3047,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2DAC",
     "japanese": "アシュラ{BREAK}",
-    "english": "Blue Dragon",
+    "english": "Ashura{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -3056,7 +3056,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2DB1",
     "japanese": "[G:405]sでテキをそく[G:257][G:275]かくりつ[G:345][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Chance to{NEWLINE}KO foes! M{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0e0b0f101112f0"
   },
   {
@@ -3065,7 +3065,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2DF4",
     "japanese": "ホォピー{BREAK}",
-    "english": "Green Dragon",
+    "english": "Hoppy{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -3074,7 +3074,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2DF9",
     "japanese": "[G:254]aモンスターしょうかん/テキを2回rs[G:275]かくりつ[G:345][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Attacks foes{NEWLINE}twice! M{BREAK}",
     "raw_hex": "040506070809030a0b0c0d0e0f10111213141516170d18191a1b1cf0"
   },
   {
@@ -3083,7 +3083,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2E5C",
     "japanese": "プリースト{BREAK}",
-    "english": "Gold Dragon",
+    "english": "Priest{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -3092,7 +3092,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2E62",
     "japanese": "[G:254]aモンスターしょうかん/プレイヤーのHPを回復[G:275][G:345][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Heals player{NEWLINE}HP! M{BREAK}",
     "raw_hex": "050607080309020a0b0c0d0e0f0010111202131415161718191a1bf0"
   },
   {
@@ -3101,7 +3101,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2EC4",
     "japanese": "プーニャ{BREAK}",
-    "english": "Black Dragon",
+    "english": "Poona{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -3110,7 +3110,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2EC9",
     "japanese": "プレイヤーが[G:260][G:261]に[G:289]ぉた[G:270]のHP/MPの回復UP[G:275][G:252][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Room HP/MP{NEWLINE}regen UP! L{BREAK}",
     "raw_hex": "00040506010708090a0b0c0d0e0f10111213110f14151611171819f0"
   },
   {
@@ -3119,7 +3119,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2F28",
     "japanese": "キラービー{BREAK}",
-    "english": "Silver Dragon",
+    "english": "Killer Bee{BREAK}",
     "raw_hex": "0001020302f0"
   },
   {
@@ -3128,7 +3128,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2F2E",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275][G:252][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! L{BREAK}",
     "raw_hex": "040506070809020a0b0c0d0e0f1000111213141516f0"
   },
   {
@@ -3137,7 +3137,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2F80",
     "japanese": "スケルトン{BREAK}",
-    "english": "Kemumpa",
+    "english": "Skeleton{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -3146,7 +3146,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2F86",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275][G:252][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! L{BREAK}",
     "raw_hex": "050607040008090a0b0c0d0e0f1011121314151617f0"
   },
   {
@@ -3155,7 +3155,7 @@
     "string_index": 0,
     "rom_offset": "0x4D2FD8",
     "japanese": "ケムンパ{BREAK}",
-    "english": "Big Kemumpa",
+    "english": "Kemumpa{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -3164,7 +3164,7 @@
     "string_index": 1,
     "rom_offset": "0x4D2FDD",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275][G:252][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! L{BREAK}",
     "raw_hex": "040506020708090a0b0c0d0e0f1011121314151617f0"
   },
   {
@@ -3173,7 +3173,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3030",
     "japanese": "ゴブリン{BREAK}",
-    "english": "King Kemumpa",
+    "english": "Goblin{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -3182,7 +3182,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3035",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275][G:252][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! L{BREAK}",
     "raw_hex": "040506030708090a0b0c0d0e0f1011121314151617f0"
   },
   {
@@ -3191,7 +3191,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3088",
     "japanese": "[G:271][G:347][G:348]{BREAK}",
-    "english": "Queen Kemumpa",
+    "english": "Archer{BREAK}",
     "raw_hex": "000102f0"
   },
   {
@@ -3200,7 +3200,7 @@
     "string_index": 1,
     "rom_offset": "0x4D308C",
     "japanese": "[G:254]aモンスターしょうかん/えんきょりrsが[G:314][G:383][G:275][G:252][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Ranged ally{NEWLINE}attack! L{BREAK}",
     "raw_hex": "030405060708090a0b0c0d0e0f100e110b12131415161718191af0"
   },
   {
@@ -3209,7 +3209,7 @@
     "string_index": 0,
     "rom_offset": "0x4D30EC",
     "japanese": "グランシャーク{BREAK}",
-    "english": "Cyclops",
+    "english": "Grand Shark{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -3218,7 +3218,7 @@
     "string_index": 1,
     "rom_offset": "0x4D30F4",
     "japanese": "wxyzのテキをpqrs[G:275]2マス[G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Hits foes up{NEWLINE}to 2 tiles!{BREAK}",
     "raw_hex": "0708090a0b0c0d0e0f1011121314151617f0"
   },
   {
@@ -3227,7 +3227,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3144",
     "japanese": "ターミネーター{BREAK}",
-    "english": "Ogre",
+    "english": "Terminator{BREAK}",
     "raw_hex": "00010203010001f0"
   },
   {
@@ -3236,7 +3236,7 @@
     "string_index": 1,
     "rom_offset": "0x4D314C",
     "japanese": "rsした[G:270]スリープのg[G:393][G:275]かくりつ[G:252][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Attacks may{NEWLINE}sleep! L{BREAK}",
     "raw_hex": "0405060708090a010b0c0d0e0f101112131415f0"
   },
   {
@@ -3245,7 +3245,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3198",
     "japanese": "ドラゴン{BREAK}",
-    "english": "Troll",
+    "english": "Dragon{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -3254,7 +3254,7 @@
     "string_index": 1,
     "rom_offset": "0x4D319D",
     "japanese": "[G:254]aモンスターしょうかん/えんきょりrsが[G:314][G:383][G:275][G:252][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Ranged ally{NEWLINE}attack! L{BREAK}",
     "raw_hex": "040506030708090a0b0c0d0e0f100e110b12131415161718191af0"
   },
   {
@@ -3263,7 +3263,7 @@
     "string_index": 0,
     "rom_offset": "0x4D31FC",
     "japanese": "[G:257][G:266]{BREAK}",
-    "english": "Titan",
+    "english": "Death Armor{BREAK}",
     "raw_hex": "0001f0"
   },
   {
@@ -3272,7 +3272,7 @@
     "string_index": 1,
     "rom_offset": "0x4D31FF",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275][G:252][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! L{BREAK}",
     "raw_hex": "02030405060708090a0b0c0d0e0f10111213141516f0"
   },
   {
@@ -3281,7 +3281,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3250",
     "japanese": "マォドブル{BREAK}",
-    "english": "Behemoth",
+    "english": "Mad Bull{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -3290,7 +3290,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3256",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275][G:252][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! L{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f10111213141516171819f0"
   },
   {
@@ -3299,7 +3299,7 @@
     "string_index": 0,
     "rom_offset": "0x4D32AC",
     "japanese": "エビルアイ{BREAK}",
-    "english": "Cerberus",
+    "english": "Evil Eye{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -3308,7 +3308,7 @@
     "string_index": 1,
     "rom_offset": "0x4D32B2",
     "japanese": "[G:254]aモンスターしょうかん/えんきょりrsが[G:314][G:383][G:275][G:252][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Ranged ally{NEWLINE}attack! L{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f10111210130d1415161718191a1b1cf0"
   },
   {
@@ -3317,7 +3317,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3314",
     "japanese": "デーモン{BREAK}",
-    "english": "Fenrir",
+    "english": "Demon{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -3326,7 +3326,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3319",
     "japanese": "プレイヤーの[G:330][G:484]の[G:405]sが[G:246]やすくなる[G:275][G:252][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Boosts spell{NEWLINE}hit rate! L{BREAK}",
     "raw_hex": "040506070108090a080b0c0d0e0f10111213141516f0"
   },
   {
@@ -3335,7 +3335,7 @@
     "string_index": 0,
     "rom_offset": "0x4D336C",
     "japanese": "キングドラゴン{BREAK}",
-    "english": "Hellhound",
+    "english": "King Dragon{BREAK}",
     "raw_hex": "00010203040501f0"
   },
   {
@@ -3344,7 +3344,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3374",
     "japanese": "[G:254]aモンスターしょうかん/テキにrs[G:275][G:252][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Summon ally{NEWLINE}to fight! L{BREAK}",
     "raw_hex": "06070801090a0b0c0d0e0f10111200131415161718f0"
   },
   {
@@ -3353,7 +3353,7 @@
     "string_index": 0,
     "rom_offset": "0x4D33C8",
     "japanese": "ベビードラゴン{BREAK}",
-    "english": "Wolf",
+    "english": "Baby Dragon{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -3362,7 +3362,7 @@
     "string_index": 1,
     "rom_offset": "0x4D33D0",
     "japanese": "[G:254]aモンスターしょうかん/えんきょりrsが[G:314][G:383][G:275][G:252][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Ranged ally{NEWLINE}attack! L{BREAK}",
     "raw_hex": "070809060a0b020c0d0e0f10111210130d1415161718191a1b1cf0"
   },
   {
@@ -3371,7 +3371,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3434",
     "japanese": "ゾンビ{BREAK}",
-    "english": "Dire Wolf",
+    "english": "Zombie{BREAK}",
     "raw_hex": "000102f0"
   },
   {
@@ -3380,7 +3380,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3438",
     "japanese": "[G:257][G:372]した[G:270]マルチポイズンのg[G:393][G:275]かくりつ[G:252][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "May inflict{NEWLINE}M-Poison! L{BREAK}",
     "raw_hex": "030405060708090a0b0c0d010e0f1011121314151617f0"
   },
   {
@@ -3389,7 +3389,7 @@
     "string_index": 0,
     "rom_offset": "0x4D348C",
     "japanese": "リスタール{BREAK}",
-    "english": "Werewolf",
+    "english": "Ristar{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -3398,7 +3398,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3492",
     "japanese": "ガーデァアンに[G:342]して[G:314]い[G:275][G:252][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Strong vs{NEWLINE}Guardians! L{BREAK}",
     "raw_hex": "0503060708090a0b0c0d0e0f101112f0"
   },
   {
@@ -3407,7 +3407,7 @@
     "string_index": 0,
     "rom_offset": "0x4D34D4",
     "japanese": "ハンマーシゥル{BREAK}",
-    "english": "Imp",
+    "english": "Hammer Shell{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -3416,7 +3416,7 @@
     "string_index": 1,
     "rom_offset": "0x4D34DC",
     "japanese": "[G:254]aモンスターしょうかん/lm[G:401][G:275][G:252][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "High defense{NEWLINE}ally! L{BREAK}",
     "raw_hex": "070809010a0b030c0d0e0f1011121314151617f0"
   },
   {
@@ -3425,7 +3425,7 @@
     "string_index": 0,
     "rom_offset": "0x4D352C",
     "japanese": "デァォグモール{BREAK}",
-    "english": "Demon",
+    "english": "Dig Mole{BREAK}",
     "raw_hex": "00010203040506f0"
   },
   {
@@ -3434,7 +3434,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3534",
     "japanese": "ガーデァアンに[G:342]して[G:314]い[G:275][G:252][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Strong vs{NEWLINE}Guardians! L{BREAK}",
     "raw_hex": "0705000108090a0b0c0d0e0f101112f0"
   },
   {
@@ -3443,7 +3443,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3578",
     "japanese": "ブロォサ{BREAK}",
-    "english": "Devil",
+    "english": "Blossa{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -3452,7 +3452,7 @@
     "string_index": 1,
     "rom_offset": "0x4D357D",
     "japanese": "rsした[G:270]ポイズンのg[G:393][G:275]かくりつ[G:252][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "May inflict{NEWLINE}Poison! L{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0e0f10111213141516f0"
   },
   {
@@ -3461,7 +3461,7 @@
     "string_index": 0,
     "rom_offset": "0x4D35CC",
     "japanese": "ビショォプ{BREAK}",
-    "english": "Lesser Demon",
+    "english": "Bishop{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -3470,7 +3470,7 @@
     "string_index": 1,
     "rom_offset": "0x4D35D2",
     "japanese": "プレイヤーが[G:257][G:372]した[G:270][G:355]き[G:356]らせる[G:275]かくりつ[G:252][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "May knock{NEWLINE}foes back! L{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0e0f101112131415161718191a1bf0"
   },
   {
@@ -3479,7 +3479,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3630",
     "japanese": "アシュラ{BREAK}",
-    "english": "Great Demon",
+    "english": "Ashura{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -3488,7 +3488,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3635",
     "japanese": "[G:405]sでテキをそく[G:257][G:275]かくりつ[G:252][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Chance to{NEWLINE}KO foes! L{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0e0b0f101112f0"
   },
   {
@@ -3497,7 +3497,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3678",
     "japanese": "ホォピー{BREAK}",
-    "english": "Reaper",
+    "english": "Hoppy{BREAK}",
     "raw_hex": "00010203f0"
   },
   {
@@ -3506,7 +3506,7 @@
     "string_index": 1,
     "rom_offset": "0x4D367D",
     "japanese": "[G:254]aモンスターしょうかん/テキを2回rs[G:275]かくりつ[G:252][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Attacks foes{NEWLINE}twice! L{BREAK}",
     "raw_hex": "040506070809030a0b0c0d0e0f10111213141516170d18191a1b1cf0"
   },
   {
@@ -3515,7 +3515,7 @@
     "string_index": 0,
     "rom_offset": "0x4D36E0",
     "japanese": "プリースト{BREAK}",
-    "english": "Death",
+    "english": "Priest{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -3524,7 +3524,7 @@
     "string_index": 1,
     "rom_offset": "0x4D36E6",
     "japanese": "[G:254]aモンスターしょうかん/プレイヤーのHPを回復[G:275][G:252][G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Heals player{NEWLINE}HP! L{BREAK}",
     "raw_hex": "050607080309020a0b0c0d0e0f0010111202131415161718191a1bf0"
   },
   {
@@ -3533,7 +3533,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3748",
     "japanese": "{BREAK}",
-    "english": "Specter King",
+    "english": "{BREAK}",
     "raw_hex": "f0"
   },
   {
@@ -3542,7 +3542,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3749",
     "japanese": "コイン2ばい{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Double coins!{BREAK}",
     "raw_hex": "000102030405f0"
   },
   {
@@ -3551,7 +3551,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3768",
     "japanese": "{BREAK}",
-    "english": "Vampire Lord",
+    "english": "{BREAK}",
     "raw_hex": "f0"
   },
   {
@@ -3560,7 +3560,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3769",
     "japanese": "ダンジョンクリア[G:275]コインかくとく[G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Clear dungeon{NEWLINE}for coins!{BREAK}",
     "raw_hex": "0001020301040506070809010a0b0c0b0df0"
   },
   {
@@ -3569,7 +3569,7 @@
     "string_index": 0,
     "rom_offset": "0x4D37A4",
     "japanese": "{BREAK}",
-    "english": "Demon King",
+    "english": "{BREAK}",
     "raw_hex": "f0"
   },
   {
@@ -3578,7 +3578,7 @@
     "string_index": 1,
     "rom_offset": "0x4D37A5",
     "japanese": "コインかくとく{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Earn coins!{BREAK}",
     "raw_hex": "00010203040504f0"
   },
   {
@@ -3587,7 +3587,7 @@
     "string_index": 0,
     "rom_offset": "0x4D37C8",
     "japanese": "{BREAK}",
-    "english": "Chaos Beast",
+    "english": "{BREAK}",
     "raw_hex": "f0"
   },
   {
@@ -3596,7 +3596,7 @@
     "string_index": 1,
     "rom_offset": "0x4D37C9",
     "japanese": "くだけたオーブのかけら[G:275]コインかくとく[G:276]{BREAK}",
-    "english": "Summon ally{NEWLINE}to fight!{BREAK}",
+    "english": "Orb Shard{NEWLINE}for coins!{BREAK}",
     "raw_hex": "00010203040506070802090a0b0c0d08000e000ff0"
   },
   {
@@ -3605,7 +3605,7 @@
     "string_index": 0,
     "rom_offset": "0x4D380C",
     "japanese": "はじめてのダンジョン{BREAK}",
-    "english": "Beginner Cave",
+    "english": "First Dungeon{BREAK}",
     "raw_hex": "00010203040506070806f0"
   },
   {
@@ -3614,7 +3614,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3817",
     "japanese": "まずは.ルールとテクニォクを[G:398]えよう{BREAK}",
-    "english": "Learn rules &{NEWLINE}card basics.{BREAK}",
+    "english": "Learn rules &{NEWLINE}techniques!{BREAK}",
     "raw_hex": "090a000b0c0d0c0e0f101112101314151617f0"
   },
   {
@@ -3623,7 +3623,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3868",
     "japanese": "ちいさいダンジョン{BREAK}",
-    "english": "Placid Cave",
+    "english": "Small Dungeon{BREAK}",
     "raw_hex": "000102010304050604f0"
   },
   {
@@ -3632,7 +3632,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3872",
     "japanese": "かんたんなダンジョンでうでだめし{BREAK}",
-    "english": "Lots of items{NEWLINE}drop here.{BREAK}",
+    "english": "Test skill in{NEWLINE}a small maze!{BREAK}",
     "raw_hex": "070809080a03040506040b0c0b0d0e0ff0"
   },
   {
@@ -3641,7 +3641,7 @@
     "string_index": 0,
     "rom_offset": "0x4D38B0",
     "japanese": "やさしいダンジョン{BREAK}",
-    "english": "Deep Cavern",
+    "english": "Easy Dungeon{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3650,7 +3650,7 @@
     "string_index": 1,
     "rom_offset": "0x4D38BA",
     "japanese": "ケムンパはフッイアーで[G:296]そう!{BREAK}",
-    "english": "Big map with{NEWLINE}many rooms.{BREAK}",
+    "english": "Burn Kemumpas{NEWLINE}with Fire!{BREAK}",
     "raw_hex": "0809050a0b0c0d0e0f101112131415f0"
   },
   {
@@ -3659,7 +3659,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3904",
     "japanese": "きらくなダンジョン{BREAK}",
-    "english": "Sturdy Cave",
+    "english": "Calm Dungeon{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3668,7 +3668,7 @@
     "string_index": 1,
     "rom_offset": "0x4D390E",
     "japanese": "モンスターだらけ///でもtぉてる{BREAK}",
-    "english": "Watch out for{NEWLINE}zombie packs!{BREAK}",
+    "english": "Full of foes,{NEWLINE}all asleep!{BREAK}",
     "raw_hex": "0805090a0b0c010d0e0e0e0f1011121314f0"
   },
   {
@@ -3677,7 +3677,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3958",
     "japanese": "すずしいダンジョン{BREAK}",
-    "english": "Endless Abyss",
+    "english": "Cool Dungeon{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3686,7 +3686,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3962",
     "japanese": "スイスイすべる[G:367]の[G:368]があるぞ!{BREAK}",
-    "english": "Can you win{NEWLINE}to the end?!{BREAK}",
+    "english": "Watch out for{NEWLINE}icy floors!{BREAK}",
     "raw_hex": "08090809000a0b0c0d0e0f100b1112f0"
   },
   {
@@ -3695,7 +3695,7 @@
     "string_index": 0,
     "rom_offset": "0x4D39A4",
     "japanese": "ゆとりのダンジョン{BREAK}",
-    "english": "Cool Cavern",
+    "english": "Relaxed Maze{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3704,7 +3704,7 @@
     "string_index": 1,
     "rom_offset": "0x4D39AE",
     "japanese": "[G:262][G:316]フロアーにはショォプがあるのだ!{BREAK}",
-    "english": "Chilly floors{NEWLINE}and monsters.{BREAK}",
+    "english": "There's a{NEWLINE}shop inside!{BREAK}",
     "raw_hex": "08090a0b0c0d0e0f10071112131415031617f0"
   },
   {
@@ -3713,7 +3713,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3A00",
     "japanese": "ふつうのダンジョン{BREAK}",
-    "english": "Merry Cave",
+    "english": "Normal Maze{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3722,7 +3722,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3A0A",
     "japanese": "とおくからrsしてくる[G:271][G:347][G:348]に[G:369][G:370]せよ!{BREAK}",
-    "english": "Busy dungeon{NEWLINE}with chests.{BREAK}",
+    "english": "Watch out for{NEWLINE}Archer snipe!{BREAK}",
     "raw_hex": "08090a0b0c0d0e0f100a1112131415161718191af0"
   },
   {
@@ -3731,7 +3731,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3A64",
     "japanese": "きわどいダンジョン{BREAK}",
-    "english": "Fierce Cave",
+    "english": "Tricky Maze{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3740,7 +3740,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3A6E",
     "japanese": "ポーションをたぉぷり[G:237]ぉて.ちょうせんしよう!{BREAK}",
-    "english": "Wild monsters{NEWLINE}prowl halls.{BREAK}",
+    "english": "Stock up on{NEWLINE}Potions!{BREAK}",
     "raw_hex": "08090a07050b0c0d0e0f100d111213141516171819151af0"
   },
   {
@@ -3749,7 +3749,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3AC8",
     "japanese": "うれしいダンジョン{BREAK}",
-    "english": "Trial Cave",
+    "english": "Happy Dungeon{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3758,7 +3758,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3AD2",
     "japanese": "アイテムがいぉぱい!ショォプもあるぞ!{BREAK}",
-    "english": "Test skill vs{NEWLINE}tough foes.{BREAK}",
+    "english": "Lots of items{NEWLINE}& a shop too!{BREAK}",
     "raw_hex": "08090a0b0c030d0e030f10071112131415160ff0"
   },
   {
@@ -3767,7 +3767,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3B20",
     "japanese": "ゆかいなダンジョン{BREAK}",
-    "english": "Dragon Nest",
+    "english": "Merry Dungeon{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3776,7 +3776,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3B2A",
     "japanese": "カジノを[G:255]ぉてアイテムゲォト!{BREAK}",
-    "english": "Fierce drakes{NEWLINE}roost inside.{BREAK}",
+    "english": "Play Casino{NEWLINE}to win items!{BREAK}",
     "raw_hex": "0806090a0b0c0d0e0f101112131415f0"
   },
   {
@@ -3785,7 +3785,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3B74",
     "japanese": "でぉかいダンジョン{BREAK}",
-    "english": "Shadow Lair",
+    "english": "Huge Dungeon{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3794,7 +3794,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3B7E",
     "japanese": "[G:244]く[G:320]しいぞ たんさくアイテムをうまく[G:255]おう!{BREAK}",
-    "english": "Dark halls,{NEWLINE}hidden traps.{BREAK}",
+    "english": "Huge! Use{NEWLINE}search items!{BREAK}",
     "raw_hex": "08090a0b030c0d0e0f100911121314151617091819161af0"
   },
   {
@@ -3803,7 +3803,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3BD8",
     "japanese": "ぶきみなダンジョン{BREAK}",
-    "english": "Gold Mine",
+    "english": "Eerie Dungeon{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3812,7 +3812,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3BE2",
     "japanese": "まさにドラゴンのそうくつだ!{BREAK}",
-    "english": "Many coins &{NEWLINE}chests here.{BREAK}",
+    "english": "A true nest{NEWLINE}of Dragons!{BREAK}",
     "raw_hex": "08090a0b0c0d050e0f1011121314f0"
   },
   {
@@ -3821,7 +3821,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3C28",
     "japanese": "てごわいダンジョン{BREAK}",
-    "english": "Mystic Tower",
+    "english": "Tough Dungeon{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3830,7 +3830,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3C32",
     "japanese": "モンスターのヒーリングにてこずるぞ!{BREAK}",
-    "english": "High magic in{NEWLINE}corridors.{BREAK}",
+    "english": "Foes heal HP,{NEWLINE}be careful!{BREAK}",
     "raw_hex": "0805090a0b0c0d0b0e050f10001112131415f0"
   },
   {
@@ -3839,7 +3839,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3C80",
     "japanese": "つめたいダンジョン{BREAK}",
-    "english": "Demon Crypt",
+    "english": "Cold Dungeon{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3848,7 +3848,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3C8A",
     "japanese": "[G:393]てしない[G:367]の[G:371][G:236]をつきすすめ{BREAK}",
-    "english": "Undead lurk{NEWLINE}in rooms.{BREAK}",
+    "english": "Push through{NEWLINE}endless ice!{BREAK}",
     "raw_hex": "08090a0b030c0d0e0f100011121201f0"
   },
   {
@@ -3857,7 +3857,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3CCC",
     "japanese": "はげしいダンジョン{BREAK}",
-    "english": "Ancient Ruin",
+    "english": "Fierce Maze{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3866,7 +3866,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3CD6",
     "japanese": "きょうぼうなモンスターが[G:355][G:520]する{BREAK}",
-    "english": "Find secrets{NEWLINE}of the Gate.{BREAK}",
+    "english": "Ferocious{NEWLINE}foes appear!{BREAK}",
     "raw_hex": "08090a0b0a0c0d050e0f101112131415f0"
   },
   {
@@ -3875,7 +3875,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3D20",
     "japanese": "しぶといダンジョン{BREAK}",
-    "english": "Beginner Cave",
+    "english": "Stubborn Maze{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3884,7 +3884,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3D2A",
     "japanese": "[G:521][G:257][G:468]のゾンビに[G:315]をつけろ///{BREAK}",
-    "english": "Learn rules &{NEWLINE}card basics.{BREAK}",
+    "english": "Watch out for{NEWLINE}Zombie packs!{BREAK}",
     "raw_hex": "08090a0b0c050d0e0f10111213141414f0"
   },
   {
@@ -3893,7 +3893,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3D74",
     "japanese": "ゆめみるダンジョン{BREAK}",
-    "english": "Placid Cave",
+    "english": "Dream Dungeon{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3902,7 +3902,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3D7E",
     "japanese": "[G:262][G:316]フロアーには[G:373][G:374][G:375]がいぉぱい!{BREAK}",
-    "english": "Lots of items{NEWLINE}drop here.{BREAK}",
+    "english": "Full of rare{NEWLINE}treasures!{BREAK}",
     "raw_hex": "08090a0b0c0d0e0f101112131415161417f0"
   },
   {
@@ -3911,7 +3911,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3DCC",
     "japanese": "むずかしいダンジョン{BREAK}",
-    "english": "Deep Cavern",
+    "english": "Hard Dungeon{BREAK}",
     "raw_hex": "00010203040506070806f0"
   },
   {
@@ -3920,7 +3920,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3DD7",
     "japanese": "ふくざつなフロアーに[G:301]ごわいテキがせいぞろい{BREAK}",
-    "english": "Big map with{NEWLINE}many rooms.{BREAK}",
+    "english": "Complex maze,{NEWLINE}tough foes!{BREAK}",
     "raw_hex": "090a0b0c0d0e0f1011121314150416171819041a1b04f0"
   },
   {
@@ -3929,7 +3929,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3E34",
     "japanese": "きみょうなダンジョン{BREAK}",
-    "english": "Sturdy Cave",
+    "english": "Strange Maze{BREAK}",
     "raw_hex": "00010203040506070806f0"
   },
   {
@@ -3938,7 +3938,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3E3F",
     "japanese": "[G:255]ぉた[G:311][G:312]が[G:376]えてしまう[G:382]ぬまダンジョン{BREAK}",
-    "english": "Watch out for{NEWLINE}zombie packs!{BREAK}",
+    "english": "Poison swamps{NEWLINE}hide floors!{BREAK}",
     "raw_hex": "090a0b0c0d0e0f10111213031415130506070806f0"
   },
   {
@@ -3947,7 +3947,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3E8C",
     "japanese": "[G:278][G:279]のダンジョン{BREAK}",
-    "english": "Endless Abyss",
+    "english": "Endless Maze{BREAK}",
     "raw_hex": "0001020304050604f0"
   },
   {
@@ -3956,7 +3956,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3E95",
     "japanese": "モンスターぐんだんとの[G:393]てしない[G:327]いだ!{BREAK}",
-    "english": "Can you win{NEWLINE}to the end?!{BREAK}",
+    "english": "Endless fight{NEWLINE}vs monsters!{BREAK}",
     "raw_hex": "070408090a0b0c0d0c0e020f1011121314130d15f0"
   },
   {
@@ -3965,7 +3965,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3EE4",
     "japanese": "[G:377]のダンジョン{BREAK}",
-    "english": "Cool Cavern",
+    "english": "Mystery Maze{BREAK}",
     "raw_hex": "00010203040503f0"
   },
   {
@@ -3974,7 +3974,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3EEC",
     "japanese": "[G:393]たしてどこまですすめるのか///?{BREAK}",
-    "english": "Chilly floors{NEWLINE}and monsters.{BREAK}",
+    "english": "How far can{NEWLINE}you advance?!{BREAK}",
     "raw_hex": "060708090a0b0c0d0e0e0f10011112121213f0"
   },
   {
@@ -3983,7 +3983,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3F34",
     "japanese": " はじめて{BREAK}",
-    "english": "Merry Cave",
+    "english": "First{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -3992,7 +3992,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3F3A",
     "japanese": "はじめてのダンジョン{BREAK}",
-    "english": "Busy dungeon{NEWLINE}with chests.{BREAK}",
+    "english": "First Dungeon{BREAK}",
     "raw_hex": "01020304050607080907f0"
   },
   {
@@ -4001,7 +4001,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3F68",
     "japanese": " ちいさい{BREAK}",
-    "english": "Fierce Cave",
+    "english": "Small{BREAK}",
     "raw_hex": "0001020302f0"
   },
   {
@@ -4010,7 +4010,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3F6E",
     "japanese": "ちいさいダンジョン{BREAK}",
-    "english": "Wild monsters{NEWLINE}prowl halls.{BREAK}",
+    "english": "Small Dungeon{BREAK}",
     "raw_hex": "010203020405060705f0"
   },
   {
@@ -4019,7 +4019,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3F94",
     "japanese": " やさしい{BREAK}",
-    "english": "Trial Cave",
+    "english": "Easy{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4028,7 +4028,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3F9A",
     "japanese": "やさしいダンジョン{BREAK}",
-    "english": "Test skill vs{NEWLINE}tough foes.{BREAK}",
+    "english": "Easy Dungeon{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4037,7 +4037,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3FC4",
     "japanese": " きらくな{BREAK}",
-    "english": "Dragon Nest",
+    "english": "Calm{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4046,7 +4046,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3FCA",
     "japanese": "きらくなダンジョン{BREAK}",
-    "english": "Fierce drakes{NEWLINE}roost inside.{BREAK}",
+    "english": "Calm Dungeon{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4055,7 +4055,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3FF4",
     "japanese": " すずしい{BREAK}",
-    "english": "Shadow Lair",
+    "english": "Cool{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4064,7 +4064,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3FFA",
     "japanese": "すずしいダンジョン{BREAK}",
-    "english": "Dark halls,{NEWLINE}hidden traps.{BREAK}",
+    "english": "Cool Dungeon{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4073,7 +4073,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4024",
     "japanese": "  ゆとり{BREAK}",
-    "english": "Gold Mine",
+    "english": "Relaxed{BREAK}",
     "raw_hex": "0000010203f0"
   },
   {
@@ -4082,7 +4082,7 @@
     "string_index": 1,
     "rom_offset": "0x4D402A",
     "japanese": "ゆとりのダンジョン{BREAK}",
-    "english": "Many coins &{NEWLINE}chests here.{BREAK}",
+    "english": "Relaxed Maze{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4091,7 +4091,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4054",
     "japanese": "  ふつう{BREAK}",
-    "english": "Mystic Tower",
+    "english": "Normal{BREAK}",
     "raw_hex": "0000010203f0"
   },
   {
@@ -4100,7 +4100,7 @@
     "string_index": 1,
     "rom_offset": "0x4D405A",
     "japanese": "ふつうのダンジョン{BREAK}",
-    "english": "High magic in{NEWLINE}corridors.{BREAK}",
+    "english": "Normal Maze{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4109,7 +4109,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4084",
     "japanese": " きわどい{BREAK}",
-    "english": "Demon Crypt",
+    "english": "Tricky{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4118,7 +4118,7 @@
     "string_index": 1,
     "rom_offset": "0x4D408A",
     "japanese": "きわどいダンジョン{BREAK}",
-    "english": "Undead lurk{NEWLINE}in rooms.{BREAK}",
+    "english": "Tricky Maze{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4127,7 +4127,7 @@
     "string_index": 0,
     "rom_offset": "0x4D40B4",
     "japanese": " うれしい{BREAK}",
-    "english": "Ancient Ruin",
+    "english": "Happy{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4136,7 +4136,7 @@
     "string_index": 1,
     "rom_offset": "0x4D40BA",
     "japanese": "うれしいダンジョン{BREAK}",
-    "english": "Find secrets{NEWLINE}of the Gate.{BREAK}",
+    "english": "Happy Dungeon{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4145,7 +4145,7 @@
     "string_index": 0,
     "rom_offset": "0x4D40E4",
     "japanese": "  ゆかい{BREAK}",
-    "english": "Beginner Cave",
+    "english": "Merry{BREAK}",
     "raw_hex": "0000010203f0"
   },
   {
@@ -4154,7 +4154,7 @@
     "string_index": 1,
     "rom_offset": "0x4D40EA",
     "japanese": "ゆかいなダンジョン{BREAK}",
-    "english": "Learn rules &{NEWLINE}card basics.{BREAK}",
+    "english": "Merry Dungeon{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4163,7 +4163,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4114",
     "japanese": " でぉかい{BREAK}",
-    "english": "Placid Cave",
+    "english": "Huge{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4172,7 +4172,7 @@
     "string_index": 1,
     "rom_offset": "0x4D411A",
     "japanese": "でぉかいダンジョン{BREAK}",
-    "english": "Lots of items{NEWLINE}drop here.{BREAK}",
+    "english": "Huge Dungeon{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4181,7 +4181,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4144",
     "japanese": "  ぶきみ{BREAK}",
-    "english": "Deep Cavern",
+    "english": "Eerie{BREAK}",
     "raw_hex": "0000010203f0"
   },
   {
@@ -4190,7 +4190,7 @@
     "string_index": 1,
     "rom_offset": "0x4D414A",
     "japanese": "ぶきみなダンジョン{BREAK}",
-    "english": "Big map with{NEWLINE}many rooms.{BREAK}",
+    "english": "Eerie Dungeon{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4199,7 +4199,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4174",
     "japanese": " てごわい{BREAK}",
-    "english": "Sturdy Cave",
+    "english": "Tough{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4208,7 +4208,7 @@
     "string_index": 1,
     "rom_offset": "0x4D417A",
     "japanese": "てごわいダンジョン{BREAK}",
-    "english": "Watch out for{NEWLINE}zombie packs!{BREAK}",
+    "english": "Tough Dungeon{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4217,7 +4217,7 @@
     "string_index": 0,
     "rom_offset": "0x4D41A4",
     "japanese": " つめたい{BREAK}",
-    "english": "Endless Abyss",
+    "english": "Cold{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4226,7 +4226,7 @@
     "string_index": 1,
     "rom_offset": "0x4D41AA",
     "japanese": "つめたいダンジョン{BREAK}",
-    "english": "Can you win{NEWLINE}to the end?!{BREAK}",
+    "english": "Cold Dungeon{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4235,7 +4235,7 @@
     "string_index": 0,
     "rom_offset": "0x4D41D4",
     "japanese": " はげしい{BREAK}",
-    "english": "Cool Cavern",
+    "english": "Fierce{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4244,7 +4244,7 @@
     "string_index": 1,
     "rom_offset": "0x4D41DA",
     "japanese": "はげしいダンジョン{BREAK}",
-    "english": "Chilly floors{NEWLINE}and monsters.{BREAK}",
+    "english": "Fierce Maze{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4253,7 +4253,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4204",
     "japanese": " しぶとい{BREAK}",
-    "english": "Merry Cave",
+    "english": "Stubborn{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4262,7 +4262,7 @@
     "string_index": 1,
     "rom_offset": "0x4D420A",
     "japanese": "しぶといダンジョン{BREAK}",
-    "english": "Busy dungeon{NEWLINE}with chests.{BREAK}",
+    "english": "Stubborn Maze{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4271,7 +4271,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4234",
     "japanese": " ゆめみる{BREAK}",
-    "english": "Fierce Cave",
+    "english": "Dream{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4280,7 +4280,7 @@
     "string_index": 1,
     "rom_offset": "0x4D423A",
     "japanese": "ゆめみるダンジョン{BREAK}",
-    "english": "Wild monsters{NEWLINE}prowl halls.{BREAK}",
+    "english": "Dream Dungeon{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4289,7 +4289,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4264",
     "japanese": "むずかしい{BREAK}",
-    "english": "Trial Cave",
+    "english": "Hard{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4298,7 +4298,7 @@
     "string_index": 1,
     "rom_offset": "0x4D426A",
     "japanese": "むずかしいダンジョン{BREAK}",
-    "english": "Test skill vs{NEWLINE}tough foes.{BREAK}",
+    "english": "Hard Dungeon{BREAK}",
     "raw_hex": "00010203040506070806f0"
   },
   {
@@ -4307,7 +4307,7 @@
     "string_index": 0,
     "rom_offset": "0x4D4294",
     "japanese": " きみょう{BREAK}",
-    "english": "Dragon Nest",
+    "english": "Strange{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4316,7 +4316,7 @@
     "string_index": 1,
     "rom_offset": "0x4D429A",
     "japanese": "きみょうなダンジョン{BREAK}",
-    "english": "Fierce drakes{NEWLINE}roost inside.{BREAK}",
+    "english": "Strange Maze{BREAK}",
     "raw_hex": "01020304050607080907f0"
   },
   {
@@ -4325,7 +4325,7 @@
     "string_index": 0,
     "rom_offset": "0x4D42C8",
     "japanese": "cdefg{BREAK}",
-    "english": "Shadow Lair",
+    "english": "KeyChest{BREAK}",
     "raw_hex": "0001020304f0"
   },
   {
@@ -4334,7 +4334,7 @@
     "string_index": 1,
     "rom_offset": "0x4D42CE",
     "japanese": "cdefgのダンジョン{BREAK}",
-    "english": "Dark halls,{NEWLINE}hidden traps.{BREAK}",
+    "english": "KeyChest Maze{BREAK}",
     "raw_hex": "0001020304050607080907f0"
   },
   {
@@ -4595,7 +4595,7 @@
     "string_index": 2,
     "rom_offset": "0x4D4A36",
     "japanese": "    [G:277]はい     いいえ{BREAK}",
-    "english": "  Yes    No{BREAK}",
+    "english": "{G:277}Yes  No{BREAK}",
     "raw_hex": "1a1a1a1a1b1c141a1a1a1a1a14141df0"
   },
   {
@@ -4604,7 +4604,7 @@
     "string_index": 3,
     "rom_offset": "0x4D4A46",
     "japanese": "     はい    [G:277]いいえ{BREAK}",
-    "english": "  Yes    No{BREAK}",
+    "english": " Yes {G:277}No{BREAK}",
     "raw_hex": "1a1a1a1a1a1c141a1a1a1a1b14141df0"
   },
   {
@@ -6152,7 +6152,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5B45",
     "japanese": "かんたんだね{BREAK}",
-    "english": "Casino play{NEWLINE}decides wins!{BREAK}",
+    "english": "An easy{NEWLINE}dungeon.{BREAK}",
     "raw_hex": "040506050708f0"
   },
   {
@@ -6170,7 +6170,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5B72",
     "japanese": "クリアできれば[G:405][G:273][G:288]の[G:453]番だ{BREAK}",
-    "english": "Don't rely{NEWLINE}only on luck!{BREAK}",
+    "english": "Clear it to{NEWLINE}be a pro!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f101112f0"
   },
   {
@@ -6188,7 +6188,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5BBA",
     "japanese": "[G:502]さい[G:411]だぞ{BREAK}",
-    "english": "Walking saps{NEWLINE}HP slowly.{BREAK}",
+    "english": "It's a small{NEWLINE}dungeon!{BREAK}",
     "raw_hex": "040506070809f0"
   },
   {
@@ -6206,7 +6206,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5BEA",
     "japanese": "ショォプがあるぞ{BREAK}",
-    "english": "Foes move at{NEWLINE}double speed!{BREAK}",
+    "english": "There's a{NEWLINE}shop inside!{BREAK}",
     "raw_hex": "0405060708090a0bf0"
   },
   {
@@ -6224,7 +6224,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5C1D",
     "japanese": "ふつうの[G:411]だね{BREAK}",
-    "english": "Stock up on{NEWLINE}potions!{BREAK}",
+    "english": "A standard{NEWLINE}dungeon.{BREAK}",
     "raw_hex": "0405060708090af0"
   },
   {
@@ -6242,7 +6242,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5C4E",
     "japanese": "モンスターがtぉている{BREAK}",
-    "english": "Floor traps{NEWLINE}are hidden!{BREAK}",
+    "english": "Monsters are{NEWLINE}sleeping!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0ff0"
   },
   {
@@ -6260,7 +6260,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5C8D",
     "japanese": "[G:260][G:261]の[G:345]がすべるぞ{BREAK}",
-    "english": "Slay boss to{NEWLINE}seal gate!{BREAK}",
+    "english": "Watch out for{NEWLINE}icy floors!{BREAK}",
     "raw_hex": "0405060708090a0b0cf0"
   },
   {
@@ -6278,7 +6278,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5CC6",
     "japanese": "カジノがあるぞ{BREAK}",
-    "english": "Easy starter{NEWLINE}dungeon.{BREAK}",
+    "english": "There's a{NEWLINE}casino here!{BREAK}",
     "raw_hex": "05060708090a0bf0"
   },
   {
@@ -6296,7 +6296,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5CF9",
     "japanese": "2[G:311]だての[G:244]い[G:411]だ{BREAK}",
-    "english": "Casino play{NEWLINE}decides wins!{BREAK}",
+    "english": "2 wide floors{NEWLINE}to explore!{BREAK}",
     "raw_hex": "0405060708090a0b06f0"
   },
   {
@@ -6314,7 +6314,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5D2E",
     "japanese": "ケムンパばぉかりだ{BREAK}",
-    "english": "Don't rely{NEWLINE}only on luck!{BREAK}",
+    "english": "Full of{NEWLINE}Kemumpas!{BREAK}",
     "raw_hex": "05060708090a0b0c0df0"
   },
   {
@@ -6332,7 +6332,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5D65",
     "japanese": "モンスターがよわいね{BREAK}",
-    "english": "Walking saps{NEWLINE}HP slowly.{BREAK}",
+    "english": "Monsters here{NEWLINE}are weak.{BREAK}",
     "raw_hex": "0405060708090a0b0c0df0"
   },
   {
@@ -6350,7 +6350,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5D9E",
     "japanese": "[G:314]テキだらけ! カードは6[G:329]せいげんだ{BREAK}",
-    "english": "Foes move at{NEWLINE}double speed!{BREAK}",
+    "english": "Tough foes!{NEWLINE}6-card limit!{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0e0f10111213141507f0"
   },
   {
@@ -6368,7 +6368,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5DF1",
     "japanese": "めずらしいカードがhつかるぞ!{BREAK}",
-    "english": "Stock up on{NEWLINE}potions!{BREAK}",
+    "english": "Find rare{NEWLINE}cards here!{BREAK}",
     "raw_hex": "030405060708090a0b0c0d0e0f1011f0"
   },
   {
@@ -6386,7 +6386,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5E39",
     "japanese": "モンスターが[G:314]すぎるぞ{BREAK}",
-    "english": "Floor traps{NEWLINE}are hidden!{BREAK}",
+    "english": "Monsters are{NEWLINE}too tough!{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0ef0"
   },
   {
@@ -6404,7 +6404,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5E76",
     "japanese": "[G:314]れつな[G:382]ぬまだ{BREAK}",
-    "english": "Slay boss to{NEWLINE}seal gate!{BREAK}",
+    "english": "Watch out for{NEWLINE}toxic swamps!{BREAK}",
     "raw_hex": "05060708090a0b0cf0"
   },
   {
@@ -6422,7 +6422,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5EAE",
     "japanese": "カジノプレイが[G:357][G:505]を[G:441]める!{BREAK}",
-    "english": "Easy starter{NEWLINE}dungeon.{BREAK}",
+    "english": "Casino play{NEWLINE}decides wins!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f101112f0"
   },
   {
@@ -6440,7 +6440,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5EF6",
     "japanese": "[G:413][G:445]の[G:405]sがよく[G:246]るぞ{BREAK}",
-    "english": "Casino play{NEWLINE}decides wins!{BREAK}",
+    "english": "Physical hits{NEWLINE}work best!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0ff0"
   },
   {
@@ -6458,7 +6458,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5F35",
     "japanese": "うれしいアイテムがhつかるよ!{BREAK}",
-    "english": "Don't rely{NEWLINE}only on luck!{BREAK}",
+    "english": "Find great{NEWLINE}items here!{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0e0f101112f0"
   },
   {
@@ -6476,7 +6476,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5F7E",
     "japanese": "[G:244]い[G:260][G:261]ばかりだ{BREAK}",
-    "english": "Walking saps{NEWLINE}HP slowly.{BREAK}",
+    "english": "Full of wide{NEWLINE}open rooms!{BREAK}",
     "raw_hex": "05060708090a0b0cf0"
   },
   {
@@ -6494,7 +6494,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5FB5",
     "japanese": "なかなか[G:314]くならないぞ{BREAK}",
-    "english": "Foes move at{NEWLINE}double speed!{BREAK}",
+    "english": "Hard to get{NEWLINE}stronger!{BREAK}",
     "raw_hex": "040504050607040804090af0"
   },
   {
@@ -6512,7 +6512,7 @@
     "string_index": 1,
     "rom_offset": "0x4D5FEA",
     "japanese": "q[G:308]がすべるぞ{BREAK}",
-    "english": "Stock up on{NEWLINE}potions!{BREAK}",
+    "english": "Beware of{NEWLINE}ice tiles!{BREAK}",
     "raw_hex": "05060708090a0bf0"
   },
   {
@@ -6530,7 +6530,7 @@
     "string_index": 1,
     "rom_offset": "0x4D601E",
     "japanese": "[G:473]き[G:356]す[G:583]が[G:246][G:421]ない[G:353][G:471]だ{BREAK}",
-    "english": "Floor traps{NEWLINE}are hidden!{BREAK}",
+    "english": "No escape{NEWLINE}once inside!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f1011f0"
   },
   {
@@ -6548,7 +6548,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6060",
     "japanese": "ポーションが[G:500]りなくなるぞ{BREAK}",
-    "english": "Slay boss to{NEWLINE}seal gate!{BREAK}",
+    "english": "Potions are{NEWLINE}very scarce!{BREAK}",
     "raw_hex": "030405060708090a0b0c0b0d0ef0"
   },
   {
@@ -6566,7 +6566,7 @@
     "string_index": 1,
     "rom_offset": "0x4D609D",
     "japanese": "ボウレイだらけの[G:521][G:315][G:265]な[G:411]だ{BREAK}",
-    "english": "Easy starter{NEWLINE}dungeon.{BREAK}",
+    "english": "Eerie hall{NEWLINE}of Wraiths!{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0e0f1008f0"
   },
   {
@@ -6584,7 +6584,7 @@
     "string_index": 1,
     "rom_offset": "0x4D60E1",
     "japanese": "15[G:311]だてだ!{BREAK}",
-    "english": "Casino play{NEWLINE}decides wins!{BREAK}",
+    "english": "15 floors{NEWLINE}tall!{BREAK}",
     "raw_hex": "03040506070608f0"
   },
   {
@@ -6602,7 +6602,7 @@
     "string_index": 1,
     "rom_offset": "0x4D610D",
     "japanese": "モンスターが[G:324]ないね{BREAK}",
-    "english": "Don't rely{NEWLINE}only on luck!{BREAK}",
+    "english": "Few monsters{NEWLINE}roam here.{BREAK}",
     "raw_hex": "0405060708090a0b0c0df0"
   },
   {
@@ -6620,7 +6620,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6145",
     "japanese": "マォプがhえないのだ{BREAK}",
-    "english": "Walking saps{NEWLINE}HP slowly.{BREAK}",
+    "english": "The floor map{NEWLINE}is hidden!{BREAK}",
     "raw_hex": "0405060708090a0b0c0df0"
   },
   {
@@ -6638,7 +6638,7 @@
     "string_index": 1,
     "rom_offset": "0x4D617E",
     "japanese": "[G:442][G:428]がたくさんおちてるぞ{BREAK}",
-    "english": "Foes move at{NEWLINE}double speed!{BREAK}",
+    "english": "Lots of coins{NEWLINE}lie around!{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0e0ff0"
   },
   {
@@ -6656,7 +6656,7 @@
     "string_index": 1,
     "rom_offset": "0x4D61BE",
     "japanese": "キョウキの[G:405]sに[G:315]を[G:479]けろ{BREAK}",
-    "english": "Stock up on{NEWLINE}potions!{BREAK}",
+    "english": "Beware enemy{NEWLINE}frenzy hits!{BREAK}",
     "raw_hex": "0506070508090a0b0c0d0e0f10f0"
   },
   {
@@ -6674,7 +6674,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6201",
     "japanese": "カードが6[G:329]しか[G:237]てないのだ{BREAK}",
-    "english": "Floor traps{NEWLINE}are hidden!{BREAK}",
+    "english": "You can only{NEWLINE}hold 6 cards!{BREAK}",
     "raw_hex": "030405060708090a0b0c0d0e0f10f0"
   },
   {
@@ -6692,7 +6692,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6246",
     "japanese": "[G:413][G:445]の[G:405]sにきたいしすぎると///{BREAK}",
-    "english": "Slay boss to{NEWLINE}seal gate!{BREAK}",
+    "english": "Don't over-{NEWLINE}rely on hits!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f101112131313f0"
   },
   {
@@ -6710,7 +6710,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6292",
     "japanese": "[G:244]く[G:320]しく[G:252][G:295]だ{BREAK}",
-    "english": "Easy starter{NEWLINE}dungeon.{BREAK}",
+    "english": "Huge, tough,{NEWLINE}and grand!{BREAK}",
     "raw_hex": "0506070806090a0bf0"
   },
   {
@@ -6728,7 +6728,7 @@
     "string_index": 1,
     "rom_offset": "0x4D62C5",
     "japanese": "lmアイテムを[G:590]そう!{BREAK}",
-    "english": "Casino play{NEWLINE}decides wins!{BREAK}",
+    "english": "Use defense{NEWLINE}items well!{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0ef0"
   },
   {
@@ -6746,7 +6746,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6301",
     "japanese": "モンスターのいぉせいrsに[G:369][G:370]{BREAK}",
-    "english": "Don't rely{NEWLINE}only on luck!{BREAK}",
+    "english": "Beware enemy{NEWLINE}mass attacks!{BREAK}",
     "raw_hex": "0405060708090a0b0c0a0d0e0f1011f0"
   },
   {
@@ -6764,7 +6764,7 @@
     "string_index": 1,
     "rom_offset": "0x4D634A",
     "japanese": "ブライトg[G:393]でhqしがいいぞ{BREAK}",
-    "english": "Walking saps{NEWLINE}HP slowly.{BREAK}",
+    "english": "Bright light{NEWLINE}aids vision!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f101011f0"
   },
   {
@@ -6782,7 +6782,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6391",
     "japanese": "とにかく[G:244]いのだ{BREAK}",
-    "english": "Foes move at{NEWLINE}double speed!{BREAK}",
+    "english": "Just plain{NEWLINE}massive!{BREAK}",
     "raw_hex": "0405060708090a0bf0"
   },
   {
@@ -6800,7 +6800,7 @@
     "string_index": 1,
     "rom_offset": "0x4D63C6",
     "japanese": "マルチカードをうまく[G:255]おう!{BREAK}",
-    "english": "Stock up on{NEWLINE}potions!{BREAK}",
+    "english": "Use Multi{NEWLINE}cards wisely!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f100c11f0"
   },
   {
@@ -6818,7 +6818,7 @@
     "string_index": 1,
     "rom_offset": "0x4D640D",
     "japanese": "こうきゅう[G:375]のショォプがあるぞ{BREAK}",
-    "english": "Floor traps{NEWLINE}are hidden!{BREAK}",
+    "english": "Has a luxury{NEWLINE}item shop!{BREAK}",
     "raw_hex": "040506070508090a0b0c0d0e0f1011f0"
   },
   {
@@ -6836,7 +6836,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6456",
     "japanese": "コインが[G:324]ないね{BREAK}",
-    "english": "Slay boss to{NEWLINE}seal gate!{BREAK}",
+    "english": "Not many{NEWLINE}coins here.{BREAK}",
     "raw_hex": "05060708090a0b0cf0"
   },
   {
@@ -6854,7 +6854,7 @@
     "string_index": 1,
     "rom_offset": "0x4D648E",
     "japanese": "カジノとショォプがあるのだ{BREAK}",
-    "english": "Easy starter{NEWLINE}dungeon.{BREAK}",
+    "english": "Has a shop{NEWLINE}and casino!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f1011f0"
   },
   {
@@ -6872,7 +6872,7 @@
     "string_index": 1,
     "rom_offset": "0x4D64D0",
     "japanese": "2[G:260][G:261]しかないのだ{BREAK}",
-    "english": "Casino play{NEWLINE}decides wins!{BREAK}",
+    "english": "Only 2 rooms{NEWLINE}per floor!{BREAK}",
     "raw_hex": "030405060708090a0bf0"
   },
   {
@@ -6890,7 +6890,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6505",
     "japanese": "せいとうはの[G:262]なんかんだ{BREAK}",
-    "english": "Don't rely{NEWLINE}only on luck!{BREAK}",
+    "english": "A classic{NEWLINE}hard dungeon!{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0c0ef0"
   },
   {
@@ -6908,7 +6908,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6542",
     "japanese": "モンスターがtぉている{BREAK}",
-    "english": "Walking saps{NEWLINE}HP slowly.{BREAK}",
+    "english": "Monsters are{NEWLINE}asleep here.{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0ff0"
   },
   {
@@ -6926,7 +6926,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6582",
     "japanese": "キョウキの[G:405]sがいたいのだ{BREAK}",
-    "english": "Foes move at{NEWLINE}double speed!{BREAK}",
+    "english": "Frenzied hits{NEWLINE}hurt a lot!{BREAK}",
     "raw_hex": "0506070508090a0b0c0d0c080ef0"
   },
   {
@@ -6944,7 +6944,7 @@
     "string_index": 1,
     "rom_offset": "0x4D65C1",
     "japanese": "なかなか[G:314]くならないぞ{BREAK}",
-    "english": "Stock up on{NEWLINE}potions!{BREAK}",
+    "english": "Hard to{NEWLINE}level up!{BREAK}",
     "raw_hex": "040504050607040804090af0"
   },
   {
@@ -6962,7 +6962,7 @@
     "string_index": 1,
     "rom_offset": "0x4D65F6",
     "japanese": "eくだけでHPがへぉていくぞ{BREAK}",
-    "english": "Floor traps{NEWLINE}are hidden!{BREAK}",
+    "english": "Walking saps{NEWLINE}HP slowly!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f100611f0"
   },
   {
@@ -6980,7 +6980,7 @@
     "string_index": 1,
     "rom_offset": "0x4D663D",
     "japanese": "いやなモンスターがいぉぱい{BREAK}",
-    "english": "Slay boss to{NEWLINE}seal gate!{BREAK}",
+    "english": "Full of nasty{NEWLINE}monsters!{BREAK}",
     "raw_hex": "0405060708090a0b0c040d0e04f0"
   },
   {
@@ -6998,7 +6998,7 @@
     "string_index": 1,
     "rom_offset": "0x4D667D",
     "japanese": "rsアイテムを[G:590]そう!{BREAK}",
-    "english": "Easy starter{NEWLINE}dungeon.{BREAK}",
+    "english": "Use attack{NEWLINE}items well!{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0ef0"
   },
   {
@@ -7016,7 +7016,7 @@
     "string_index": 1,
     "rom_offset": "0x4D66B8",
     "japanese": "[G:382]ぬまにゾンビがむらがぉている///{BREAK}",
-    "english": "Casino play{NEWLINE}decides wins!{BREAK}",
+    "english": "Zombies swarm{NEWLINE}the swamp!{BREAK}",
     "raw_hex": "030405060708090a0b0c0a0d0e0f10111111f0"
   },
   {
@@ -7034,7 +7034,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6701",
     "japanese": "よわいテキがむらがぉている{BREAK}",
-    "english": "Don't rely{NEWLINE}only on luck!{BREAK}",
+    "english": "Weak foes{NEWLINE}swarm here.{BREAK}",
     "raw_hex": "0405060708090a0b090c0d060ef0"
   },
   {
@@ -7052,7 +7052,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6741",
     "japanese": "[G:244]い[G:382]ぬまにホォピーが[G:355][G:520]する{BREAK}",
-    "english": "Walking saps{NEWLINE}HP slowly.{BREAK}",
+    "english": "Hoppys spawn{NEWLINE}in the swamp!{BREAK}",
     "raw_hex": "0405060708090a0b0c0d0e0f101112f0"
   },
   {
@@ -7070,7 +7070,7 @@
     "string_index": 1,
     "rom_offset": "0x4D678A",
     "japanese": "かこくな[G:327]いが[G:560]まる///{BREAK}",
-    "english": "Foes move at{NEWLINE}double speed!{BREAK}",
+    "english": "A fierce{NEWLINE}battle looms!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f0f0ff0"
   },
   {
@@ -7088,7 +7088,7 @@
     "string_index": 1,
     "rom_offset": "0x4D67C9",
     "japanese": "[G:314]れつな[G:382]ぬまにモンスターがせいぞろいだ!{BREAK}",
-    "english": "Stock up on{NEWLINE}potions!{BREAK}",
+    "english": "Monsters pack{NEWLINE}toxic swamps!{BREAK}",
     "raw_hex": "030405060708090a0b0c0d0e0f1011121314121516f0"
   },
   {
@@ -7106,7 +7106,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6822",
     "japanese": "これぞモンスターゲート[G:262][G:316][G:400]!{BREAK}",
-    "english": "Floor traps{NEWLINE}are hidden!{BREAK}",
+    "english": "The ultimate{NEWLINE}Monster Gate!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0c0e0f101112f0"
   },
   {
@@ -7124,7 +7124,7 @@
     "string_index": 1,
     "rom_offset": "0x4D686A",
     "japanese": "[G:244]くて[G:416][G:305]になるかも{BREAK}",
-    "english": "Slay boss to{NEWLINE}seal gate!{BREAK}",
+    "english": "Wide & dark!{NEWLINE}Easy to lose!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0ef0"
   },
   {
@@ -7142,7 +7142,7 @@
     "string_index": 1,
     "rom_offset": "0x4D68A6",
     "japanese": "モンスターカードがhつかるかも?{BREAK}",
-    "english": "Easy starter{NEWLINE}dungeon.{BREAK}",
+    "english": "Find monster{NEWLINE}cards here?{BREAK}",
     "raw_hex": "040506070809080a0b0c0d0e0f0e1011f0"
   },
   {
@@ -7160,7 +7160,7 @@
     "string_index": 1,
     "rom_offset": "0x4D68ED",
     "japanese": "20[G:311]だてのちょうこうそうだ{BREAK}",
-    "english": "Casino play{NEWLINE}decides wins!{BREAK}",
+    "english": "A towering{NEWLINE}20F dungeon!{BREAK}",
     "raw_hex": "030405060708090a0b0c0b0d0b06f0"
   },
   {
@@ -7178,7 +7178,7 @@
     "string_index": 1,
     "rom_offset": "0x4D692A",
     "japanese": "[G:255]ぉた[G:311][G:312]が[G:376]えてしまうぞ!{BREAK}",
-    "english": "Don't rely{NEWLINE}only on luck!{BREAK}",
+    "english": "Used rooms{NEWLINE}disappear!{BREAK}",
     "raw_hex": "05060708090a0b0c0d0e0f101112f0"
   },
   {
@@ -7196,7 +7196,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6974",
     "japanese": "しんの[G:539][G:401]と[G:357][G:505][G:391]がためされる{BREAK}",
-    "english": "Walking saps{NEWLINE}HP slowly.{BREAK}",
+    "english": "Tests true{NEWLINE}skill & luck!{BREAK}",
     "raw_hex": "0708090a0b0c0d0e0f101112131415f0"
   },
   {
@@ -7367,7 +7367,7 @@
     "string_index": 4,
     "rom_offset": "0x4D6D27",
     "japanese": "[G:277]はい  いいえ{BREAK}",
-    "english": "  Yes    No{BREAK}",
+    "english": "{G:277}Yes  No{BREAK}",
     "raw_hex": "1b1c181d1d18181ef0"
   },
   {
@@ -7376,7 +7376,7 @@
     "string_index": 5,
     "rom_offset": "0x4D6D30",
     "japanese": " はい [G:277]いいえ{BREAK}",
-    "english": "  Yes    No{BREAK}",
+    "english": " Yes {G:277}No{BREAK}",
     "raw_hex": "1d1c181d1b18181ef0"
   },
   {
@@ -7484,7 +7484,7 @@
     "string_index": 1,
     "rom_offset": "0x4D6F8A",
     "japanese": "{CTRL:F4}[G:277]はい  いいえ{BREAK}",
-    "english": "{CTRL:F4}  Yes    No{BREAK}",
+    "english": "{CTRL:F4}{G:277}Yes  No{BREAK}",
     "raw_hex": "f40f10111212111113f0"
   },
   {
@@ -7493,7 +7493,7 @@
     "string_index": 2,
     "rom_offset": "0x4D6F94",
     "japanese": "{CTRL:F4} はい [G:277]いいえ{BREAK}",
-    "english": "{CTRL:F4}  Yes    No{BREAK}",
+    "english": "{CTRL:F4} Yes {G:277}No{BREAK}",
     "raw_hex": "f4121011120f111113f0"
   },
   {
@@ -7556,7 +7556,7 @@
     "string_index": 2,
     "rom_offset": "0x4D707F",
     "japanese": "[G:277]{BREAK}",
-    "english": "Cancel{BREAK}",
+    "english": "{G:277}{BREAK}",
     "raw_hex": "03f0"
   },
   {
@@ -8141,7 +8141,7 @@
     "string_index": 11,
     "rom_offset": "0x4D76F5",
     "japanese": "[G:299]づくと[G:300][G:301]をとられてしまう,{NEWLINE}1回[G:302][G:303]り[G:275][G:290]ボタン[G:276]で[G:304][G:305]をみよう,{BREAK}",
-    "english": "Check range{NEWLINE}with A.{BREAK}",
+    "english": "Swing A once{NEWLINE}to wait turn.{BREAK}",
     "raw_hex": "5f600a22616214223e26242333400cf14142636465382d0102033a04666714680b400cf0"
   },
   {
@@ -8150,7 +8150,7 @@
     "string_index": 12,
     "rom_offset": "0x4D7719",
     "japanese": "[G:306][G:251]から[G:299]づくな,{NEWLINE}[G:302][G:303]り[G:275][G:290]ボタン[G:276]で[G:304][G:305]をみよう,{BREAK}",
-    "english": "Face enemy{NEWLINE}to strike!{BREAK}",
+    "english": "Wait with A{NEWLINE}so foe moves!{BREAK}",
     "raw_hex": "696a293e5f600a2a0cf1636465382d0102033a04666714680b400cf0"
   },
   {
@@ -8159,7 +8159,7 @@
     "string_index": 13,
     "rom_offset": "0x4D7735",
     "japanese": "テキのyzをzいてrsだ,{BREAK}",
-    "english": "Fight in hall{NEWLINE}one by one.{BREAK}",
+    "english": "Face enemy{NEWLINE}to strike!{BREAK}",
     "raw_hex": "1a1b353637143725244344190cf0"
   },
   {
@@ -8168,7 +8168,7 @@
     "string_index": 14,
     "rom_offset": "0x4D7743",
     "japanese": "テキが[G:307]い[G:270]はq[G:308]に[G:309]ろう,{BREAK}",
-    "english": "Stairs lead{NEWLINE}down deeper.{BREAK}",
+    "english": "Fight in hall{NEWLINE}one by one.{BREAK}",
     "raw_hex": "1a1b086b256c4a6d6e4d6f32400cf0"
   },
   {
@@ -8177,7 +8177,7 @@
     "string_index": 15,
     "rom_offset": "0x4D7752",
     "japanese": "これでテキは1[G:380],{NEWLINE}rsしよう!{BREAK}",
-    "english": "Deep floors:{NEWLINE}tough foes.{BREAK}",
+    "english": "Now 1-on-1,{NEWLINE}attack it!{BREAK}",
     "raw_hex": "5926041a1b4a41700cf14344230b401ff0"
   },
   {
@@ -8186,7 +8186,7 @@
     "string_index": 16,
     "rom_offset": "0x4D7763",
     "japanese": "[G:281]に[G:310]りる[G:311][G:312]がある,{NEWLINE}さぉそく[G:313]ぉてみよう,{BREAK}",
-    "english": "Reach stairs{NEWLINE}to advance.{BREAK}",
+    "english": "Stairs lead{NEWLINE}down deeper.{BREAK}",
     "raw_hex": "714d7265177374082b170cf17521760a772124680b400cf0"
   },
   {
@@ -8195,7 +8195,7 @@
     "string_index": 17,
     "rom_offset": "0x4D777B",
     "japanese": "[G:281]に[G:310]りるほどテキが[G:314]くなるから[G:315]をつけてね,{BREAK}",
-    "english": "Step on Altar{NEWLINE}to clear.{BREAK}",
+    "english": "Deep floors:{NEWLINE}tough foes.{BREAK}",
     "raw_hex": "714d72651778791a1b087a0a2a17293e7b147c57243b0cf0"
   },
   {
@@ -8204,7 +8204,7 @@
     "string_index": 18,
     "rom_offset": "0x4D7793",
     "japanese": "[G:262][G:316]フロアーだ,{NEWLINE}[G:317]いところ[G:349]クリアのあかし[G:350]をhつけよう,{BREAK}",
-    "english": "Stage clear{NEWLINE}keeps cards.{BREAK}",
+    "english": "Final floor!{NEWLINE}Find Proof!{BREAK}",
     "raw_hex": "7d7e7f808112190cf1822522593283108481352b29238514867c570b400cf0"
   },
   {
@@ -8213,7 +8213,7 @@
     "string_index": 19,
     "rom_offset": "0x4D77B2",
     "japanese": "[G:349]さいだん[G:350]の[G:280]に[G:349]クリアのあかし[G:350]があるぞ!{NEWLINE}[G:297]えば[G:349]さいだん[G:350]からいつでも[G:245][G:246]できるよ,{BREAK}",
-    "english": "Strike first{NEWLINE}to win edge.{BREAK}",
+    "english": "Step on Altar{NEWLINE}to escape!{BREAK}",
     "raw_hex": "83752519188535554d83108481352b292385082b171e1ff1583127837525191885293e257c04288788041c170b0cf0"
   },
   {
@@ -8222,7 +8222,7 @@
     "string_index": 20,
     "rom_offset": "0x4D77E1",
     "japanese": "[G:245][G:246]すればマジォクカードを[G:322]の[G:319][G:320]で[G:255]えるよ,{BREAK}",
-    "english": "Low HP! Watch{NEWLINE}your health!{BREAK}",
+    "english": "Escape keeps{NEWLINE}your cards.{BREAK}",
     "raw_hex": "87884626270d0e0f101112131489358a8b045231170b0cf0"
   },
   {
@@ -8231,7 +8231,7 @@
     "string_index": 21,
     "rom_offset": "0x4D77F9",
     "japanese": "テキのyzをzいてからrsしよう,{NEWLINE}[G:291]ボタンを[G:294]しながら[G:284]ボタンでその[G:247]でzきがかわるよ,{BREAK}",
-    "english": "Near defeat?{NEWLINE}Flee safely!{BREAK}",
+    "english": "Hold B+D-Pad{NEWLINE}to face foe.{BREAK}",
     "raw_hex": "1a1b35363714372524293e4344230b400cf13c010203143d232a083e000102030476358c04371c08292c170b0cf0"
   },
   {
@@ -8240,7 +8240,7 @@
     "string_index": 22,
     "rom_offset": "0x4D7827",
     "japanese": "HPが[G:323]り[G:324]ない!がんばれ,{BREAK}",
-    "english": "Heal in rooms{NEWLINE}whenever low.{BREAK}",
+    "english": "Low HP! Watch{NEWLINE}your health!{BREAK}",
     "raw_hex": "4e4f088d658e2a251f081827260cf0"
   },
   {
@@ -8249,7 +8249,7 @@
     "string_index": 23,
     "rom_offset": "0x4D7836",
     "japanese": "このままでは[G:325]ない,{NEWLINE}いぉたん[G:245][G:246]するのも[G:326][G:327]だ,{BREAK}",
-    "english": "Low HP! Find{NEWLINE}a safe room!{BREAK}",
+    "english": "Near defeat?{NEWLINE}Flee safely!{BREAK}",
     "raw_hex": "59353333044a8f2a250cf125211d188788461735289091190cf0"
   },
   {
@@ -8258,7 +8258,7 @@
     "string_index": 24,
     "rom_offset": "0x4D7850",
     "japanese": "HPが[G:324]なくなぉてきた,{NEWLINE}[G:328]しい[G:260][G:261]で回復しよう,{BREAK}",
-    "english": "Use Potion to{NEWLINE}heal damage.{BREAK}",
+    "english": "Heal in rooms{NEWLINE}whenever low.{BREAK}",
     "raw_hex": "4e4f088e2a0a2a21241c1d0cf19223254b4c044251230b400cf0"
   },
   {
@@ -8267,7 +8267,7 @@
     "string_index": 25,
     "rom_offset": "0x4D786A",
     "japanese": "このままでは[G:325]ない,{NEWLINE}[G:328]しい[G:260][G:261]にいけば回復できるのだけど:{BREAK}",
-    "english": "Enemies grow{NEWLINE}strong inside{BREAK}",
+    "english": "Low HP! Find{NEWLINE}a new room!{BREAK}",
     "raw_hex": "59353333044a8f2a250cf19223254b4c4d2557274251041c173519577993f0"
   },
   {
@@ -8276,7 +8276,7 @@
     "string_index": 26,
     "rom_offset": "0x4D7889",
     "japanese": "HPが[G:324]なくなぉてきた,{NEWLINE}マジォクカードを[G:255]えば回復できるよ,{BREAK}",
-    "english": "SELECT + L{NEWLINE}toggles map.{BREAK}",
+    "english": "Use Potion to{NEWLINE}heal damage.{BREAK}",
     "raw_hex": "4e4f088e2a0a2a21241c1d0cf10d0e0f10111213145231274251041c170b0cf0"
   },
   {
@@ -8285,7 +8285,7 @@
     "string_index": 27,
     "rom_offset": "0x4D78A9",
     "japanese": "テキと[G:327]ぉていくうちに[G:314]くなぉてくるぞ,{BREAK}",
-    "english": "SELECT + R{NEWLINE}resizes map.{BREAK}",
+    "english": "Enemies grow{NEWLINE}strong inside{BREAK}",
     "raw_hex": "1a1b22912124250a40944d7a0a2a21240a171e0cf0"
   },
   {
@@ -8294,7 +8294,7 @@
     "string_index": 28,
     "rom_offset": "0x4D78BE",
     "japanese": "SELECTボタン+Lボタンのくみ[G:513]わせで{NEWLINE}マォプのひょうじy[G:272]をかえられるよ,{BREAK}",
-    "english": "Tap R to walk{NEWLINE}diagonally.{BREAK}",
+    "english": "SELECT + L{NEWLINE}toggles map.{BREAK}",
     "raw_hex": "95965b969798010203995b010203350a689a2c3f04f10d0f9b359c9d4020369e1429313e26170b0cf0"
   },
   {
@@ -8303,7 +8303,7 @@
     "string_index": 29,
     "rom_offset": "0x4D78E7",
     "japanese": "SELECTボタン+Rボタンのくみ[G:513]わせで{NEWLINE}マォプのひょうじサイズをかえられるよ,{BREAK}",
-    "english": "Press START{NEWLINE}to save/quit.{BREAK}",
+    "english": "SELECT + R{NEWLINE}resizes map.{BREAK}",
     "raw_hex": "95965b969798010203999f010203350a689a2c3f04f10d0f9b359c9d4020a048a11429313e26170b0cf0"
   },
   {
@@ -8312,7 +8312,7 @@
     "string_index": 30,
     "rom_offset": "0x4D7911",
     "japanese": "Rボタンをかるく[G:294]せばナナメ[G:250]iモードになるよ,{NEWLINE}ナナメ[G:250]iをミスしたくない[G:270]に[G:255]おう!{BREAK}",
-    "english": "Convert cards{NEWLINE}to MP: Down.{BREAK}",
+    "english": "Tap R to walk{NEWLINE}diagonally.{BREAK}",
     "raw_hex": "9f0102031429170a3d3f27a2a22fa309a412134d2a170b0cf1a2a22fa30914a5a6231d0a2a256c4d525e401ff0"
   },
   {
@@ -8321,7 +8321,7 @@
     "string_index": 31,
     "rom_offset": "0x4D793E",
     "japanese": "ゲームを[G:345]だんしたい[G:270]はSTARTボタンを[G:294]して.{NEWLINE}ポーズがめんになぉてから[G:359][G:360]スイォチを[G:362]ぉてね,{BREAK}",
-    "english": "Heart revives{NEWLINE}you once!{BREAK}",
+    "english": "Press START{NEWLINE}to pause.{BREAK}",
     "raw_hex": "a712a814a91918231d256c4a9598aa9f98010203143d2324abf1ac12a10816184d2a2124293eadaea6480faf14b021243b0cf0"
   },
   {
@@ -8330,7 +8330,7 @@
     "string_index": 32,
     "rom_offset": "0x4D7971",
     "japanese": "MPはマジォクカードを[G:349]へんかん[G:350]しても回復できるよ,{NEWLINE}[G:349]へんかん[G:350]はカードせんたく[G:345]に[G:284]ボタンの[G:281]を[G:294]そう!{CTRL:F3}",
-    "english": "Traps deal 1{NEWLINE}damage!{BREAK}",
+    "english": "Convert cards{NEWLINE}to MP: Down.{CTRL:F3}",
     "raw_hex": "504f4a0d0e0f101112131483b1182918852324284251041c170b0cf183b1182918854a1112133f181d0aa94d000102033571143d76401ff3"
   },
   {
@@ -8339,7 +8339,7 @@
     "string_index": 33,
     "rom_offset": "0x4D79A9",
     "japanese": "このハートがあれば1回の[G:319][G:320][G:345]1[G:258]だけ[G:355]き[G:356]れるんだ!{NEWLINE}1[G:258][G:355]き[G:356]るとハートは.なくなぉてしまうから[G:369][G:370]!!{BREAK}",
-    "english": "Full belly{NEWLINE}boosts Atk!{BREAK}",
+    "english": "Heart revives{NEWLINE}you once!{BREAK}",
     "raw_hex": "5935b212b3082b26274142358a8ba941b41957b51cb6261718191ff141b4b51cb61722b212b34aab2a0a2a2124233340293eb7b81f1ff0"
   },
   {
@@ -8348,7 +8348,7 @@
     "string_index": 34,
     "rom_offset": "0x4D79E0",
     "japanese": "[G:271][G:273]は[G:424]か[G:313]iをすると.こんなふうに1ポイントダメージを{NEWLINE}うけるんだ! つねにHPの[G:323]りに[G:369][G:370]して[G:319][G:320]しよう!{BREAK}",
-    "english": "Ice floors{NEWLINE}make you slip{BREAK}",
+    "english": "Vampire steps{NEWLINE}cost 1 HP!{BREAK}",
     "raw_hex": "b9064aba29770914461722ab59182abb404d41ac4803b32e2f120e14f140571718191f397c3b4d4e4f358d654db7b823248a8b230b401ff0"
   },
   {
@@ -8357,7 +8357,7 @@
     "string_index": 35,
     "rom_offset": "0x4D7A18",
     "japanese": "この[G:470]が[G:349]まん[G:470][G:350]になると[G:274][G:273]に[G:295][G:468]してパワーアォプ!{NEWLINE}[G:349]しん[G:470][G:350]になると[G:273]aに[G:309]ぉてしまうから[G:315]をつけよう{BREAK}",
-    "english": "Flame traps{NEWLINE}burn floor.{BREAK}",
+    "english": "Full moon:{NEWLINE}beast form!{BREAK}",
     "raw_hex": "5935bc08833318bc854d2a1722bd064dbebf2324c0c112810f9b1ff1832318bc854d2a172206c24d6f2124233340293e7b147c570b40f0"
   },
   {
@@ -8366,7 +8366,7 @@
     "string_index": 36,
     "rom_offset": "0x4D7A4F",
     "japanese": "[G:367]の[G:368]だ![G:280]にのると[G:424]かにぶつかるまですべぉてしまうぞ,{NEWLINE}ナナメ[G:250]iをうまく[G:255]ぉて.かいひしよう!{BREAK}",
-    "english": "Poison traps{NEWLINE}sap your HP.{BREAK}",
+    "english": "Ice floors{NEWLINE}make you slip{BREAK}",
     "raw_hex": "c335c4191f554d351722ba294dc57c2917330446c621242333401e0cf1a2a22fa3091440330a522124ab29259c230b401ff0"
   },
   {
@@ -8375,7 +8375,7 @@
     "string_index": 37,
     "rom_offset": "0x4D7A81",
     "japanese": "[G:336]{BREAK}",
-    "english": "Sleep traps{NEWLINE}stop moves.{BREAK}",
+    "english": "{G:336}{BREAK}",
     "raw_hex": "c7f0"
   },
   {
@@ -8384,7 +8384,7 @@
     "string_index": 38,
     "rom_offset": "0x4D7A83",
     "japanese": "[G:335]{BREAK}",
-    "english": "Confuse traps{NEWLINE}invert D-Pad!{BREAK}",
+    "english": "{G:335}{BREAK}",
     "raw_hex": "c8f0"
   },
   {
@@ -8393,7 +8393,7 @@
     "string_index": 39,
     "rom_offset": "0x4D7A85",
     "japanese": "[G:334]{BREAK}",
-    "english": "Warp traps{NEWLINE}move you away{BREAK}",
+    "english": "{G:334}{BREAK}",
     "raw_hex": "c9f0"
   },
   {
@@ -8402,7 +8402,7 @@
     "string_index": 40,
     "rom_offset": "0x4D7A87",
     "japanese": "[G:340]{BREAK}",
-    "english": "Blind traps{NEWLINE}hide map.{BREAK}",
+    "english": "{G:340}{BREAK}",
     "raw_hex": "caf0"
   },
   {
@@ -8411,7 +8411,7 @@
     "string_index": 41,
     "rom_offset": "0x4D7A89",
     "japanese": "[G:339]{BREAK}",
-    "english": "Rust traps{NEWLINE}drop weapon.{BREAK}",
+    "english": "{G:339}{BREAK}",
     "raw_hex": "cbf0"
   },
   {
@@ -8420,7 +8420,7 @@
     "string_index": 42,
     "rom_offset": "0x4D7A8B",
     "japanese": "[G:338]{BREAK}",
-    "english": "Master cards{NEWLINE}to conquer!{BREAK}",
+    "english": "{G:338}{BREAK}",
     "raw_hex": "ccf0"
   },
   {
@@ -8429,7 +8429,7 @@
     "string_index": 43,
     "rom_offset": "0x4D7A8D",
     "japanese": "[G:277]{BREAK}",
-    "english": "Win medals at{NEWLINE}Slot Casino!{BREAK}",
+    "english": "{G:277}{BREAK}",
     "raw_hex": "cdf0"
   },
   {
@@ -8438,7 +8438,7 @@
     "string_index": 44,
     "rom_offset": "0x4D7A8F",
     "japanese": "[G:337]{BREAK}",
-    "english": "Conquer the{NEWLINE}Monster Gate!{BREAK}",
+    "english": "{G:337}{BREAK}",
     "raw_hex": "cef0"
   },
   {
@@ -8465,7 +8465,7 @@
     "string_index": 2,
     "rom_offset": "0x4D7C66",
     "japanese": "[G:271][G:347][G:348]までのガーデァアンが{NEWLINE}ついかできます{BREAK}",
-    "english": "Tough beasts{NEWLINE}can be added.{BREAK}",
+    "english": "Up to Archer{NEWLINE}can be added.{BREAK}",
     "raw_hex": "1415160f0d0203040506070809f10a0b0c0d0e0f10f0"
   },
   {
@@ -8501,7 +8501,7 @@
     "string_index": 6,
     "rom_offset": "0x4D7CC3",
     "japanese": "スケルトン/プリースト/ゾンビ/{NEWLINE}ブロォサ/シニガミのガーデァアンが{NEWLINE}ついかできます{BREAK}",
-    "english": "Ghost beasts{NEWLINE}can be added.{BREAK}",
+    "english": "Undead Guards{NEWLINE}can be added.{BREAK}",
     "raw_hex": "1a11201b0818211f041a1b1822082318f11e24252618272803290203040506070809f10a0b0c0d0e0f10f0"
   },
   {
@@ -8510,7 +8510,7 @@
     "string_index": 7,
     "rom_offset": "0x4D7CEE",
     "japanese": "ターミネーターまでのガーデァアンが{NEWLINE}ついかできます{BREAK}",
-    "english": "Guard slots{NEWLINE}are locked.{BREAK}",
+    "english": "Up to Termin.{NEWLINE}can be added.{BREAK}",
     "raw_hex": "2a04292b042a040f0d0203040506070809f10a0b0c0d0e0f10f0"
   },
   {
@@ -8519,7 +8519,7 @@
     "string_index": 8,
     "rom_offset": "0x4D7D08",
     "japanese": "全てのガーデァアンとゴーストが{NEWLINE}ついかできます{BREAK}",
-    "english": "Guardian post{NEWLINE}is stationed!{BREAK}",
+    "english": "All Guardians{NEWLINE}& Ghosts OK.{BREAK}",
     "raw_hex": "0001020304050607082c19041a1b09f10a0b0c0d0e0f10f0"
   },
   {
@@ -8555,7 +8555,7 @@
     "string_index": 0,
     "rom_offset": "0x4D7E2C",
     "japanese": "   {NEWLINE}   ワールドモードがえらべるようになりました{CTRL:F3}",
-    "english": "World Mode{NEWLINE}unlocked!{BREAK}",
+    "english": "World Mode{NEWLINE}unlocked!{CTRL:F3}",
     "raw_hex": "000000f100000001020304050204060708090a0b0c0d0e0f101112f3"
   },
   {
@@ -8564,7 +8564,7 @@
     "string_index": 1,
     "rom_offset": "0x4D7E48",
     "japanese": "[G:322]のエリアへいどうできるようになりました{CTRL:F3}",
-    "english": "New area open{NEWLINE}on map!{BREAK}",
+    "english": "New area open{NEWLINE}on map!{CTRL:F3}",
     "raw_hex": "131415161718191a0c1b1c0a0b0c0d0e0f101112f3"
   },
   {
@@ -8573,7 +8573,7 @@
     "string_index": 2,
     "rom_offset": "0x4D7E5D",
     "japanese": "CLOSE[G:411]にちょうせんできるようになりました{BREAK}",
-    "english": "Secret Cave{NEWLINE}unlocked!{BREAK}",
+    "english": "CLOSE GATE{NEWLINE}unlocked!{BREAK}",
     "raw_hex": "1d1e1f2021220d23240c25261b1c0a0b0c0d0e0f101112f0"
   },
   {
@@ -8582,7 +8582,7 @@
     "string_index": 3,
     "rom_offset": "0x4D7E75",
     "japanese": "WILD[G:411]にちょうせんできるようになりました{BREAK}",
-    "english": "Boss Gate has{NEWLINE}opened!{BREAK}",
+    "english": "WILD GATE{NEWLINE}unlocked!{BREAK}",
     "raw_hex": "27281e29220d23240c25261b1c0a0b0c0d0e0f101112f0"
   },
   {
@@ -8591,7 +8591,7 @@
     "string_index": 4,
     "rom_offset": "0x4D7E8C",
     "japanese": "REAL[G:411]にちょうせんできるようになりました{BREAK}",
-    "english": "Rank record{NEWLINE}updated!{BREAK}",
+    "english": "REAL GATE{NEWLINE}unlocked!{BREAK}",
     "raw_hex": "2a212b1e220d23240c25261b1c0a0b0c0d0e0f101112f0"
   },
   {
@@ -8600,7 +8600,7 @@
     "string_index": 5,
     "rom_offset": "0x4D7EA3",
     "japanese": "DEEP[G:411]にちょうせんできるようになりました{BREAK}",
-    "english": "Card recipes{NEWLINE}expanded!{BREAK}",
+    "english": "DEEP GATE{NEWLINE}unlocked!{BREAK}",
     "raw_hex": "2921212c220d23240c25261b1c0a0b0c0d0e0f101112f0"
   },
   {
@@ -8609,7 +8609,7 @@
     "string_index": 6,
     "rom_offset": "0x4D7EBA",
     "japanese": "GREAT[G:411]にちょうせんできるようになりました{BREAK}",
-    "english": "Area cleared{NEWLINE}safely!{BREAK}",
+    "english": "GREAT GATE{NEWLINE}unlocked!{BREAK}",
     "raw_hex": "2d2a212b2e220d23240c25261b1c0a0b0c0d0e0f101112f0"
   },
   {
@@ -8681,7 +8681,7 @@
     "string_index": 5,
     "rom_offset": "0x4D803E",
     "japanese": "{CTRL:F9}サファア{NEWLINE} うぉ/// {CTRL:F8}ン{CTRL:F6}?///{NEWLINE} {CTRL:F8}とよかぉた/// {CTRL:F8}!あなたは.ぶじだぉたのね///{CTRL:F3}",
-    "english": "{CTRL:F9}Saph{NEWLINE}You're{NEWLINE}praise stars!{CTRL:F3}",
+    "english": "{CTRL:F9}Saph{NEWLINE}You're safe!{NEWLINE}Thank stars!{CTRL:F3}",
     "raw_hex": "f924252627f1001a0f03030300f83cf609030303f100f83228180f1003030300f81e2917100d0e2a151f0f101c2b030303f3"
   },
   {
@@ -9914,7 +9914,7 @@
     "string_index": 21,
     "rom_offset": "0x4D9AEB",
     "japanese": "{CTRL:F9}[G:327][G:348][G:451]の[G:418]{NEWLINE} ふあっ{CTRL:F8}ボっ{CTRL:F8}ごっ{CTRL:F8}てっ///{CTRL:F3}",
-    "english": "{CTRL:F9}Villager{NEWLINE}*yawn*... so{NEWLINE}so sleepy...{CTRL:F3}",
+    "english": "{CTRL:F9}Villager{NEWLINE}*yawn*... I'm{NEWLINE}so sleepy...{CTRL:F3}",
     "raw_hex": "f96a6b6c066df10089168af8148af81e8af8288a050505f3"
   },
   {
@@ -10976,7 +10976,7 @@
     "string_index": 4,
     "rom_offset": "0x4DB1FF",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} [G:433][G:568]がどうやぉて.[G:461]を[G:458]べようぉていうの?{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}No mouth, how{NEWLINE}how eat?!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}No mouth, how{NEWLINE}do you eat?!{CTRL:F3}",
     "raw_hex": "f9f6f10028292a182b2c2d2e10192f3031322b2d2e092b0333f3"
   },
   {
@@ -11930,7 +11930,7 @@
     "string_index": 21,
     "rom_offset": "0x4DC521",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} なっるほどぇ! そうとなぉたら///{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}He has{NEWLINE}confidence...{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}He has bold{NEWLINE}confidence...{CTRL:F3}",
     "raw_hex": "f9f6f102088a5403758b1a0246041208260d2f151515f3"
   },
   {
@@ -12713,7 +12713,7 @@
     "string_index": 8,
     "rom_offset": "0x4DD86C",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} アウチチ{CTRL:F8}ん/{CTRL:F8}ん/{CTRL:F8}ん/ なぬ[G:419]?{NEWLINE} カジノじゃないとな[G:419]? そんな///{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Not a{NEWLINE}All in vain?!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}No casino?!{NEWLINE}All in vain?!{CTRL:F3}",
     "raw_hex": "f9f6f10042434444f8142bf8142bf8142b0023454621f1000f10111516230d47234621000414232b2b2bf3"
   },
   {
@@ -12884,7 +12884,7 @@
     "string_index": 4,
     "rom_offset": "0x4DDC3B",
     "japanese": "{CTRL:F9}  ?{NEWLINE} ///んもう[G:419]{NEWLINE} ///[G:390]きろぇ!!{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Monsters{NEWLINE}my day out?!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Beasts ruined{NEWLINE}my day out?!{CTRL:F3}",
     "raw_hex": "f9000021f100020202152a2b14f10002020227282c2d0707f3"
   },
   {
@@ -12938,7 +12938,7 @@
     "string_index": 10,
     "rom_offset": "0x4DDD13",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} おーほぉほほほ!{NEWLINE} あ[G:419]ら.[G:424]かご[G:256]かしら? ヒヨコちゃん!{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I shall{NEWLINE}whole realm!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I shall rule{NEWLINE}whole realm!{CTRL:F3}",
     "raw_hex": "f9f6f1000805091b09090907f1002f141f1c4b464c4d463b1f2100384e16234f1507f3"
   },
   {
@@ -12992,7 +12992,7 @@
     "string_index": 16,
     "rom_offset": "0x4DDDE0",
     "japanese": "{CTRL:F9}h[G:423]いの[G:432]{NEWLINE} ちがうの?{NEWLINE} [G:262][G:299].[G:438][G:281]が[G:416][G:417][G:383]してモンスターがいるでしょう{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Monsters{NEWLINE}bow to me!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Monsters must{NEWLINE}bow to me!{CTRL:F3}",
     "raw_hex": "f93233103435f10023192b3421f100696a1c6b6c196d6e6f3b114118424305191012373b242bf3"
   },
   {
@@ -13082,7 +13082,7 @@
     "string_index": 2,
     "rom_offset": "0x4DE061",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} [G:275]お[G:472][G:237]ぉてそぇ[G:419][G:276]{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}I am the{NEWLINE}of the Gate.{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}I am keeper{NEWLINE}of the Gate.{CTRL:F3}",
     "raw_hex": "f9f6f102261d27281b10292a212bf3"
   },
   {
@@ -13100,7 +13100,7 @@
     "string_index": 4,
     "rom_offset": "0x4DE099",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} ほらほら.ガォポリもうけるんだから{NEWLINE} コイン{CTRL:F8}[G:237]ちょ{CTRL:F8}[G:237]う{CTRL:F8}[G:237]だ{CTRL:F8}[G:237]い!{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}This is the{NEWLINE}of demons!{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}This is the{NEWLINE}demon gate!{CTRL:F3}",
     "raw_hex": "f9f6f10203390339053a3b3c3d3e043f4007144139f102423743f8284445f82804f82814f8281619f3"
   },
   {
@@ -13154,7 +13154,7 @@
     "string_index": 10,
     "rom_offset": "0x4DE16E",
     "japanese": "{CTRL:F9}門番{NEWLINE} [G:585]かれてしまぉたのじゃ!{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}The monsters{NEWLINE}ferocious!{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}The beasts{NEWLINE}went wild!{CTRL:F3}",
     "raw_hex": "f90001f1026e415c101a201b0d241e4719f3"
   },
   {
@@ -13244,7 +13244,7 @@
     "string_index": 20,
     "rom_offset": "0x4DE2B4",
     "japanese": "{CTRL:F9}門番{NEWLINE} その[G:349]オーブのかけら[G:350]を[G:292]めなければ{NEWLINE} GREAT[G:411]へ[G:289]る[G:583]はかなわぬのだぞ{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}What a{NEWLINE}young lady...{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}What a bold{NEWLINE}young lady...{CTRL:F3}",
     "raw_hex": "f90001f1022924572f305a24413f395b628a7a083f5c8bf102666768696a6b7e64408c1341085d4824148df3"
   },
   {
@@ -13370,7 +13370,7 @@
     "string_index": 6,
     "rom_offset": "0x4DE5AC",
     "japanese": "{CTRL:F9}門番{NEWLINE} ロドリーグ[G:420]によぉて封印がとかれたさい{NEWLINE} [G:349]封印のオーブ[G:350]もくだけちぉた{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}Beasts will{NEWLINE}to take back!{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}Beasts took{NEWLINE}the shards!{CTRL:F3}",
     "raw_hex": "f90001f1024748493a4a4b2a4c11093d3e35220434121a0cf102403d3e13413a4245324d10431d1112f3"
   },
   {
@@ -13415,7 +13415,7 @@
     "string_index": 11,
     "rom_offset": "0x4DE65B",
     "japanese": "{CTRL:F9}門番{NEWLINE} すべての[G:411]をrめおとし.オーブを[G:435][G:355]する[G:583]が[G:246][G:421]れば{NEWLINE} モンスターゲートとその[G:271][G:401]を封印[G:246][G:421]るじゃろう{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Is he{NEWLINE}I hope so!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Is he strong?{NEWLINE}I hope so!{CTRL:F3}",
     "raw_hex": "f90001f1025a6709136153686915220805413a4253516a5a2e54355b5c3431f102363738393a3b3a3c2233136b57533d3e5b5c2e191e2407f3"
   },
   {
@@ -13586,7 +13586,7 @@
     "string_index": 0,
     "rom_offset": "0x4DEB68",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} ちょぉとぇ.おどきなさいよドーブツ!{NEWLINE} アタシのドレスがよごれるでしょお!{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Out of my{NEWLINE}filthy beast!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Out of my way{NEWLINE}filthy beast!{CTRL:F3}",
     "raw_hex": "f9f6f1000102030405060708090a0b0c0d0e0f101112f100131415160e1718190d1a1b1c1d1e020712f3"
   },
   {
@@ -13640,7 +13640,7 @@
     "string_index": 2,
     "rom_offset": "0x4DECCC",
     "japanese": "{CTRL:F9}マリウス{NEWLINE} お[G:288]の[G:445]に.きょうふはないのか?{NEWLINE} まがまがしい[G:445]のやみは.[G:584][G:540]しないのか?{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Why so{NEWLINE}Smile a bit!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Why so grim?{NEWLINE}Smile a bit!{CTRL:F3}",
     "raw_hex": "f91d1e1f20f1000529222a27042b2c162d2e2f0a221410f100080b080b170a2a2230312e043233172f0a221410f3"
   },
   {
@@ -13649,7 +13649,7 @@
     "string_index": 3,
     "rom_offset": "0x4DECFA",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} このアタシにコワイものなんて{NEWLINE} なーんにもない{CTRL:F8}リ{CTRL:F9}もん!{CTRL:F3}",
-    "english": "{CTRL:F9}Marius{NEWLINE}The world is{NEWLINE}falls soon.{CTRL:F3}",
+    "english": "{CTRL:F9}Marius{NEWLINE}This world{NEWLINE}falls soon.{CTRL:F3}",
     "raw_hex": "f9f6f10034221112132735363738222f0318f1002f390327382f0af81ef938031cf3"
   },
   {
@@ -13658,7 +13658,7 @@
     "string_index": 4,
     "rom_offset": "0x4DED1C",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} モンスターゲートでひともうけすれば{NEWLINE} ますますハォピーになぉちゃうわ!{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Not while am{NEWLINE}here, honey!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Not while I'm{NEWLINE}here, honey!{CTRL:F3}",
     "raw_hex": "f9f6f1003a3b2012393c393d3e3f26381640414243f1000841084144454639272f471a1b160c1cf3"
   },
   {
@@ -13730,7 +13730,7 @@
     "string_index": 4,
     "rom_offset": "0x4DEEF9",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} かー{CTRL:F8}?なー{CTRL:F8}?りー{CTRL:F8}?キツイおしおきが[G:330][G:331]みたいね///{NEWLINE} め[G:419]{CTRL:F8}?だま{CTRL:F8}?やきちゃ[G:419]{CTRL:F8}?ん!{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Eat my{NEWLINE}creepy beast!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Eat my spell,{NEWLINE}creepy beast!{CTRL:F3}",
     "raw_hex": "f9f6f1001535f8321835f8323635f832373839333a333b113c3d3e3f0b402e2e2ef1000514f8320607f832413b080914f832030af3"
   },
   {
@@ -14225,7 +14225,7 @@
     "string_index": 3,
     "rom_offset": "0x4DFA76",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} {CTRL:F9}[G:354]ならまだaにあうのです!{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Before I{NEWLINE}I will fight!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Before I fall{NEWLINE}I will fight!{CTRL:F3}",
     "raw_hex": "f9f6f102f93f15402a413a08210f2c094243f3"
   },
   {
@@ -14477,7 +14477,7 @@
     "string_index": 7,
     "rom_offset": "0x4E006D",
     "japanese": "{CTRL:F9}[G:416][G:417]の門番{NEWLINE} まず.このエリアを[G:426][G:332]しているCLOSE[G:411]の[G:286]{NEWLINE} [G:271][G:420]バラムにいどむしかない///{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}Guard the{NEWLINE}when taken!{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}Guard the Orb{NEWLINE}when taken!{CTRL:F3}",
     "raw_hex": "f9070802090af10035651d0102665d6719644e0c1c382d68696a6b6c1f026df100635f6e6f700e3826710c0d4938060606f3"
   },
   {
@@ -14801,7 +14801,7 @@
     "string_index": 5,
     "rom_offset": "0x4E0820",
     "japanese": "{CTRL:F9}ガレス{NEWLINE} これが.わらわずにいられるか!{CTRL:F3}",
-    "english": "{CTRL:F9}Gareth{NEWLINE}How long can{NEWLINE}stay human?{CTRL:F3}",
+    "english": "{CTRL:F9}Gareth{NEWLINE}How long can{NEWLINE}you stay man?{CTRL:F3}",
     "raw_hex": "f9000102f1030708330f430c430b440e0c082f1a06f3"
   },
   {
@@ -14864,7 +14864,7 @@
     "string_index": 4,
     "rom_offset": "0x4E09A0",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} {CTRL:F9}モンスターゲートを[G:586]ざすまでは!{CTRL:F8}!{NEWLINE} [G:424]があろうと.[G:505]けるわけにはいかない!{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Until the{NEWLINE}is sealed!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Until Gate{NEWLINE}is sealed!{CTRL:F3}",
     "raw_hex": "f9f6f100f9212223242526252728292a2b1415181ef81ef1002c0c2d2e012f021f201216203018050a0e051ef3"
   },
   {
@@ -15008,7 +15008,7 @@
     "string_index": 3,
     "rom_offset": "0x4E0D62",
     "japanese": "{CTRL:F9}[G:416][G:417]の門番{NEWLINE} {CTRL:F6}///{CTRL:F8}ハ{NEWLINE} {CTRL:F9}まさか[G:380]が!{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}Curse takes{NEWLINE}takes hold!{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}The curse{NEWLINE}takes hold!{CTRL:F3}",
     "raw_hex": "f90001020304f105f6090909f81ef105f924252627281df3"
   },
   {
@@ -15089,7 +15089,7 @@
     "string_index": 12,
     "rom_offset": "0x4E0EAE",
     "japanese": "{CTRL:F9}[G:416][G:417]の門番{NEWLINE} お[G:288]が[G:465]しみにたえているのをhて{NEWLINE} わしは.[G:306][G:251]のむ[G:401]さをかんじるばかりだぉた///{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}I felt so{NEWLINE}and weak...{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I felt so{NEWLINE}cold & weak..{CTRL:F3}",
     "raw_hex": "f90001020304f1052037285214560815572b07380211582bf1054b142f29595a024e5b2511265319383c265c2c1c15090909f3"
   },
   {
@@ -15107,7 +15107,7 @@
     "string_index": 14,
     "rom_offset": "0x4E0F19",
     "japanese": "{CTRL:F9}[G:416][G:417]の門番{NEWLINE} この[G:345]に封じられているかぎり{NEWLINE} おぬしは.だれもキズつけたりはせん{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}Here, the{NEWLINE}holds you.{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}Here, this{NEWLINE}seal holds.{CTRL:F3}",
     "raw_hex": "f90001020304f1052d02660812193b672b073826685cf1052069142f292c6730416a066b155c2f6c53f3"
   },
   {
@@ -15116,7 +15116,7 @@
     "string_index": 15,
     "rom_offset": "0x4E0F43",
     "japanese": "{CTRL:F9}[G:416][G:417]の門番{NEWLINE} だから.[G:517][G:445]して[G:354]はその[G:380]を[G:492]ませるのじゃ{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}You will{NEWLINE}harm anyone.{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}You won't{NEWLINE}harm anyone.{CTRL:F3}",
     "raw_hex": "f90001020304f1052c263b296d6e142b6f2f4c02271170246c3802191af3"
   },
   {
@@ -15188,7 +15188,7 @@
     "string_index": 3,
     "rom_offset": "0x4E1186",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} [G:354]ならまだaにあいます{CTRL:F8}れ/{CTRL:F8}れ/{CTRL:F8}れ/{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Before I{NEWLINE}I will fight!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Before I fall{NEWLINE}I will fight!{CTRL:F3}",
     "raw_hex": "f9f6f1023f15402a413a0822262a42f81e0cf81e0cf81e0cf3"
   },
   {
@@ -15647,7 +15647,7 @@
     "string_index": 5,
     "rom_offset": "0x4E1C1C",
     "japanese": "{CTRL:F9}ガレス{NEWLINE} {CTRL:F9}これが.わらわずにいられるか!{CTRL:F3}",
-    "english": "{CTRL:F9}Gareth{NEWLINE}How long can{NEWLINE}stay human?{CTRL:F3}",
+    "english": "{CTRL:F9}Gareth{NEWLINE}How long can{NEWLINE}you stay man?{CTRL:F3}",
     "raw_hex": "f9000102f103f90708320f430c430b440e0c082e4206f3"
   },
   {
@@ -15746,7 +15746,7 @@
     "string_index": 3,
     "rom_offset": "0x4E1E9A",
     "japanese": "{CTRL:F9}[G:416][G:417]の門番{NEWLINE} {CTRL:F6}///{CTRL:F8}ハ{NEWLINE} {CTRL:F9}まさか[G:380]が!{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}Curse takes{NEWLINE}takes hold!{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}The curse{NEWLINE}takes hold!{CTRL:F3}",
     "raw_hex": "f90001020304f105f6090909f81ef105f924252627281df3"
   },
   {
@@ -15827,7 +15827,7 @@
     "string_index": 12,
     "rom_offset": "0x4E1FE6",
     "japanese": "{CTRL:F9}[G:416][G:417]の門番{NEWLINE} お[G:288]が[G:465]しみにたえているのをhて{NEWLINE} わしは.[G:306][G:251]のむ[G:401]さをかんじるばかりだぉた///{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}I felt so{NEWLINE}and weak...{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I felt so{NEWLINE}cold & weak..{CTRL:F3}",
     "raw_hex": "f90001020304f1052037285214560815572b07380211582bf1054b142f29595a024e5b2511265319383c265c2c1c15090909f3"
   },
   {
@@ -15845,7 +15845,7 @@
     "string_index": 14,
     "rom_offset": "0x4E2051",
     "japanese": "{CTRL:F9}[G:416][G:417]の門番{NEWLINE} この[G:345]に封じられているかぎり{NEWLINE} おぬしは.だれもキズつけたりはせん{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}Here, the{NEWLINE}holds you.{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}Here, this{NEWLINE}seal holds.{CTRL:F3}",
     "raw_hex": "f90001020304f1052d02660812193b672b073826685cf1052069142f292c6730416a066b155c2f6c53f3"
   },
   {
@@ -15854,7 +15854,7 @@
     "string_index": 15,
     "rom_offset": "0x4E207B",
     "japanese": "{CTRL:F9}[G:416][G:417]の門番{NEWLINE} だから.[G:517][G:445]して[G:354]はその[G:380]を[G:492]ませるのじゃ{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}You will{NEWLINE}harm anyone.{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}You won't{NEWLINE}harm anyone.{CTRL:F3}",
     "raw_hex": "f90001020304f1052c263b296d6e142b6f2f4c02271170246c3802191af3"
   },
   {
@@ -16043,7 +16043,7 @@
     "string_index": 1,
     "rom_offset": "0x4E2579",
     "japanese": "{CTRL:F9}門番{NEWLINE} おどかすでない!{NEWLINE} [G:252][G:528]を[G:246]さんでもちゃんときこえとる{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}Well, well! A{NEWLINE}a young boy?{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}Well, well! A{NEWLINE}young boy?{CTRL:F3}",
     "raw_hex": "f90e0ff10010110a1213140708f10015161718060313191a1b031c1d1e1f1c20f3"
   },
   {
@@ -16070,7 +16070,7 @@
     "string_index": 4,
     "rom_offset": "0x4E25CC",
     "japanese": "{CTRL:F9}門番{NEWLINE} たしかにわしは[G:425]いもするが///{NEWLINE} いぉたい[G:424]の[G:256]じゃ?{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I have{NEWLINE}full courage!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I'm packed{NEWLINE}with courage!{CTRL:F3}",
     "raw_hex": "f90e0ff100232d0a2e2f2d302a0719122024212121f10007312307323334351b2cf3"
   },
   {
@@ -16142,7 +16142,7 @@
     "string_index": 12,
     "rom_offset": "0x4E2706",
     "japanese": "{CTRL:F9}門番{NEWLINE} ふむ///では.このまま[G:471]をつづけてみるのはどうじゃ?{NEWLINE} そうすれば[G:471][G:300]で.いろいろな[G:273]aに[G:246][G:413]うじゃろう{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Easy Gate? No{NEWLINE}no problem!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Easy Gate?{NEWLINE}No problem!{CTRL:F3}",
     "raw_hex": "f90e0ff100404e2121211330251e330b0b561757585936272033301129351b2cf100412912093f565a1325074c074c145b5c2e185d29351b4c29f3"
   },
   {
@@ -16196,7 +16196,7 @@
     "string_index": 1,
     "rom_offset": "0x4E289E",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} あ! [G:425]い[G:430]のおじいさん{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Told you! It{NEWLINE}super easy!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Told you! It{NEWLINE}was easy!{CTRL:F3}",
     "raw_hex": "f9f6f108090a080b0c0d060e0f0c1011f3"
   },
   {
@@ -16205,7 +16205,7 @@
     "string_index": 2,
     "rom_offset": "0x4E28AF",
     "japanese": "{CTRL:F9}門番{NEWLINE} [G:471]のほうは.じゅんちょうそうじゃな{NEWLINE} まだ.なりたいものはhつからないか?{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}You have{NEWLINE}young fellow!{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}You have guts{NEWLINE}young fellow!{CTRL:F3}",
     "raw_hex": "f90001f1081206131415160f17111819141a140f1b1cf108021d161c1e030c1f0615202122231c0c2224f3"
   },
   {
@@ -16277,7 +16277,7 @@
     "string_index": 2,
     "rom_offset": "0x4E2A3C",
     "japanese": "{CTRL:F9}門番{NEWLINE} お.どうやら[G:306][G:251]がなりたいものがhつかぉたようじゃな{NEWLINE} ///どうだ.もぉと[G:371][G:236]をhてみたいとは[G:587]わんか?{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}Keep your{NEWLINE}in order.{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}Keep your{NEWLINE}deck ready.{CTRL:F3}",
     "raw_hex": "f90001f10210071e1f062021221d0a23040d050f1d1524250904171f11260af1020b0b0b1e1f2707050928292a2b15162c040d281a2d2e13252ff3"
   },
   {
@@ -16583,7 +16583,7 @@
     "string_index": 8,
     "rom_offset": "0x4E307F",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} た.[G:447]かぉたー///{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Hooray! It{NEWLINE}so awesome!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Hooray! This{NEWLINE}is awesome!{CTRL:F3}",
     "raw_hex": "f9f6f1003b124108043b350d0d0df3"
   },
   {
@@ -16673,7 +16673,7 @@
     "string_index": 18,
     "rom_offset": "0x4E31BD",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} [G:271][G:272]でガンガン! うーん.いいなー{CTRL:F3}",
-    "english": "{CTRL:F9}Old Man{NEWLINE}What an{NEWLINE}young hero.{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}What a brave{NEWLINE}young hero.{CTRL:F3}",
     "raw_hex": "f9f6f1006061164a2a4a2a20001b3507121f1f0635f3"
   },
   {
@@ -16844,7 +16844,7 @@
     "string_index": 0,
     "rom_offset": "0x4E3604",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} ふうぉ!{NEWLINE} [G:324]し[G:492]もうぉと{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Phew! That{NEWLINE}tiring trek!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Phew! That's{NEWLINE}a long trek!{CTRL:F3}",
     "raw_hex": "f9f6f10001020304f10005060708020309f3"
   },
   {
@@ -16871,7 +16871,7 @@
     "string_index": 3,
     "rom_offset": "0x4E3650",
     "japanese": "{CTRL:F9}門番{NEWLINE} すまん.すまん{NEWLINE} それより.[G:471]のyはどうじゃ?{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}That is an{NEWLINE}fragment!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}That's an Orb{NEWLINE}fragment!{CTRL:F3}",
     "raw_hex": "f90a0bf10022241b1822241bf100251d112118262728292a0212132bf3"
   },
   {
@@ -16889,7 +16889,7 @@
     "string_index": 5,
     "rom_offset": "0x4E3681",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} そういえば.ここにおくぉてもらぉたあと{NEWLINE} [G:434]を[G:590][G:320]してたら.こんなもの[G:301]に[G:289]れたんだけど{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}Monsters{NEWLINE}them away.{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}Beasts stole{NEWLINE}them away.{CTRL:F3}",
     "raw_hex": "f9f6f10025020f2f30183131323320030e083403351709f10036373839060e353418311b1408273a323b1d351b3c3d2af3"
   },
   {
@@ -17015,7 +17015,7 @@
     "string_index": 19,
     "rom_offset": "0x4E3880",
     "japanese": "{CTRL:F9}門番{NEWLINE} モンスターに[G:411]をrめおとされると.[G:411]を[G:467]うだけではなく{NEWLINE} その[G:411]にある[G:349]オーブのかけら[G:350]もうばわれてしまうのじゃ{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}Keep your{NEWLINE}ready always.{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}Keep your{NEWLINE}guard up.{CTRL:F3}",
     "raw_hex": "f90a0bf1004f50515247326637757633094b1d100918663777023c3d1e291420f1002527663217104346474827233d3449080230541d0e062402271213f3"
   },
   {
@@ -17087,7 +17087,7 @@
     "string_index": 1,
     "rom_offset": "0x4E3B2D",
     "japanese": "{CTRL:F9}バラム{NEWLINE} ほう!{NEWLINE} これはまた.ひよわそうなヤツがきたな///{CTRL:F3}",
-    "english": "{CTRL:F9}Balam{NEWLINE}Hoh! A{NEWLINE}kid arrived!{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}Hoh! A human{NEWLINE}kid arrived!{CTRL:F3}",
     "raw_hex": "f90e0f10f100111213f100141516171804191a1b1c12011d1e080718011f1f1ff3"
   },
   {
@@ -17096,7 +17096,7 @@
     "string_index": 2,
     "rom_offset": "0x4E3B4E",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} うわぉ! う.[G:459]!{NEWLINE} し.しかも.しゃべぉたー!{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Whoa! A{NEWLINE}animal beast!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Whoa! A wild{NEWLINE}beastman!{CTRL:F3}",
     "raw_hex": "f9f6f100121b20130012042113f1000b040b0322040b232420182513f3"
   },
   {
@@ -17276,7 +17276,7 @@
     "string_index": 4,
     "rom_offset": "0x4E3EA4",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} もぉとかんがえて.コトバをえらんでほしいな!{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Choose your{NEWLINE}much better!{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}Pick your{NEWLINE}cards well!{CTRL:F3}",
     "raw_hex": "f9f6f1033d101d3e393f400e0b4131424340443934453214163cf3"
   },
   {
@@ -17321,7 +17321,7 @@
     "string_index": 2,
     "rom_offset": "0x4E3FC4",
     "japanese": "{CTRL:F9}ガレス{NEWLINE} フフフ.なるほど.それも[G:405][G:576]ある///{NEWLINE} ではその[G:453][G:315]をたたえ.全[G:401]でお[G:493][G:301]しよう!{CTRL:F3}",
-    "english": "{CTRL:F9}Gareth{NEWLINE}Fufu! I shall{NEWLINE}all my power!{CTRL:F3}",
+    "english": "{CTRL:F9}Balam{NEWLINE}Fufu! I use{NEWLINE}all my power!{CTRL:F3}",
     "raw_hex": "f9000102f1031e1e1e060e180417061f200f21221618121212f10323241f25262728191929062a2b232c2d2e2f30051df3"
   },
   {
@@ -17375,7 +17375,7 @@
     "string_index": 4,
     "rom_offset": "0x4E413D",
     "japanese": "{CTRL:F9}門番{NEWLINE} うむ.よくやぉた{NEWLINE} これだけそろえばオーブを[G:435][G:355][G:246][G:421]る!{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Whoa, it{NEWLINE}so brightly!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Whoa, it{NEWLINE}shines bright{CTRL:F3}",
     "raw_hex": "f91a1bf1001739132f2a3a2c0df1001c2419361f053b28333435083c3d3e3f1827f3"
   },
   {
@@ -17402,7 +17402,7 @@
     "string_index": 7,
     "rom_offset": "0x4E418F",
     "japanese": "{CTRL:F9}門番{NEWLINE} そうすればモンスターゲートは[G:586]じ{NEWLINE} [G:371][G:236]に[G:435]び[G:463][G:464]がおとずれる{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}Peace will{NEWLINE}to the world!{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}Peace returns{NEWLINE}to the world!{CTRL:F3}",
     "raw_hex": "f91a1bf1001f17402428494a4b4c344d344e434f47f1005051313c525354554542012418f3"
   },
   {
@@ -17465,7 +17465,7 @@
     "string_index": 1,
     "rom_offset": "0x4E433F",
     "japanese": "{CTRL:F9}門番{NEWLINE} とうとうやぉたな!{NEWLINE} これでみな[G:463][G:464]にくらせるぞ!{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}What a{NEWLINE}island here!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}What a nice{NEWLINE}island here!{CTRL:F3}",
     "raw_hex": "f91617f100181918191a03071b08f10011131c1d1b1e1f20042122232408f3"
   },
   {
@@ -17546,7 +17546,7 @@
     "string_index": 10,
     "rom_offset": "0x4E4418",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} そんな[G:583]ないよ!{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Monsters{NEWLINE}my good mood!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Beasts ruined{NEWLINE}my good mood!{CTRL:F3}",
     "raw_hex": "f9f6f100462c1b471b103708f3"
   },
   {
@@ -17555,7 +17555,7 @@
     "string_index": 11,
     "rom_offset": "0x4E4425",
     "japanese": "{CTRL:F9}ソファ{NEWLINE} それで?{NEWLINE} {CTRL:F6}は.もうだれに[G:448][G:305][G:289]りするのか[G:441]めたの?{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I'll be the{NEWLINE}heroine ever!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I'll be best{NEWLINE}heroine ever!{CTRL:F3}",
     "raw_hex": "f93d3e3ff10046131c26f100f62d0248194913204a4b4c050f2327284d4e072726f3"
   },
   {
@@ -17645,7 +17645,7 @@
     "string_index": 21,
     "rom_offset": "0x4E4529",
     "japanese": "{CTRL:F9}ソファ{NEWLINE} もうぉ!{NEWLINE} {CTRL:F6}には[G:412]したい[G:583]が[G:565][G:519]あぉたのに!{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I'll make so{NEWLINE}new friends!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I'll make{NEWLINE}new friends!{CTRL:F3}",
     "raw_hex": "f93d3e3ff10048190308f100f6202d66060710470e6768400307272008f3"
   },
   {
@@ -17816,7 +17816,7 @@
     "string_index": 13,
     "rom_offset": "0x4E48E6",
     "japanese": "{NEWLINE} [G:275]そして.いつも[G:349]だれかの[G:454]に[G:496]ちたい[G:350]ぉて{NEWLINE} [G:436]ぉていたソファは[G:271][G:272][G:255]いの[G:448][G:305]に///[G:276]{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I love this{NEWLINE}this isle!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I really love{NEWLINE}this isle!{CTRL:F3}",
     "raw_hex": "f1034d10252040080752180f2c12017922515709081d1120f103411120080937383906191a2108016302220d0d0d56f3"
   },
   {
@@ -17897,7 +17897,7 @@
     "string_index": 7,
     "rom_offset": "0x4E4B22",
     "japanese": "{CTRL:F9}門番{NEWLINE} もしわしが{CTRL:F8}こ{CTRL:F9}[G:349]ドロボウこそお[G:288]の[G:498]しょく![G:350]{CTRL:F8}[G:424]と[G:436]ぉたら{NEWLINE} お[G:288]さんは.ドロボウに[G:448][G:305][G:289]りするのか?{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}The Gate{NEWLINE}beasts came.{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}From the Gate{NEWLINE}beasts came.{CTRL:F3}",
     "raw_hex": "f90e0ff100192d2f2d25f81ef941424344451e40104633472d48040949f8321c4a31244bf100104606033021424344452e3a3b3c3d1220330b2cf3"
   },
   {
@@ -17906,7 +17906,7 @@
     "string_index": 8,
     "rom_offset": "0x4E4B5D",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} そ.それは{CTRL:F8}こ/{CTRL:F8}こ/{CTRL:F8}こ/ {CTRL:F8}[G:424]えーん///{NEWLINE} {CTRL:F8}[G:441]そんな[G:583][G:436]われても{CTRL:F8}こ/{CTRL:F8}こ/{CTRL:F8}こ/{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}How do we{NEWLINE}it back up?{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}How do we{NEWLINE}seal it shut?{CTRL:F3}",
     "raw_hex": "f9f6f1004021400a30f81e22f81e22f81e2200f8321f0703222222f100f8284003144c4a2f0a3619f81e22f81e22f81e22f3"
   },
   {
@@ -17969,7 +17969,7 @@
     "string_index": 15,
     "rom_offset": "0x4E4C8F",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} そ.{CTRL:F8}こそれぉて[G:425]いのおつげですかっ?{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}Clear the{NEWLINE}GATE first.{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}Clear EASY{NEWLINE}GATE first.{CTRL:F3}",
     "raw_hex": "f9f6f1004021f81e400a31362a083310576613120b672cf3"
   },
   {
@@ -17978,7 +17978,7 @@
     "string_index": 16,
     "rom_offset": "0x4E4CA7",
     "japanese": "{CTRL:F9}門番{NEWLINE} まあ.そんなところじゃ{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Consider it{NEWLINE}mister guard!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Got it,{NEWLINE}mister guard!{CTRL:F3}",
     "raw_hex": "f90e0ff1000c23214003141c1e4d351bf3"
   },
   {
@@ -18050,7 +18050,7 @@
     "string_index": 7,
     "rom_offset": "0x4E4E6D",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} うん.わかぉたわ!{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I'll be super{NEWLINE}super safe!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I'll be{NEWLINE}super safe!{CTRL:F3}",
     "raw_hex": "f9f6f10814111644220503440af3"
   },
   {
@@ -18077,7 +18077,7 @@
     "string_index": 2,
     "rom_offset": "0x4E4F3E",
     "japanese": "{CTRL:F9}門番{NEWLINE} お.どうやら[G:306][G:251]がなりたいものがhつかぉたようじゃな{NEWLINE} ///どうだ.もぉと[G:371][G:236]をhてみたいとは[G:587]わんか?{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}Keep your{NEWLINE}well stocked.{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}Keep items{NEWLINE}well stocked.{CTRL:F3}",
     "raw_hex": "f90001f1021007171806191a1b1c0a1d040d050f1c151e1f0904201811210af1020b0b0b17182207050923242526151627040d2328292a131f2bf3"
   },
   {
@@ -18356,7 +18356,7 @@
     "string_index": 4,
     "rom_offset": "0x4E55BC",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} ああん.こんなに[G:565][G:519]いたんじゃaに[G:513]わない!{NEWLINE} だ.だれかー! [G:447]けてーーー!{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Fire isn't as{NEWLINE}as pretty!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Fire isn't{NEWLINE}as pretty!{CTRL:F3}",
     "raw_hex": "f9f6f10037370a20110a1b2138391c190a081a3a213b3c1b1c10f1002620263d2f0f10003e28170f0f0f10f3"
   },
   {
@@ -18617,7 +18617,7 @@
     "string_index": 15,
     "rom_offset": "0x4E5A07",
     "japanese": "{CTRL:F9}ギャンブラー{NEWLINE} なんなら.わしが[G:301][G:452]り[G:500][G:452]りおしえてやぉてもいいぞぁ{NEWLINE} ビギナーちゃん!{CTRL:F3}",
-    "english": "{CTRL:F9}Gambler{NEWLINE}Keep the{NEWLINE}as souvenir.{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}Keep the coin{NEWLINE}as souvenir.{CTRL:F3}",
     "raw_hex": "f9131415161718f10007060737053633225f602a61602a6233300d0b0c0d472b2b2063f1004a136418654d062cf3"
   },
   {
@@ -18644,7 +18644,7 @@
     "string_index": 0,
     "rom_offset": "0x4E5B64",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} ふうぉ!{NEWLINE} つかれた[G:419]///{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Phew! That{NEWLINE}quite a hike!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Phew! That's{NEWLINE}quite a hike!{CTRL:F3}",
     "raw_hex": "f9f6f10001020304f10005060708090a0a0af3"
   },
   {
@@ -18779,7 +18779,7 @@
     "string_index": 15,
     "rom_offset": "0x4E5D1F",
     "japanese": "{CTRL:F9}門番{NEWLINE} そうか.それならば{NEWLINE} [G:405]ついい[G:583]を.お[G:288]さんにおしえてやろう{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}You have{NEWLINE}so strong.{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}You've grown{NEWLINE}so strong.{CTRL:F3}",
     "raw_hex": "f90b0cf1002502061a2507163530f1005b05111159371a334a4b1c32330f2f10636402f3"
   },
   {
@@ -18869,7 +18869,7 @@
     "string_index": 25,
     "rom_offset": "0x4E5F02",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} [G:271][G:420]ーーー!?{NEWLINE} [G:461].{CTRL:F8}yこわい{CTRL:F8}で/{CTRL:F8}で/{CTRL:F8}で/ {CTRL:F8}にえ[G:419]ん///{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}Victory will{NEWLINE}yours, maid!{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}Victory is{NEWLINE}yours, maid!{CTRL:F3}",
     "raw_hex": "f9f6f100898a1f1f1f042bf1009e1af828315411f81e0af81e0af81e0a00f8322f091c0a0a0af3"
   },
   {
@@ -18932,7 +18932,7 @@
     "string_index": 6,
     "rom_offset": "0x4E6131",
     "japanese": "{CTRL:F9}バラム{NEWLINE} [G:459].[G:459].[G:436]うな!{NEWLINE} オレは.[G:271][G:420][G:349]バラム[G:350][G:304]だ!{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Eek! The{NEWLINE}got mad!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Eek! The girl{NEWLINE}got mad!{CTRL:F3}",
     "raw_hex": "f9111213f1002604260433150116f10034351804363738111213393a0f16f3"
   },
   {
@@ -18941,7 +18941,7 @@
     "string_index": 7,
     "rom_offset": "0x4E6150",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} きゃあ.[G:459]がおこぉたー!{NEWLINE} いや[G:419][G:419][G:419]!{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Taste my{NEWLINE}ugly monster!{CTRL:F3}",
+    "english": "{CTRL:F9}Girl{NEWLINE}Taste my rage{NEWLINE}ugly monster!{CTRL:F3}",
     "raw_hex": "f9f6f1002223090426210705271a2d16f1000c0a10101016f3"
   },
   {
@@ -19184,7 +19184,7 @@
     "string_index": 5,
     "rom_offset": "0x4E6657",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} うわ.すごい!{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Whoa, it{NEWLINE}so brightly!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Whoa, it{NEWLINE}glows bright!{CTRL:F3}",
     "raw_hex": "f9f6f1001721054316022cf3"
   },
   {
@@ -19211,7 +19211,7 @@
     "string_index": 8,
     "rom_offset": "0x4E66AD",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} いぉたい.なんの[G:412]?{NEWLINE} モンスターゲート? [G:371][G:236]に[G:463][G:464]?{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Peace will{NEWLINE}to our world!{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}Peace returns{NEWLINE}to our world!{CTRL:F3}",
     "raw_hex": "f9f6f10002380e020507041d5657f100494a4b4c324d324e570050512e535457f3"
   },
   {
@@ -19319,7 +19319,7 @@
     "string_index": 7,
     "rom_offset": "0x4E68EA",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} すごい! すごぇ[G:419]い!{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Amazing!{NEWLINE}amazing!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Truly{NEWLINE}amazing!{CTRL:F3}",
     "raw_hex": "f9f6f1000f431008000f4344451008f3"
   },
   {
@@ -19652,7 +19652,7 @@
     "string_index": 16,
     "rom_offset": "0x4E6EBB",
     "japanese": "{CTRL:F9}サーシャ{NEWLINE} それに.しばらくしたら[G:494]くなるかもしれないじゃない{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Never give up{NEWLINE}up my soul!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Never give{NEWLINE}up my soul!{CTRL:F3}",
     "raw_hex": "f9682a3a69f1004d1d10203352353d3315356e3d02433425331d0216576f0216f3"
   },
   {
@@ -20336,7 +20336,7 @@
     "string_index": 1,
     "rom_offset": "0x4E7F96",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} うわぉ.しゃべぉた!?{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Whoa, it{NEWLINE}words?!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Whoa, it{NEWLINE}spoke words?!{CTRL:F3}",
     "raw_hex": "f9f6f1031011120713141512161718f3"
   },
   {
@@ -20345,7 +20345,7 @@
     "string_index": 2,
     "rom_offset": "0x4E7FA6",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} [G:275]やぉぱり.ぼくのこと[G:254]aだと[G:587]ぉてる///{NEWLINE} やりすごせるかも?[G:276]{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}It thinks I{NEWLINE}I am kin...{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}It thinks{NEWLINE}I am kin...{CTRL:F3}",
     "raw_hex": "f9f6f103191a121b1c071d1e1f20212223242125122627282828f1031a1c292a2b272c2d182ef3"
   },
   {
@@ -20597,7 +20597,7 @@
     "string_index": 5,
     "rom_offset": "0x4E85B6",
     "japanese": "{CTRL:F9}門番{NEWLINE} ああ.[G:302]からも[G:252][G:438]からも.[G:476][G:315]が[G:376]えた{NEWLINE} モンスターゲートは封印されたのじゃ{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}Yes, the{NEWLINE}aura fades.{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}Yes, the dark{NEWLINE}aura fades.{CTRL:F3}",
     "raw_hex": "f93b3cf1001b1b053d3e3f0840413e3f080542431d020304f100090a0b0c0d0e0d0f1210113a2c04273944f3"
   },
   {
@@ -20642,7 +20642,7 @@
     "string_index": 10,
     "rom_offset": "0x4E8639",
     "japanese": "{CTRL:F9}サーシャ{NEWLINE} [G:461]が.いちばん[G:262][G:483]に{NEWLINE} [G:349]お[G:318]り[G:350]ぉて[G:436]うの{CTRL:F3}",
-    "english": "{CTRL:F9}Sasha{NEWLINE}I'll be the{NEWLINE}to say hi!{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}I'll be first{NEWLINE}to say hi!{CTRL:F3}",
     "raw_hex": "f92e0d2f30f1004a1d052352531654551ff10056382b57582122593427f3"
   },
   {
@@ -20687,7 +20687,7 @@
     "string_index": 3,
     "rom_offset": "0x4E87B5",
     "japanese": "{NEWLINE}     だけど.あんまりフシギな[G:470]だぉたから{NEWLINE}    [G:461]は.[G:437][G:555]れの[G:510]の[G:280]に[G:313]ぉてみたの///{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I won't be a{NEWLINE}a wild beast!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I won't be{NEWLINE}a wild beast!{CTRL:F3}",
     "raw_hex": "f100000000000919362137030538393a3b02080906153435f1000000003c13212f171d1e3d1e3e103f060440151e010101f3"
   },
   {
@@ -20804,7 +20804,7 @@
     "string_index": 16,
     "rom_offset": "0x4E8969",
     "japanese": "{CTRL:F9}サーシャ{NEWLINE} それに.しばらくしたら[G:494]くなるかもしれないじゃない{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Never give up{NEWLINE}up my soul!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Never give{NEWLINE}up my soul!{CTRL:F3}",
     "raw_hex": "f9692b3a6af1004d1d1021335335523315356f5202433426331d021658700216f3"
   },
   {
@@ -21488,7 +21488,7 @@
     "string_index": 1,
     "rom_offset": "0x4E9A4A",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} うわぉ.しゃべぉた!?{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Whoa, it{NEWLINE}words?!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Whoa, it{NEWLINE}spoke words?!{CTRL:F3}",
     "raw_hex": "f9f6f1031011120713141512161718f3"
   },
   {
@@ -21497,7 +21497,7 @@
     "string_index": 2,
     "rom_offset": "0x4E9A5A",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} [G:275]やぉぱり.[G:461]のこと[G:254]aだと[G:587]ぉてる///{NEWLINE} やりすごせるかも?[G:276]{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}It thinks I{NEWLINE}I am kin...{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}It thinks{NEWLINE}I am kin...{CTRL:F3}",
     "raw_hex": "f9f6f103191a121b1c071d1e1f202122232024122526272727f1031a1c28292a262b2c182df3"
   },
   {
@@ -21749,7 +21749,7 @@
     "string_index": 5,
     "rom_offset": "0x4EA057",
     "japanese": "{CTRL:F9}門番{NEWLINE} ああ.[G:302]からも[G:252][G:438]からも.[G:476][G:315]が[G:376]えた{NEWLINE} モンスターゲートは封印されたのじゃ{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}Yes, the{NEWLINE}aura fades.{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}Yes, the dark{NEWLINE}aura fades.{CTRL:F3}",
     "raw_hex": "f93738f1001b1b05393a3b083c3d3a3b08053e3f1d020304f100090a0b0c0d0e0d0f121011362604163540f3"
   },
   {
@@ -21785,7 +21785,7 @@
     "string_index": 9,
     "rom_offset": "0x4EA0B8",
     "japanese": "{CTRL:F9}サーシャ{NEWLINE} この[G:510]からなら.{CTRL:F6}が[G:318]ぉてきたら{NEWLINE} すぐに[G:251]かるもん{CTRL:F3}",
-    "english": "{CTRL:F9}Sasha{NEWLINE}I'll see her{NEWLINE}she returns.{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}I'll greet{NEWLINE}her return.{CTRL:F3}",
     "raw_hex": "f92b0d2c2df10047164a3a3b4b3b05f61d25241e4c043bf10031322a4d3a200827f3"
   },
   {
@@ -21794,7 +21794,7 @@
     "string_index": 10,
     "rom_offset": "0x4EA0DA",
     "japanese": "{CTRL:F9}サーシャ{NEWLINE} [G:461]が.いちばん[G:262][G:483]に{NEWLINE} [G:349]お[G:318]り[G:350]ぉて[G:436]うの{CTRL:F3}",
-    "english": "{CTRL:F9}Sasha{NEWLINE}I'll be the{NEWLINE}to say hi!{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}I'll be first{NEWLINE}to say hi!{CTRL:F3}",
     "raw_hex": "f92b0d2c2df100461d051f4e4f2750512af1005234255354241e553016f3"
   },
   {
@@ -21839,7 +21839,7 @@
     "string_index": 3,
     "rom_offset": "0x4EA20B",
     "japanese": "{CTRL:F9}  ?{NEWLINE} {CTRL:F9}{CTRL:F6}!{NEWLINE} {CTRL:F9}はぉ.{CTRL:F8}く{CTRL:F9}[G:317]く////{CTRL:F8}たにげ///{CTRL:F8}とろ!{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I bear your{NEWLINE}and blood.{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I bear your{NEWLINE}own blood.{CTRL:F3}",
     "raw_hex": "f900000ff100f9f610f100f90a1112f814f9131415151515f81e1617151515f8321810f3"
   },
   {
@@ -21857,7 +21857,7 @@
     "string_index": 5,
     "rom_offset": "0x4EA25E",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} [G:411]から[G:271][G:272]で{CTRL:F8}く/{CTRL:F8}く/{CTRL:F8}く/ それから?{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Even if it{NEWLINE}my very life!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Even if it{NEWLINE}costs my life{CTRL:F3}",
     "raw_hex": "f9f6f100202122232425f81415f81415f8141500040b21220ff3"
   },
   {
@@ -21938,7 +21938,7 @@
     "string_index": 6,
     "rom_offset": "0x4EA3DB",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} モンスターゲートの封印がとかれました{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I know the{NEWLINE}of his crime.{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I know all{NEWLINE}of his crime.{CTRL:F3}",
     "raw_hex": "f9f6f1003b2e0b3c3d3e3d3f0c4041051a171d352904f3"
   },
   {
@@ -22019,7 +22019,7 @@
     "string_index": 15,
     "rom_offset": "0x4EA514",
     "japanese": "{CTRL:F9}門番{NEWLINE} そのりゆうは.[G:520][G:305]であるおぬしにも[G:251]からぬのか///{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}Prove your{NEWLINE}at EASY GATE.{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}Prove your{NEWLINE}worth first.{CTRL:F3}",
     "raw_hex": "f91314f100280c316e6b1b216f70150226373229232b711748320c17060606f3"
   },
   {
@@ -22064,7 +22064,7 @@
     "string_index": 20,
     "rom_offset": "0x4EA5B5",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} ぼくには.どうしても[G:361]じられません{NEWLINE} [G:424]かワケがあるはず///{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I shall{NEWLINE}victorious!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I'll return{NEWLINE}victorious!{CTRL:F3}",
     "raw_hex": "f9f6f100532c231b21366b292a2b7f39481d357a80f100381781820502261b83060606f3"
   },
   {
@@ -22658,7 +22658,7 @@
     "string_index": 23,
     "rom_offset": "0x4EB298",
     "japanese": "{CTRL:F9}ロドリーグ{NEWLINE} [G:461]が.[G:262][G:593]の[G:401]を[G:303]りしぼぉて{NEWLINE} お[G:288]をにがしたのはそのためなのだ{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I carry the{NEWLINE}of all folk.{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I carry hopes{NEWLINE}of all folk.{CTRL:F3}",
     "raw_hex": "f92829012a2bf10432270892691d523c934b0e8d0f0df104415b3c07270e101d33241d1058221d13f3"
   },
   {
@@ -22739,7 +22739,7 @@
     "string_index": 0,
     "rom_offset": "0x4EB538",
     "japanese": "{CTRL:F9}フルカ{NEWLINE} マタ.エサ.キタ{NEWLINE} ウマソウ.オマエ{CTRL:F3}",
-    "english": "{CTRL:F9}Fulka{NEWLINE}More meat...{NEWLINE}meat...{CTRL:F3}",
+    "english": "{CTRL:F9}Fulka{NEWLINE}More...{NEWLINE}more meat...{CTRL:F3}",
     "raw_hex": "f9000102f1030405060708060905f1030a040b0a060c0407f3"
   },
   {
@@ -22937,7 +22937,7 @@
     "string_index": 9,
     "rom_offset": "0x4EB8E4",
     "japanese": "{CTRL:F9}シャドウ{NEWLINE} [G:424]を[G:436]ぉているのだ{CTRL:F6}{NEWLINE} [G:461]はお[G:288]の[G:427].GREAT[G:411]の[G:420]ロドリーグ{CTRL:F3}",
-    "english": "{CTRL:F9}Shadow{NEWLINE}I am the{NEWLINE}of the Gate!{CTRL:F3}",
+    "english": "{CTRL:F9}Shadow{NEWLINE}I am master{NEWLINE}of the Gate!{CTRL:F3}",
     "raw_hex": "f956573058f100590d5a365b13251014f6f1005c3c5455102c0e5d5e5f60610f10622f30310332f3"
   },
   {
@@ -22964,7 +22964,7 @@
     "string_index": 12,
     "rom_offset": "0x4EB957",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} [G:371][G:236]の[G:426][G:332]番だぉて?{NEWLINE} いや.[G:426][G:332]されているのは.お[G:288]のタマシイのほうだ!{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}You are a{NEWLINE}to darkness!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}You are bound{NEWLINE}to darkness!{CTRL:F3}",
     "raw_hex": "f9f6f10045461047484914365b2af10013350e4748120c5b1325103c0e545510206a566b10704c140af3"
   },
   {
@@ -23000,7 +23000,7 @@
     "string_index": 0,
     "rom_offset": "0x4EBAF0",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} モンスター[G:344]がすいこまれてゆく/{CTRL:F8}[G:316]/{CTRL:F8}[G:316]/{CTRL:F8}[G:316]{NEWLINE} 封印が[G:239][G:557]したんだ!!{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}The monsters{NEWLINE}into Gate!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Beasts flee{NEWLINE}into Gate!{CTRL:F3}",
     "raw_hex": "f9f6f1000102030405060708090a0b0c0d0e0f10f81e10f81e10f81ef1001112071314151617181919f3"
   },
   {
@@ -23009,7 +23009,7 @@
     "string_index": 1,
     "rom_offset": "0x4EBB1A",
     "japanese": "{CTRL:F9}シャドウ{NEWLINE} まだだ///{NEWLINE} {CTRL:F8}[G:316]{CTRL:F9}まだ[G:316]わらぬ!{CTRL:F3}",
-    "english": "{CTRL:F9}Shadow{NEWLINE}Not yet! It{NEWLINE}not over yet!{CTRL:F3}",
+    "english": "{CTRL:F9}Shadow{NEWLINE}Not yet! It's{NEWLINE}not over yet!{CTRL:F3}",
     "raw_hex": "f91a1b1c1df1000b1818101010f100f81ef90b181e1f202119f3"
   },
   {
@@ -23036,7 +23036,7 @@
     "string_index": 4,
     "rom_offset": "0x4EBB64",
     "japanese": "{CTRL:F9}シャドウ{NEWLINE} 封印をとく[G:476][G:272]は.[G:461]のみが[G:449]ぉているのだ!{NEWLINE} ゲートさえ[G:585]けば///{CTRL:F3}",
-    "english": "{CTRL:F9}Shadow{NEWLINE}Only I know{NEWLINE}to open Gate!{CTRL:F3}",
+    "english": "{CTRL:F9}Shadow{NEWLINE}I alone know{NEWLINE}how to open!{CTRL:F3}",
     "raw_hex": "f91a1b1c1df100111226310f3233342a35243607372e0d0938241819f1002b052c393a3b3c3d101010f3"
   },
   {
@@ -23063,7 +23063,7 @@
     "string_index": 7,
     "rom_offset": "0x4EBBA7",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} [G:427][G:280]!?{NEWLINE} でも.{CTRL:F8}[G:316]WILD[G:411]で{CTRL:F8}[G:435]たしかにぼくが///!{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Father?! But{NEWLINE}fell in fort!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Dad?! But you{NEWLINE}fell in fort!{CTRL:F3}",
     "raw_hex": "f9f6f10045461947f10048492af81e4a4b4c4d4e48f82816154f42500f0710101019f3"
   },
   {
@@ -23081,7 +23081,7 @@
     "string_index": 9,
     "rom_offset": "0x4EBBE7",
     "japanese": "{CTRL:F9}ロドリーグ{NEWLINE} モンスターゲートの[G:271][G:401]がある[G:387]り{NEWLINE} [G:424][G:258]でもよみがえる.[G:487]われた[G:380]なのだ{CTRL:F3}",
-    "english": "{CTRL:F9}Rodrigue{NEWLINE}While Gate{NEWLINE}I resurrect.{CTRL:F3}",
+    "english": "{CTRL:F9}Rodrigue{NEWLINE}While Gate{NEWLINE}lives, I do.{CTRL:F3}",
     "raw_hex": "f93f1c400541f10001020304052b052c245657075838595af1005b5c48495d36073a382a5e1f0c16255f2418f3"
   },
   {
@@ -23108,7 +23108,7 @@
     "string_index": 12,
     "rom_offset": "0x4EBC59",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} {CTRL:F9}[G:427][G:280]ー!{CTRL:F3}",
-    "english": "{CTRL:F9}Rodrigue{NEWLINE}return to the{NEWLINE}with me now!{CTRL:F3}",
+    "english": "{CTRL:F9}Rodrigue{NEWLINE}return to{NEWLINE}peace now!{CTRL:F3}",
     "raw_hex": "f9f6f100f945460519f3"
   },
   {
@@ -23135,7 +23135,7 @@
     "string_index": 15,
     "rom_offset": "0x4EBCAC",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} ///{CTRL:F8}[G:316]ここは{CTRL:F8}[G:316]///?{CTRL:F3}",
-    "english": "{CTRL:F9}Rodrigue{NEWLINE}With this,{NEWLINE}is done...{CTRL:F3}",
+    "english": "{CTRL:F9}Rodrigue{NEWLINE}With this,{NEWLINE}all is done..{CTRL:F3}",
     "raw_hex": "f9f6f100101010f81e0a0a34f81e10101047f3"
   },
   {
@@ -23180,7 +23180,7 @@
     "string_index": 20,
     "rom_offset": "0x4EBD3E",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} モンスターにキズ[G:479]けられた.[G:307]くの[G:273][G:344]の[G:401]になる[G:583]が{NEWLINE} これからの.ぼくの[G:454][G:433]です{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I shall{NEWLINE}to my home.{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I shall go{NEWLINE}to my home.{CTRL:F3}",
     "raw_hex": "f9f6f100010203040542797a7b3c200c162a7c0f247d062457425f387e07f1000a0c4f20242a500f247f804808f3"
   },
   {
@@ -23225,7 +23225,7 @@
     "string_index": 25,
     "rom_offset": "0x4EBE05",
     "japanese": "{CTRL:F9}門番{NEWLINE} おぬしが[G:309]るのを.みなまぉておるさ{NEWLINE} たぉた1[G:273]で[G:327]ぉた[G:324][G:474]の[G:318]りを{CTRL:F8}[G:316]/{CTRL:F8}[G:316]/{CTRL:F8}[G:316]/{CTRL:F8}[G:316]な{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}All people{NEWLINE}their savior!{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}All hail{NEWLINE}their savior!{CTRL:F3}",
     "raw_hex": "f96c6df100222115078a3824262a365f0b2e0d223839f100162e168b7d488c2e168d8e24785a26f81e10f81e10f81e10f81e5ff3"
   },
   {
@@ -23261,7 +23261,7 @@
     "string_index": 3,
     "rom_offset": "0x4EBF9F",
     "japanese": "{NEWLINE}            {CTRL:F9}やめて{NEWLINE}           {CTRL:F9}///さま{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I bear your{NEWLINE}and blood.{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I bear your{NEWLINE}own blood.{CTRL:F3}",
     "raw_hex": "f1000000000000000000000000f90f1009f10000000000000000000000f91111111213f3"
   },
   {
@@ -23279,7 +23279,7 @@
     "string_index": 5,
     "rom_offset": "0x4EBFE7",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} う{CTRL:F8}?/{CTRL:F8}?/{CTRL:F8}?/ んん///{NEWLINE} [G:461]{CTRL:F8}?/{CTRL:F8}?/{CTRL:F8}?/ どうしたんだろう///{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Even if it{NEWLINE}my very life!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Even if it{NEWLINE}costs my life{CTRL:F3}",
     "raw_hex": "f9f6f1001df81411f81411f81411001e1e111111f1001ff81411f81411f8141100201d21221e231c1d111111f3"
   },
   {
@@ -23369,7 +23369,7 @@
     "string_index": 6,
     "rom_offset": "0x4EC199",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} モンスターゲートの封印がとかれました{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I know the{NEWLINE}of his crime.{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I know all{NEWLINE}of his crime.{CTRL:F3}",
     "raw_hex": "f9f6f1003c2f0b3d3e3f3e400c414205171f1a362904f3"
   },
   {
@@ -23450,7 +23450,7 @@
     "string_index": 15,
     "rom_offset": "0x4EC2D5",
     "japanese": "{CTRL:F9}門番{NEWLINE} そのりゆうは.[G:432]であるおぬしにも[G:251]からぬのか///{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}Prove your{NEWLINE}at EASY GATE.{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}Prove your{NEWLINE}worth first.{CTRL:F3}",
     "raw_hex": "f91314f100280c326f6c181e2c270225383329212b701f49330c1f060606f3"
   },
   {
@@ -23495,7 +23495,7 @@
     "string_index": 20,
     "rom_offset": "0x4EC381",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} [G:461]には.どうしても[G:361]じられません{NEWLINE} [G:424]かワケがあるはず///{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I shall{NEWLINE}victorious!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I'll return{NEWLINE}victorious!{CTRL:F3}",
     "raw_hex": "f9f6f1005421181e376c292a2b7e3a491a36797ff100391f80810502251882060606f3"
   },
   {
@@ -24080,7 +24080,7 @@
     "string_index": 23,
     "rom_offset": "0x4ED055",
     "japanese": "{CTRL:F9}ロドリーグ{NEWLINE} [G:461]が.[G:262][G:593]の[G:401]を[G:303]りしぼぉて{NEWLINE} お[G:288]をにがしたのはそのためなのだ{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I carry the{NEWLINE}of all folk.{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I carry hopes{NEWLINE}of all folk.{CTRL:F3}",
     "raw_hex": "f9292a012b2cf10433280891691d523d924b0e930f0df104215b3d07280e101d34251d1058231d13f3"
   },
   {
@@ -24359,7 +24359,7 @@
     "string_index": 9,
     "rom_offset": "0x4ED6A6",
     "japanese": "{CTRL:F9}シャドウ{NEWLINE} [G:424]を[G:436]ぉているのだ{CTRL:F6}{NEWLINE} [G:461]はお[G:288]の[G:427].GREAT[G:411]の[G:420]ロドリーグ{CTRL:F3}",
-    "english": "{CTRL:F9}Shadow{NEWLINE}I am the{NEWLINE}of the Gate!{CTRL:F3}",
+    "english": "{CTRL:F9}Shadow{NEWLINE}I am master{NEWLINE}of the Gate!{CTRL:F3}",
     "raw_hex": "f955563057f100580d59365a13251014f6f100513d2b54102c0e5b5c5d5e5f0f10602f30310332f3"
   },
   {
@@ -24386,7 +24386,7 @@
     "string_index": 12,
     "rom_offset": "0x4ED719",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} [G:371][G:236]の[G:426][G:332]番ですぉて?{NEWLINE} いいえ.[G:426][G:332]されているのは.あなたのタマシイだわ!{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}You are a{NEWLINE}to darkness!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}You are bound{NEWLINE}to darkness!{CTRL:F3}",
     "raw_hex": "f9f6f100454610474849501a365a2af10013136e0e4748120c5a1325103d0e373b091020685569143e0af3"
   },
   {
@@ -24422,7 +24422,7 @@
     "string_index": 0,
     "rom_offset": "0x4ED8A8",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} モンスター[G:344]がすいこまれてゆく/{CTRL:F8}だ/{CTRL:F8}だ/{CTRL:F8}だ{NEWLINE} 封印が[G:239][G:557]したのね!!{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}The monsters{NEWLINE}into Gate!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Beasts flee{NEWLINE}into Gate!{CTRL:F3}",
     "raw_hex": "f9f6f1000102030405060708090a0b0c0d0e0f10f81e10f81e10f81ef1001112071314151617181919f3"
   },
   {
@@ -24431,7 +24431,7 @@
     "string_index": 1,
     "rom_offset": "0x4ED8D2",
     "japanese": "{CTRL:F9}シャドウ{NEWLINE} まだだ///{NEWLINE} {CTRL:F8}だ{CTRL:F9}まだ[G:316]わらぬ!{CTRL:F3}",
-    "english": "{CTRL:F9}Shadow{NEWLINE}Not yet! It{NEWLINE}not over yet!{CTRL:F3}",
+    "english": "{CTRL:F9}Shadow{NEWLINE}Not yet! It's{NEWLINE}not over yet!{CTRL:F3}",
     "raw_hex": "f91a1b1c1df1000b1e1e101010f100f81ef90b1e1f20212219f3"
   },
   {
@@ -24458,7 +24458,7 @@
     "string_index": 4,
     "rom_offset": "0x4ED91F",
     "japanese": "{CTRL:F9}シャドウ{NEWLINE} 封印をとく[G:476][G:272]は.[G:461]のみが[G:449]ぉているのだ!{NEWLINE} ゲートさえ[G:585]けば///{CTRL:F3}",
-    "english": "{CTRL:F9}Shadow{NEWLINE}Only I know{NEWLINE}to open Gate!{CTRL:F3}",
+    "english": "{CTRL:F9}Shadow{NEWLINE}I alone know{NEWLINE}how to open!{CTRL:F3}",
     "raw_hex": "f91a1b1c1df100111226330f3435362a37173807392f0d093a171e19f1002b052c323b3c3d3e101010f3"
   },
   {
@@ -24485,7 +24485,7 @@
     "string_index": 7,
     "rom_offset": "0x4ED962",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} お[G:427][G:304]!?{NEWLINE} でも.{CTRL:F8}だWILD[G:411]で{CTRL:F8}[G:435]たしかに[G:461]が///!{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Father?! But{NEWLINE}fell in fort!{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}Dad?! But you{NEWLINE}fell in fort!{CTRL:F3}",
     "raw_hex": "f9f6f1002346471948f100494a2af81e4b4c4d4e4f49f82816155043370710101019f3"
   },
   {
@@ -24503,7 +24503,7 @@
     "string_index": 9,
     "rom_offset": "0x4ED9A2",
     "japanese": "{CTRL:F9}ロドリーグ{NEWLINE} モンスターゲートの[G:271][G:401]がある[G:387]り{NEWLINE} [G:424][G:258]でもよみがえる.[G:487]われた[G:380]なのだ{CTRL:F3}",
-    "english": "{CTRL:F9}Rodrigue{NEWLINE}While Gate{NEWLINE}I resurrect.{CTRL:F3}",
+    "english": "{CTRL:F9}Rodrigue{NEWLINE}While Gate{NEWLINE}lives, I do.{CTRL:F3}",
     "raw_hex": "f9401c410542f10001020304052b052c175556073f3a5758f100595a494a5b38073b3a2a5c200c162531171ef3"
   },
   {
@@ -24530,7 +24530,7 @@
     "string_index": 12,
     "rom_offset": "0x4EDA14",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} {CTRL:F9}お[G:427][G:304]ー!{CTRL:F3}",
-    "english": "{CTRL:F9}Rodrigue{NEWLINE}return to the{NEWLINE}with me now!{CTRL:F3}",
+    "english": "{CTRL:F9}Rodrigue{NEWLINE}return to{NEWLINE}peace now!{CTRL:F3}",
     "raw_hex": "f9f6f100f92346470519f3"
   },
   {
@@ -24557,7 +24557,7 @@
     "string_index": 15,
     "rom_offset": "0x4EDA68",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} ///{CTRL:F8}だここは{CTRL:F8}だ///?{CTRL:F3}",
-    "english": "{CTRL:F9}Rodrigue{NEWLINE}With this,{NEWLINE}is done...{CTRL:F3}",
+    "english": "{CTRL:F9}Rodrigue{NEWLINE}With this,{NEWLINE}all is done..{CTRL:F3}",
     "raw_hex": "f9f6f100101010f81e0a0a36f81e10101048f3"
   },
   {
@@ -24602,7 +24602,7 @@
     "string_index": 20,
     "rom_offset": "0x4EDAFA",
     "japanese": "{CTRL:F9}{CTRL:F6}{NEWLINE} モンスターにキズ[G:479]けられた.[G:307]くの[G:273][G:344]の[G:401]になる[G:583]が{NEWLINE} これからの[G:461]の[G:454][G:433]です{CTRL:F3}",
-    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I shall{NEWLINE}to my home.{CTRL:F3}",
+    "english": "{CTRL:F9}{CTRL:F6}{NEWLINE}I shall go{NEWLINE}to my home.{CTRL:F3}",
     "raw_hex": "f9f6f1000102030405437778793d210c162a7a0f177b06175643313a7c07f1000a0c50211737177d7e4908f3"
   },
   {
@@ -24647,7 +24647,7 @@
     "string_index": 25,
     "rom_offset": "0x4EDBBD",
     "japanese": "{CTRL:F9}門番{NEWLINE} おぬしが[G:309]るのを.みなまぉておるさ{NEWLINE} たぉた1[G:273]で[G:327]ぉた[G:324][G:422]の[G:318]りを{CTRL:F8}だ/{CTRL:F8}だ/{CTRL:F8}だ/{CTRL:F8}だな{CTRL:F3}",
-    "english": "{CTRL:F9}Guard{NEWLINE}All people{NEWLINE}their savior!{CTRL:F3}",
+    "english": "{CTRL:F9}Guard{NEWLINE}All hail{NEWLINE}their savior!{CTRL:F3}",
     "raw_hex": "f96a6bf10023221507893a17262a38310b2f0d233a32f100162f168a7b498b2f168c8d17765826f81e10f81e10f81e10f81e31f3"
   },
   {
