@@ -1,37 +1,40 @@
-# Monster Gate (Game Boy Advance) - English Translation (WIP)
+# Monster Gate (GBA) — English Translation Release Notes (`v1.0.0`)
 
-> [!WARNING]
-> **Work in Progress:** This is an active work-in-progress build and is **not** production-ready. Translation coverage, text formatting, and UI polish are still ongoing.
-
-An unofficial English fan-translation project for **Monster Gate** (*モンスターゲート*, 2002, Game Code `ANFJ`) developed by Konami / KCE Studios for the Game Boy Advance.
+An unofficial English fan-translation for **Monster Gate** (*モンスターゲート*, 2002, Game Code `ANFJ`), developed by Konami / KCE Studios for the Game Boy Advance.
 
 ---
 
-### Current Focus
+## What's Included in `v1.0.0`
 
-- **Text & Dialogue:** Translating and formatting 2,752 strings across 554 script descriptors to fit GBA text box limits (`<= 13` characters per line).
-- **Font Engine:** Patched 8×16 (`0x4EDD1C`) and 8×8 outlined (`0x4F7D48`) 4bpp fonts with lowercase `a`–`z` and English punctuation.
-- **Character Naming Screen:** Custom English keyboard tilemap/matrix and translated default names.
+- **Complete Script Translation:** All **2,752 strings across 554 descriptors** (items, cards, monsters, dungeons, menus, NPC dialogue, and cutscenes) translated and formatted to fit GBA text box constraints.
+- **Font Engine:** Patched 8×16 (`0x4EDD1C`) and 8×8 outlined (`0x4F7D48`) 4bpp fonts with full English uppercase, lowercase (`a`–`z`), and punctuation.
+- **Character Naming Screen:** Custom English keyboard tile bank (`0x880000`), updated BG tilemaps/matrix, and translated default names.
+- **Pre-Rendered UI Graphics:** Translated OBJ sprite sheets and BG tile banks for mode/character/file select, options, intro/ending cutscenes, card shop, pre-dungeon deck setup, castle nameplates, tutorial `ADVICE` tab, all 133 card & monster preview headers, pause/battle-over banners, and ranking screens.
 - **16 MB ROM Expansion:** Expanded from 8 MB to 16 MB (`0x08800000`–`0x08FFFFFF`) with updated GBA header checksum (`0x43`).
 
 ---
 
-### Patching Instructions
+## ROM Checksums
 
-Apply either the **BPS** patch (recommended) or **IPS** patch to your original Japanese ROM:
-
-- **Target ROM:** `0499 - Monster Gate (J)(Independent).gba`
-- **Original ROM Size:** 8,388,608 bytes (8 MB)
-- **Patched ROM Size:** 16,777,216 bytes (16 MB)
-
-You can use any standard patching tool, such as:
-- **Online:** [Romhacking.net Patcher](https://www.romhacking.net/patch/) or [Marc Robledo's Online Patcher](https://www.marcrobledo.com/RomPatcher.js/)
-- **Desktop:** FLIPS (Floating IPS), Lunar IPS, or beat
+- **Required Clean Base ROM:** `8,388,608` bytes (8 MB)
+  - **CRC32:** `5B8AAA03`
+  - **MD5:** `BA1F2CD7D4EB41792103BF0A95FC0C09`
+  - **SHA-1:** `4649710EB75181573D10AD059B3BC6270508CE3D`
+- **Patched English ROM (`v1.0.0`):** `16,777,216` bytes (16 MB)
+  - **CRC32:** `B7B55EFB`
+  - **MD5:** `9D454ECEBE3A68B8670F3DD59251BD37`
+  - **SHA-1:** `8CCBB5B87C95761A23E030EAC0E74D92ED1AC089`
 
 ---
 
-### Included Files
+## Patching Instructions
 
-- `monster_gate_en.bps`: BPS patch file.
-- `monster_gate_en.ips`: IPS patch file.
-- `monster_gate_en_v1.0.zip`: Release bundle containing both patches and documentation.
+Apply **`monster_gate_en.bps`** (recommended) or `monster_gate_en.ips` to your clean Japanese `ANFJ` ROM using:
+- **Desktop:** [Flips (Floating IPS)](https://www.romhacking.net/utilities/1040/)
+- **Online:** [Marc Robledo's RomPatcher.js](https://www.marcrobledo.com/RomPatcher.js/) or [Romhacking.net Patcher](https://www.romhacking.net/patch/)
+
+---
+
+## Playtesting & Bug Reports
+
+Playtesting is ongoing. If you spot any bugs, text clipping, or untranslated elements, please open an issue on the [GitHub Issues page](https://github.com/ericmaddox/monster-gate-en/issues) with a screenshot or save state if possible.
