@@ -4,9 +4,11 @@ build.py
 Master build script for Monster Gate (GBA) English translation.
 Commands:
   python build.py dump     - Extracts font and all game strings from rom/base.gba
-  python build.py font     - Generates and patches font with lowercase a-z
-  python build.py build    - Merges translations and compiles rom/monster_gate_en.gba
-  python build.py all      - Runs font, dump, split, merge, and build in sequence
+  python build.py font     - Generates and patches 8x16 and 8x8 fonts
+  python build.py build    - Merges translations, compiles ROM, patches naming screen, and verifies
+  python build.py patch    - Creates BPS/IPS patches and verifies roundtrip
+  python build.py verify   - Runs comprehensive ROM and patch verification
+  python build.py all      - Runs font, build, patch, and verify in sequence
 """
 
 import subprocess
@@ -35,19 +37,23 @@ def main():
         run("python tools/translate_everything_perfect.py")
         run("python tools/insert_text.py")
         run("python tools/patch_naming_screen.py")
+        run("python tools/verify_rom.py")
     elif target == "patch":
         run("python tools/create_patch.py")
+        run("python tools/verify_rom.py")
+    elif target == "verify":
+        run("python tools/verify_rom.py")
     elif target == "all":
         run("python tools/dump_font.py")
         run("python tools/build_charmap.py")
         run("python tools/patch_font.py")
-        run("python tools/dump_text.py")
         run("python tools/translate_everything_perfect.py")
         run("python tools/insert_text.py")
         run("python tools/patch_naming_screen.py")
         run("python tools/create_patch.py")
+        run("python tools/verify_rom.py")
     else:
-        print(f"Unknown command: {target}. Available: dump, font, build, patch, all")
+        print(f"Unknown command: {target}. Available: dump, font, build, patch, verify, all")
 
 if __name__ == "__main__":
     main()
