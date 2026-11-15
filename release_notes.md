@@ -11,6 +11,7 @@ An unofficial English fan-translation for **Monster Gate** (*モンスターゲ�
   - Restored `BG1` key glyph layer (`0x0C9C80`) so the active hovered key remains visible above the cursor.
   - Corrected key button vertical alignment (`by = r * 20 + 60`) and tilemap bounds (`7 <= r <= 19`) so all 60 keys and Row 4 bottom borders render cleanly.
   - Refined `5×7` glyphs for `l` and `q` for clear legibility.
+  - *Note: The two darkened `゛` / `゜` modifier buttons on the right are disabled remnants from the Japanese kana keyboard and have no function in English.*
 
 ![Fixed Character Naming Screen](https://raw.githubusercontent.com/ericmaddox/monster-gate-en/master/docs/images/naming_screen_v1.0.1.png)
 
