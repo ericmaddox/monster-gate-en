@@ -59,7 +59,7 @@
     "string_index": 4,
     "rom_offset": "0x4F9DAF",
     "japanese": "{CTRL:F6}げが{CTRL:F7}\\x60んにせめこみました{BREAK}",
-    "english": "Invaded enemy{NEWLINE}territory!{BREAK}",
+    "english": "{CTRL:F6} invaded!{BREAK}",
     "raw_hex": "f60012f760011314150a16171819f0"
   },
   {
@@ -68,7 +68,7 @@
     "string_index": 5,
     "rom_offset": "0x4F9DBE",
     "japanese": "{CTRL:F7}\\x60んがせめこまれました{BREAK}",
-    "english": "Base is under{NEWLINE}attack!{BREAK}",
+    "english": "Fort attacked!{BREAK}",
     "raw_hex": "f760011214150a171a171819f0"
   },
   {
@@ -77,7 +77,7 @@
     "string_index": 6,
     "rom_offset": "0x4F9DCB",
     "japanese": "{CTRL:F7}\\x60んがせんりょうされました{BREAK}",
-    "english": "Base has been{NEWLINE}occupied!{BREAK}",
+    "english": "Fort captured!{BREAK}",
     "raw_hex": "f760011214010b10111b1a171819f0"
   },
   {
@@ -86,7 +86,7 @@
     "string_index": 7,
     "rom_offset": "0x4F9DDA",
     "japanese": "{CTRL:F7}\\x60んがテキをげきたいしました{BREAK}",
-    "english": "Enemy was{NEWLINE}defeated!{BREAK}",
+    "english": "Foe repelled!{BREAK}",
     "raw_hex": "f76001121c1d1e001f190318171819f0"
   },
   {
@@ -95,7 +95,7 @@
     "string_index": 0,
     "rom_offset": "0x4F9E38",
     "japanese": "{CTRL:F6}がが{VAR:60}かいにおりました{BREAK}",
-    "english": "Descended to{NEWLINE}Floor {VAR:60}.{BREAK}",
+    "english": "{CTRL:F6} on {VAR:60}F.{BREAK}",
     "raw_hex": "f60000f5600102030405060708f0"
   },
   {
@@ -104,7 +104,7 @@
     "string_index": 1,
     "rom_offset": "0x4F9E46",
     "japanese": "{CTRL:F6}ががラストフロアにとうたつしました{BREAK}",
-    "english": "Reached the{NEWLINE}Final Floor!{BREAK}",
+    "english": "{CTRL:F6} at Last Floor!{BREAK}",
     "raw_hex": "f60000090a0b0c0d0e030f10081107060708f0"
   },
   {
@@ -113,7 +113,7 @@
     "string_index": 2,
     "rom_offset": "0x4F9E59",
     "japanese": "{CTRL:F6}ががリタイアしました{BREAK}",
-    "english": "Retired from{NEWLINE}the dungeon.{BREAK}",
+    "english": "{CTRL:F6} retired.{BREAK}",
     "raw_hex": "f600001213140e07060708f0"
   }
 ]
