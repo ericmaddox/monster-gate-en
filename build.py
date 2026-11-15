@@ -37,6 +37,7 @@ def main():
         run("python tools/translate_everything_perfect.py")
         run("python tools/insert_text.py")
         run("python tools/patch_naming_screen.py")
+        run("python tools/patch_ui_graphics.py")
         run("python tools/verify_rom.py")
     elif target == "patch":
         run("python tools/create_patch.py")
@@ -50,6 +51,7 @@ def main():
         run("python tools/translate_everything_perfect.py")
         run("python tools/insert_text.py")
         run("python tools/patch_naming_screen.py")
+        run("python tools/patch_ui_graphics.py")
         run("python tools/create_patch.py")
         run("python tools/verify_rom.py")
     else:

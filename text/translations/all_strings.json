@@ -3605,7 +3605,7 @@
     "string_index": 0,
     "rom_offset": "0x4D380C",
     "japanese": "はじめてのダンジョン{BREAK}",
-    "english": "First Dungeon{BREAK}",
+    "english": "First Maze{BREAK}",
     "raw_hex": "00010203040506070806f0"
   },
   {
@@ -3623,7 +3623,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3868",
     "japanese": "ちいさいダンジョン{BREAK}",
-    "english": "Small Dungeon{BREAK}",
+    "english": "Small Maze{BREAK}",
     "raw_hex": "000102010304050604f0"
   },
   {
@@ -3641,7 +3641,7 @@
     "string_index": 0,
     "rom_offset": "0x4D38B0",
     "japanese": "やさしいダンジョン{BREAK}",
-    "english": "Easy Dungeon{BREAK}",
+    "english": "Easy Maze{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3659,7 +3659,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3904",
     "japanese": "きらくなダンジョン{BREAK}",
-    "english": "Calm Dungeon{BREAK}",
+    "english": "Calm Maze{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3677,7 +3677,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3958",
     "japanese": "すずしいダンジョン{BREAK}",
-    "english": "Cool Dungeon{BREAK}",
+    "english": "Cool Maze{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3695,7 +3695,7 @@
     "string_index": 0,
     "rom_offset": "0x4D39A4",
     "japanese": "ゆとりのダンジョン{BREAK}",
-    "english": "Relaxed Maze{BREAK}",
+    "english": "Relax Maze{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3749,7 +3749,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3AC8",
     "japanese": "うれしいダンジョン{BREAK}",
-    "english": "Happy Dungeon{BREAK}",
+    "english": "Happy Maze{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3767,7 +3767,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3B20",
     "japanese": "ゆかいなダンジョン{BREAK}",
-    "english": "Merry Dungeon{BREAK}",
+    "english": "Merry Maze{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3785,7 +3785,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3B74",
     "japanese": "でっかいダンジョン{BREAK}",
-    "english": "Huge Dungeon{BREAK}",
+    "english": "Huge Maze{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3803,7 +3803,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3BD8",
     "japanese": "ぶきみなダンジョン{BREAK}",
-    "english": "Eerie Dungeon{BREAK}",
+    "english": "Eerie Maze{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3821,7 +3821,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3C28",
     "japanese": "てごわいダンジョン{BREAK}",
-    "english": "Tough Dungeon{BREAK}",
+    "english": "Tough Maze{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3839,7 +3839,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3C80",
     "japanese": "つめたいダンジョン{BREAK}",
-    "english": "Cold Dungeon{BREAK}",
+    "english": "Cold Maze{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3875,7 +3875,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3D20",
     "japanese": "しぶといダンジョン{BREAK}",
-    "english": "Stubborn Maze{BREAK}",
+    "english": "Gritty Maze{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3893,7 +3893,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3D74",
     "japanese": "ゆめみるダンジョン{BREAK}",
-    "english": "Dream Dungeon{BREAK}",
+    "english": "Dream Maze{BREAK}",
     "raw_hex": "000102030405060705f0"
   },
   {
@@ -3911,7 +3911,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3DCC",
     "japanese": "むずかしいダンジョン{BREAK}",
-    "english": "Hard Dungeon{BREAK}",
+    "english": "Hard Maze{BREAK}",
     "raw_hex": "00010203040506070806f0"
   },
   {
@@ -3929,7 +3929,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3E34",
     "japanese": "きみょうなダンジョン{BREAK}",
-    "english": "Strange Maze{BREAK}",
+    "english": "Odd Maze{BREAK}",
     "raw_hex": "00010203040506070806f0"
   },
   {
@@ -3947,7 +3947,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3E8C",
     "japanese": "[G:278][G:279]のダンジョン{BREAK}",
-    "english": "Endless Maze{BREAK}",
+    "english": "Endless Run{BREAK}",
     "raw_hex": "0001020304050604f0"
   },
   {
@@ -3965,7 +3965,7 @@
     "string_index": 0,
     "rom_offset": "0x4D3EE4",
     "japanese": "[G:377]のダンジョン{BREAK}",
-    "english": "Mystery Maze{BREAK}",
+    "english": "Mystery{BREAK}",
     "raw_hex": "00010203040503f0"
   },
   {
@@ -3992,7 +3992,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3F3A",
     "japanese": "はじめてのダンジョン{BREAK}",
-    "english": "First Dungeon{BREAK}",
+    "english": "First Maze{BREAK}",
     "raw_hex": "01020304050607080907f0"
   },
   {
@@ -4010,7 +4010,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3F6E",
     "japanese": "ちいさいダンジョン{BREAK}",
-    "english": "Small Dungeon{BREAK}",
+    "english": "Small Maze{BREAK}",
     "raw_hex": "010203020405060705f0"
   },
   {
@@ -4028,7 +4028,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3F9A",
     "japanese": "やさしいダンジョン{BREAK}",
-    "english": "Easy Dungeon{BREAK}",
+    "english": "Easy Maze{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4046,7 +4046,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3FCA",
     "japanese": "きらくなダンジョン{BREAK}",
-    "english": "Calm Dungeon{BREAK}",
+    "english": "Calm Maze{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4064,7 +4064,7 @@
     "string_index": 1,
     "rom_offset": "0x4D3FFA",
     "japanese": "すずしいダンジョン{BREAK}",
-    "english": "Cool Dungeon{BREAK}",
+    "english": "Cool Maze{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4082,7 +4082,7 @@
     "string_index": 1,
     "rom_offset": "0x4D402A",
     "japanese": "ゆとりのダンジョン{BREAK}",
-    "english": "Relaxed Maze{BREAK}",
+    "english": "Relax Maze{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4136,7 +4136,7 @@
     "string_index": 1,
     "rom_offset": "0x4D40BA",
     "japanese": "うれしいダンジョン{BREAK}",
-    "english": "Happy Dungeon{BREAK}",
+    "english": "Happy Maze{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4154,7 +4154,7 @@
     "string_index": 1,
     "rom_offset": "0x4D40EA",
     "japanese": "ゆかいなダンジョン{BREAK}",
-    "english": "Merry Dungeon{BREAK}",
+    "english": "Merry Maze{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4172,7 +4172,7 @@
     "string_index": 1,
     "rom_offset": "0x4D411A",
     "japanese": "でっかいダンジョン{BREAK}",
-    "english": "Huge Dungeon{BREAK}",
+    "english": "Huge Maze{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4190,7 +4190,7 @@
     "string_index": 1,
     "rom_offset": "0x4D414A",
     "japanese": "ぶきみなダンジョン{BREAK}",
-    "english": "Eerie Dungeon{BREAK}",
+    "english": "Eerie Maze{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4208,7 +4208,7 @@
     "string_index": 1,
     "rom_offset": "0x4D417A",
     "japanese": "てごわいダンジョン{BREAK}",
-    "english": "Tough Dungeon{BREAK}",
+    "english": "Tough Maze{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4226,7 +4226,7 @@
     "string_index": 1,
     "rom_offset": "0x4D41AA",
     "japanese": "つめたいダンジョン{BREAK}",
-    "english": "Cold Dungeon{BREAK}",
+    "english": "Cold Maze{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4262,7 +4262,7 @@
     "string_index": 1,
     "rom_offset": "0x4D420A",
     "japanese": "しぶといダンジョン{BREAK}",
-    "english": "Stubborn Maze{BREAK}",
+    "english": "Gritty Maze{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4280,7 +4280,7 @@
     "string_index": 1,
     "rom_offset": "0x4D423A",
     "japanese": "ゆめみるダンジョン{BREAK}",
-    "english": "Dream Dungeon{BREAK}",
+    "english": "Dream Maze{BREAK}",
     "raw_hex": "010203040506070806f0"
   },
   {
@@ -4298,7 +4298,7 @@
     "string_index": 1,
     "rom_offset": "0x4D426A",
     "japanese": "むずかしいダンジョン{BREAK}",
-    "english": "Hard Dungeon{BREAK}",
+    "english": "Hard Maze{BREAK}",
     "raw_hex": "00010203040506070806f0"
   },
   {
@@ -4316,7 +4316,7 @@
     "string_index": 1,
     "rom_offset": "0x4D429A",
     "japanese": "きみょうなダンジョン{BREAK}",
-    "english": "Strange Maze{BREAK}",
+    "english": "Odd Maze{BREAK}",
     "raw_hex": "01020304050607080907f0"
   },
   {
