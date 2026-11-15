@@ -34,6 +34,7 @@ def main():
     elif target == "build":
         run("python tools/translate_everything_perfect.py")
         run("python tools/insert_text.py")
+        run("python tools/patch_naming_screen.py")
     elif target == "patch":
         run("python tools/create_patch.py")
     elif target == "all":
@@ -43,6 +44,7 @@ def main():
         run("python tools/dump_text.py")
         run("python tools/translate_everything_perfect.py")
         run("python tools/insert_text.py")
+        run("python tools/patch_naming_screen.py")
         run("python tools/create_patch.py")
     else:
         print(f"Unknown command: {target}. Available: dump, font, build, patch, all")

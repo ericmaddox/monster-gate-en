@@ -12,6 +12,14 @@ This release provides the first complete, 100% English fan translation for **Mon
   - All 499 items, weapons, shields, magic spells, and monster summon cards.
   - All 38 dungeons, fortress campaigns, slot machine rules, and town facilities.
   - Complete 45-step beginner tutorial guide and card blending recipes.
+- **English Character Naming Screen & Keyboard:**
+  - 100% custom English keyboard interface replacing original Japanese Katakana graphics.
+  - Complete 60-key grid supporting uppercase letters (`A`–`Z`), lowercase letters (`a`–`z`), digits, and punctuation.
+  - Removed Japanese dakuten/handakuten side buttons for a clean English UI.
+  - All 30 default character names fully translated to English uppercase (`CLAUD`, `MINA`, `ZAIN`, `ARES`, etc.).
+- **Cutscene Dialogue Polish & Zero Truncation:**
+  - Rigorously audited and formatted all 12 story campaign cutscenes to fit strict 13-character line boundaries.
+  - 100% complete sentences with proper grammar and punctuation—zero text overflows or hanging words.
 - **Custom Font Engine:**
   - Injected full lowercase `a`–`z` alphabet into the game's font table.
   - Custom glyph blitting preserving original Latin uppercase, numerals, and punctuation.
