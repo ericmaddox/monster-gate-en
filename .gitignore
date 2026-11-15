@@ -19,4 +19,5 @@ Thumbs.db
 *.bak
 scratch/
 tools/
+build.py
 graphics/ui_cache/
