@@ -3,7 +3,7 @@
 An unofficial English fan-translation project for Konami's *Monster Gate* (*モンスターゲート*, 2002, Game Code `ANFJ`) on the Game Boy Advance.
 
 > [!NOTE]
-> **Version 1.0.0 (Playtesting / QA):** All 2,752 game strings (554 script descriptors), 8×16 & 8×8 fonts, the character naming screen, and pre-rendered UI graphics are translated and verified. If you encounter any bugs, text clipping, or untranslated elements, please report them on the [Issues page](https://github.com/ericmaddox/monster-gate-en/issues).
+> **Version 1.0.1 (Playtesting / QA):** All 2,752 game strings (554 script descriptors), 8×16 & 8×8 fonts, the character naming screen, and pre-rendered UI graphics are translated and verified. If you encounter any bugs, text clipping, or untranslated elements, please report them on the [Issues page](https://github.com/ericmaddox/monster-gate-en/issues).
 
 ---
 
@@ -11,19 +11,19 @@ An unofficial English fan-translation project for Konami's *Monster Gate* (*モ�
 
 Apply the patch **only** to a clean, unmodified Japanese *Monster Gate* (`ANFJ`) GBA ROM matching these exact checksums:
 
-| Property | Clean Japanese Base ROM | Patched English ROM (`v1.0.0`) |
+| Property | Clean Japanese Base ROM | Patched English ROM (`v1.0.1`) |
 | --- | --- | --- |
 | **Game Title / Code** | `MONSTERGATE1` / `ANFJ` | `MONSTERGATE1` / `ANFJ` |
 | **File Size** | `8,388,608` bytes (8 MB) | `16,777,216` bytes (16 MB) |
-| **CRC32** | `5B8AAA03` | `B7B55EFB` |
-| **MD5** | `BA1F2CD7D4EB41792103BF0A95FC0C09` | `9D454ECEBE3A68B8670F3DD59251BD37` |
-| **SHA-1** | `4649710EB75181573D10AD059B3BC6270508CE3D` | `8CCBB5B87C95761A23E030EAC0E74D92ED1AC089` |
+| **CRC32** | `5B8AAA03` | `C961CE21` |
+| **MD5** | `BA1F2CD7D4EB41792103BF0A95FC0C09` | `B86BAB652455C537EE2F4C6A7EFB524B` |
+| **SHA-1** | `4649710EB75181573D10AD059B3BC6270508CE3D` | `9BA2287F183CEC52A51DC463DE4F07CD9EAB4BBD` |
 
 ---
 
 ## Patching Instructions
 
-1. Download the latest release from [Releases](https://github.com/ericmaddox/monster-gate-en/releases) (or extract `patches/monster_gate_en_v1.0.zip`).
+1. Download the latest release (`v1.0.1`) from [Releases](https://github.com/ericmaddox/monster-gate-en/releases) (or extract `patches/monster_gate_en_v1.0.zip`).
 2. Use [Flips (Floating IPS)](https://www.romhacking.net/utilities/1040/) or [RomPatcher.js](https://www.marcrobledo.com/RomPatcher.js/) to apply **`monster_gate_en.bps`** (recommended, includes source/target CRC32 validation) or `monster_gate_en.ips` to your clean Japanese ROM.
 3. Verify the resulting ROM matches the **Patched English ROM** checksums above, then load it in an accurate GBA emulator such as [mGBA](https://mgba.io/).
 
